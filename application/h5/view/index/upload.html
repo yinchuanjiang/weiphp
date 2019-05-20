@@ -460,7 +460,7 @@
             </div>
         </div>
     </div>
-    <div class="modal-mask h5-rule size-middle" style="">
+    <div class="modal-mask h5-rule size-middle" style="display: none">
         <div class="modal-wrapper">
             <div class="modal-container">
                 <div class="background-effect">
@@ -504,7 +504,8 @@
 <link rel="stylesheet" href="/css/font_405927_zn9t5o7hhvj3v7vi.css">
 <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
 <script src="/js/v.js"></script>
-<script></script>
+<script src="https://cdn.bootcss.com/layer/2.3/layer.js"></script>
+<link href="https://cdn.bootcss.com/layer/2.3/skin/layer.css" rel="stylesheet">
 <script>
     $(function () {
         $('.btn-action').bind('click', function () {
@@ -522,6 +523,33 @@
         //拍照
         $('.icon-paizhao2').on('click',function () {
             
+        })
+        //照片上传
+        $('input[name="uplaod"]').change(function () {
+            var formdata = new FormData();
+            formdata.append("upload", $('input[name="uplaod"]')[0].files[0]);
+            formdata.append("openid",'xxxsssasasdaadadada');
+            $.ajax({
+                type: "POST",
+                url: "https://lets.gaojb.com/h5/upload/upload",
+                data: formdata,
+                contentType: false, // 不设置内容类型
+                processData: false, // 不处理数据
+                dataType: "json",
+                success: function(data) {
+                    if(data.code == '200'){
+                        layer.msg('上传成功');
+                        setTimeout(function () {
+                            location.href = '/h5/index/index?type=my'
+                        },1000)
+                    }else {
+                        layer.msg('系统错误');
+                    }
+                },
+                error: function(data) {
+                    layer.msg('系统错误');
+                }
+            });
         })
     })
 </script>
