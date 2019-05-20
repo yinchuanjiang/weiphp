@@ -68,4 +68,10 @@ class Index extends Controller
     {
         return $this->fetch();
     }
+
+    //psd
+    public function psd()
+    {
+        return $this->fetch();
+    }
 }
