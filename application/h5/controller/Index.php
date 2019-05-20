@@ -62,4 +62,10 @@ class Index extends Controller
         ];
         return json_url(['code' => 0,'msg' => 'ok','data' => $data]);
     }
+
+    //图片上传页面
+    public function upload()
+    {
+        return $this->fetch();
+    }
 }
