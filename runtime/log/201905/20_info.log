@@ -1,0 +1,3494 @@
+---------------------------------------------------------------
+[ 2019-05-20T09:56:51+08:00 ] 36.7.190.4 GET lets.gaojb.com/install.php
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'install'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/install/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T09:56:53+08:00 ] 36.7.190.4 GET lets.gaojb.com/install.php/install/step1/pbid/0
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'install'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/install.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'pbid' => '0',
+)
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/install/view/install/step1.html [ array (
+  0 => 'dirfile',
+  1 => 'env',
+  2 => 'func',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T09:57:01+08:00 ] 36.7.190.4 GET lets.gaojb.com/install.php/install/step2/pbid/0
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'install'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/install.php/install/step1/pbid/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'pbid' => '0',
+)
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/install/view/install/step2.html [ array (
+  0 => 'config',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T09:59:50+08:00 ] 36.7.190.4 POST lets.gaojb.com/install.php/install/step2/pbid/0
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'install'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/install.php/install/step2/pbid/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'https://lets.gaojb.com',
+  'cache-control' => 'max-age=0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '136',
+)
+[ info ] [ PARAM ] array (
+  'db' => 
+  array (
+    0 => '106.14.184.98',
+    1 => 'h5',
+    2 => 'user_h5',
+    3 => 'user_h5',
+    4 => '3306',
+  ),
+  'admin' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'admin',
+  ),
+  'pbid' => '0',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-05-20T10:00:00+08:00 ] 36.7.190.4 GET lets.gaojb.com/install.php/install/step3
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'install'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/install.php/install/step2/pbid/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/install/view/install/step3.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-05-20T10:00:01+08:00 ] 36.7.190.4 GET lets.gaojb.com/install.php/index/complete/pbid/0
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'install'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/install.php/install/step3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'pbid' => '0',
+)
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/install/view/index/complete.html [ array (
+  0 => 'info',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:00:11+08:00 ] 36.7.190.4 GET lets.gaojb.com/index.php
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/install.php/index/complete/pbid/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-05-20T10:00:11+08:00 ] 36.7.190.4 GET lets.gaojb.com/index.php/home/user/login
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/install.php/index/complete/pbid/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/home/view/user/login.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'key',
+  17 => 'qrcode',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:00:11+08:00 ] 36.7.190.4 GET lets.gaojb.com/index.php/captcha
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/index.php/home/user/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2019-05-20T10:00:14+08:00 ] 36.7.190.4 GET lets.gaojb.com/install.php/index/complete/pbid/0
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'install'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/install.php/install/step3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'pbid' => '0',
+)
+---------------------------------------------------------------
+[ 2019-05-20T10:00:15+08:00 ] 36.7.190.4 GET lets.gaojb.com/install.php/index/index
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'install'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/install.php/install/step3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] ../application/common/view/base/jump.html [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:00:17+08:00 ] 36.7.190.4 GET lets.gaojb.com/index.php/home/user/login
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/install.php/index/complete/pbid/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/home/view/user/login.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'key',
+  17 => 'qrcode',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:00:26+08:00 ] 36.7.190.4 GET lets.gaojb.com/index.php/captcha?0.8145152870656287
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/index.php/home/user/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  '0_8145152870656287' => '',
+)
+---------------------------------------------------------------
+[ 2019-05-20T10:00:30+08:00 ] 36.7.190.4 GET lets.gaojb.com/index.php/captcha?0.5897677337506391
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/index.php/home/user/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  '0_5897677337506391' => '',
+)
+---------------------------------------------------------------
+[ 2019-05-20T10:00:36+08:00 ] 36.7.190.4 POST lets.gaojb.com/index.php/home/user/login/wpid/0/pbid/0
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/index.php/home/user/login',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'https://lets.gaojb.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '42',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'verify' => 'yc8la',
+  'wpid' => '0',
+  'pbid' => '0',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-05-20T10:00:36+08:00 ] 36.7.190.4 GET lets.gaojb.com/index.php/captcha?0.3479966071490379
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/index.php/home/user/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  '0_3479966071490379' => '',
+)
+---------------------------------------------------------------
+[ 2019-05-20T10:00:45+08:00 ] 36.7.190.4 POST lets.gaojb.com/index.php/home/user/login/wpid/0/pbid/0
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/index.php/home/user/login',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'https://lets.gaojb.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '42',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'verify' => 'vuma7',
+  'wpid' => '0',
+  'pbid' => '0',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-05-20T10:00:45+08:00 ] 36.7.190.4 GET lets.gaojb.com/index.php/weixin/publics/lists/pbid/0
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/index.php/home/user/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'pbid' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/weixin/view/publics/lists.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'search_url',
+  17 => 'model',
+  18 => 'list_data',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:00:49+08:00 ] 36.7.190.4 GET lets.gaojb.com/index.php/sms/sms/config/pbid/0?&mdm=792_798
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/index.php/weixin/publics/lists/pbid/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'mdm' => '792_798',
+  'pbid' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/common/view/base/config.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'normal_tips',
+  17 => 'model',
+  18 => 'fields',
+  19 => 'data',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:00:52+08:00 ] 36.7.190.4 GET lets.gaojb.com/index.php/weixin/publics/lists/pbid/0?&mdm=792_793
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/index.php/sms/sms/config/pbid/0?&mdm=792_798',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'mdm' => '792_793',
+  'pbid' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/weixin/view/publics/lists.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'search_url',
+  17 => 'model',
+  18 => 'list_data',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:00:56+08:00 ] 36.7.190.4 GET lets.gaojb.com/index.php/weixin/publics/step_0/pbid/0
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/index.php/weixin/publics/lists/pbid/0?&mdm=792_793',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'pbid' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/weixin/view/publics/step_0.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'search_url',
+  17 => 'model',
+  18 => 'id',
+  19 => 'info',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:03:31+08:00 ] 36.7.190.4 POST lets.gaojb.com/index.php/weixin/publics/step_0/pbid/0
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/index.php/weixin/publics/step_0/pbid/0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'https://lets.gaojb.com',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '95',
+)
+[ info ] [ PARAM ] array (
+  'type' => '3',
+  'public_name' => '测试1',
+  'public_id' => 'wxac93997bb1f50b77',
+  'wechat' => 'gh_d5915af0d763',
+  'id' => '0',
+  'pbid' => '0',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-05-20T10:03:32+08:00 ] 36.7.190.4 GET lets.gaojb.com/index.php/weixin/publics/step_1/id/80/pbid/0
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/index.php/weixin/publics/step_0/pbid/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '80',
+  'pbid' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/weixin/view/publics/step_1.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'search_url',
+  17 => 'model',
+  18 => 'id',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:09:14+08:00 ] 36.7.190.4 GET lets.gaojb.com/index.php/weixin/publics/step_0/pbid/0
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/index.php/weixin/publics/lists/pbid/0?&mdm=792_793',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'pbid' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/weixin/view/publics/step_0.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'search_url',
+  17 => 'model',
+  18 => 'id',
+  19 => 'info',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:09:53+08:00 ] 36.7.190.4 POST lets.gaojb.com/index.php/weixin/publics/step_0/pbid/80
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/index.php/weixin/publics/step_0/pbid/0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'https://lets.gaojb.com',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '86',
+)
+[ info ] [ PARAM ] array (
+  'type' => '2',
+  'public_name' => '测1',
+  'public_id' => 'wxac93997bb1f50b77',
+  'wechat' => 'gh_d5915af0d763',
+  'id' => '0',
+  'pbid' => '80',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-05-20T10:09:55+08:00 ] 36.7.190.4 GET lets.gaojb.com/index.php/weixin/publics/step_1/id/81/pbid/80
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/index.php/weixin/publics/step_0/pbid/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '81',
+  'pbid' => '80',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/weixin/view/publics/step_1.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'search_url',
+  17 => 'model',
+  18 => 'id',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:10:50+08:00 ] 36.7.190.4 GET lets.gaojb.com/index.php/weixin/publics/step_2/id/81/pbid/80
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/index.php/weixin/publics/step_1/id/81/pbid/80',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '81',
+  'pbid' => '80',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/weixin/view/publics/step_2.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'search_url',
+  17 => 'model',
+  18 => 'id',
+  19 => 'is_audit',
+  20 => 'info',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:10:59+08:00 ] 36.7.190.4 GET lets.gaojb.com/index.php/weixin/publics/step_1/id/81/pbid/80
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/index.php/weixin/publics/step_0/pbid/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '81',
+  'pbid' => '80',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/weixin/view/publics/step_1.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'search_url',
+  17 => 'model',
+  18 => 'id',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:11:21+08:00 ] 36.7.190.4 GET lets.gaojb.com/index.php/home/user/logout/pbid/80
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/index.php/weixin/publics/step_1/id/81/pbid/80',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'pbid' => '80',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-05-20T10:11:21+08:00 ] 36.7.190.4 GET lets.gaojb.com/index.php/home/user/login/pbid/80&
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/index.php/weixin/publics/step_1/id/81/pbid/80',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'pbid' => '80&',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/home/view/user/login.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'key',
+  17 => 'qrcode',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:11:21+08:00 ] 36.7.190.4 GET lets.gaojb.com/index.php/captcha
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/index.php/home/user/login/pbid/80&',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2019-05-20T10:11:34+08:00 ] 36.7.190.4 GET lets.gaojb.com/index.php/weixin/publics/step_1/id/81/pbid/80
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/index.php/weixin/publics/step_2/id/81/pbid/80',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '81',
+  'pbid' => '80',
+)
+---------------------------------------------------------------
+[ 2019-05-20T10:11:34+08:00 ] 36.7.190.4 GET lets.gaojb.com/index.php/home/user/login/from/6/pbid/80
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/index.php/weixin/publics/step_2/id/81/pbid/80',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'from' => '6',
+  'pbid' => '80',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/home/view/user/login.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'key',
+  17 => 'qrcode',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:11:35+08:00 ] 36.7.190.4 GET lets.gaojb.com/index.php/weixin/publics/step_0/pbid/0
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/index.php/weixin/publics/lists/pbid/0?&mdm=792_793',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'pbid' => '0',
+)
+---------------------------------------------------------------
+[ 2019-05-20T10:11:35+08:00 ] 36.7.190.4 GET lets.gaojb.com/index.php/home/user/login/from/6/pbid/80
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/index.php/weixin/publics/lists/pbid/0?&mdm=792_793',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'from' => '6',
+  'pbid' => '80',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/home/view/user/login.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'key',
+  17 => 'qrcode',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:11:36+08:00 ] 36.7.190.4 GET lets.gaojb.com/index.php/weixin/publics/lists/pbid/0?&mdm=792_793
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/index.php/sms/sms/config/pbid/0?&mdm=792_798',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'mdm' => '792_793',
+  'pbid' => '0',
+)
+---------------------------------------------------------------
+[ 2019-05-20T10:11:36+08:00 ] 36.7.190.4 GET lets.gaojb.com/index.php/home/user/login/from/6/pbid/80
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/index.php/sms/sms/config/pbid/0?&mdm=792_798',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'from' => '6',
+  'pbid' => '80',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/home/view/user/login.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'key',
+  17 => 'qrcode',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:11:36+08:00 ] 36.7.190.4 GET lets.gaojb.com/index.php/sms/sms/config/pbid/0?&mdm=792_798
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/index.php/weixin/publics/lists/pbid/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'mdm' => '792_798',
+  'pbid' => '0',
+)
+---------------------------------------------------------------
+[ 2019-05-20T10:11:37+08:00 ] 36.7.190.4 GET lets.gaojb.com/index.php/home/user/login/from/6/pbid/80
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/index.php/weixin/publics/lists/pbid/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'from' => '6',
+  'pbid' => '80',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/home/view/user/login.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'key',
+  17 => 'qrcode',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:11:37+08:00 ] 36.7.190.4 GET lets.gaojb.com/index.php/weixin/publics/lists/pbid/0
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/index.php/home/user/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'pbid' => '0',
+)
+---------------------------------------------------------------
+[ 2019-05-20T10:11:37+08:00 ] 36.7.190.4 GET lets.gaojb.com/index.php/home/user/login/from/6/pbid/80
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/index.php/home/user/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'from' => '6',
+  'pbid' => '80',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/home/view/user/login.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'key',
+  17 => 'qrcode',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:11:37+08:00 ] 36.7.190.4 GET lets.gaojb.com/index.php/home/user/login
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/install.php/index/complete/pbid/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/home/view/user/login.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'key',
+  17 => 'qrcode',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:11:38+08:00 ] 36.7.190.4 GET lets.gaojb.com/install.php/index/index
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'install'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/index.php/home/user/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] ../application/common/view/base/jump.html [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:11:38+08:00 ] 36.7.190.4 GET lets.gaojb.com/install.php/install/step2/pbid/0
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'install'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/install.php/install/step1/pbid/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'pbid' => '0',
+)
+[ info ] [ VIEW ] ../application/common/view/base/jump.html [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:11:41+08:00 ] 36.7.190.4 GET lets.gaojb.com/install.php/install/step1/pbid/0
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'install'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/install.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'pbid' => '0',
+)
+[ info ] [ VIEW ] ../application/common/view/base/jump.html [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:11:43+08:00 ] 36.7.190.4 GET lets.gaojb.com/
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-05-20T10:11:43+08:00 ] 36.7.190.4 GET lets.gaojb.com/home/user/login
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/home/view/user/login.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'key',
+  17 => 'qrcode',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:11:43+08:00 ] 36.7.190.4 GET lets.gaojb.com/captcha
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/home/user/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2019-05-20T10:11:53+08:00 ] 36.7.190.4 GET lets.gaojb.com/
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-05-20T10:11:53+08:00 ] 36.7.190.4 GET lets.gaojb.com/home/user/login
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/home/view/user/login.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'key',
+  17 => 'qrcode',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:11:53+08:00 ] 36.7.190.4 GET lets.gaojb.com/captcha
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/home/user/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2019-05-20T10:12:05+08:00 ] 36.7.190.4 POST lets.gaojb.com/home/user/login/wpid/0/pbid/80
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/home/user/login',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'https://lets.gaojb.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '42',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'verify' => 'apnna',
+  'wpid' => '0',
+  'pbid' => '80',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-05-20T10:12:05+08:00 ] 36.7.190.4 GET lets.gaojb.com/weixin/publics/lists/pbid/80
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/home/user/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'pbid' => '80',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/weixin/view/publics/lists.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'search_url',
+  17 => 'model',
+  18 => 'list_data',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:12:11+08:00 ] 36.7.190.4 POST lets.gaojb.com/weixin/publics/del/pbid/80
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/publics/lists/pbid/80',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'https://lets.gaojb.com',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '80',
+  'pbid' => '80',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-05-20T10:12:11+08:00 ] 36.7.190.4 GET lets.gaojb.com/weixin/publics/lists/pbid/80
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/publics/lists/pbid/80',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'pbid' => '80',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/weixin/view/publics/lists.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'search_url',
+  17 => 'model',
+  18 => 'list_data',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:12:15+08:00 ] 36.7.190.4 POST lets.gaojb.com/weixin/publics/del/pbid/80
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/publics/lists/pbid/80',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'https://lets.gaojb.com',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '81',
+  'pbid' => '80',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-05-20T10:12:15+08:00 ] 36.7.190.4 GET lets.gaojb.com/weixin/publics/lists/pbid/80
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/publics/lists/pbid/80',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'pbid' => '80',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/weixin/view/publics/lists.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'search_url',
+  17 => 'model',
+  18 => 'list_data',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:13:52+08:00 ] 36.7.190.4 GET lets.gaojb.com/weixin/publics/step_0/pbid/80
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/publics/lists/pbid/80',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'pbid' => '80',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/weixin/view/publics/step_0.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'search_url',
+  17 => 'model',
+  18 => 'id',
+  19 => 'info',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:15:07+08:00 ] 36.7.190.4 POST lets.gaojb.com/weixin/publics/step_0/pbid/80
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/publics/step_0/pbid/80',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'https://lets.gaojb.com',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '92',
+)
+[ info ] [ PARAM ] array (
+  'type' => '3',
+  'public_name' => '测试1',
+  'public_id' => 'gh_d5915af0d763',
+  'wechat' => 'gh_d5915af0d763',
+  'id' => '0',
+  'pbid' => '80',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-05-20T10:15:09+08:00 ] 36.7.190.4 GET lets.gaojb.com/weixin/publics/step_1/id/82/pbid/80
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/publics/step_0/pbid/80',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '82',
+  'pbid' => '80',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/weixin/view/publics/step_1.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'search_url',
+  17 => 'model',
+  18 => 'id',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:15:45+08:00 ] 36.7.190.4 GET lets.gaojb.com/weixin/publics/step_2/id/82/pbid/80
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/publics/step_1/id/82/pbid/80',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '82',
+  'pbid' => '80',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/weixin/view/publics/step_2.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'search_url',
+  17 => 'model',
+  18 => 'id',
+  19 => 'is_audit',
+  20 => 'info',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:16:06+08:00 ] 36.7.190.4 POST lets.gaojb.com/weixin/publics/step_2/id/82/pbid/80
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/publics/step_2/id/82/pbid/80',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'https://lets.gaojb.com',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '80',
+)
+[ info ] [ PARAM ] array (
+  'appid' => 'wxac93997bb1f50b77',
+  'secret' => '7dc017eedadeb7d841ebb9b1192d4aea',
+  'encodingaeskey' => '',
+  'id' => '82',
+  'pbid' => '80',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-05-20T10:16:08+08:00 ] 36.7.190.4 GET lets.gaojb.com/weixin/publics/lists/pbid/80
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/publics/step_2/id/82/pbid/80',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'pbid' => '80',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/weixin/view/publics/lists.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'search_url',
+  17 => 'model',
+  18 => 'list_data',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:16:10+08:00 ] 36.7.190.4 GET lets.gaojb.com/weixin/wecome/config/pbid/82
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/publics/lists/pbid/80',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/common/view/base/config.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'model',
+  17 => 'fields',
+  18 => 'data',
+) ]
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/common/view/widget/material.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'model',
+  17 => 'fields',
+  18 => 'data',
+  19 => 'name',
+  20 => 'value',
+  21 => 'extra',
+  22 => 'default_type',
+  23 => 'default_id',
+  24 => 'news_id',
+  25 => 'img_id',
+  26 => 'voice_id',
+  27 => 'video_id',
+  28 => 'default_value',
+  29 => '_id',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:16:11+08:00 ] 36.7.190.4 POST lets.gaojb.com/material/material/ajax_text_by_id/pbid/82
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/wecome/config/pbid/82',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'https://lets.gaojb.com',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '8',
+)
+[ info ] [ PARAM ] array (
+  'text_id' => '',
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-05-20T10:16:23+08:00 ] 36.7.190.4 GET lets.gaojb.com/weixin/custom_menu/lists/pbid/82?&mdm=409_750
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/wecome/config/pbid/82',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'mdm' => '409_750',
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/weixin/view/custom_menu/lists.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'list_data',
+  17 => 'rule_id',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:16:25+08:00 ] 36.7.190.4 GET lets.gaojb.com/weixin/wecome/config/pbid/82?&mdm=409_751
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/custom_menu/lists/pbid/82?&mdm=409_750',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'mdm' => '409_751',
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/common/view/base/config.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'model',
+  17 => 'fields',
+  18 => 'data',
+) ]
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/common/view/widget/material.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'model',
+  17 => 'fields',
+  18 => 'data',
+  19 => 'name',
+  20 => 'value',
+  21 => 'extra',
+  22 => 'default_type',
+  23 => 'default_id',
+  24 => 'news_id',
+  25 => 'img_id',
+  26 => 'voice_id',
+  27 => 'video_id',
+  28 => 'default_value',
+  29 => '_id',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:16:25+08:00 ] 36.7.190.4 POST lets.gaojb.com/material/material/ajax_text_by_id/pbid/82
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/wecome/config/pbid/82?&mdm=409_751',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'https://lets.gaojb.com',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '8',
+)
+[ info ] [ PARAM ] array (
+  'text_id' => '',
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-05-20T10:16:29+08:00 ] 36.7.190.4 POST lets.gaojb.com/material/material/ajax_text_by_id/pbid/82
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/wecome/config/pbid/82?&mdm=409_751',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'https://lets.gaojb.com',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '8',
+)
+[ info ] [ PARAM ] array (
+  'text_id' => '',
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-05-20T10:16:29+08:00 ] 36.7.190.4 GET lets.gaojb.com/material/material/text_lists/isAjax/ajax/isRadio/1/pbid/82/isAjax/ajax/isRadio/1
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/wecome/config/pbid/82?&mdm=409_751',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'isAjax' => 'ajax',
+  'isRadio' => '1',
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/material/view/material/text_lists_data.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'model',
+  17 => 'add_url',
+  18 => 'del_url',
+  19 => 'search_url',
+  20 => 'placeholder',
+  21 => 'search_key',
+  22 => 'fields',
+  23 => 'list_grids',
+  24 => 'db_fields',
+  25 => 'list_data',
+  26 => 'count',
+  27 => '_page',
+  28 => 'isRadio',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:16:31+08:00 ] 36.7.190.4 GET lets.gaojb.com/material/material/text_lists/pbid/82
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/material/material/text_lists/isAjax/ajax/isRadio/1/pbid/82/isAjax/ajax/isRadio/1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/common/view/base/lists.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'model',
+  17 => 'add_url',
+  18 => 'del_url',
+  19 => 'search_url',
+  20 => 'placeholder',
+  21 => 'search_key',
+  22 => 'fields',
+  23 => 'list_grids',
+  24 => 'db_fields',
+  25 => 'list_data',
+  26 => 'count',
+  27 => '_page',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:16:35+08:00 ] 36.7.190.4 GET lets.gaojb.com/material/material/text_add/pbid/82
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/material/material/text_lists/pbid/82',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/common/view/base/add.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'model',
+  17 => 'fields',
+  18 => 'post_url',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:16:48+08:00 ] 36.7.190.4 POST lets.gaojb.com/material/material/text_add/pbid/82
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/material/material/text_add/pbid/82',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'https://lets.gaojb.com',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '44',
+)
+[ info ] [ PARAM ] array (
+  'content' => '你来了！',
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-05-20T10:16:50+08:00 ] 36.7.190.4 GET lets.gaojb.com/material/material/text_lists/model/material_text/pbid/82
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/material/material/text_add/pbid/82',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'material_text',
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/common/view/base/lists.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'model',
+  17 => 'add_url',
+  18 => 'del_url',
+  19 => 'search_url',
+  20 => 'placeholder',
+  21 => 'search_key',
+  22 => 'fields',
+  23 => 'list_grids',
+  24 => 'db_fields',
+  25 => 'list_data',
+  26 => 'count',
+  27 => '_page',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:16:52+08:00 ] 36.7.190.4 GET lets.gaojb.com/weixin/wecome/config/pbid/82?&mdm=409_751
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/material/material/text_lists/model/material_text/pbid/82',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'mdm' => '409_751',
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/common/view/base/config.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'model',
+  17 => 'fields',
+  18 => 'data',
+) ]
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/common/view/widget/material.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'model',
+  17 => 'fields',
+  18 => 'data',
+  19 => 'name',
+  20 => 'value',
+  21 => 'extra',
+  22 => 'default_type',
+  23 => 'default_id',
+  24 => 'news_id',
+  25 => 'img_id',
+  26 => 'voice_id',
+  27 => 'video_id',
+  28 => 'default_value',
+  29 => '_id',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:16:52+08:00 ] 36.7.190.4 POST lets.gaojb.com/material/material/ajax_text_by_id/pbid/82
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/wecome/config/pbid/82?&mdm=409_751',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'https://lets.gaojb.com',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '8',
+)
+[ info ] [ PARAM ] array (
+  'text_id' => '',
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-05-20T10:16:54+08:00 ] 36.7.190.4 GET lets.gaojb.com/material/material/text_lists/isAjax/ajax/isRadio/1/pbid/82/isAjax/ajax/isRadio/1
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/wecome/config/pbid/82?&mdm=409_751',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'isAjax' => 'ajax',
+  'isRadio' => '1',
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/material/view/material/text_lists_data.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'model',
+  17 => 'add_url',
+  18 => 'del_url',
+  19 => 'search_url',
+  20 => 'placeholder',
+  21 => 'search_key',
+  22 => 'fields',
+  23 => 'list_grids',
+  24 => 'db_fields',
+  25 => 'list_data',
+  26 => 'count',
+  27 => '_page',
+  28 => 'isRadio',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:16:58+08:00 ] 36.7.190.4 POST lets.gaojb.com/weixin/wecome/config/pbid/82
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/wecome/config/pbid/82?&mdm=409_751',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'https://lets.gaojb.com',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '163',
+)
+[ info ] [ PARAM ] array (
+  'stype' => 'text:40',
+  'material_stype_type' => 'text',
+  'material_stype_text_id' => '40',
+  'material_stype_news_id' => '',
+  'material_stype_img_id' => '',
+  'material_stype_voice_id' => '',
+  'material_stype_video_id' => '',
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-05-20T10:16:59+08:00 ] 36.7.190.4 GET lets.gaojb.com/weixin/wecome/config/pbid/82?&mdm=409_751
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/wecome/config/pbid/82?&mdm=409_751',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'mdm' => '409_751',
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/common/view/base/config.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'model',
+  17 => 'fields',
+  18 => 'data',
+) ]
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/common/view/widget/material.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'model',
+  17 => 'fields',
+  18 => 'data',
+  19 => 'name',
+  20 => 'value',
+  21 => 'extra',
+  22 => 'default_type',
+  23 => 'default_id',
+  24 => 'news_id',
+  25 => 'img_id',
+  26 => 'voice_id',
+  27 => 'video_id',
+  28 => 'default_value',
+  29 => 'text_id',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:17:00+08:00 ] 36.7.190.4 POST lets.gaojb.com/material/material/ajax_text_by_id/pbid/82
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/wecome/config/pbid/82?&mdm=409_751',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'https://lets.gaojb.com',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '10',
+)
+[ info ] [ PARAM ] array (
+  'text_id' => '40',
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-05-20T10:17:01+08:00 ] 36.7.190.4 GET lets.gaojb.com/weixin/custom_menu/lists/pbid/82?&mdm=409_750
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/wecome/config/pbid/82?&mdm=409_751',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'mdm' => '409_750',
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/weixin/view/custom_menu/lists.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'list_data',
+  17 => 'rule_id',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:17:04+08:00 ] 36.7.190.4 GET lets.gaojb.com/weixin/auto_reply/lists/pbid/82?&mdm=409_752
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/custom_menu/lists/pbid/82?&mdm=409_750',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'mdm' => '409_752',
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/weixin/view/auto_reply/lists.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'model',
+  17 => 'placeholder',
+  18 => 'search_key',
+  19 => 'fields',
+  20 => 'list_grids',
+  21 => 'db_fields',
+  22 => 'list_data',
+  23 => 'count',
+  24 => '_page',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:17:05+08:00 ] 36.7.190.4 GET lets.gaojb.com/weixin/no_answer/config/pbid/82?&mdm=409_753
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/auto_reply/lists/pbid/82?&mdm=409_752',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'mdm' => '409_753',
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/weixin/view/no_answer/config.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'model',
+  17 => 'fields',
+  18 => 'data',
+) ]
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/common/view/widget/material.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'model',
+  17 => 'fields',
+  18 => 'data',
+  19 => 'name',
+  20 => 'value',
+  21 => 'extra',
+  22 => 'default_type',
+  23 => 'default_id',
+  24 => 'news_id',
+  25 => 'img_id',
+  26 => 'voice_id',
+  27 => 'video_id',
+  28 => 'default_value',
+  29 => '_id',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:17:06+08:00 ] 36.7.190.4 POST lets.gaojb.com/material/material/ajax_text_by_id/pbid/82
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/no_answer/config/pbid/82?&mdm=409_753',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'https://lets.gaojb.com',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '8',
+)
+[ info ] [ PARAM ] array (
+  'text_id' => '',
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-05-20T10:17:07+08:00 ] 36.7.190.4 GET lets.gaojb.com/material/material/material_lists/pbid/82?&mdm=409_424
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/no_answer/config/pbid/82?&mdm=409_753',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'mdm' => '409_424',
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/material/view/material/material_lists.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'search_url',
+  17 => 'list_data',
+  18 => 'count',
+  19 => '_page',
+  20 => 'add_url',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:17:08+08:00 ] 36.7.190.4 GET lets.gaojb.com/home/auth_group/lists/pbid/82?&mdm=409_405
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/material/material/material_lists/pbid/82?&mdm=409_424',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'mdm' => '409_405',
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/common/view/base/lists.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'model',
+  17 => 'search_url',
+  18 => 'placeholder',
+  19 => 'search_key',
+  20 => 'fields',
+  21 => 'list_grids',
+  22 => 'db_fields',
+  23 => 'list_data',
+  24 => 'count',
+  25 => '_page',
+  26 => 'normal_tips',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:17:11+08:00 ] 36.7.190.4 GET lets.gaojb.com/weixin/message/add/pbid/82?&mdm=409_414
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/home/auth_group/lists/pbid/82?&mdm=409_405',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'mdm' => '409_414',
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/weixin/view/message/add.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'model',
+  17 => 'fields',
+  18 => 'normal_tips',
+  19 => 'group_list',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:17:13+08:00 ] 36.7.190.4 GET lets.gaojb.com/weixin/template_message/config/pbid/82?&mdm=409_770
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/message/add/pbid/82?&mdm=409_414',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'mdm' => '409_770',
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/weixin/view/template_message/config.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'template_id',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:17:14+08:00 ] 36.7.190.4 GET lets.gaojb.com/weixin/wecome/config/pbid/82?&mdm=409_751
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/template_message/config/pbid/82?&mdm=409_770',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'mdm' => '409_751',
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/common/view/base/config.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'model',
+  17 => 'fields',
+  18 => 'data',
+) ]
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/common/view/widget/material.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'model',
+  17 => 'fields',
+  18 => 'data',
+  19 => 'name',
+  20 => 'value',
+  21 => 'extra',
+  22 => 'default_type',
+  23 => 'default_id',
+  24 => 'news_id',
+  25 => 'img_id',
+  26 => 'voice_id',
+  27 => 'video_id',
+  28 => 'default_value',
+  29 => 'text_id',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:17:14+08:00 ] 36.7.190.4 POST lets.gaojb.com/material/material/ajax_text_by_id/pbid/82
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/wecome/config/pbid/82?&mdm=409_751',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'https://lets.gaojb.com',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '10',
+)
+[ info ] [ PARAM ] array (
+  'text_id' => '40',
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-05-20T10:17:16+08:00 ] 36.7.190.4 GET lets.gaojb.com/shop/shop/lists/pbid/82?&mdm=761
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/wecome/config/pbid/82?&mdm=409_751',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'mdm' => '761',
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ../application/common/view/base/jump.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'code',
+  17 => 'msg',
+  18 => 'data',
+  19 => 'url',
+  20 => 'wait',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:17:19+08:00 ] 36.7.190.4 GET lets.gaojb.com/weixin/wecome/config/pbid/82?&mdm=409_751
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/template_message/config/pbid/82?&mdm=409_770',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'mdm' => '409_751',
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/common/view/base/config.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'model',
+  17 => 'fields',
+  18 => 'data',
+) ]
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/common/view/widget/material.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'model',
+  17 => 'fields',
+  18 => 'data',
+  19 => 'name',
+  20 => 'value',
+  21 => 'extra',
+  22 => 'default_type',
+  23 => 'default_id',
+  24 => 'news_id',
+  25 => 'img_id',
+  26 => 'voice_id',
+  27 => 'video_id',
+  28 => 'default_value',
+  29 => 'text_id',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:17:19+08:00 ] 36.7.190.4 POST lets.gaojb.com/material/material/ajax_text_by_id/pbid/82
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/wecome/config/pbid/82?&mdm=409_751',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'https://lets.gaojb.com',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '10',
+)
+[ info ] [ PARAM ] array (
+  'text_id' => '40',
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-05-20T10:17:21+08:00 ] 36.7.190.4 GET lets.gaojb.com/weixin/user_center/lists/pbid/82?&mdm=758_794
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/wecome/config/pbid/82?&mdm=409_751',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'mdm' => '758_794',
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/weixin/view/user_center/lists.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'type',
+  17 => 'model',
+  18 => 'isAjax',
+  19 => 'isRadio',
+  20 => 'search_type',
+  21 => 'search_key',
+  22 => 'group_id',
+  23 => 's_time',
+  24 => 'e_time',
+  25 => 'tag_id',
+  26 => 'sex',
+  27 => 'auth_group',
+  28 => 'tags',
+  29 => 'syc_wechat',
+  30 => 'normal_tips',
+  31 => 'fields',
+  32 => 'list_grids',
+  33 => 'db_fields',
+  34 => 'list_data',
+  35 => 'count',
+  36 => '_page',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:17:23+08:00 ] 36.7.190.4 GET lets.gaojb.com/weixin/wecome/config/pbid/82?&mdm=409_751
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/template_message/config/pbid/82?&mdm=409_770',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'mdm' => '409_751',
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/common/view/base/config.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'model',
+  17 => 'fields',
+  18 => 'data',
+) ]
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/common/view/widget/material.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'model',
+  17 => 'fields',
+  18 => 'data',
+  19 => 'name',
+  20 => 'value',
+  21 => 'extra',
+  22 => 'default_type',
+  23 => 'default_id',
+  24 => 'news_id',
+  25 => 'img_id',
+  26 => 'voice_id',
+  27 => 'video_id',
+  28 => 'default_value',
+  29 => 'text_id',
+) ]
+---------------------------------------------------------------
+[ 2019-05-20T10:17:23+08:00 ] 36.7.190.4 POST lets.gaojb.com/material/material/ajax_text_by_id/pbid/82
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/wecome/config/pbid/82?&mdm=409_751',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'https://lets.gaojb.com',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '10',
+)
+[ info ] [ PARAM ] array (
+  'text_id' => '40',
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-05-20T10:18:06+08:00 ] 140.207.54.79 POST lets.gaojb.com/home/weixin/index/pbid/82?signature=b015faa268063c2a1b07b02fb6bbe37e9a183053&timestamp=1558318686&nonce=1739511060&openid=oKwWb1JwyBYICmRxZsFFzzpDprnM
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'pragma' => 'no-cache',
+  'host' => 'lets.gaojb.com',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0',
+  'content-type' => 'text/xml',
+  'content-length' => '278',
+)
+[ info ] [ PARAM ] array (
+  'signature' => 'b015faa268063c2a1b07b02fb6bbe37e9a183053',
+  'timestamp' => '1558318686',
+  'nonce' => '1739511060',
+  'openid' => 'oKwWb1JwyBYICmRxZsFFzzpDprnM',
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2019-05-20T10:18:14+08:00 ] 36.7.190.4 GET lets.gaojb.com/weixin/user_center/lists/pbid/82?&mdm=758_794
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://lets.gaojb.com/weixin/wecome/config/pbid/82?&mdm=409_751',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'mdm' => '758_794',
+  'pbid' => '82',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/weiphp/application/weixin/view/user_center/lists.html [ array (
+  0 => 'get_param',
+  1 => 'public_info',
+  2 => 'page_title',
+  3 => 'system_copy_right',
+  4 => 'tongji_code',
+  5 => 'mid',
+  6 => 'uid',
+  7 => 'myinfo',
+  8 => 'add_button',
+  9 => 'del_button',
+  10 => 'search_button',
+  11 => 'check_all',
+  12 => 'top_more_button',
+  13 => 'top_menu',
+  14 => 'now_top_menu_name',
+  15 => 'nav',
+  16 => 'type',
+  17 => 'model',
+  18 => 'isAjax',
+  19 => 'isRadio',
+  20 => 'search_type',
+  21 => 'search_key',
+  22 => 'group_id',
+  23 => 's_time',
+  24 => 'e_time',
+  25 => 'tag_id',
+  26 => 'sex',
+  27 => 'auth_group',
+  28 => 'tags',
+  29 => 'syc_wechat',
+  30 => 'normal_tips',
+  31 => 'fields',
+  32 => 'list_grids',
+  33 => 'db_fields',
+  34 => 'list_data',
+  35 => 'count',
+  36 => '_page',
+) ]
