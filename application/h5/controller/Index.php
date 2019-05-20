@@ -74,4 +74,10 @@ class Index extends Controller
     {
         return $this->fetch();
     }
+
+    //活动介绍
+    public function about()
+    {
+        return $this->fetch();
+    }
 }
