@@ -67,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="upload.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="upload.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/h5/view/index/upload.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1765">
-              <caret line="553" column="6" lean-forward="true" selection-start-line="553" selection-start-column="6" selection-end-line="553" selection-end-column="6" />
+            <state relative-caret-position="293">
+              <caret line="524" column="46" lean-forward="true" selection-start-line="524" selection-start-column="46" selection-end-line="524" selection-end-column="46" />
               <folding>
                 <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -81,6 +81,16 @@
                 <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="v.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/js/v.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="589" column="20" lean-forward="false" selection-start-line="589" selection-start-column="20" selection-end-line="589" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,6 +127,7 @@
         <option value="$PROJECT_DIR$/task.sh" />
         <option value="$PROJECT_DIR$/application/h5/controller/Upload.php" />
         <option value="$PROJECT_DIR$/application/h5/view/index/upload.html" />
+        <option value="$PROJECT_DIR$/public/js/v.js" />
       </list>
     </option>
   </component>
@@ -157,6 +168,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="weiphp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weiphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weiphp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weiphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weiphp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -247,12 +290,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558316518481</updated>
-      <workItem from="1558316520160" duration="10524000" />
+      <workItem from="1558316520160" duration="10737000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10524000" />
+    <option name="totallyTimeSpent" value="10737000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1177" extended-state="6" />
@@ -379,14 +422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/v.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/font_405927_zn9t5o7hhvj3v7vi.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -439,8 +474,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/h5/view/index/upload.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1765">
-          <caret line="553" column="6" lean-forward="true" selection-start-line="553" selection-start-column="6" selection-end-line="553" selection-end-column="6" />
+        <state relative-caret-position="293">
+          <caret line="524" column="46" lean-forward="true" selection-start-line="524" selection-start-column="46" selection-end-line="524" selection-end-column="46" />
           <folding>
             <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -450,6 +485,14 @@
             <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/v.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="589" column="20" lean-forward="false" selection-start-line="589" selection-start-column="20" selection-end-line="589" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

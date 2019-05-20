@@ -587,12 +587,6 @@
                     } catch (w) {
                         if ("json" !== p.responseType)throw w
                     }
-
-                    if("get" === l.method){
-                        if(l.url == '/Wap1/Jingyu0905/posters?addon=Poster'){
-                        }
-                    }
-                    console.log(l.progress)
                     l.progress && ("post" === l.method || "put" === l.method ? p.upload.addEventListener("progress", l.progress) : "get" === l.method && p.addEventListener("progress", l.progress)), void 0 === f && (f = null), p.send(f)
                 }
             }, function (e, t, n) {
