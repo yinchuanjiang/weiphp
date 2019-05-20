@@ -15,6 +15,7 @@ class Upload extends Controller{
     {
         // 获取表单上传文件 例如上传了001.jpg
         $file = request()->file('upload');
+        dump($file);die;
         // 移动到框架应用根目录/uploads/ 目录下
         $info = $file->move( './uploads');
         if($info){
