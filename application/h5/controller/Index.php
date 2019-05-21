@@ -15,6 +15,12 @@ class Index extends Controller
     //h5活动首页
     public function index()
     {
+        $appid = 'wxac93997bb1f50b77';
+        $secret = '7dc017eedadeb7d841ebb9b1192d4aea';
+        $code = input('code');
+        dump($code);
+        $data = file_get_contents("https://api.weixin.qq.com/sns/oauth2/access_token?appid=$appid&secret=$secret&code=$code&grant_type=authorization_code");
+        dump($data);
         return $this->fetch();
     }
 
@@ -60,7 +66,7 @@ class Index extends Controller
                 "liked" => false
             ]
         ];
-        return json_url(['code' => 0,'msg' => 'ok','data' => $data]);
+        return json_url(['code' => 0, 'msg' => 'ok', 'data' => $data]);
     }
 
     //图片上传页面
@@ -79,5 +85,15 @@ class Index extends Controller
     public function about()
     {
         return $this->fetch();
+    }
+
+    //授权
+    public function auth()
+    {
+        $appid = 'wxac93997bb1f50b77';
+        $url = 'https://lets.gaojb.com/h5/index/auth';
+        $scope = 'snsapi_base';
+        $state = '';
+        return $this->redirect("https://open.weixin.qq.com/connect/oauth2/authorize?appid=$appid&redirect_uri=$url&response_type=code&scope=$scope&state=$state#wechat_redirect");
     }
 }
