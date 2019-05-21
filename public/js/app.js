@@ -55926,11 +55926,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             var avatar = __WEBPACK_IMPORTED_MODULE_0__helpers_openid__["a" /* default */].getAvatar();
             var nickname = __WEBPACK_IMPORTED_MODULE_0__helpers_openid__["a" /* default */].getNickname();
             var that = this;
-            axios.get(__WEBPACK_IMPORTED_MODULE_1__config__["a" /* APP_URL */] + 'h5/upload/needUpload.html?openid=' + openid).then(function (res) {
+            axios.post(__WEBPACK_IMPORTED_MODULE_1__config__["a" /* APP_URL */] + 'h5/upload/needUpload', { openid: openid }).then(function (res) {
                 if (res.data.code == 200) {
                     if (avatar && nickname) {
-                        var myfile = $('#file');
-                        myfile.click();
+                        $('#file').click();
                     } else {
                         location.href = __WEBPACK_IMPORTED_MODULE_1__config__["a" /* APP_URL */] + 'h5/auth/userAuth';
                     }
@@ -55950,6 +55949,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
             var that = this;
             var formdata = new FormData();
+
             formdata.append("upload", $('input[name="uplaod"]')[0].files[0]);
             formdata.append("openid", __WEBPACK_IMPORTED_MODULE_0__helpers_openid__["a" /* default */].getOpenid());
             formdata.append("avatar", __WEBPACK_IMPORTED_MODULE_0__helpers_openid__["a" /* default */].getAvatar());
