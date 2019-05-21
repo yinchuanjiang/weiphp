@@ -2,6 +2,7 @@
 
 namespace app\h5\controller;
 
+use app\h5\model\H5User;
 use think\Controller;
 
 /**
@@ -12,18 +13,35 @@ use think\Controller;
  */
 class Index extends Controller
 {
+    protected $appid = 'wxac93997bb1f50b77';
+    protected $secret = '7dc017eedadeb7d841ebb9b1192d4aea';
+
     //h5活动首页
     public function index()
     {
-        $appid = 'wxac93997bb1f50b77';
-        $secret = '7dc017eedadeb7d841ebb9b1192d4aea';
+        $appid = $this->appid;
+        $secret = $this->secret;
         $code = input('code');
-        dump($code);
-        $data = file_get_contents("https://api.weixin.qq.com/sns/oauth2/access_token?appid=$appid&secret=$secret&code=$code&grant_type=authorization_code");
-        dump($data);
+        $data = json_decode(file_get_contents("https://api.weixin.qq.com/sns/oauth2/access_token?appid=$appid&secret=$secret&code=$code&grant_type=authorization_code"), true);
+        if (!isset($data['openid']))
+            abort(404);
+        $openid = $data['openid'];
+        $this->saveUser($openid);
+        $this->assign('openid', $openid);
         return $this->fetch();
     }
-
+    //
+    private function saveUser($openid)
+    {
+        $user = H5User::where('openid',$openid)->find();
+        if(!$user){
+            $user = new H5User();
+            $user->save([
+                'openid' => $openid,
+                'created_at' => date('Y-m-d H:i:s')
+            ]);
+        }
+    }
     //列表页
     public function lists()
     {

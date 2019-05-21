@@ -24,6 +24,7 @@
         sharelayer: 'sharelayer.png', // 分享遮罩层路径
     };
     (function () {
+        var openid = '{$openid}';
         var doc = document.documentElement, w = APP_CONFIG.designWidth, b = APP_CONFIG.base
 
         function resize() {
@@ -36,15 +37,28 @@
 
         resize()
         window.addEventListener('resize', resize, false)
+
     })();</script>
+    <link rel="stylesheet" href="/css/font_405927_zn9t5o7hhvj3v7vi.css">
     <link rel="stylesheet" href="/css/vuep.css">
     <link href="/css/index.css" rel="stylesheet">
-    <link rel="stylesheet" href="/css/app.css">
 </head>
-<body style="padding:0;margin:0">
+<body>
 <div id="mix">
     <router-view></router-view>
 </div>
-<script src="/css/app.js"></script>
+<audio src="/static/background.mp3" id="audio" style="display: none" loop ></audio>
+<script src="/js/app.js"></script>
+<script src="https://cdn.bootcss.com/layer/2.3/layer.js"></script>
+<link href="https://cdn.bootcss.com/layer/2.3/skin/layer.css" rel="stylesheet">
+<script>
+    //    document.addEventListener('touchstart', function () {
+    //        function audioAutoPlay() {
+    //            var audio = document.getElementById('audio');
+    //            audio.play();
+    //        }
+    //        audioAutoPlay();
+    //    });
+</script>
 </body>
 </html>
