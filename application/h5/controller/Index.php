@@ -29,6 +29,8 @@ class Index extends Controller
         $openid = $data['openid'];
         $this->saveUser($openid);
         $this->assign('openid', $openid);
+        $this->assign('avatar', '');
+        $this->assign('nickname', '');
         return $this->fetch();
     }
 
