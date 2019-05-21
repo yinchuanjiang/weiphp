@@ -13,6 +13,9 @@ class Upload extends Controller{
     //上传照片
     public function upload()
     {
+        if (request()->isOptions()) {
+            exit();
+        }
         // 获取表单上传文件 例如上传了001.jpg
         $file = request()->file('upload');
         // 移动到框架应用根目录/uploads/ 目录下
