@@ -43,8 +43,11 @@ class Index extends Controller
         $openid = $data['openid'];
         $access_token = $data['access_token'];
         $info = json_decode(file_get_contents("https://api.weixin.qq.com/sns/userinfo?access_token=$access_token&openid=$openid&lang=zh_CN "), true);
-        dump($info);
-
+        if(!$info['openid'] || !$info['avatar'] || !$info['nickname'])
+            abort(404);
+        $this->assign('avatar', $info['avatar']);
+        $this->assign('nickname', $info['nickname']);
+        return $this->fetch('index.html');
     }
     //保存用户信息
     private function saveUser($openid, $avatar = null, $nickname = null)
