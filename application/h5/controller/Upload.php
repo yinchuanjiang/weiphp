@@ -12,7 +12,7 @@ use think\Controller;
 class Upload extends Controller{
     //上传照片
     public function upload()
-    {././
+    {
         if(equest()->isOptions()){
             exit();
         }
