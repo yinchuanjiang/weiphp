@@ -6,7 +6,7 @@ use think\Response;
 
 class Cors
 {
-    public function appInit(&$params)
+    public function run(&$params)
     {
         header('Access-Control-Allow-Origin: *');
         header("Access-Control-Allow-Headers: token,Origin, X-Requested-With, Content-Type, Accept");
