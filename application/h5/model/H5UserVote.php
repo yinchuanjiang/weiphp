@@ -8,7 +8,5 @@ use think\Model;
  */
 class H5UserVote extends Model
 {
-
     protected $table = DB_PREFIX . 'h5_user_votes';
-
 }
