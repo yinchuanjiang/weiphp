@@ -74,6 +74,7 @@ class Index extends Controller
         $this->saveUser($openid, $info['headimgurl'], $info['nickname']);
         $this->assign('avatar', $info['headimgurl']);
         $this->assign('nickname', $info['nickname']);
+        $this->assign('openid', $info['openid']);
         return $this->fetch('index');
     }
 
