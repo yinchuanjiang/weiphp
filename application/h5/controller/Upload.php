@@ -13,9 +13,6 @@ class Upload extends Controller{
     //上传照片
     public function upload()
     {
-        if(request()->isOptions()){
-            exit();
-        }
         // 获取表单上传文件 例如上传了001.jpg
         $file = request()->file('upload');
         // 移动到框架应用根目录/uploads/ 目录下
@@ -25,7 +22,7 @@ class Upload extends Controller{
             // 输出 20160820/42a79759f284b767dfcb2a0197904287.jpg
             //echo $info->getSaveName();
         }else{
-            return response(['code' => 400,'msg' => 'ok']);
+            return response(['code' => 400,'msg' => 'error']);
             // 上传失败获取错误信息
         }
     }
