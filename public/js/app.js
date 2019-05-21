@@ -55926,7 +55926,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             var avatar = __WEBPACK_IMPORTED_MODULE_0__helpers_openid__["a" /* default */].getAvatar();
             var nickname = __WEBPACK_IMPORTED_MODULE_0__helpers_openid__["a" /* default */].getNickname();
             var that = this;
-            alert(openid);
             axios.get(__WEBPACK_IMPORTED_MODULE_1__config__["a" /* APP_URL */] + 'h5/upload/needUpload', { openid: openid }).then(function (res) {
                 if (res.data.code == 200) {
                     if (avatar && nickname) {
@@ -55943,7 +55942,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                 }
             }).catch(function (error) {
                 alert(error);
-                layer.msg('系统错误');
+                layer.msg('系统错误1111111');
             });
         },
         upload: function upload() {
