@@ -25,12 +25,24 @@
             sharelayer: 'sharelayer.png', // 分享遮罩层路径
         };
         (function () {
-            var openid = '{openid}';
-            var avatar = '{avatar}';
-            var nickname = '{nickname}';
+            var openid = '{$openid}';
             window.localStorage.setItem('openid',openid);
-            window.localStorage.setItem('avatar',avatar);
-            window.localStorage.setItem('nickname',nickname);
+            var avatar = '{$avatar}';
+            var nickname = '{$nickname}';
+            if(!avatar){
+                window.localStorage.removeItem('avatar');
+            }else {
+                window.localStorage.setItem('avatar',avatar);
+            }
+            if(!nickname){
+                window.localStorage.removeItem('nickname');
+            }else {
+                window.localStorage.setItem('nickname',avatar);
+            }
+
+            if(avatar && nickname){
+                location.href = '#/photo';
+            }
 
             var doc = document.documentElement, w = APP_CONFIG.designWidth, b = APP_CONFIG.base
 
