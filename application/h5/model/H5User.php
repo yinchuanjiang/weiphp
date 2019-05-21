@@ -11,5 +11,9 @@ class H5User extends Model
 
     protected $table = DB_PREFIX . 'h5_users';
 
+    public function photo()
+    {
+        return $this->hasOne('H5Photo','h5_user_id');
+    }
 
 }

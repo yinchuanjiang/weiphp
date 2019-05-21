@@ -26,6 +26,8 @@ class Index extends Controller
         if (!isset($data['openid']))
             abort(404);
         $openid = $data['openid'];
+        $userInfo = getWeixinUserInfo($openid);
+        dump($userInfo);
         $this->saveUser($openid);
         $this->assign('openid', $openid);
         return $this->fetch();
@@ -85,33 +87,5 @@ class Index extends Controller
             ]
         ];
         return json_url(['code' => 0, 'msg' => 'ok', 'data' => $data]);
-    }
-
-    //图片上传页面
-    public function upload()
-    {
-        return $this->fetch();
-    }
-
-    //psd
-    public function psd()
-    {
-        return $this->fetch();
-    }
-
-    //活动介绍
-    public function about()
-    {
-        return $this->fetch();
-    }
-
-    //授权
-    public function auth()
-    {
-        $appid = 'wxac93997bb1f50b77';
-        $url = 'https://lets.gaojb.com/h5/index/index';
-        $scope = 'snsapi_base';
-        $state = '';
-        return $this->redirect("https://open.weixin.qq.com/connect/oauth2/authorize?appid=$appid&redirect_uri=$url&response_type=code&scope=$scope&state=$state#wechat_redirect");
     }
 }
