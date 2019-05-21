@@ -26,22 +26,31 @@ class Index extends Controller
         if (!isset($data['openid']))
             abort(404);
         $openid = $data['openid'];
-        $userInfo = getWeixinUserInfo($openid);
-        dump($userInfo);die;
         $this->saveUser($openid);
         $this->assign('openid', $openid);
         return $this->fetch();
     }
-    //
-    private function saveUser($openid)
+
+    //photo 拍照页面授权
+    public function authUser()
     {
-        $user = H5User::where('openid',$openid)->find();
-        if(!$user){
+
+    }
+    //保存用户信息
+    private function saveUser($openid, $avatar = null, $nickname = null)
+    {
+        $user = H5User::where('openid', $openid)->find();
+        if (!$user) {
             $user = new H5User();
-            $user->save([
-                'openid' => $openid,
-                'created_at' => date('Y-m-d H:i:s')
-            ]);
+            $user->save(
+                array_merge(
+                    [
+                        'openid' => $openid,
+                        'created_at' => date('Y-m-d H:i:s')
+                    ],
+                    compact('avatar', 'nickname')
+                )
+            );
         }
     }
     //列表页

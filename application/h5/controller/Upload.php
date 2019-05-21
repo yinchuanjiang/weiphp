@@ -37,4 +37,18 @@ class Upload extends Controller{
         $user->photo()->save(['photo' => config('app_url').'uploads/'.$info->getSaveName(),'created_at' => date('Y-m-d H:i:s')]);
         return show(200,'上传成功');
     }
+
+    //校验是否需要上传
+    public function needUpload()
+    {
+        $openid = input('openid');
+        if(!$openid)
+            return show(400,'非法操作');
+        $user = H5User::where('openid',$openid)->find();
+        if(!$user)
+            return show(400,'非法操作');
+        if($user->photo()->count())
+            return show(300,'您已经上传过了');
+        return show(200,'可以上传');
+    }
 }
