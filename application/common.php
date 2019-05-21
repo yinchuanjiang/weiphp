@@ -176,9 +176,9 @@ function api_return($errcode = 0, $data = [], $msg = '加载数据成功！')
 /*
  * 格式化接口返回数据
  */
-function show($errcode = 0, $msg = '加载数据成功！',$data = [])
+function show($errcode = 200, $msg = '加载数据成功！',$data = [])
 {
-    $msg = $errcode == 0 ? $msg : '加载数据失败！';
+    $msg = $errcode == 200 ? $msg : '加载数据失败！';
     $return = [
         'code' => $errcode,
         'msg' => $msg,
