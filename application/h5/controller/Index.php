@@ -28,10 +28,7 @@ class Index extends Controller
             abort(404);
         $openid = $data['openid'];
         $this->saveUser($openid);
-        $user = H5User::where('openid', $openid)->find();
         $this->assign('openid', $openid);
-        $this->assign('avatar', $user->avatar ?: '');
-        $this->assign('nickname', $user->nickname ?: '');
         return $this->fetch();
     }
 
