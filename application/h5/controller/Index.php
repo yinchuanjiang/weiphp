@@ -27,7 +27,7 @@ class Index extends Controller
             abort(404);
         $openid = $data['openid'];
         $userInfo = getWeixinUserInfo($openid);
-        dump($userInfo);
+        dump($userInfo);die;
         $this->saveUser($openid);
         $this->assign('openid', $openid);
         return $this->fetch();
