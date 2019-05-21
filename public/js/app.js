@@ -55932,7 +55932,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                         var myfile = $('#file');
                         myfile.click();
                     } else {
-                        location.href = __WEBPACK_IMPORTED_MODULE_1__config__["a" /* APP_URL */] + 'h5/auth/authUser';
+                        location.href = __WEBPACK_IMPORTED_MODULE_1__config__["a" /* APP_URL */] + 'h5/auth/userAuth';
                     }
                 } else {
                     layer.msg(res.data.msg);
