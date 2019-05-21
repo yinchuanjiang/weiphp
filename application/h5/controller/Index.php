@@ -27,7 +27,10 @@ class Index extends Controller
             abort(404);
         $openid = $data['openid'];
         $this->saveUser($openid);
+        $user = H5User::where('openid',$openid)->find();
         $this->assign('openid', $openid);
+        $this->assign('avatar', $user->avatar ? :'');
+        $this->assign('nickname', $user->nickname ? :'');
         return $this->fetch();
     }
 
@@ -45,6 +48,7 @@ class Index extends Controller
         $info = json_decode(file_get_contents("https://api.weixin.qq.com/sns/userinfo?access_token=$access_token&openid=$openid&lang=zh_CN "), true);
         if(!isset($info['openid']) || !isset($info['headimgurl']) || !isset($info['nickname']))
             abort(404);
+        $this->saveUser($openid,$info['headimgurl'],$info['nickname']);
         $this->assign('avatar', $info['headimgurl']);
         $this->assign('nickname', $info['nickname']);
         return $this->fetch('index');
