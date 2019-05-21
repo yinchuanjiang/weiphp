@@ -43,10 +43,10 @@ class Upload extends Controller{
     {
         $openid = input('openid');
         if(!$openid)
-            return show(400,'非法操作');
+            return show(400,'非法操作1');
         $user = H5User::where('openid',$openid)->find();
         if(!$user)
-            return show(400,'非法操作');
+            return show(400,'非法操作2');
         if($user->photo()->count())
             return show(300,'您已经上传过了');
         return show(200,'可以上传');
