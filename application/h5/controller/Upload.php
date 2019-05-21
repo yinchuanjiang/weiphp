@@ -16,6 +16,9 @@ class Upload extends Controller{
         header('Access-Control-Allow-Origin: *');
         header("Access-Control-Allow-Headers: token,Origin, X-Requested-With, Content-Type, Accept");
         header('Access-Control-Allow-Methods: POST,GET,OPTION');
+        if(equest()->isOptions()){
+            exit();
+        }
         // 获取表单上传文件 例如上传了001.jpg
         $file = request()->file('upload');
         // 移动到框架应用根目录/uploads/ 目录下
