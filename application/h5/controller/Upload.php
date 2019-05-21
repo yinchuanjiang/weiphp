@@ -13,7 +13,7 @@ class Upload extends Controller{
     //上传照片
     public function upload()
     {
-        if(equest()->isOptions()){
+        if(request()->isOptions()){
             exit();
         }
         // 获取表单上传文件 例如上传了001.jpg
