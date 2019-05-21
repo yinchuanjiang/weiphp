@@ -21,11 +21,11 @@ class Upload extends Controller{
         // 移动到框架应用根目录/uploads/ 目录下
         $info = $file->move( './uploads');
         if($info){
-            return response(['code' => 200,'msg' => 'ok']);
+            return show(200,'上传成功');
             // 输出 20160820/42a79759f284b767dfcb2a0197904287.jpg
             //echo $info->getSaveName();
         }else{
-            return response(['code' => 400,'msg' => 'error']);
+            return show(400,'系统错误');
             // 上传失败获取错误信息
         }
     }

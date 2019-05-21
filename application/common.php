@@ -172,6 +172,21 @@ function api_return($errcode = 0, $data = [], $msg = '加载数据成功！')
     return json_url($return);
 }
 
+
+/*
+ * 格式化接口返回数据
+ */
+function show($errcode = 0, $msg = '加载数据成功！',$data = [])
+{
+    $msg = $errcode == 0 ? $msg : '加载数据失败！';
+    $return = [
+        'code' => $errcode,
+        'msg' => $msg,
+        'data' => $data
+    ];
+    echo json_encode($return);die;
+}
+
 /**
  * 检测用户是否登录
  *
