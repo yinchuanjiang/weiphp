@@ -51,6 +51,7 @@ class Index extends Controller
         if($avatar && $nickname) {
             $user->avatar = $avatar;
             $user->nickname = $nickname;
+            $user->updated_at = date('Y-m-d H:i:s');
             $user->save();
         }
     }
