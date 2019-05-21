@@ -12,10 +12,7 @@ use think\Controller;
 class Upload extends Controller{
     //上传照片
     public function upload()
-    {
-        header('Access-Control-Allow-Origin: *');
-        header("Access-Control-Allow-Headers: token,Origin, X-Requested-With, Content-Type, Accept");
-        header('Access-Control-Allow-Methods: POST,GET,OPTION');
+    {././
         if(equest()->isOptions()){
             exit();
         }
