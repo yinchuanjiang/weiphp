@@ -19,10 +19,11 @@ class Index extends Controller
     //h5活动首页
     public function index()
     {
-        $appid = $this->appid;
-        $secret = $this->secret;
-        $code = input('code');
-        $data = json_decode(file_get_contents("https://api.weixin.qq.com/sns/oauth2/access_token?appid=$appid&secret=$secret&code=$code&grant_type=authorization_code"), true);
+//        $appid = $this->appid;
+//        $secret = $this->secret;
+//        $code = input('code');
+//        $data = json_decode(file_get_contents("https://api.weixin.qq.com/sns/oauth2/access_token?appid=$appid&secret=$secret&code=$code&grant_type=authorization_code"), true);
+        $data['openid'] = 'oKwWb1JwyBYICmRxZsFFzzpDprnM';
         if (!isset($data['openid']))
             abort(404);
         $openid = $data['openid'];
