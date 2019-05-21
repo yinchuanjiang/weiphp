@@ -47,7 +47,7 @@ class Index extends Controller
             abort(404);
         $this->assign('avatar', $info['headimgurl']);
         $this->assign('nickname', $info['nickname']);
-        return $this->fetch('index.html');
+        return $this->fetch('index');
     }
     //保存用户信息
     private function saveUser($openid, $avatar = null, $nickname = null)
