@@ -1,0 +1,53 @@
+---------------------------------------------------------------
+[ 2019-05-21T01:25:38+08:00 ] 114.102.135.66 OPTIONS lets.gaojb.com/h5/upload/upload
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://h5.test/',
+  'accept' => '*/*',
+  'access-control-request-headers' => 'x-requested-with',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'origin' => 'http://h5.test',
+  'access-control-request-method' => 'POST',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2019-05-21T01:27:37+08:00 ] 114.102.135.66 OPTIONS lets.gaojb.com/h5/upload/upload
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lets.gaojb.com',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://h5.test/',
+  'accept' => '*/*',
+  'access-control-request-headers' => 'x-requested-with',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'origin' => 'http://h5.test',
+  'access-control-request-method' => 'POST',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2019-05-21T09:55:54+08:00 ] 36.7.190.4 GET lets.gaojb.com/h5/index/auth
+[ info ] [ LANG ] /www/wwwroot/weiphp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; PHPSESSID=1vc7hl96hcld1oc4fdpko66vat; ScanLoginKey=5ce20a2b2c81d; __forward__=%2Findex.php%2Fweixin%2Fpublics%2Fstep_1%2Fid%2F81%2Fpbid%2F80',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'lets.gaojb.com',
+)
+[ info ] [ PARAM ] array (
+)

@@ -1,0 +1,9 @@
+---------------------------------------------------------------
+[ 2019-05-20T17:16:41+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/upload
+[ error ] [0]致命错误: Call to a member function move() on null[/www/wwwroot/weiphp/application/h5/controller/Upload.php:19]
+---------------------------------------------------------------
+[ 2019-05-20T17:20:42+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/upload
+[ error ] [0]致命错误: Call to a member function move() on null[/www/wwwroot/weiphp/application/h5/controller/Upload.php:19]
+---------------------------------------------------------------
+[ 2019-05-20T17:21:46+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/upload
+[ error ] [0]致命错误: Call to a member function move() on null[/www/wwwroot/weiphp/application/h5/controller/Upload.php:19]

@@ -1,0 +1,6 @@
+---------------------------------------------------------------
+[ 2019-05-21T01:25:38+08:00 ] 114.102.135.66 OPTIONS lets.gaojb.com/h5/upload/upload
+[ error ] [0]致命错误: Call to a member function move() on null[/www/wwwroot/weiphp/application/h5/controller/Upload.php:19]
+---------------------------------------------------------------
+[ 2019-05-21T01:27:37+08:00 ] 114.102.135.66 OPTIONS lets.gaojb.com/h5/upload/upload
+[ error ] [0]致命错误: Call to a member function move() on null[/www/wwwroot/weiphp/application/h5/controller/Upload.php:19]
