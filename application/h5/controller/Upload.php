@@ -41,6 +41,9 @@ class Upload extends Controller{
     //校验是否需要上传
     public function needUpload()
     {
+        if (request()->isOptions()) {
+            exit();
+        }
         $openid = input('openid');
         if(!$openid)
             return show(400,'非法操作1');
