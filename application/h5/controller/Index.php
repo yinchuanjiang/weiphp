@@ -60,21 +60,25 @@ class Index extends Controller
 
     public function authUser()
     {
-        $appid = $this->appid;
-        $secret = $this->secret;
-        $code = input('code');
-        $data = json_decode(file_get_contents("https://api.weixin.qq.com/sns/oauth2/access_token?appid=$appid&secret=$secret&code=$code&grant_type=authorization_code"), true);
-        if (!isset($data['openid']) || !isset($data['access_token']))
-            abort(404);
-        $openid = $data['openid'];
-        $access_token = $data['access_token'];
-        $info = json_decode(file_get_contents("https://api.weixin.qq.com/sns/userinfo?access_token=$access_token&openid=$openid&lang=zh_CN "), true);
-        if (!isset($info['openid']) || !isset($info['headimgurl']) || !isset($info['nickname']))
-            abort(404);
-        $this->saveUser($openid, $info['headimgurl'], $info['nickname']);
-        $this->assign('avatar', $info['headimgurl']);
-        $this->assign('nickname', $info['nickname']);
-        $this->assign('openid', $info['openid']);
+//        $appid = $this->appid;
+//        $secret = $this->secret;
+//        $code = input('code');
+//        $data = json_decode(file_get_contents("https://api.weixin.qq.com/sns/oauth2/access_token?appid=$appid&secret=$secret&code=$code&grant_type=authorization_code"), true);
+//        if (!isset($data['openid']) || !isset($data['access_token']))
+//            abort(404);
+//        $openid = $data['openid'];
+//        $access_token = $data['access_token'];
+//        $info = json_decode(file_get_contents("https://api.weixin.qq.com/sns/userinfo?access_token=$access_token&openid=$openid&lang=zh_CN "), true);
+//        if (!isset($info['openid']) || !isset($info['headimgurl']) || !isset($info['nickname']))
+//            abort(404);
+//        $this->saveUser($openid, $info['headimgurl'], $info['nickname']);
+//        $this->assign('avatar', $info['headimgurl']);
+//        $this->assign('nickname', $info['nickname']);
+//        $this->assign('openid', $info['openid']);
+        $user = H5User::where('openid','oKwWb1JwyBYICmRxZsFFzzpDprnM')->find();
+        $this->assign('avatar', $user->avatar);
+        $this->assign('nickname', $user->nickname);
+        $this->assign('openid', $user->openid);
         return $this->fetch('index');
     }
 
