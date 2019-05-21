@@ -91,7 +91,7 @@ class Index extends Controller
     public function auth()
     {
         $appid = 'wxac93997bb1f50b77';
-        $url = 'https://lets.gaojb.com/h5/index/auth';
+        $url = 'https://lets.gaojb.com/h5/index/index';
         $scope = 'snsapi_base';
         $state = '';
         return $this->redirect("https://open.weixin.qq.com/connect/oauth2/authorize?appid=$appid&redirect_uri=$url&response_type=code&scope=$scope&state=$state#wechat_redirect");
