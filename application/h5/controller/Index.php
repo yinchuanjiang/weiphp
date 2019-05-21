@@ -128,6 +128,6 @@ class Index extends Controller
                 "liked" => false
             ]
         ];
-        return json_url(['code' => 0, 'msg' => 'ok', 'data' => $data]);
+        return show(200,'获取成功',$data);
     }
 }
