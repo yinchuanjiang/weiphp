@@ -27,14 +27,36 @@ class Index extends Controller
             abort(404);
         $openid = $data['openid'];
         $this->saveUser($openid);
-        $user = H5User::where('openid',$openid)->find();
+        $user = H5User::where('openid', $openid)->find();
         $this->assign('openid', $openid);
-        $this->assign('avatar', $user->avatar ? :'');
-        $this->assign('nickname', $user->nickname ? :'');
+        $this->assign('avatar', $user->avatar ?: '');
+        $this->assign('nickname', $user->nickname ?: '');
         return $this->fetch();
     }
 
     //photo 拍照页面授权
+
+    private function saveUser($openid, $avatar = null, $nickname = null)
+    {
+        $user = H5User::where('openid', $openid)->find();
+        if (!$user) {
+            $user = new H5User();
+            $user->save(
+                [
+                    'openid' => $openid,
+                    'created_at' => date('Y-m-d H:i:s')
+                ]
+            );
+        }
+        if($avatar && $nickname) {
+            $user->avatar = $avatar;
+            $user->nickname = $nickname;
+            $user->save();
+        }
+    }
+
+    //保存用户信息
+
     public function authUser()
     {
         $appid = $this->appid;
@@ -46,31 +68,16 @@ class Index extends Controller
         $openid = $data['openid'];
         $access_token = $data['access_token'];
         $info = json_decode(file_get_contents("https://api.weixin.qq.com/sns/userinfo?access_token=$access_token&openid=$openid&lang=zh_CN "), true);
-        if(!isset($info['openid']) || !isset($info['headimgurl']) || !isset($info['nickname']))
+        if (!isset($info['openid']) || !isset($info['headimgurl']) || !isset($info['nickname']))
             abort(404);
-        $this->saveUser($openid,$info['headimgurl'],$info['nickname']);
+        $this->saveUser($openid, $info['headimgurl'], $info['nickname']);
         $this->assign('avatar', $info['headimgurl']);
         $this->assign('nickname', $info['nickname']);
         return $this->fetch('index');
     }
-    //保存用户信息
-    private function saveUser($openid, $avatar = null, $nickname = null)
-    {
-        $user = H5User::where('openid', $openid)->find();
-        if (!$user) {
-            $user = new H5User();
-            $user->save(
-                array_merge(
-                    [
-                        'openid' => $openid,
-                        'created_at' => date('Y-m-d H:i:s')
-                    ],
-                    compact('avatar', 'nickname')
-                )
-            );
-        }
-    }
+
     //列表页
+
     public function lists()
     {
         $data = [
