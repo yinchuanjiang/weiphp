@@ -55942,6 +55942,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                     }, 1000);
                 }
             }).catch(function (error) {
+                alert(error);
                 layer.msg('系统错误');
             });
         },
