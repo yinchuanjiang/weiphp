@@ -44,7 +44,7 @@ class Upload extends Controller{
         if (request()->isOptions()) {
             exit();
         }
-        $openid = input('openid');
+        $openid = input('openid',null);
         if(!$openid)
             return show(400,'非法操作1');
         $user = H5User::where('openid',$openid)->find();
