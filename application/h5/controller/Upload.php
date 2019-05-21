@@ -21,11 +21,11 @@ class Upload extends Controller{
         // 移动到框架应用根目录/uploads/ 目录下
         $info = $file->move( './uploads');
         if($info){
-            return json_url(['code' => 200,'msg' => 'ok']);
+            return response(['code' => 200,'msg' => 'ok']);
             // 输出 20160820/42a79759f284b767dfcb2a0197904287.jpg
             //echo $info->getSaveName();
         }else{
-            return json_url(['code' => 400,'msg' => 'ok']);
+            return response(['code' => 400,'msg' => 'ok']);
             // 上传失败获取错误信息
         }
     }
