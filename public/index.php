@@ -12,6 +12,10 @@
 // [ 应用入口文件 ]
 namespace think;
 
+header('Access-Control-Allow-Origin: *');
+header("Access-Control-Allow-Headers: token,Origin, X-Requested-With, Content-Type, Accept");
+header('Access-Control-Allow-Methods: POST,GET,OPTION');
+
 if (version_compare(PHP_VERSION, '5.6.0', '<'))
     die ('Your PHP Version is ' . PHP_VERSION . ', But WeiPHP require PHP >= 5.6.0 !');
 

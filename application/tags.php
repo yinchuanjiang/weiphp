@@ -20,7 +20,7 @@ return [
     'module_init'  => [],
     // 操作开始执行
     'action_begin' => [
-        'app\\api\\behavior\\Cors'
+        //'app\\api\\behavior\\Cors'
     ],
     // 视图内容过滤
     'view_filter'  => [],
