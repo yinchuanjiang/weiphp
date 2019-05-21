@@ -28,7 +28,7 @@ class Auth extends Controller
     public function userAuth()
     {
         $appid = $this->appid;
-        $url = config('app_url').'h5/index/index';
+        $url = config('app_url').'h5/index/authUser';
         $scope = 'snsapi_userinfo';
         $state = '';
         return $this->redirect("https://open.weixin.qq.com/connect/oauth2/authorize?appid=$appid&redirect_uri=$url&response_type=code&scope=$scope&state=$state#wechat_redirect");

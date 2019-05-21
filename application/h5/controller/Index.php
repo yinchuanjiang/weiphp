@@ -34,6 +34,16 @@ class Index extends Controller
     //photo 拍照页面授权
     public function authUser()
     {
+        $appid = $this->appid;
+        $secret = $this->secret;
+        $code = input('code');
+        $data = json_decode(file_get_contents("https://api.weixin.qq.com/sns/oauth2/access_token?appid=$appid&secret=$secret&code=$code&grant_type=authorization_code"), true);
+        if (!isset($data['openid']) || !isset($data['access_token']))
+            abort(404);
+        $openid = $data['openid'];
+        $access_token = $data['access_token'];
+        $info = json_decode(file_get_contents("https://api.weixin.qq.com/sns/userinfo?access_token=$access_token&openid=$openid&lang=zh_CN "), true);
+        dump($info);
 
     }
     //保存用户信息
