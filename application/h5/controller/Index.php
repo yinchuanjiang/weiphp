@@ -2,6 +2,7 @@
 
 namespace app\h5\controller;
 
+use app\h5\model\H5Photo;
 use app\h5\model\H5User;
 use think\Controller;
 
@@ -89,45 +90,13 @@ class Index extends Controller
         if (request()->isOptions()) {
             exit();
         }
-        $data = [
-            [
-                "id" => 2,
-                "uuid" => "ba2b10e8-0f01-4483-ba66-10756929d2b3",
-                "avatar" => "http://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLWiaE1p4KnCEXLxTu3BOk4OBic0PeBX2kLWF2WAWx3x9yF5kHUx3QD6T5mHhnZYWO5ibmCcx6c3KfGQ/0",
-                "nickname" => "Suzanne",
-                "number" => 2398,
-                "poster" => "http://static.diggid.cn/FrJYktkt7tF-aK_YVofFyzy-i_2U",
-                "master" => false,
-                "liked" => false
-            ], [
-                "id" => 2,
-                "uuid" => "81ae7659-1d2d-4601-89d8-c3bf72d3bf38",
-                "avatar" => "http://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoR7HdY3fRWuvXibqebLNXx0LMaqAHiafw7uoJsRX3oOMtgj2lQDSvx9sPibJkPaCnb7QkYaHnDWAntA/0",
-                "nickname" => "大牛",
-                "number" => 1644,
-                "poster" => "http://static.diggid.cn/Fgxng5zbVpx5OGAh-SvMlVHJtbn_",
-                "master" => false,
-                "liked" => false
-            ], [
-                "id" => 3,
-                "uuid" => "59c1d63f-11c6-400d-b322-5c25883d32ee",
-                "avatar" => "http://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83eqzwYzVu4jk1vSu5dnbuIzqmBRiaXicPriaGGc4N7RgbZORibZWiakpFc30l2w5GmJp0HhIiboiaicRhRZ3kw/0",
-                "nickname" => "u65b9u51ef",
-                "number" => 949,
-                "poster" => "http://static.diggid.cn/Fs1EJbG3xIXOHrQaDlLB8A9ExOYd",
-                "master" => false,
-                "liked" => false
-            ], [
-                "id" => 4,
-                "uuid" => "077531fb-dcce-45e7-af56-b3d680599565",
-                "avatar" => "http://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83eqzwYzVu4jk1vSu5dnbuIzqmBRiaXicPriaGGc4N7RgbZORibZWiakpFc30l2w5GmJp0HhIiboiaicRhRZ3kw/0",
-                "nickname" => "大大大",
-                "number" => 671,
-                "poster" => "http://static.diggid.cn/FqSGo0HVc01dRuG9PpuY3Ejo1w9e",
-                "master" => false,
-                "liked" => false
-            ]
-        ];
+        $type = input('type','hot');
+        $order = 'id desc';
+        if($type == 'hot'){
+            $order = 'vote_num desc';
+        }
+        $cate = input('cate');
+        $data = H5Photo::where('cate',$cate)->order($order)->with(['user','votes'=>['voter']])->select();
         return show(200,'获取成功',$data);
     }
 }
