@@ -63,8 +63,8 @@
                     <tbody>
                     {volist name="data_lists" id="vo"}
                     <tr>
-                        <td>{$vo.avatar|url_img_html|raw}</td>
-                        <td>{$vo.nickname}</td>
+                        <td>{$vo.user.avatar|url_img_html|raw}</td>
+                        <td>{$vo.user.nickname}</td>
                         <td>
                             <img src="/uploads/{$vo.photo}" alt="">
                         </td>
