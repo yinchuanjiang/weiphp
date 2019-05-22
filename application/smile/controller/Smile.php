@@ -39,7 +39,12 @@ class Smile extends WebBase
     {
         $sTime = input('s_time','2019-05-20');
         $eTime = input('e_time','2039-05-20');
-        $data_lists = H5User::with('photo')->whereBetweenTime('created_at',$sTime,$eTime)->select();
+        $key = input('key');
+        if($key){
+            $data_lists = H5User::with('photo')->where('ninckname','like',"%$key%")->whereBetweenTime('created_at',$sTime,$eTime)->select();
+        }else{
+            $data_lists = H5User::with('photo')->whereBetweenTime('created_at',$sTime,$eTime)->select();
+        }
         $this->assign('data_lists',$data_lists);
         return $this->fetch();
     }
