@@ -14,6 +14,11 @@
         border: 0 !important;
         margin: 20px;
     }
+    .picture{
+        width: 270px;
+        height: 360px;
+        overflow: hidden;
+    }
 </style>
 
 <div class="span9 page_message">
@@ -92,7 +97,7 @@
     <div class="manage_group normal_dialog">
         <div class="content">
             <div class="picture">
-                <img src="" alt="">
+                <img src="" alt="" style="min-height: 360px">
             </div>
         </div>
     </div>
@@ -179,7 +184,7 @@
             var img = $(this).attr('src');
             $('.picture img').attr('src',img)
             var html = $($('.group_html').html());
-            $.Dialog.open('作品预览', {width: 300, height: 600}, html);
+            $.Dialog.open('作品预览', {width: 300, height: 400}, html);
         })
     })
 </script>
