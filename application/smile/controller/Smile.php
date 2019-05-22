@@ -70,10 +70,16 @@ class Smile extends WebBase
         $sTime = input('s_time', '2019-05-20');
         $eTime = input('e_time', '2039-05-20');
         $uid = input('h5_user_id');
+        $status = input('status',-2);
+        if(in_array($status,[-1,0,1])){
+            $status = [$status];
+        }else{
+            $status = [-1,0,1];
+        }
         if ($uid) {
             $data_lists = H5Photo::with('user')->where('cate','photo')->where('h5_user_id', $uid)->paginate(20);
         } else {
-            $data_lists = H5Photo::with('user')->where('cate','photo')->whereBetweenTime('created_at', $sTime, $eTime)->order('vote_num desc')->paginate(20);
+            $data_lists = H5Photo::with('user')->where('cate','photo')->whereIn('status',$status)->whereBetweenTime('created_at', $sTime, $eTime)->order('vote_num desc')->paginate(20);
         }
         $page = $data_lists->render();
         $this->assign('_page', $page);

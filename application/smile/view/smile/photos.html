@@ -41,7 +41,16 @@
                 <pre>  </pre>
 
                 <pre>  </pre>
+                <label class="mr-1 ml-1" style="align-items: start;">
+                    状态：
+                </label>
+                <select name="status" style="max-width:150px;padding:0">
+                    <option value="" {eq name=":input('status')" value="0"}selected{/eq} >待审核</option>
+                    <option value="1" {eq name=":input('status')" value="1"}selected{/eq} >审核成功</option>
+                    <option value="2" {eq name=":input('status')" value="-1"}selected{/eq} >审核失败</option>
 
+                </select>
+                <pre>  </pre>
                 <a href="javascript:void(0);" class="btn search_duo" style="margin-left:10px">搜索</a>
             </div>
 
@@ -60,6 +69,7 @@
                         <th>参赛作品</th>
                         <th>票数</th>
                         <th>参赛时间</th>
+                        <th>状态</th>
                         <th>操作</th>
                     </tr>
                     </thead>
@@ -78,6 +88,17 @@
                         </td>
                         <td>
                             {$vo.created_at}
+                        </td>
+                        <td>
+                            {if $vo.status == 0}
+                            <span class='label label-info'>待审核</span>
+                            {/if}
+                            {if $vo.status == -1}
+                            <span class='label label-danger'>审核失败</span>
+                            {/if}
+                            {if $vo.status == 1}
+                            <span class='label label-success'>审核成功</span>
+                            {/if}
                         </td>
                         <td>
                             <a href="{:U ( 'smile/Smile/lists',array('id'=>$vo['h5_user_id']))}" target="_self">查看用户</a>
@@ -164,9 +185,9 @@
             }
 
             if (sex == '') {
-                url = url.replace('/sex/s_sex', '');
+                url = url.replace('/status/s_status', '');
             } else {
-                url = url.replace('s_sex', sex);
+                url = url.replace('s_status', sex);
             }
 
             url = url.replace(/[?&=]/g, '/');
