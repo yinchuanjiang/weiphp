@@ -152,7 +152,7 @@
 
         //search_type搜索功能
         $("#search").click(function () {
-            var url = "{:U ( 'smile/smile/lists',['key'=>'s_key','type'=>$type])}";
+            var url = "{:U ( 'smile/smile/photos',['key'=>'s_key','type'=>$type])}";
             var key = $('[name="key"]').val();
             url = url.replace('s_key', key);
 
@@ -161,11 +161,11 @@
         });
 
         $(".search_duo").click(function () {
-            var url = "{:U ( 'smile/smile/lists',['s_time'=>'s_s_time','e_time'=>'s_e_time','type'=>'s_type','sex'=>'s_sex'])}";
+            var url = "{:U ( 'smile/smile/photos',['s_time'=>'s_s_time','e_time'=>'s_e_time','type'=>'s_type','sex'=>'s_sex'])}";
             var s_time = $('[name="s_time"]').val();
             var e_time = $('[name="e_time"]').val();
             var type = "{:input('type/d', 0)}";
-            var sex = $('[name="sex"]').val();
+            var status = $('[name="status"]').val();
 
             if (s_time == '') {
                 url = url.replace('/s_time/s_s_time', '');
@@ -185,10 +185,10 @@
                 url = url.replace('s_type', type);
             }
 
-            if (sex == '') {
+            if (status == '') {
                 url = url.replace('/status/s_status', '');
             } else {
-                url = url.replace('s_status', sex);
+                url = url.replace('s_status', status);
             }
 
             url = url.replace(/[?&=]/g, '/');
