@@ -177,13 +177,7 @@
         });
         //设置分组
         $('.setting_group').click(function(){
-            var html = $($('.group_html').html());
-            query = $('.ids').serialize();
-            if(query==""){
-                alert('请选择用户');
-                return;
-            }
-            $.Dialog.open('设置用户分组',{width:300,height:160},html);
+            $.Dialog.open('设置用户分组',{width:300,height:600},html);
             //$.thinkbox(html);
             $('button',html).click(function(){
                 that = this;
