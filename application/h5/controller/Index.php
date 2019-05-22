@@ -119,7 +119,7 @@ class Index extends Controller
             return show(400,'非法请求');
         $hasVote = H5PhotoVote::where('h5_photo_id',$id)->where('vote_user_id',$user->id)->whereTime('created_at','today')->find();
         if($hasVote)
-            return show(400,'今天已投过了，请明天再来');
+            return show(400,'今天已投给TA过了，请明天再来');
         H5PhotoVote::create([
             'h5_photo_id' => $id,
             'vote_user_id' => $user->id,
