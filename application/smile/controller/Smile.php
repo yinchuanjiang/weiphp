@@ -38,7 +38,7 @@ class Smile extends WebBase
     public function lists($isAjax = 0)
     {
         $data_lists = H5User::select();
-        dump($data_lists);
+        dump($data_lists);die;
         return $this->fetch();
     }
 
