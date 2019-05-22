@@ -86,6 +86,18 @@
         <div class="page"> {$_page|raw|default=''}</div>
     </section>
 </div>
+
+<!-- 用户分组弹框 -->
+<div class="group_html" style="display:none">
+    <div class="manage_group normal_dialog">
+        <div class="content">
+            <div>
+                <img src="" alt="">
+            </div>
+            <div class="btn_wrap"><button class="btn">确定</button></div>
+        </div>
+    </div>
+</div>
 {/block}
 {block name="script"}
 <link href="__STATIC__/datetimepicker/css/datetimepicker.css?v={:SITE_VERSION}" rel="stylesheet" type="text/css">
@@ -163,7 +175,28 @@
                 $("#search").click();
             }
         });
-
+        //设置分组
+        $('.setting_group').click(function(){
+            var html = $($('.group_html').html());
+            query = $('.ids').serialize();
+            if(query==""){
+                alert('请选择用户');
+                return;
+            }
+            $.Dialog.open('设置用户分组',{width:300,height:160},html);
+            //$.thinkbox(html);
+            $('button',html).click(function(){
+                that = this;
+                target = $(that).attr('url');
+                var group = $('#select_group', html).val();
+                query = query + "&group_id="+group ;//+ "&type="+$('#select_type', html).val();
+                $(that).addClass('disabled').attr('autocomplete','off').prop('disabled',true);
+                $.post(target,query).success(function(data){
+                    location.reload();
+                    $('.thinkbox-modal-blackout-default,.thinkbox-default').hide();
+                });
+            })
+        })
     })
 </script>
 {/block}
