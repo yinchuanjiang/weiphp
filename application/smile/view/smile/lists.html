@@ -73,21 +73,21 @@
                         <td>{$vo.nickname}</td>
                         <td>
                             {if $vo.photo}
-                            '已参赛'
+                            已参赛
                             {else /}
                             '未参赛'
                             {/if}
                         </td>
                         <td>
                             {if $vo.photo}
-                            $vo.photo.vote_num
+                            {$vo.photo.vote_num}
                             {else /}
                             '--'
                             {/if}
                         </td>
                         <td>
                             {if $vo.photo}
-                            $vo.photo.created_at
+                            {$vo.photo.created_at}
                             {else /}
                             '--'
                             {/if}
