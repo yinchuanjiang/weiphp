@@ -29,9 +29,6 @@
         </div>
         <!-- 多维过滤 -->
       </div>
-
-      
-
       <div class="row justify-content-between" style="margin-left: 0">
                 <div class="form-inline form-group ml-4">
                           <label class="mr-1 ml-1" style="align-items: start;">
@@ -96,7 +93,7 @@
                         {/if}
                     </td>
                   <td>
-                  <a href="{:U ( 'smile/Smile/photos',array('uid'=>$vo['h5_user_id']))}" target="_self">查看作品</a>
+                  <a href="{:U ( 'smile/Smile/photos',array('h5_user_id'=>$vo['id']))}" target="_self">查看作品</a>
                   </td>
                 </tr>
               {/volist}
