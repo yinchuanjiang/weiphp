@@ -49,7 +49,7 @@ class Index extends Controller
                 ]
             );
         }
-        if($avatar && $nickname) {
+        if ($avatar && $nickname) {
             $user->avatar = $avatar;
             $user->nickname = $nickname;
             $user->updated_at = date('Y-m-d H:i:s');
@@ -89,43 +89,46 @@ class Index extends Controller
         if (request()->isOptions()) {
             exit();
         }
-        $type = input('type','hot');
+        $type = input('type', 'hot');
         $order = 'id desc';
-        if($type == 'hot'){
+        if ($type == 'hot') {
             $order = 'vote_num desc';
         }
         $cate = input('cate');
-        if(in_array($type,['hot','new'])) {
-            $data = H5Photo::where('cate', $cate)->order($order)->with(['user', 'votes' =>function($query) {
-                $query->with('voter')->whereTime('created_at','today');
+        if (in_array($type, ['hot', 'new'])) {
+            $data = H5Photo::where('cate', $cate)->order($order)->with(['user', 'votes' => function ($query) {
+                $query->with('voter')->whereTime('created_at', 'today');
             }])->select();
-        }else{
+        } else {
             $openid = input('openid');
-            $user = H5User::where('openid',$openid)->find();
-            $data = H5Photo::where('cate', $cate)->where('h5_user_id',$user->id)->order($order)->with(['user', 'votes' => ['voter']])->find();
+            $user = H5User::where('openid', $openid)->find();
+            $data = H5Photo::where('cate', $cate)->where('h5_user_id', $user->id)->order($order)->with(['user', 'votes' => ['voter']])->find();
         }
-        return show(200,'获取成功',$data);
+        return show(200, '获取成功', $data);
     }
+
     //投票
     public function vote()
     {
         $id = input('id');
         $openid = input('openid');
-        if(!$id || !$openid)
-            return show(400,'非法请求');
+        if (!$id || !$openid)
+            return show(400, '非法请求');
         $photo = H5Photo::find($id);
-        $user = H5User::where('openid',$openid)->find();
-        if(!$photo || !$user)
-            return show(400,'非法请求');
-        $hasVote = H5PhotoVote::where('h5_photo_id',$id)->where('vote_user_id',$user->id)->whereTime('created_at','today')->find();
-        if($hasVote)
-            return show(400,'今天已投给TA过了，请明天再来');
+        $user = H5User::where('openid', $openid)->find();
+        if (!$photo || !$user)
+            return show(400, '非法请求');
+        $hasVote = H5PhotoVote::where('h5_photo_id', $id)->where('vote_user_id', $user->id)->whereTime('created_at', 'today')->find();
+        if ($hasVote)
+            return show(400, '今天已投给TA过了，请明天再来');
         H5PhotoVote::create([
             'h5_photo_id' => $id,
             'vote_user_id' => $user->id,
             'created_at' => date('Y-m-d H:i:s'),
             'created_at' => date('Y-m-d H:i:s'),
         ]);
-        return show(200,'投票成功');
+        $photo->vote_num += 1;
+        $photo->save();
+        return show(200, '投票成功');
     }
 }
