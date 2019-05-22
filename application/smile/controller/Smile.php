@@ -71,6 +71,7 @@ class Smile extends WebBase
         $eTime = input('e_time', '2039-05-20');
         $uid = input('h5_user_id');
         $status = input('status',-2);
+        $this->assign($status);
         if(in_array($status,[-1,0,1])){
             $status = [$status];
         }else{
