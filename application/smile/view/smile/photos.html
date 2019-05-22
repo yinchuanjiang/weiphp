@@ -103,6 +103,10 @@
                         </td>
                         <td>
                             <a href="{:U ( 'smile/Smile/lists',array('id'=>$vo['h5_user_id']))}" target="_self">查看用户</a>
+                            {if $vo.status == 0}
+                                <a class="btn btn-success" href="{:U ( 'smile/Smile/check',array('id'=>$vo['id']))}" target="_self">审核通过</a>
+                                <a class="btn btn-danger" href="{:U ( 'smile/Smile/check',array('id'=>$vo['id']))}" target="_self">审核不通过</a>
+                            {/if}
                         </td>
                     </tr>
                     {/volist}
