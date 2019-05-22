@@ -41,10 +41,15 @@ class Smile extends WebBase
         $sTime = input('s_time', '2019-05-20');
         $eTime = input('e_time', '2039-05-20');
         $key = input('key');
-        if ($key) {
-            $data_lists = H5User::with('photo')->where('nickname', 'like', "%$key%")->whereBetweenTime('created_at', $sTime, $eTime)->select();
+        $id = input('id');
+        if ($id) {
+            $data_lists = H5User::with('photo')->where('id', $id)->paginate(20);
         } else {
-            $data_lists = H5User::with('photo')->whereBetweenTime('created_at', $sTime, $eTime)->select();
+            if ($key) {
+                $data_lists = H5User::with('photo')->where('nickname', 'like', "%$key%")->whereBetweenTime('created_at', $sTime, $eTime)->paginate(20);
+            } else {
+                $data_lists = H5User::with('photo')->whereBetweenTime('created_at', $sTime, $eTime)->paginate(20);
+            }
         }
         $this->assign('data_lists', $data_lists);
         return $this->fetch();
@@ -55,8 +60,12 @@ class Smile extends WebBase
     {
         $sTime = input('s_time', '2019-05-20');
         $eTime = input('e_time', '2039-05-20');
-
-        $data_lists = H5Photo::with('user')->whereBetweenTime('created_at', $sTime, $eTime)->order('vote_num desc')->select();
+        $uid = input('h5_user_id');
+        if ($uid) {
+            $data_lists = H5Photo::with('user')->where('h5_user_id', $uid)->paginate(20);
+        } else {
+            $data_lists = H5Photo::with('user')->whereBetweenTime('created_at', $sTime, $eTime)->order('vote_num desc')->select();
+        }
         $this->assign('data_lists', $data_lists);
         return $this->fetch();
         return $this->fetch();
