@@ -99,7 +99,7 @@ class Index extends Controller
         }else{
             $openid = input('openid');
             $user = H5User::where('openid',$openid)->find();
-            $data = H5Photo::where('cate', $cate)->where('h5_user_id',$user->id)->order($order)->with(['user', 'votes' => ['voter']])->select();
+            $data = H5Photo::where('cate', $cate)->where('h5_user_id',$user->id)->order($order)->with(['user', 'votes' => ['voter']])->find();
         }
         return show(200,'获取成功',$data);
     }
