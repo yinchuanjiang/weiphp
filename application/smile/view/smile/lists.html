@@ -62,30 +62,41 @@
                 <th>头像</th>
                 <th>用户昵称</th>
                 <th>是否参赛</th>
+                  <th>票数</th>
                 <th>参赛时间</th>
-                <th>是否关注</th>
-                <th>积分</th>
                 <th>操作</th>
               </tr>
             </thead>
 
             <!-- 列表 -->
             <tbody>
-              {volist name="list_data" id="vo"}
+              {volist name="data_lists" id="vo"}
                 <tr>
-                  <td><input type="checkbox" id="check_{$vo.uid}" name="ids[]" value="{$vo.uid}" class="ids regular-checkbox">
-                    <label for="check_{$vo.uid}"></label></td>
-                  <td>{$vo.headimgurl|url_img_html|raw}</td>
+                  <td>{$vo.avatar|url_img_html|raw}</td>
                   <td>{$vo.nickname}</td>
-                  <td>{$vo.sex_name}</td>
-                  <td>{$vo.country}{$vo.province}{$vo.city}</td>
-			      <td>{$vo.reg_time|time_format}</td>
-                  <td>{$vo.group}</td>
-                  <td>{$vo.score}</td>
+                    <td>
+                        {if $vo.photo}
+                            '已参赛'
+                        {else /}
+                            '未参赛'
+                        {/if}
+                    </td>
+                    <td>
+                        {if $vo.photo}
+                        $vo.photo.vote_num
+                        {else /}
+                        '--'
+                        {/if}
+                    </td>
+                    <td>
+                        {if $vo.photo}
+                            $vo.photo.created_at
+                        {else /}
+                            '--'
+                        {/if}
+                    </td>
                   <td>
-                  <a href="{:U ( 'weixin/UserCenter/detail',array('uid'=>$vo['uid']))}" target="_self">详细资料</a>
-                  <!--<a href="{:U ( 'weixin/UserCenter/edit',array('uid'=>$vo['uid']))}" target="_self">编辑</a>-->
-                  <!--a href="{:U('home/CreditData/lists',array('uid'=>$vo['uid']))}" target="_self">积分记录</a-->
+                  <a href="{:U ( 'smile/Smile/photos',array('uid'=>$vo['h5_user_id']))}" target="_self">查看作品</a>
                   </td>
                 </tr>
               {/volist}

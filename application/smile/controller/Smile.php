@@ -37,7 +37,7 @@ class Smile extends WebBase
     //微笑大赛列表
     public function lists($isAjax = 0)
     {
-        $data_lists = H5User::select();
+        $data_lists = H5User::with('photo')->select();
         dump($data_lists);die;
         $this->assign('data_lists',$data_lists);
         return $this->fetch();
