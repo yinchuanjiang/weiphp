@@ -176,10 +176,9 @@
         });
         //设置分组
         $('.preview').click(function () {
-            var html = $($('.group_html').html());
             var img = $(this).attr('src');
-            console.log(img)
             $('.picture img').attr('src',img)
+            var html = $($('.group_html').html());
             $.Dialog.open('作品预览', {width: 300, height: 600}, html);
         })
     })
