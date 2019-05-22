@@ -18,21 +18,11 @@
     <section id="contents"> {include file="common@base/_nav" /}
       <div class="table-bar">
         <div class="fl">
-          <div class="tools"> <a href="javascript:void(0);" class="btn setting_group">设置用户组</a> &nbsp; <a href="{:U ( 'home/AuthGroup/export?type='.$type.'&id='.$group_id )}" class="btn">导出用户</a> &nbsp;
-          {if condition="$syc_wechat"}<a href="{:U('syc_auth_group')}" class="btn tongbu">一键同步微信公众号粉丝</a> &nbsp;
-             {/if}
+          <div class="tools">
           </div>
         </div>
         <!-- 高级搜索 -->
         <div class="search-form fr cf">
-          <div class="sleft" style="margin-right:10px;">
-              <select name="group" style="border:none; padding:4px; margin:0;">
-              <option value="{:U ( 'weixin/UserCenter/lists',array('group_id'=>0,'isAjax'=>0,'isRadio'=>$isRadio,'type'=>$type))}" {eq name="$group_id" value="0"}selected{/eq} >全部用户</option>
-                  {volist name="auth_group" id="vo"}
-                      <option value="{:U ( 'weixin/UserCenter/lists',array('group_id'=>$vo['id'],'isAjax'=>0,'isRadio'=>$isRadio,'type'=>$type))}" {eq name="vo['id']" value="$group_id"}selected{/eq} >{$vo.title}</option>
-                  {/volist}
-              </select>
-          </div>
           <div class="sleft">
             <input type="text" placeholder="请输入昵称搜索" value="{$search_key}" class="search-input" name="key">
             <a id="search" href="javascript:;" class="sch-btn"><i class="btn-search"></i></a> </div>
@@ -52,15 +42,6 @@
                           <input style="width:175px"  type="datetime" name="e_time" class="text time mr-1 ml-1" value="{:input('e_time')}" placeholder="请选择时间" />
                     <pre>  </pre>
                     
-                    <label class="mr-1 ml-1" style="align-items: start;">
-                        性别：
-                    </label>
-                    <select name="sex" style="max-width:150px;padding:0">
-                        <option value="" {eq name=":input('sex')" value=""}selected{/eq} >不限</option>
-                        <option value="1" {eq name=":input('sex')" value="1"}selected{/eq} >男</option>
-                        <option value="2" {eq name=":input('sex')" value="2"}selected{/eq} >女</option>
-
-                    </select>
                     <pre>  </pre>
 
                     <a href="javascript:void(0);" class="btn search_duo" style="margin-left:10px">搜索</a>
@@ -80,13 +61,9 @@
                   <label for="checkAll"></label></th>
                 <th>头像</th>
                 <th>用户昵称</th>
-                <th>性别</th>
-                <th>地区</th>
-
-                <th>关注时间</th>
-
-                <th>分组</th>
-
+                <th>是否参赛</th>
+                <th>参赛时间</th>
+                <th>是否关注</th>
                 <th>积分</th>
                 <th>操作</th>
               </tr>
