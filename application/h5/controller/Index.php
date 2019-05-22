@@ -125,7 +125,7 @@ class Index extends Controller
             'h5_photo_id' => $id,
             'vote_user_id' => $user->id,
             'created_at' => date('Y-m-d H:i:s'),
-            'created_at' => date('Y-m-d H:i:s'),
+            'updated_at' => date('Y-m-d H:i:s'),
         ]);
         $photo->vote_num += 1;
         $photo->save();
