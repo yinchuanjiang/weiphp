@@ -91,11 +91,8 @@
 <div class="group_html" style="display:none">
     <div class="manage_group normal_dialog">
         <div class="content">
-            <div>
+            <div class="picture">
                 <img src="" alt="">
-            </div>
-            <div class="btn_wrap">
-                <button class="btn">确定</button>
             </div>
         </div>
     </div>
@@ -180,13 +177,10 @@
         //设置分组
         $('.preview').click(function () {
             var html = $($('.group_html').html());
+            var img = $(this).attr('src');
+            console.log(img)
+            $('.picture img').attr('src',img)
             $.Dialog.open('作品预览', {width: 300, height: 600}, html);
-            $('button', html).click(function () {
-                $('.thinkbox-modal-blackout-default,.thinkbox-default').hide();
-            })
-            //$.thinkbox(html);
-//            location.reload();
-//            $('.thinkbox-modal-blackout-default,.thinkbox-default').hide();
         })
     })
 </script>
