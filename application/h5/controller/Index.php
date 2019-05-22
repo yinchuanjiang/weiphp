@@ -83,7 +83,6 @@ class Index extends Controller
     }
 
     //列表页
-
     public function lists()
     {
         if (request()->isOptions()) {
@@ -99,7 +98,8 @@ class Index extends Controller
             $data = H5Photo::where('cate', $cate)->order($order)->with(['user', 'votes' => ['voter']])->select();
         }else{
             $openid = input('openid');
-            $data = H5Photo::where('cate', $cate)->where('openid',$openid)->order($order)->with(['user', 'votes' => ['voter']])->select();
+            $user = H5User::where('openid',$openid)->find();
+            $data = H5Photo::where('cate', $cate)->where('h5_user_id',$user->id)->order($order)->with(['user', 'votes' => ['voter']])->select();
         }
         return show(200,'获取成功',$data);
     }
