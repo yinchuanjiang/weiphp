@@ -45,7 +45,8 @@
                     状态：
                 </label>
                 <select name="status" style="max-width:150px;padding:0">
-                    <option value="" {eq name=":input('status')" value="0"}selected{/eq} >待审核</option>
+                    <option value="-2"}selected>选择状态</option>
+                    <option value="0" {eq name=":input('status')" value="0"}selected{/eq} >待审核</option>
                     <option value="1" {eq name=":input('status')" value="1"}selected{/eq} >审核成功</option>
                     <option value="2" {eq name=":input('status')" value="-1"}selected{/eq} >审核失败</option>
 
