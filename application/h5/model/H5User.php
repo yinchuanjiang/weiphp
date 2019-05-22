@@ -13,7 +13,7 @@ class H5User extends Model
 
     public function photo()
     {
-        return $this->hasOne('H5Photo','h5_user_id');
+        return $this->hasOne('H5Photo','h5_user_id')->where('cate','photo');
     }
 
 }

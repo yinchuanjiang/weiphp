@@ -32,6 +32,13 @@ class Smile extends WebBase
         ));
         $res['class'] = $type == 1 ? 'current' : '';
         $nav[] = $res;
+
+        $res['title'] = '微笑代言人作品列表';
+        $res['url'] = U('smile/Smile/endorse', array(
+            'type' => 2
+        ));
+        $res['class'] = $type == 2 ? 'current' : '';
+        $nav[] = $res;
         $this->assign('nav', $nav);
     }
 
@@ -64,9 +71,9 @@ class Smile extends WebBase
         $eTime = input('e_time', '2039-05-20');
         $uid = input('h5_user_id');
         if ($uid) {
-            $data_lists = H5Photo::with('user')->where('h5_user_id', $uid)->paginate(20);
+            $data_lists = H5Photo::with('user')->where('cate','photo')->where('h5_user_id', $uid)->paginate(20);
         } else {
-            $data_lists = H5Photo::with('user')->whereBetweenTime('created_at', $sTime, $eTime)->order('vote_num desc')->paginate(20);
+            $data_lists = H5Photo::with('user')->where('cate','photo')->whereBetweenTime('created_at', $sTime, $eTime)->order('vote_num desc')->paginate(20);
         }
         $page = $data_lists->render();
         $this->assign('_page', $page);
