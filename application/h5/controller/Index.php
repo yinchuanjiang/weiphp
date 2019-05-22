@@ -24,7 +24,6 @@ class Index extends Controller
         $secret = $this->secret;
         $code = input('code');
         $data = json_decode(file_get_contents("https://api.weixin.qq.com/sns/oauth2/access_token?appid=$appid&secret=$secret&code=$code&grant_type=authorization_code"), true);
-//        $data['openid'] = 'oKwWb1JwyBYICmRxZsFFzzpDprnM';
         if (!isset($data['openid']))
             abort(404);
         $openid = $data['openid'];
@@ -96,7 +95,12 @@ class Index extends Controller
             $order = 'vote_num desc';
         }
         $cate = input('cate');
-        $data = H5Photo::where('cate',$cate)->order($order)->with(['user','votes'=>['voter']])->select();
+        if(in_array($type,['hot','new'])) {
+            $data = H5Photo::where('cate', $cate)->order($order)->with(['user', 'votes' => ['voter']])->select();
+        }else{
+            $openid = input('openid');
+            $data = H5Photo::where('cate', $cate)->where('openid',$openid)->order($order)->with(['user', 'votes' => ['voter']])->select();
+        }
         return show(200,'获取成功',$data);
     }
 }
