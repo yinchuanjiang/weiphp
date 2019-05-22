@@ -107,7 +107,7 @@ class Index extends Controller
             $myVotes = H5PhotoVote::where('vote_user_id',$user->id)->whereTime('created_at','today')->column('h5_photo_id');
             foreach ($data as &$d){
                 $d->is_voted = false;
-                if(in_array($d,$myVotes)){
+                if(in_array($d->id,$myVotes)){
                     $d->is_voted = true;
                 }
             }
