@@ -64,7 +64,7 @@ class Smile extends WebBase
         if ($uid) {
             $data_lists = H5Photo::with('user')->where('h5_user_id', $uid)->paginate(20);
         } else {
-            $data_lists = H5Photo::with('user')->whereBetweenTime('created_at', $sTime, $eTime)->order('vote_num desc')->select();
+            $data_lists = H5Photo::with('user')->whereBetweenTime('created_at', $sTime, $eTime)->order('vote_num desc')->paginate(20);
         }
         $this->assign('data_lists', $data_lists);
         return $this->fetch();
