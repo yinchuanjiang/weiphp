@@ -37,7 +37,9 @@ class Smile extends WebBase
     //微笑大赛列表
     public function lists($isAjax = 0)
     {
-        $data_lists = H5User::with('photo')->select();
+        $sTime = input('s_time','2019-05-20');
+        $eTime = input('e_time','2039-05-20');
+        $data_lists = H5User::with('photo')->whereBetweenTime('created_at',$sTime,$eTime)->select();
         $this->assign('data_lists',$data_lists);
         return $this->fetch();
     }
