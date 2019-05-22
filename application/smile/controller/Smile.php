@@ -41,7 +41,7 @@ class Smile extends WebBase
         $eTime = input('e_time','2039-05-20');
         $key = input('key');
         if($key){
-            $data_lists = H5User::with('photo')->where('ninckname','like',"%$key%")->whereBetweenTime('created_at',$sTime,$eTime)->select();
+            $data_lists = H5User::with('photo')->where('nickname','like',"%$key%")->whereBetweenTime('created_at',$sTime,$eTime)->select();
         }else{
             $data_lists = H5User::with('photo')->whereBetweenTime('created_at',$sTime,$eTime)->select();
         }
