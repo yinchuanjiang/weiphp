@@ -51,6 +51,8 @@ class Smile extends WebBase
                 $data_lists = H5User::with('photo')->whereBetweenTime('created_at', $sTime, $eTime)->paginate(20);
             }
         }
+        $page = $data_lists->render();
+        $this->assign('page', $page);
         $this->assign('data_lists', $data_lists);
         return $this->fetch();
     }
@@ -66,6 +68,8 @@ class Smile extends WebBase
         } else {
             $data_lists = H5Photo::with('user')->whereBetweenTime('created_at', $sTime, $eTime)->order('vote_num desc')->paginate(20);
         }
+        $page = $data_lists->render();
+        $this->assign('page', $page);
         $this->assign('data_lists', $data_lists);
         return $this->fetch();
         return $this->fetch();
