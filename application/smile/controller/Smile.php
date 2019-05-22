@@ -39,6 +39,7 @@ class Smile extends WebBase
     {
         $data_lists = H5User::select();
         dump($data_lists);die;
+        $this->assign('data_lists',$data_lists);
         return $this->fetch();
     }
 
