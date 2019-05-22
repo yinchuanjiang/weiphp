@@ -1,4 +1,4 @@
-<?php /*a:4:{s:57:"/www/wwwroot/weiphp/application/home/view/user/login.html";i:1558316876;s:58:"/www/wwwroot/weiphp/application/common/view/base/head.html";i:1558316876;s:60:"/www/wwwroot/weiphp/application/common/view/base/footer.html";i:1558316876;s:57:"/www/wwwroot/weiphp/application/common/view/base/var.html";i:1558316876;}*/ ?>
+<?php /*a:4:{s:57:"/www/wwwroot/weiphp/application/home/view/user/login.html";i:1558430650;s:58:"/www/wwwroot/weiphp/application/common/view/base/head.html";i:1558430650;s:60:"/www/wwwroot/weiphp/application/common/view/base/footer.html";i:1558430650;s:57:"/www/wwwroot/weiphp/application/common/view/base/var.html";i:1558430650;}*/ ?>
 <!DOCTYPE HTML>
 <html>
 <head>

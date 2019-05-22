@@ -1,0 +1,923 @@
+---------------------------------------------------------------
+[ 2019-05-21T17:24:45+08:00 ] 36.7.190.4 GET lets.gaojb.com/h5/index/authUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001064s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001021s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000726s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:28:05+08:00 ] 36.7.190.4 GET lets.gaojb.com/h5/index/authUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001133s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001100s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000815s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:28:10+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001456s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001096s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000784s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000991s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000710s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:28:28+08:00 ] 36.7.190.4 GET lets.gaojb.com/h5/index/authUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001240s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001050s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000717s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:29:25+08:00 ] 36.7.190.4 GET lets.gaojb.com/h5/index/authUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001136s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001127s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000775s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:30:26+08:00 ] 36.7.190.4 GET lets.gaojb.com/h5/index/authUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001049s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.000993s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000713s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:30:33+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001320s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001061s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000958s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000683s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:33:21+08:00 ] 36.7.190.4 GET lets.gaojb.com/h5/index/authUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001123s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001127s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000774s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:33:28+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001042s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001021s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000717s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000888s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000594s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:33:34+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001097s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001065s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000761s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000910s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000630s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:33:35+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023884s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001271s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.001116s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.001238s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.002044s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:33:35+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001762s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.002251s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.001198s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.002062s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000653s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:33:35+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000980s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001044s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000742s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000939s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000727s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:33:42+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001100s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001054s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000754s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000928s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000604s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:33:57+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001221s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001065s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.002945s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000950s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000693s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:33:57+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001925s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001295s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.005887s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.001204s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.003422s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:34:05+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001228s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001364s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000821s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000995s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000612s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:34:17+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001067s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001061s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000723s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000926s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000631s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:34:24+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001252s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001063s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000877s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000877s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000710s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:35:58+08:00 ] 36.7.190.4 GET lets.gaojb.com/h5/index/authUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001073s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001046s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000733s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:36:15+08:00 ] 36.7.190.4 GET lets.gaojb.com/h5/index/authUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001098s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001047s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000712s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:36:18+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001092s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001043s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000756s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000893s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000641s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:37:33+08:00 ] 36.7.190.4 GET lets.gaojb.com/h5/index/authUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001152s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001018s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000764s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:39:12+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001119s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001048s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.001175s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000736s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:44:03+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001152s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001059s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000925s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000627s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:44:15+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001406s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001079s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000783s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000970s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000660s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:44:57+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001131s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001078s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000749s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000926s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000677s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:45:03+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001192s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001050s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000723s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000868s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000668s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:45:20+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001202s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001090s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000756s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000949s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000680s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:50:18+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001220s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001077s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.001009s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000640s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:50:39+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001166s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001080s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000769s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000933s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000707s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:51:49+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001230s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001049s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000896s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000600s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:51:59+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001335s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001077s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000760s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000915s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000660s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:52:02+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001127s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001050s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000774s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.001004s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000658s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:52:05+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001071s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001036s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000877s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000666s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:52:06+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001075s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001062s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000717s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000910s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000631s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:52:06+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001134s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001047s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000747s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000985s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000719s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:52:06+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001142s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000885s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000636s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:52:06+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001241s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001039s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000952s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000655s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:55:19+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001230s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001141s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000794s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000931s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000719s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:56:43+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001104s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001051s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000720s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000904s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000735s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:56:46+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001145s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001051s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000738s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000907s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000615s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:56:47+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014002s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001481s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.001071s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.002320s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000926s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:56:47+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001213s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001468s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.002173s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.001274s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.001860s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:57:33+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001259s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001099s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000975s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000721s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:58:09+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001175s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001083s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000818s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000940s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000658s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:58:19+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001123s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001096s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000707s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000854s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000619s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:58:43+08:00 ] 36.7.190.4 GET lets.gaojb.com/h5/index/authUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001130s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001098s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000738s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:58:49+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001215s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001063s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000744s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000878s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000677s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:58:51+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001086s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001002s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000708s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000583s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:58:52+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001148s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001040s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000790s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000929s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000704s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:58:53+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001153s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001058s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000705s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000832s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000634s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:58:53+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001188s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001037s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000755s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000893s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000639s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:58:55+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001080s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001084s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000731s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000867s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000611s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:58:56+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001203s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001070s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000775s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000999s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000694s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:58:57+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003468s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001022s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.001183s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000884s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000628s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:58:57+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001230s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001042s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000865s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.003130s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:58:58+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001108s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001113s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000756s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000999s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000638s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:58:59+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001303s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001064s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000785s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000916s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000628s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:58:59+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001131s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001060s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000895s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000601s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:59:00+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001112s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001037s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000902s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000644s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:59:01+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001291s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001202s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.001038s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000741s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:59:01+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001333s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001081s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000801s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.001108s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000734s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:59:02+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001123s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001081s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000722s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000907s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000644s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:59:02+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001175s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001060s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000723s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000955s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000634s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:59:03+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001060s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001045s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000761s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000913s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000611s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:59:04+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001296s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001094s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000747s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000941s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000643s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:59:04+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001126s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001077s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000746s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000930s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000651s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:59:05+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001185s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001148s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000857s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000970s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000673s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:59:05+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001104s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001028s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000765s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000896s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000601s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:59:06+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001127s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001077s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000931s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000627s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:59:06+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001197s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001089s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000751s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000922s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000661s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:59:07+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001102s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001036s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000751s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000935s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000630s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:59:07+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001200s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001111s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000856s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.001022s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000719s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:59:07+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001154s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001070s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000793s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000918s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000710s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:59:08+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001147s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001095s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000920s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000761s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:59:08+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001122s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001069s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000858s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000640s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:59:08+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001144s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001033s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000843s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000994s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000733s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:59:08+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001514s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001137s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000848s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.001008s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000806s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:59:11+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001167s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001083s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000722s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000895s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000661s ]
+---------------------------------------------------------------
+[ 2019-05-21T17:59:11+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001102s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001067s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000740s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000901s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000657s ]
+---------------------------------------------------------------
+[ 2019-05-21T18:00:03+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001261s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001090s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000894s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.001032s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000726s ]
+---------------------------------------------------------------
+[ 2019-05-21T18:00:04+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001193s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001094s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.002086s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000650s ]
+---------------------------------------------------------------
+[ 2019-05-21T18:00:05+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001117s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001157s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000872s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000608s ]
+---------------------------------------------------------------
+[ 2019-05-21T18:00:06+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001073s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001170s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000869s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.001013s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000621s ]
+---------------------------------------------------------------
+[ 2019-05-21T18:00:07+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001197s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001260s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000773s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000927s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000651s ]
+---------------------------------------------------------------
+[ 2019-05-21T18:00:07+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001481s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001080s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000882s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000629s ]
+---------------------------------------------------------------
+[ 2019-05-21T18:00:07+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001146s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001136s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000900s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000950s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000677s ]
+---------------------------------------------------------------
+[ 2019-05-21T18:00:07+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001302s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001015s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000885s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000662s ]
+---------------------------------------------------------------
+[ 2019-05-21T18:00:08+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001169s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001082s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000760s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000998s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000684s ]
+---------------------------------------------------------------
+[ 2019-05-21T18:00:08+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001177s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001185s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000961s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000641s ]
+---------------------------------------------------------------
+[ 2019-05-21T18:00:08+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001131s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001102s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000847s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000925s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000685s ]
+---------------------------------------------------------------
+[ 2019-05-21T18:00:08+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001143s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001096s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000804s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000971s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000665s ]
+---------------------------------------------------------------
+[ 2019-05-21T18:00:10+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001322s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001117s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000939s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000669s ]
+---------------------------------------------------------------
+[ 2019-05-21T18:00:11+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005180s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001261s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.001070s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.002247s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000965s ]
+---------------------------------------------------------------
+[ 2019-05-21T18:00:11+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001280s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001307s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.002020s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.001250s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.001722s ]
+---------------------------------------------------------------
+[ 2019-05-21T18:00:11+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001161s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001048s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000746s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000899s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000643s ]
+---------------------------------------------------------------
+[ 2019-05-21T18:00:12+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026365s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001135s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000779s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000965s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000647s ]
+---------------------------------------------------------------
+[ 2019-05-21T18:00:12+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001064s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001057s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000916s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000655s ]
+---------------------------------------------------------------
+[ 2019-05-21T18:00:13+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005515s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001363s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.001221s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.002206s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.001054s ]
+---------------------------------------------------------------
+[ 2019-05-21T18:00:13+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001155s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001901s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.002198s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.001285s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.001952s ]
+---------------------------------------------------------------
+[ 2019-05-21T18:09:31+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/needUpload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001160s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001053s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000749s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000876s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000671s ]
+---------------------------------------------------------------
+[ 2019-05-21T18:12:18+08:00 ] 36.7.190.4 GET lets.gaojb.com/h5/index/authUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001202s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001009s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000759s ]
+---------------------------------------------------------------
+[ 2019-05-21T18:12:37+08:00 ] 36.7.190.4 GET lets.gaojb.com/h5/index/authUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001098s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001058s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000768s ]
+---------------------------------------------------------------
+[ 2019-05-21T19:55:22+08:00 ] 36.7.190.4 GET lets.gaojb.com/h5/index/lists.html?cate=photo&openid=oKwWb1JwyBYICmRxZsFFzzpDprnM&type=hot
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001137s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.001097s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_photos` WHERE  `cate` = 'photo' ORDER BY `vote_num` DESC [ RunTime:0.000723s ]
+---------------------------------------------------------------
+[ 2019-05-21T19:57:00+08:00 ] 183.162.58.244 GET lets.gaojb.com/h5/index/index?code=001iT1uy0ck0Md154Sry0ejauy0iT1uv&state=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001221s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001095s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000761s ]
+---------------------------------------------------------------
+[ 2019-05-21T19:57:12+08:00 ] 183.162.58.244 GET lets.gaojb.com/h5/index/authUser?code=081Vept92tQn2L0CLpt925Jxt92Veptv&state=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001182s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001153s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000746s ]
+[ sql ] [ SQL ] UPDATE `wp_h5_users`  SET `updated_at` = '2019-05-21 19:57:12'  WHERE  `id` = 1 [ RunTime:0.000714s ]
+---------------------------------------------------------------
+[ 2019-05-21T19:57:43+08:00 ] 183.162.58.244 POST lets.gaojb.com/h5/upload/upload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001087s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001035s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1JwyBYICmRxZsFFzzpDprnM' LIMIT 1 [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000888s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 1 LIMIT 1 [ RunTime:0.000628s ]
+[ sql ] [ SQL ] INSERT INTO `wp_h5_photos` (`photo` , `created_at` , `h5_user_id`) VALUES ('https://lets.gaojb.com/uploads/20190521/1a714e1a878329184bf67a391e159a1a.jpeg' , '2019-05-21 19:57:43' , 1) [ RunTime:0.000660s ]
+---------------------------------------------------------------
+[ 2019-05-21T19:57:53+08:00 ] 36.7.190.4 GET lets.gaojb.com/h5/index/lists.html?cate=photo&openid=oKwWb1JwyBYICmRxZsFFzzpDprnM&type=hot
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002024s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.001136s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_photos` WHERE  `cate` = 'photo' ORDER BY `vote_num` DESC [ RunTime:0.001160s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.000872s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `id` IN (1) [ RunTime:0.000791s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photo_votes` [ RunTime:0.000929s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_photo_votes` WHERE  `h5_photo_id` IN (1) [ RunTime:0.000948s ]
+---------------------------------------------------------------
+[ 2019-05-21T19:59:20+08:00 ] 36.7.190.4 GET lets.gaojb.com/h5/index/index?code=071484y11QYSBX1uvMy116Iiy11484yr&state=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001651s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001044s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1CZ86z5CltO0KFMUKzGGn84' LIMIT 1 [ RunTime:0.000664s ]
+[ sql ] [ SQL ] INSERT INTO `wp_h5_users` (`openid` , `created_at`) VALUES ('oKwWb1CZ86z5CltO0KFMUKzGGn84' , '2019-05-21 19:59:20') [ RunTime:0.000831s ]
+---------------------------------------------------------------
+[ 2019-05-21T20:00:02+08:00 ] 36.7.190.4 GET lets.gaojb.com/h5/index/authUser?code=0611ZDnt196Cie0nQ9lt1slFnt11ZDnm&state=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001056s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001057s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1CZ86z5CltO0KFMUKzGGn84' LIMIT 1 [ RunTime:0.000729s ]
+[ sql ] [ SQL ] UPDATE `wp_h5_users`  SET `nickname` = '安小游、' , `avatar` = 'http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83er11QYrU5RFzBT8cX7v8N6mnhL2lxcxvxLFXAJl1j5N7tcpCavqic5en11nvvVyOXXcnHe8562ibPPA/132' , `updated_at` = '2019-05-21 20:00:02'  WHERE  `id` = 2 [ RunTime:0.000729s ]
+---------------------------------------------------------------
+[ 2019-05-21T20:00:14+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/upload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001218s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001007s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1CZ86z5CltO0KFMUKzGGn84' LIMIT 1 [ RunTime:0.000766s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.000924s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 2 LIMIT 1 [ RunTime:0.000659s ]
+[ sql ] [ SQL ] INSERT INTO `wp_h5_photos` (`photo` , `created_at` , `h5_user_id`) VALUES ('https://lets.gaojb.com/uploads/20190521/85870cf90004ab583bf9938e8b3619ef.jpeg' , '2019-05-21 20:00:14' , 2) [ RunTime:0.000817s ]
+---------------------------------------------------------------
+[ 2019-05-21T20:00:31+08:00 ] 36.7.190.4 POST lets.gaojb.com/h5/upload/upload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001072s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.001023s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `openid` = 'oKwWb1CZ86z5CltO0KFMUKzGGn84' LIMIT 1 [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.001128s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wp_h5_photos` WHERE  `h5_user_id` = 2 LIMIT 1 [ RunTime:0.000608s ]
+---------------------------------------------------------------
+[ 2019-05-21T20:00:51+08:00 ] 36.7.190.4 GET lets.gaojb.com/h5/index/lists.html?cate=photo&openid=oKwWb1JwyBYICmRxZsFFzzpDprnM&type=hot
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001052s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.001098s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_photos` WHERE  `cate` = 'photo' ORDER BY `vote_num` DESC [ RunTime:0.002738s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.000905s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `id` IN (1,2) [ RunTime:0.000683s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photo_votes` [ RunTime:0.000883s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_photo_votes` WHERE  `h5_photo_id` IN (1,2) [ RunTime:0.000920s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `id` IN (2) [ RunTime:0.000717s ]
+---------------------------------------------------------------
+[ 2019-05-21T20:02:26+08:00 ] 36.7.190.4 GET lets.gaojb.com/h5/index/lists.html?cate=photo&openid=oKwWb1JwyBYICmRxZsFFzzpDprnM&type=hot
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001163s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.001115s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_photos` WHERE  `cate` = 'photo' ORDER BY `vote_num` DESC [ RunTime:0.000752s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.000861s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `id` IN (1,2) [ RunTime:0.000687s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photo_votes` [ RunTime:0.000927s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_photo_votes` WHERE  `h5_photo_id` IN (1,2) [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `id` IN (2) [ RunTime:0.000717s ]
+---------------------------------------------------------------
+[ 2019-05-21T20:03:57+08:00 ] 36.7.190.4 GET lets.gaojb.com/h5/index/lists.html?cate=photo&openid=oKwWb1JwyBYICmRxZsFFzzpDprnM&type=hot
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001227s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.001269s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_photos` WHERE  `cate` = 'photo' ORDER BY `vote_num` DESC [ RunTime:0.000834s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.000944s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `id` IN (1,2) [ RunTime:0.000752s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photo_votes` [ RunTime:0.001041s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_photo_votes` WHERE  `h5_photo_id` IN (1,2) [ RunTime:0.000929s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `id` IN (2) [ RunTime:0.000708s ]
+---------------------------------------------------------------
+[ 2019-05-21T20:14:13+08:00 ] 36.7.190.4 GET lets.gaojb.com/h5/index/lists.html?cate=photo&openid=oKwWb1JwyBYICmRxZsFFzzpDprnM&type=hot
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001173s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.001109s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_photos` WHERE  `cate` = 'photo' ORDER BY `vote_num` DESC [ RunTime:0.000808s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.000877s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `id` IN (1,2) [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photo_votes` [ RunTime:0.000902s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_photo_votes` WHERE  `h5_photo_id` IN (1,2) [ RunTime:0.000633s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `id` IN (2) [ RunTime:0.000652s ]
+---------------------------------------------------------------
+[ 2019-05-21T20:17:48+08:00 ] 36.7.190.4 GET lets.gaojb.com/h5/index/lists.html?cate=photo&openid=oKwWb1JwyBYICmRxZsFFzzpDprnM&type=hot
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001284s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.001109s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_photos` WHERE  `cate` = 'photo' ORDER BY `vote_num` DESC [ RunTime:0.000769s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.000861s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `id` IN (1,2) [ RunTime:0.000668s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photo_votes` [ RunTime:0.000882s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_photo_votes` WHERE  `h5_photo_id` IN (1,2) [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `id` IN (2) [ RunTime:0.000638s ]
+---------------------------------------------------------------
+[ 2019-05-21T20:54:41+08:00 ] 47.92.98.236 GET lets.gaojb.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001037s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_publics` [ RunTime:0.001244s ]
+[ sql ] [ SQL ] SELECT `id` FROM `wp_publics` LIMIT 1 [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_apps` [ RunTime:0.000960s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_apps` WHERE  `status` = 1 [ RunTime:0.000827s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_menu` [ RunTime:0.000971s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_menu` WHERE  `place` = 0  AND `is_hide` = 0 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.001229s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_apps` WHERE  `status` = 1 [ RunTime:0.000790s ]
+---------------------------------------------------------------
+[ 2019-05-21T20:54:41+08:00 ] 47.92.98.236 GET lets.gaojb.com/home/user/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001095s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_publics` [ RunTime:0.001231s ]
+[ sql ] [ SQL ] SELECT `id` FROM `wp_publics` LIMIT 1 [ RunTime:0.000606s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_apps` [ RunTime:0.000965s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_apps` WHERE  `status` = 1 [ RunTime:0.000821s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_menu` [ RunTime:0.000953s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_menu` WHERE  `place` = 0  AND `is_hide` = 0 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000812s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_apps` WHERE  `status` = 1 [ RunTime:0.000769s ]
+---------------------------------------------------------------
+[ 2019-05-21T20:54:42+08:00 ] 47.92.98.236 GET lets.gaojb.com/weixin/wap/usercenter/from/1/pbid/82
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001229s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_visit_log` [ RunTime:0.001205s ]
+[ sql ] [ SQL ] INSERT INTO `wp_visit_log` (`wpid` , `module_name` , `controller_name` , `action_name` , `uid` , `cTime` , `param` , `ip` , `referer`) VALUES (1 , 'weixin' , 'Wap' , 'usercenter' , NULL , 1558443281 , '{\"from\":\"1\",\"pbid\":\"82\"}' , '47.92.98.236' , '') [ RunTime:0.008069s ]
+[ sql ] [ SQL ] DELETE FROM `wp_visit_log` WHERE  `cTime` < 1557838481 [ RunTime:0.007390s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_debug_log` [ RunTime:0.001236s ]
+[ sql ] [ SQL ] INSERT INTO `wp_debug_log` (`cTime` , `cTime_format` , `data` , `data_post`) VALUES (1558443282 , '2019-05-21 20:54:42' , 'a:6:{s:5:\"appId\";s:18:\"wxac93997bb1f50b77\";s:8:\"nonceStr\";s:16:\"vTJgUbAlA9qto6k4\";s:9:\"timestamp\";i:1558443282;s:3:\"url\";s:59:\"https://lets.gaojb.com/weixin/wap/usercenter/from/1/pbid/82\";s:9:\"signature\";s:40:\"7144cdd432a927f2312a67cbebd416b2c772d6c4\";s:9:\"rawString\";s:210:\"jsapi_ticket=HoagFKDcsGMVCIY2vOjf9ii3KwtL-UdbJ05rGBcpFrcOrSuo978BChubG2Sw8zfMHvpD_8jnOWhq78i-xtABSA&noncestr=vTJgUbAlA9qto6k4&timestamp=1558443282&url=https://lets.gaojb.com/weixin/wap/usercenter/from/1/pbid/82\";}' , '888888') [ RunTime:0.006349s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_config` [ RunTime:0.001210s ]
+[ sql ] [ SQL ] SELECT `value` FROM `wp_config` WHERE  ( name="FOLLOW_YOUKE_UID" ) LIMIT 1 [ RunTime:0.000687s ]
+[ sql ] [ SQL ] UPDATE `wp_config`  SET `value` = '-9014'  WHERE  ( name="FOLLOW_YOUKE_UID" ) [ RunTime:0.005224s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_apps` [ RunTime:0.000991s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_apps` WHERE  `status` = 1 [ RunTime:0.000811s ]
+---------------------------------------------------------------
+[ 2019-05-21T21:42:18+08:00 ] 36.7.190.4 GET lets.gaojb.com/h5/index/lists.html?cate=photo&openid=oKwWb1JwyBYICmRxZsFFzzpDprnM&type=hot
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001056s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.001057s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_photos` WHERE  `cate` = 'photo' ORDER BY `vote_num` DESC [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.000875s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `id` IN (1,2) [ RunTime:0.000670s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photo_votes` [ RunTime:0.000853s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_photo_votes` WHERE  `h5_photo_id` IN (1,2) [ RunTime:0.000605s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `id` IN (2) [ RunTime:0.000622s ]
+---------------------------------------------------------------
+[ 2019-05-21T21:42:41+08:00 ] 36.7.190.4 GET lets.gaojb.com/h5/index/lists.html?cate=photo&openid=oKwWb1JwyBYICmRxZsFFzzpDprnM&type=hot
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001326s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photos` [ RunTime:0.001173s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_photos` WHERE  `cate` = 'photo' ORDER BY `vote_num` DESC [ RunTime:0.000832s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_users` [ RunTime:0.000954s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `id` IN (1,2) [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_h5_photo_votes` [ RunTime:0.000951s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_photo_votes` WHERE  `h5_photo_id` IN (1,2) [ RunTime:0.000694s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_h5_users` WHERE  `id` IN (2) [ RunTime:0.000681s ]
+---------------------------------------------------------------
+[ 2019-05-21T21:48:32+08:00 ] 39.107.116.226 GET lets.gaojb.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001120s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_publics` [ RunTime:0.001164s ]
+[ sql ] [ SQL ] SELECT `id` FROM `wp_publics` LIMIT 1 [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_apps` [ RunTime:0.000921s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_apps` WHERE  `status` = 1 [ RunTime:0.000785s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_menu` [ RunTime:0.000912s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_menu` WHERE  `place` = 0  AND `is_hide` = 0 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000783s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_apps` WHERE  `status` = 1 [ RunTime:0.000746s ]
+---------------------------------------------------------------
+[ 2019-05-21T21:48:32+08:00 ] 39.107.116.226 GET lets.gaojb.com/home/user/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001100s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_publics` [ RunTime:0.001179s ]
+[ sql ] [ SQL ] SELECT `id` FROM `wp_publics` LIMIT 1 [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_apps` [ RunTime:0.001177s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_apps` WHERE  `status` = 1 [ RunTime:0.000801s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_menu` [ RunTime:0.000963s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_menu` WHERE  `place` = 0  AND `is_hide` = 0 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000855s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_apps` WHERE  `status` = 1 [ RunTime:0.000798s ]
+---------------------------------------------------------------
+[ 2019-05-21T21:48:32+08:00 ] 39.107.116.226 GET lets.gaojb.com/weixin/wap/usercenter/from/1/pbid/82
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001203s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_visit_log` [ RunTime:0.001115s ]
+[ sql ] [ SQL ] INSERT INTO `wp_visit_log` (`wpid` , `module_name` , `controller_name` , `action_name` , `uid` , `cTime` , `param` , `ip` , `referer`) VALUES (1 , 'weixin' , 'Wap' , 'usercenter' , NULL , 1558446512 , '{\"from\":\"1\",\"pbid\":\"82\"}' , '39.107.116.226' , '') [ RunTime:0.007454s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_debug_log` [ RunTime:0.005073s ]
+[ sql ] [ SQL ] INSERT INTO `wp_debug_log` (`cTime` , `cTime_format` , `data` , `data_post`) VALUES (1558446512 , '2019-05-21 21:48:32' , 'a:6:{s:5:\"appId\";s:18:\"wxac93997bb1f50b77\";s:8:\"nonceStr\";s:16:\"2vSQypE881HS29Kg\";s:9:\"timestamp\";i:1558446512;s:3:\"url\";s:58:\"http://lets.gaojb.com/weixin/wap/usercenter/from/1/pbid/82\";s:9:\"signature\";s:40:\"86359f7279c9fe4e5276b2d4565f1157d7cd447e\";s:9:\"rawString\";s:209:\"jsapi_ticket=HoagFKDcsGMVCIY2vOjf9ii3KwtL-UdbJ05rGBcpFrcOrSuo978BChubG2Sw8zfMHvpD_8jnOWhq78i-xtABSA&noncestr=2vSQypE881HS29Kg&timestamp=1558446512&url=http://lets.gaojb.com/weixin/wap/usercenter/from/1/pbid/82\";}' , '888888') [ RunTime:0.005492s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_config` [ RunTime:0.002398s ]
+[ sql ] [ SQL ] SELECT `value` FROM `wp_config` WHERE  ( name="FOLLOW_YOUKE_UID" ) LIMIT 1 [ RunTime:0.000725s ]
+[ sql ] [ SQL ] UPDATE `wp_config`  SET `value` = '-9015'  WHERE  ( name="FOLLOW_YOUKE_UID" ) [ RunTime:0.005429s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_apps` [ RunTime:0.001056s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_apps` WHERE  `status` = 1 [ RunTime:0.000857s ]
+---------------------------------------------------------------
+[ 2019-05-21T22:53:56+08:00 ] 47.101.190.183 GET lets.gaojb.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001032s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_publics` [ RunTime:0.001183s ]
+[ sql ] [ SQL ] SELECT `id` FROM `wp_publics` LIMIT 1 [ RunTime:0.000608s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_apps` [ RunTime:0.001015s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_apps` WHERE  `status` = 1 [ RunTime:0.000840s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_menu` [ RunTime:0.000941s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_menu` WHERE  `place` = 0  AND `is_hide` = 0 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000819s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_apps` WHERE  `status` = 1 [ RunTime:0.000784s ]
+---------------------------------------------------------------
+[ 2019-05-21T22:53:57+08:00 ] 47.101.190.183 GET lets.gaojb.com/home/user/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001037s ] mysql:host=106.14.184.98;port=3306;dbname=h5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_publics` [ RunTime:0.001132s ]
+[ sql ] [ SQL ] SELECT `id` FROM `wp_publics` LIMIT 1 [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_apps` [ RunTime:0.000925s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_apps` WHERE  `status` = 1 [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_menu` [ RunTime:0.000953s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_menu` WHERE  `place` = 0  AND `is_hide` = 0 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000773s ]
+[ sql ] [ SQL ] SELECT * FROM `wp_apps` WHERE  `status` = 1 [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wp_qr_code` [ RunTime:0.000924s ]
+[ sql ] [ SQL ] SELECT `id`,`qr_code`,`addon`,`aim_id`,`cTime`,`action_name`,`extra_text`,`extra_int`,`request_count`,`scene_id`,`expire_seconds`,`pbid` FROM `wp_qr_code` WHERE  `addon` = 'ScanLogin'  AND `extra_text` = '5ce41104cf152' LIMIT 1 [ RunTime:0.000682s ]
+[ sql ] [ SQL ] SELECT `scene_id` FROM `wp_qr_code` WHERE  ( action_name='QR_SCENE' ) ORDER BY `scene_id` DESC LIMIT 1 [ RunTime:0.000922s ]
+[ sql ] [ SQL ] INSERT INTO `wp_qr_code` (`scene_id` , `addon` , `aim_id` , `action_name` , `extra_text` , `extra_int` , `cTime` , `pbid` , `qr_code`) VALUES (100001 , 'ScanLogin' , 0 , 'QR_SCENE' , '5ce41104cf152' , 0 , 1558450436 , 82 , 'https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=gQEy8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyRzYyMzFmSDVlcmsxODV1Yk50MU0AAgQFEeRcAwQAjScA') [ RunTime:0.006308s ]

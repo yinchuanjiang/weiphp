@@ -1,4 +1,4 @@
-<?php /*a:2:{s:60:"/www/wwwroot/weiphp/application/common/view/base/config.html";i:1558316876;s:64:"/www/wwwroot/weiphp/application/common/view/widget/material.html";i:1558316876;}*/ ?>
+<?php /*a:1:{s:64:"/www/wwwroot/weiphp/application/common/view/widget/material.html";i:1558430650;}*/ ?>
 <style>
 .image_material, .text_material, .voice_material, .video_material {
 	display: block;

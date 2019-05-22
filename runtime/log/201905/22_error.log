@@ -1,0 +1,15 @@
+---------------------------------------------------------------
+[ 2019-05-22T11:09:01+08:00 ] 36.7.190.4 GET lets.gaojb.com/h5/index/lists.html?cate=photo&openid=oKwWb1JwyBYICmRxZsFFzzpDprnM&type=my
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'openid' in 'where clause'[/www/wwwroot/weiphp/thinkphp/library/think/db/Connection.php:687]
+---------------------------------------------------------------
+[ 2019-05-22T16:37:59+08:00 ] 36.7.190.4 GET lets.gaojb.com/h5/index/lists.html?cate=photo&openid=oKwWb1JwyBYICmRxZsFFzzpDprnM&type=hot
+[ error ] [8]Object of class app\h5\model\H5Photo could not be converted to int[/www/wwwroot/weiphp/application/h5/controller/Index.php:110]
+---------------------------------------------------------------
+[ 2019-05-22T17:19:49+08:00 ] 36.7.190.4 GET lets.gaojb.com/Shop/wap/center/pbid/82
+[ error ] [8]未定义数组索引: title[/www/wwwroot/weiphp/application/shop/controller/Wap.php:61]
+---------------------------------------------------------------
+[ 2019-05-22T17:20:00+08:00 ] 36.7.190.4 GET lets.gaojb.com/Shop/wap/center/pbid/82
+[ error ] [8]未定义数组索引: title[/www/wwwroot/weiphp/application/shop/controller/Wap.php:61]
+---------------------------------------------------------------
+[ 2019-05-22T17:20:04+08:00 ] 36.7.190.4 GET lets.gaojb.com/Shop/wap/center/pbid/82
+[ error ] [8]未定义数组索引: title[/www/wwwroot/weiphp/application/shop/controller/Wap.php:61]
