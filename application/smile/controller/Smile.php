@@ -55,6 +55,7 @@ class Smile extends WebBase
     {
         $sTime = input('s_time', '2019-05-20');
         $eTime = input('e_time', '2039-05-20');
+
         $data_lists = H5Photo::with('user')->whereBetweenTime('created_at', $sTime, $eTime)->order('vote_num desc')->select();
         $this->assign('data_lists', $data_lists);
         return $this->fetch();
