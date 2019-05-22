@@ -95,10 +95,22 @@ class Index extends Controller
             $order = 'vote_num desc';
         }
         $cate = input('cate');
+        $openid = input('openid');
+        $user = H5User::where('openid',$openid)->find();
+        if(!$user)
+            return show(400,'非法请求');
         if (in_array($type, ['hot', 'new'])) {
             $data = H5Photo::where('cate', $cate)->order($order)->with(['user', 'votes' => function ($query) {
                 $query->with('voter')->whereTime('created_at', 'today');
             }])->select();
+            //处理今天是否投过票
+            $myVotes = H5PhotoVote::where('vote_user_id',$user->id)->whereTime('created_at','today')->column('h5_photo_id');
+            foreach ($data as &$d){
+                $d->is_voted = false;
+                if(in_array($d,$myVotes)){
+                    $d->is_voted = true;
+                }
+            }
         } else {
             $openid = input('openid');
             $user = H5User::where('openid', $openid)->find();
