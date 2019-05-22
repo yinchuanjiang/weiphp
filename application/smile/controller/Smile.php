@@ -3,6 +3,7 @@
 namespace app\smile\controller;
 
 use app\common\controller\WebBase;
+use app\h5\model\H5Photo;
 use app\h5\model\H5User;
 
 //PC运营管理端的控制器
@@ -37,21 +38,26 @@ class Smile extends WebBase
     //微笑大赛列表
     public function lists($isAjax = 0)
     {
-        $sTime = input('s_time','2019-05-20');
-        $eTime = input('e_time','2039-05-20');
+        $sTime = input('s_time', '2019-05-20');
+        $eTime = input('e_time', '2039-05-20');
         $key = input('key');
-        if($key){
-            $data_lists = H5User::with('photo')->where('nickname','like',"%$key%")->whereBetweenTime('created_at',$sTime,$eTime)->select();
-        }else{
-            $data_lists = H5User::with('photo')->whereBetweenTime('created_at',$sTime,$eTime)->select();
+        if ($key) {
+            $data_lists = H5User::with('photo')->where('nickname', 'like', "%$key%")->whereBetweenTime('created_at', $sTime, $eTime)->select();
+        } else {
+            $data_lists = H5User::with('photo')->whereBetweenTime('created_at', $sTime, $eTime)->select();
         }
-        $this->assign('data_lists',$data_lists);
+        $this->assign('data_lists', $data_lists);
         return $this->fetch();
     }
 
     //作品列表
     public function photos()
     {
+        $sTime = input('s_time', '2019-05-20');
+        $eTime = input('e_time', '2039-05-20');
+        $data_lists = H5Photo::with('user')->whereBetweenTime('created_at', $sTime, $eTime)->order('vote_num desc')->select();
+        $this->assign('data_lists', $data_lists);
+        return $this->fetch();
         return $this->fetch();
     }
 }
