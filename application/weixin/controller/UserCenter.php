@@ -149,9 +149,7 @@ class UserCenter extends WebBase
             ->where(wp_where($map))
             ->order($order)
             ->paginate($row);
-        dump($data);
         dump($model);
-        dump($list_data);
         die;
         $list_data = $this->parsePageData($data, $model, $list_data, false);
         
