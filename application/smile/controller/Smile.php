@@ -71,17 +71,17 @@ class Smile extends WebBase
         $sTime = input('s_time', '2019-05-20');
         $eTime = input('e_time', '2039-05-20');
         $uid = input('h5_user_id');
-        $status = input('status',-2);
+        $status = input('status', -2);
         $this->assign($status);
-        if(in_array($status,[-1,0,1])){
+        if (in_array($status, [-1, 0, 1])) {
             $status = [$status];
-        }else{
-            $status = [H5PhotoEnum::CHECK_SUCCESS,H5PhotoEnum::CHECK_FAIL,H5PhotoEnum::CHECKING];
+        } else {
+            $status = [H5PhotoEnum::CHECK_SUCCESS, H5PhotoEnum::CHECK_FAIL, H5PhotoEnum::CHECKING];
         }
         if ($uid) {
-            $data_lists = H5Photo::with('user')->where('cate','photo')->where('h5_user_id', $uid)->paginate(20);
+            $data_lists = H5Photo::with('user')->where('cate', 'photo')->where('h5_user_id', $uid)->paginate(20);
         } else {
-            $data_lists = H5Photo::with('user')->where('cate','photo')->whereIn('status',$status)->whereBetweenTime('created_at', $sTime, $eTime)->order('vote_num desc')->paginate(20);
+            $data_lists = H5Photo::with('user')->where('cate', 'photo')->whereIn('status', $status)->whereBetweenTime('created_at', $sTime, $eTime)->order('vote_num desc')->paginate(20);
         }
         $page = $data_lists->render();
         $this->assign('_page', $page);
@@ -95,13 +95,38 @@ class Smile extends WebBase
     {
         $id = input('id');
         $status = input('status');
-        if(!$id || !$status)
-            return show(400, '非法操作1','','error');
+        if (!$id || !$status)
+            return show(400, '非法操作1', '', 'error');
         $photo = H5Photo::find($id);
-        if(!$photo)
-            return show(400, '非法操作2','','error');
+        if (!$photo)
+            return show(400, '非法操作2', '', 'error');
         $photo->status = $status;
         $photo->save();
         return show(200, '审核成功');
+    }
+
+    //微笑代言人作品列表
+    public function endorse()
+    {
+        $sTime = input('s_time', '2019-05-20');
+        $eTime = input('e_time', '2039-05-20');
+        $uid = input('h5_user_id');
+        $status = input('status', -2);
+        $this->assign($status);
+        if (in_array($status, [-1, 0, 1])) {
+            $status = [$status];
+        } else {
+            $status = [H5PhotoEnum::CHECK_SUCCESS, H5PhotoEnum::CHECK_FAIL, H5PhotoEnum::CHECKING];
+        }
+        if ($uid) {
+            $data_lists = H5Photo::with('user')->where('cate', 'photo')->where('h5_user_id', $uid)->paginate(20);
+        } else {
+            $data_lists = H5Photo::with('user')->where('cate', 'photo')->whereIn('status', $status)->whereBetweenTime('created_at', $sTime, $eTime)->order('vote_num desc')->paginate(20);
+        }
+        $page = $data_lists->render();
+        $this->assign('_page', $page);
+        $this->assign('data_lists', $data_lists);
+        return $this->fetch();
+        return $this->fetch();
     }
 }
