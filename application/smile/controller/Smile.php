@@ -142,13 +142,13 @@ class Smile extends WebBase
         if (!$info)
             return show(400, '系统错误');
         // 上传失败获取错误信息
-        H5Photo::create([
-            'cate' => 'endorse',
-            'photo' => config('app_url').'uploads/'.$info->getSaveName(),
-            'name' => $name,
-            'mobile' => $mobile,
-            'created_at' => date('Y-m-d H:i:s'),
-        ]);
+//        H5Photo::create([
+//            'cate' => 'endorse',
+//            'photo' => config('app_url').'uploads/'.$info->getSaveName(),
+//            'name' => $name,
+//            'mobile' => $mobile,
+//            'created_at' => date('Y-m-d H:i:s'),
+//        ]);
         return show(200, '上传成功');
     }
 }

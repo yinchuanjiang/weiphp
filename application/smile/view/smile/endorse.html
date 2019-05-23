@@ -286,12 +286,10 @@
                 }
                 let arr = imgFile.split(',')
                 $('.see img').attr('src', 'data:image/jpeg;base64,' + arr[1]).show();
-                console.log(1);
             }
         })
         //提交作品
         $('body').on('click','.setting_group',function () {
-            alert(1);
             let mobile = $('#mobile').val();
             let name = $('#name').val();
             if(!mobile || mobile.length != 11){
