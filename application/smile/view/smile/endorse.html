@@ -245,6 +245,7 @@
         })
 
         $('#picture').on('change',function () {
+            console.log('change');
             let files = document.getElementById('picture').files[0]
             if(!files)
                 return;
