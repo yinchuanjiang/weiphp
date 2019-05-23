@@ -140,8 +140,6 @@ class Smile extends WebBase
         // 移动到框架应用根目录/uploads/ 目录下
         $info = $file->move('./uploads');
         if (!$info)
-            // 输出 20160820/42a79759f284b767dfcb2a0197904287.jpg
-            //echo $info->getSaveName();
             return show(400, '系统错误');
         // 上传失败获取错误信息
         H5Photo::create([
