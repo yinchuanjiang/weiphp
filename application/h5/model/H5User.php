@@ -16,5 +16,7 @@ class H5User extends Model
     {
         return $this->hasOne('H5Photo','h5_user_id')->where('cate','photo')->where('status',H5PhotoEnum::CHECK_SUCCESS);
     }
-
+    public function photos(){
+        return $this->hasMany('H5Photo','h5_user_id')->where('cate','photo');
+    }
 }
