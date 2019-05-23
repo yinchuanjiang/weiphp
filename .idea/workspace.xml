@@ -42,22 +42,22 @@
       <file leaf-file-name="endorse.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/smile/view/smile/endorse.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3956">
-              <caret line="288" column="83" lean-forward="false" selection-start-line="288" selection-start-column="83" selection-end-line="288" selection-end-column="83" />
+            <state relative-caret-position="230">
+              <caret line="219" column="158" lean-forward="false" selection-start-line="219" selection-start-column="96" selection-end-line="219" selection-end-column="158" />
               <folding>
-                <marker date="1558583174381" expanded="true" signature="7820:7850" ph="..." />
-                <marker date="1558583174381" expanded="true" signature="7820:9746" ph="..." />
-                <marker date="1558583174381" expanded="true" signature="7889:9715" ph="..." />
-                <marker date="1558583174381" expanded="true" signature="7943:9680" ph="..." />
-                <marker date="1558583174381" expanded="true" signature="8008:8450" ph="..." />
-                <marker date="1558583174381" expanded="true" signature="8113:8149" ph="..." />
-                <marker date="1558583174381" expanded="true" signature="8225:8407" ph="..." />
-                <marker date="1558583174381" expanded="true" signature="8515:8900" ph="..." />
-                <marker date="1558583174381" expanded="true" signature="8688:8857" ph="..." />
-                <marker date="1558583174381" expanded="true" signature="8965:9336" ph="..." />
-                <marker date="1558583174381" expanded="true" signature="9131:9293" ph="..." />
-                <marker date="1558583174381" expanded="true" signature="9390:9515" ph="..." />
-                <marker date="1558583174381" expanded="true" signature="9458:9471" ph="..." />
+                <marker date="1558583371914" expanded="true" signature="7820:7850" ph="..." />
+                <marker date="1558583371914" expanded="true" signature="7820:9764" ph="..." />
+                <marker date="1558583371914" expanded="true" signature="7889:9733" ph="..." />
+                <marker date="1558583371914" expanded="true" signature="7943:9698" ph="..." />
+                <marker date="1558583371914" expanded="true" signature="8008:8468" ph="..." />
+                <marker date="1558583371914" expanded="true" signature="8113:8167" ph="..." />
+                <marker date="1558583371914" expanded="true" signature="8243:8425" ph="..." />
+                <marker date="1558583371914" expanded="true" signature="8533:8918" ph="..." />
+                <marker date="1558583371914" expanded="true" signature="8706:8875" ph="..." />
+                <marker date="1558583371914" expanded="true" signature="8983:9354" ph="..." />
+                <marker date="1558583371914" expanded="true" signature="9149:9311" ph="..." />
+                <marker date="1558583371914" expanded="true" signature="9408:9533" ph="..." />
+                <marker date="1558583371914" expanded="true" signature="9476:9489" ph="..." />
               </folding>
             </state>
           </provider>
@@ -412,16 +412,16 @@
       <updated>1558316518481</updated>
       <workItem from="1558316520160" duration="17858000" />
       <workItem from="1558405364249" duration="195000" />
-      <workItem from="1558405570897" duration="48372000" />
+      <workItem from="1558405570897" duration="48512000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66425000" />
+    <option name="totallyTimeSpent" value="66565000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1177" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2550586" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -430,7 +430,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295562" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295562" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="RNConsole" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -884,22 +884,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/smile/view/smile/endorse.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3956">
-          <caret line="288" column="83" lean-forward="false" selection-start-line="288" selection-start-column="83" selection-end-line="288" selection-end-column="83" />
+        <state relative-caret-position="230">
+          <caret line="219" column="158" lean-forward="false" selection-start-line="219" selection-start-column="96" selection-end-line="219" selection-end-column="158" />
           <folding>
-            <marker date="1558583174381" expanded="true" signature="7820:7850" ph="..." />
-            <marker date="1558583174381" expanded="true" signature="7820:9746" ph="..." />
-            <marker date="1558583174381" expanded="true" signature="7889:9715" ph="..." />
-            <marker date="1558583174381" expanded="true" signature="7943:9680" ph="..." />
-            <marker date="1558583174381" expanded="true" signature="8008:8450" ph="..." />
-            <marker date="1558583174381" expanded="true" signature="8113:8149" ph="..." />
-            <marker date="1558583174381" expanded="true" signature="8225:8407" ph="..." />
-            <marker date="1558583174381" expanded="true" signature="8515:8900" ph="..." />
-            <marker date="1558583174381" expanded="true" signature="8688:8857" ph="..." />
-            <marker date="1558583174381" expanded="true" signature="8965:9336" ph="..." />
-            <marker date="1558583174381" expanded="true" signature="9131:9293" ph="..." />
-            <marker date="1558583174381" expanded="true" signature="9390:9515" ph="..." />
-            <marker date="1558583174381" expanded="true" signature="9458:9471" ph="..." />
+            <marker date="1558583371914" expanded="true" signature="7820:7850" ph="..." />
+            <marker date="1558583371914" expanded="true" signature="7820:9764" ph="..." />
+            <marker date="1558583371914" expanded="true" signature="7889:9733" ph="..." />
+            <marker date="1558583371914" expanded="true" signature="7943:9698" ph="..." />
+            <marker date="1558583371914" expanded="true" signature="8008:8468" ph="..." />
+            <marker date="1558583371914" expanded="true" signature="8113:8167" ph="..." />
+            <marker date="1558583371914" expanded="true" signature="8243:8425" ph="..." />
+            <marker date="1558583371914" expanded="true" signature="8533:8918" ph="..." />
+            <marker date="1558583371914" expanded="true" signature="8706:8875" ph="..." />
+            <marker date="1558583371914" expanded="true" signature="8983:9354" ph="..." />
+            <marker date="1558583371914" expanded="true" signature="9149:9311" ph="..." />
+            <marker date="1558583371914" expanded="true" signature="9408:9533" ph="..." />
+            <marker date="1558583371914" expanded="true" signature="9476:9489" ph="..." />
           </folding>
         </state>
       </provider>
