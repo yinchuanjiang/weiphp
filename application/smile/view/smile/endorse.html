@@ -241,8 +241,53 @@
         });
         //添加作品
         $('.add_endorse').click(function () {
-            var html = $($('.add_html').html());
+            var html = $('.add_html').html();
             $.Dialog.open('添加作品', {width: 500, height: 700}, html);
+        })
+
+        $('#picture').on('change',function () {
+            let files = document.getElementById('picture').files[0]
+            if(!files)
+                return;
+            let name = document.getElementById('picture').files[0].name
+            let arr = name.split('.')
+            let fileSize = 0;
+            if (files) {
+                fileSize = files.size;
+                if (fileSize > 10 * 1024 * 1024) {
+                    layer.msg("文件大小不能大于10M！");
+                    file.value = "";
+                    return false;
+                } else if (fileSize <= 0) {
+                    ayer.msg("文件大小不能为0M！");
+                    file.value = "";
+                    return false;
+                }
+            } else {
+                return false;
+            }
+
+            //转码base64
+            let reader = new FileReader();
+            let imgFile
+            // let that = this
+            reader.readAsDataURL(files)
+            reader.onload = e => {
+                imgFile = e.target.result;
+                let img = new Image();
+                img.src = imgFile
+                img.onload = function () {
+                    that.width = img.width;
+                    that.height = img.height;
+                    if (img.width > img.height) {
+                        $('.see img').css('height', '100%')
+                    } else {
+                        $('.see img').css('width', '100%')
+                    }
+                }
+                let arr = imgFile.split(',')
+                $('.see img').attr('scr', 'data:image/jpeg;base64,' + arr[1]);
+            }
         })
     })
 </script>
