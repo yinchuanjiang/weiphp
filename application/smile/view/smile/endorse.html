@@ -294,10 +294,11 @@
             let mobile = $('#mobile').val();
             let name = $('#name').val();
             if(!mobile || mobile.length != 11){
-                swal({
-                    text: '手机号格式不正确',
-                    type: 'error'
-                });
+//                swal({
+//                    text: '手机号格式不正确',
+//                    type: 'error'
+//                });
+                layer.msg('手机号格式不正确')
                 return;
             }
             if(!name){
