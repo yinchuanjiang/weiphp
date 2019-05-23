@@ -109,8 +109,7 @@ class Smile extends WebBase
     public function delete()
     {
         $id = input('id');
-        $status = input('status');
-        if (!$id || !$status)
+        if (!$id)
             return show(400, '非法操作1', '', 'error');
         $photo = H5Photo::find($id);
         if (!$photo)
