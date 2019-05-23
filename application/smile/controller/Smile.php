@@ -100,6 +100,7 @@ class Smile extends WebBase
         if(!$photo)
             return show(400, '非法操作2','','error');
         $photo->status = $status;
+        $photo->save();
         return show(200, '审核成功');
     }
 }
