@@ -82,7 +82,10 @@
                         <td>{$vo.user.avatar|url_img_html|raw}</td>
                         <td>{$vo.user.nickname}</td>
                         <td>
-                            <img class="preview" src="{$vo.photo}" alt="" style="width: 50px">
+                            <span class="preview">
+                                预览
+                            </span>
+                        </td>
                         </td>
                         <td>
                             {$vo.vote_num}

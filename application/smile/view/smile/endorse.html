@@ -65,12 +65,11 @@
                     <!-- 表头 -->
                     <thead>
                     <tr>
-                        <th>头像</th>
-                        <th>用户昵称</th>
+                        <th>姓名</th>
+                        <th>手机号</th>
                         <th>参赛作品</th>
                         <th>票数</th>
                         <th>参赛时间</th>
-                        <th>状态</th>
                         <th>操作</th>
                     </tr>
                     </thead>
@@ -79,10 +78,12 @@
                     <tbody>
                     {volist name="data_lists" id="vo"}
                     <tr>
-                        <td>{$vo.user.avatar|url_img_html|raw}</td>
-                        <td>{$vo.user.nickname}</td>
+                        <td>{$vo.name}</td>
+                        <td>{$vo.mobile}</td>
                         <td>
-                            <img class="preview" src="{$vo.photo}" alt="" style="width: 50px">
+                            <span class="preview">
+                                预览
+                            </span>
                         </td>
                         <td>
                             {$vo.vote_num}
@@ -91,22 +92,7 @@
                             {$vo.created_at}
                         </td>
                         <td>
-                            {if $vo.status == 0}
-                            <span class='label label-info'>待审核</span>
-                            {/if}
-                            {if $vo.status == -1}
-                            <span class='label label-danger'>审核失败</span>
-                            {/if}
-                            {if $vo.status == 1}
-                            <span class='label label-success'>审核成功</span>
-                            {/if}
-                        </td>
-                        <td>
-                            <a href="{:U ( 'smile/Smile/lists',array('id'=>$vo['h5_user_id']))}" target="_self">查看用户</a>
-                            {if $vo.status == 0}
-                            <span class="btn btn-success admin-ajax-delete" ajax-url="{:U ( 'smile/Smile/check',array('id'=>$vo['id'],'status' => 1))}">审核通过</span>
-                            <span class="btn btn-danger admin-ajax-delete" ajax-url="{:U ( 'smile/Smile/check',array('id'=>$vo['id'],'status' => -1))}">审核不通过</span>
-                            {/if}
+                            <span class="btn btn-success admin-ajax-delete" ajax-url="{:U ( 'smile/Smile/delete',array('id'=>$vo['id']))}">删除</span>
                         </td>
                     </tr>
                     {/volist}

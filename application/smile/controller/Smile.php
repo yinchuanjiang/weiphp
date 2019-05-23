@@ -105,6 +105,20 @@ class Smile extends WebBase
         return show(200, '审核成功');
     }
 
+    //删除
+    public function delete()
+    {
+        $id = input('id');
+        $status = input('status');
+        if (!$id || !$status)
+            return show(400, '非法操作1', '', 'error');
+        $photo = H5Photo::find($id);
+        if (!$photo)
+            return show(400, '非法操作2', '', 'error');
+        $photo->delete();
+        return show(200, '删除成功');
+    }
+
     //微笑代言人作品列表
     public function endorse()
     {
@@ -126,6 +140,7 @@ class Smile extends WebBase
         $this->assign('data_lists', $data_lists);
         return $this->fetch();
     }
+
 
     //上传图片
     public function upload()

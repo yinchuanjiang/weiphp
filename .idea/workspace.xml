@@ -42,7 +42,7 @@
       <file leaf-file-name="Smile.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/smile/controller/Smile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
+            <state relative-caret-position="132">
               <caret line="126" column="30" lean-forward="true" selection-start-line="126" selection-start-column="30" selection-end-line="126" selection-end-column="30" />
               <folding>
                 <element signature="e#40#74#0#PHP" expanded="true" />
@@ -51,35 +51,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="endorse.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="endorse.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/smile/view/smile/endorse.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="213" column="0" lean-forward="true" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
+            <state relative-caret-position="431">
+              <caret line="127" column="6" lean-forward="false" selection-start-line="127" selection-start-column="6" selection-end-line="127" selection-end-column="6" />
               <folding>
                 <element signature="n#style#0;n#label#0;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#1;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#label#1;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#2;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#2;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#3;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#2;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#3;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
-                <marker date="1558595140874" expanded="true" signature="8610:8640" ph="..." />
-                <marker date="1558595140874" expanded="true" signature="8610:10644" ph="..." />
-                <marker date="1558595140874" expanded="true" signature="8679:10613" ph="..." />
-                <marker date="1558595140874" expanded="true" signature="8733:10578" ph="..." />
-                <marker date="1558595140874" expanded="true" signature="8798:9248" ph="..." />
-                <marker date="1558595140874" expanded="true" signature="8898:8952" ph="..." />
-                <marker date="1558595140874" expanded="true" signature="9028:9205" ph="..." />
-                <marker date="1558595140874" expanded="true" signature="9313:9741" ph="..." />
-                <marker date="1558595140874" expanded="true" signature="9411:9465" ph="..." />
-                <marker date="1558595140874" expanded="true" signature="9539:9698" ph="..." />
-                <marker date="1558595140874" expanded="true" signature="9806:10252" ph="..." />
-                <marker date="1558595140874" expanded="true" signature="9907:9961" ph="..." />
-                <marker date="1558595140874" expanded="true" signature="10035:10209" ph="..." />
-                <marker date="1558595140874" expanded="true" signature="10306:10431" ph="..." />
-                <marker date="1558595140874" expanded="true" signature="10374:10387" ph="..." />
+                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <marker date="1558595477383" expanded="true" signature="8129:8159" ph="..." />
+                <marker date="1558595477383" expanded="true" signature="8129:10163" ph="..." />
+                <marker date="1558595477383" expanded="true" signature="8198:10132" ph="..." />
+                <marker date="1558595477383" expanded="true" signature="8252:10097" ph="..." />
+                <marker date="1558595477383" expanded="true" signature="8317:8767" ph="..." />
+                <marker date="1558595477383" expanded="true" signature="8417:8471" ph="..." />
+                <marker date="1558595477383" expanded="true" signature="8547:8724" ph="..." />
+                <marker date="1558595477383" expanded="true" signature="8832:9260" ph="..." />
+                <marker date="1558595477383" expanded="true" signature="8930:8984" ph="..." />
+                <marker date="1558595477383" expanded="true" signature="9058:9217" ph="..." />
+                <marker date="1558595477383" expanded="true" signature="9325:9771" ph="..." />
+                <marker date="1558595477383" expanded="true" signature="9426:9480" ph="..." />
+                <marker date="1558595477383" expanded="true" signature="9554:9728" ph="..." />
+                <marker date="1558595477383" expanded="true" signature="9825:9950" ph="..." />
+                <marker date="1558595477383" expanded="true" signature="9893:9906" ph="..." />
               </folding>
             </state>
           </provider>
@@ -97,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="photos.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="photos.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/smile/view/smile/photos.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="213" column="10" lean-forward="true" selection-start-line="208" selection-start-column="8" selection-end-line="213" selection-end-column="10" />
+            <state relative-caret-position="385">
+              <caret line="211" column="46" lean-forward="false" selection-start-line="211" selection-start-column="46" selection-end-line="211" selection-end-column="46" />
               <folding>
                 <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#2;n#section#0;n#div#0;n#!!top" expanded="true" />
@@ -208,10 +209,10 @@
         <option value="$PROJECT_DIR$/application/h5/controller/Upload.php" />
         <option value="$PROJECT_DIR$/application/h5/model/H5User.php" />
         <option value="$PROJECT_DIR$/application/smile/view/smile/lists.html" />
-        <option value="$PROJECT_DIR$/application/smile/view/smile/photos.html" />
         <option value="$PROJECT_DIR$/application/common/view/base/head.html" />
         <option value="$PROJECT_DIR$/application/smile/controller/Smile.php" />
         <option value="$PROJECT_DIR$/application/smile/view/smile/endorse.html" />
+        <option value="$PROJECT_DIR$/application/smile/view/smile/photos.html" />
       </list>
     </option>
   </component>
@@ -518,16 +519,16 @@
       <updated>1558316518481</updated>
       <workItem from="1558316520160" duration="17858000" />
       <workItem from="1558405364249" duration="195000" />
-      <workItem from="1558405570897" duration="55914000" />
+      <workItem from="1558405570897" duration="56138000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73967000" />
+    <option name="totallyTimeSpent" value="74191000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1177" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2550586" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -536,7 +537,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295562" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295562" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="RNConsole" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -898,16 +899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/h5/model/H5User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="76" lean-forward="false" selection-start-line="19" selection-start-column="76" selection-end-line="19" selection-end-column="76" />
-          <folding>
-            <element signature="e#31#65#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/smile/view/smile/lists.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -974,7 +965,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/smile/controller/Smile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
+        <state relative-caret-position="132">
           <caret line="126" column="30" lean-forward="true" selection-start-line="126" selection-start-column="30" selection-end-line="126" selection-end-column="30" />
           <folding>
             <element signature="e#40#74#0#PHP" expanded="true" />
@@ -982,47 +973,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/smile/view/smile/photos.html">
+    <entry file="file://$PROJECT_DIR$/application/h5/model/H5User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="213" column="10" lean-forward="true" selection-start-line="208" selection-start-column="8" selection-end-line="213" selection-end-column="10" />
+        <state relative-caret-position="437">
+          <caret line="19" column="76" lean-forward="false" selection-start-line="19" selection-start-column="76" selection-end-line="19" selection-end-column="76" />
           <folding>
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#2;n#section#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="e#31#65#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/smile/view/smile/endorse.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="213" column="0" lean-forward="true" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
+        <state relative-caret-position="431">
+          <caret line="127" column="6" lean-forward="false" selection-start-line="127" selection-start-column="6" selection-end-line="127" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#label#0;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#1;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#label#1;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#2;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#2;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#3;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#2;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#3;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1558595140874" expanded="true" signature="8610:8640" ph="..." />
-            <marker date="1558595140874" expanded="true" signature="8610:10644" ph="..." />
-            <marker date="1558595140874" expanded="true" signature="8679:10613" ph="..." />
-            <marker date="1558595140874" expanded="true" signature="8733:10578" ph="..." />
-            <marker date="1558595140874" expanded="true" signature="8798:9248" ph="..." />
-            <marker date="1558595140874" expanded="true" signature="8898:8952" ph="..." />
-            <marker date="1558595140874" expanded="true" signature="9028:9205" ph="..." />
-            <marker date="1558595140874" expanded="true" signature="9313:9741" ph="..." />
-            <marker date="1558595140874" expanded="true" signature="9411:9465" ph="..." />
-            <marker date="1558595140874" expanded="true" signature="9539:9698" ph="..." />
-            <marker date="1558595140874" expanded="true" signature="9806:10252" ph="..." />
-            <marker date="1558595140874" expanded="true" signature="9907:9961" ph="..." />
-            <marker date="1558595140874" expanded="true" signature="10035:10209" ph="..." />
-            <marker date="1558595140874" expanded="true" signature="10306:10431" ph="..." />
-            <marker date="1558595140874" expanded="true" signature="10374:10387" ph="..." />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <marker date="1558595477383" expanded="true" signature="8129:8159" ph="..." />
+            <marker date="1558595477383" expanded="true" signature="8129:10163" ph="..." />
+            <marker date="1558595477383" expanded="true" signature="8198:10132" ph="..." />
+            <marker date="1558595477383" expanded="true" signature="8252:10097" ph="..." />
+            <marker date="1558595477383" expanded="true" signature="8317:8767" ph="..." />
+            <marker date="1558595477383" expanded="true" signature="8417:8471" ph="..." />
+            <marker date="1558595477383" expanded="true" signature="8547:8724" ph="..." />
+            <marker date="1558595477383" expanded="true" signature="8832:9260" ph="..." />
+            <marker date="1558595477383" expanded="true" signature="8930:8984" ph="..." />
+            <marker date="1558595477383" expanded="true" signature="9058:9217" ph="..." />
+            <marker date="1558595477383" expanded="true" signature="9325:9771" ph="..." />
+            <marker date="1558595477383" expanded="true" signature="9426:9480" ph="..." />
+            <marker date="1558595477383" expanded="true" signature="9554:9728" ph="..." />
+            <marker date="1558595477383" expanded="true" signature="9825:9950" ph="..." />
+            <marker date="1558595477383" expanded="true" signature="9893:9906" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/smile/view/smile/photos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="211" column="46" lean-forward="false" selection-start-line="211" selection-start-column="46" selection-end-line="211" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#2;n#section#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
