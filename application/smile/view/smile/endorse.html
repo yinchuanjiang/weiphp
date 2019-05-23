@@ -245,7 +245,7 @@
         })
 
         $('body').on('change','#picture',function () {
-            console.log('change');
+            let taht = this;
             let files = document.getElementById('picture').files[0]
             if(!files)
                 return;
