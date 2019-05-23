@@ -95,10 +95,10 @@ class Smile extends WebBase
         $id = input('id');
         $status = input('status');
         if(!$id || $status)
-            return show(400, '非法操作');
+            return show(400, '非法操作1','','error');
         $photo = H5Photo::find($id);
         if(!$photo)
-            return show(400, '非法操作');
+            return show(400, '非法操作2','','error');
         $photo->status = $status;
         return show(200, '审核成功');
     }
