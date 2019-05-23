@@ -88,4 +88,18 @@ class Smile extends WebBase
         return $this->fetch();
         return $this->fetch();
     }
+
+    //审核
+    public function check()
+    {
+        $id = input('id');
+        $status = input('status');
+        if(!$id || $status)
+            return show(400, '非法操作');
+        $photo = H5Photo::find($id);
+        if(!$photo)
+            return show(400, '非法操作');
+        $photo->status = $status;
+        return show(200, '审核成功');
+    }
 }
