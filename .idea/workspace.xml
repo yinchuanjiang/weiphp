@@ -42,8 +42,8 @@
       <file leaf-file-name="endorse.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/smile/view/smile/endorse.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="130" column="96" lean-forward="false" selection-start-line="130" selection-start-column="96" selection-end-line="130" selection-end-column="96" />
+            <state relative-caret-position="454">
+              <caret line="135" column="40" lean-forward="true" selection-start-line="135" selection-start-column="40" selection-end-line="135" selection-end-column="40" />
               <folding>
                 <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
               </folding>
@@ -398,12 +398,12 @@
       <updated>1558316518481</updated>
       <workItem from="1558316520160" duration="17858000" />
       <workItem from="1558405364249" duration="195000" />
-      <workItem from="1558405570897" duration="44950000" />
+      <workItem from="1558405570897" duration="45019000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63003000" />
+    <option name="totallyTimeSpent" value="63072000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1177" extended-state="6" />
@@ -870,8 +870,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/smile/view/smile/endorse.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="130" column="96" lean-forward="false" selection-start-line="130" selection-start-column="96" selection-end-line="130" selection-end-column="96" />
+        <state relative-caret-position="454">
+          <caret line="135" column="40" lean-forward="true" selection-start-line="135" selection-start-column="40" selection-end-line="135" selection-end-column="40" />
           <folding>
             <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
