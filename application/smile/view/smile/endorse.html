@@ -245,7 +245,7 @@
             $.Dialog.open('添加作品', {width: 500, height: 700}, html);
         })
 
-        $('body').on('#picture','change',function () {
+        $('#picture').on('change',function () {
             let files = document.getElementById('picture').files[0]
             if(!files)
                 return;
@@ -286,7 +286,7 @@
                     }
                 }
                 let arr = imgFile.split(',')
-                $('.see img').attr('scr', 'data:image/jpeg;base64,' + arr[1]);
+                $('.see img').attr('src', 'data:image/jpeg;base64,' + arr[1]);
             }
         })
     })
