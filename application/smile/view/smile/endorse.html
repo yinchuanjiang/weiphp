@@ -57,6 +57,16 @@
 
                 </select>
                 <pre>  </pre>
+                <label class="mr-1 ml-1" style="align-items: start;">
+                    姓名：
+                </label>
+                <input style="width:175px" type="text" name="name" class="text time mr-1 ml-1" value="{:input('name')}" placeholder="输入姓名"/>
+                <pre>  </pre>
+                <label class="mr-1 ml-1" style="align-items: start;">
+                    手机：
+                </label>
+                <input style="width:175px" type="text" name="mobile" class="text time mr-1 ml-1" value="{:input('mobile')}" placeholder="输入手机"/>
+                <pre>  </pre>
                 <a href="javascript:void(0);" class="btn search_duo" style="margin-left:10px">搜索</a>
             </div>
 
@@ -170,11 +180,13 @@
         });
 
         $(".search_duo").click(function () {
-            var url = "{:U ( 'smile/smile/photos',['s_time'=>'s_s_time','e_time'=>'s_e_time','type'=>'s_type','status'=>'s_status'])}";
+            var url = "{:U ( 'smile/smile/photos',['s_time'=>'s_s_time','e_time'=>'s_e_time','type'=>'s_type','name'=>'s_name','mobile'=>'s_mobile'])}";
             var s_time = $('[name="s_time"]').val();
             var e_time = $('[name="e_time"]').val();
             var type = "{:input('type/d', 0)}";
-            var status = $('[name="status"]').val();
+            var name = $('[name="name"]').val();
+            var mobile = $('[name="mobile"]').val();
+
 
             if (s_time == '') {
                 url = url.replace('/s_time/s_s_time', '');
@@ -194,10 +206,16 @@
                 url = url.replace('s_type', type);
             }
 
-            if (status == '') {
-                url = url.replace('/status/s_status', '');
+            if (mobile == '') {
+                url = url.replace('/mobile/s_mobile', '');
             } else {
-                url = url.replace('s_status', status);
+                url = url.replace('s_mobile', mobile);
+            }
+
+            if (name == '') {
+                url = url.replace('/name/s_name', '');
+            } else {
+                url = url.replace('s_name', name);
             }
 
             url = url.replace(/[?&=]/g, '/');

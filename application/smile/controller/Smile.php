@@ -110,23 +110,20 @@ class Smile extends WebBase
     {
         $sTime = input('s_time', '2019-05-20');
         $eTime = input('e_time', '2039-05-20');
-        $uid = input('h5_user_id');
-        $status = input('status', -2);
-        $this->assign($status);
-        if (in_array($status, [-1, 0, 1])) {
-            $status = [$status];
+        $name = input('name');
+        $mobile = input('mobile');
+        if ($name && $mobile) {
+            $data_lists = H5Photo::with('user')->where('cate', 'endorse')->where('name', 'like', "%$name%")->where('mobile',$mobile)->whereBetweenTime('created_at', $sTime, $eTime)->order('vote_num desc')->paginate(20);
+        }else if($name){
+            $data_lists = H5Photo::with('user')->where('cate', 'endorse')->where('mobile',$mobile)->whereBetweenTime('created_at', $sTime, $eTime)->order('vote_num desc')->paginate(20);
+        }else if($mobile){
+            $data_lists = H5Photo::with('user')->where('cate', 'endorse')->where('name', 'like', "%$name%")->whereBetweenTime('created_at', $sTime, $eTime)->order('vote_num desc')->paginate(20);
         } else {
-            $status = [H5PhotoEnum::CHECK_SUCCESS, H5PhotoEnum::CHECK_FAIL, H5PhotoEnum::CHECKING];
-        }
-        if ($uid) {
-            $data_lists = H5Photo::with('user')->where('cate', 'photo')->where('h5_user_id', $uid)->paginate(20);
-        } else {
-            $data_lists = H5Photo::with('user')->where('cate', 'photo')->whereIn('status', $status)->whereBetweenTime('created_at', $sTime, $eTime)->order('vote_num desc')->paginate(20);
+            $data_lists = H5Photo::with('user')->where('cate', 'endorse')->whereBetweenTime('created_at', $sTime, $eTime)->order('vote_num desc')->paginate(20);
         }
         $page = $data_lists->render();
         $this->assign('_page', $page);
         $this->assign('data_lists', $data_lists);
-        return $this->fetch();
         return $this->fetch();
     }
 
@@ -144,7 +141,7 @@ class Smile extends WebBase
         // 上传失败获取错误信息
         H5Photo::create([
             'cate' => 'endorse',
-            'photo' => config('app_url').'uploads/'.$info->getSaveName(),
+            'photo' => config('app_url') . 'uploads/' . $info->getSaveName(),
             'name' => $name,
             'mobile' => $mobile,
             'created_at' => date('Y-m-d H:i:s'),
