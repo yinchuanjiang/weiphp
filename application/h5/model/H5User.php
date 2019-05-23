@@ -1,6 +1,7 @@
 <?php
 namespace app\h5\model;
 
+use app\h5\model\enum\H5PhotoEnum;
 use think\Model;
 
 /**
@@ -13,7 +14,7 @@ class H5User extends Model
 
     public function photo()
     {
-        return $this->hasOne('H5Photo','h5_user_id')->where('cate','photo');
+        return $this->hasOne('H5Photo','h5_user_id')->where('cate','photo')->where('status',H5PhotoEnum::CHECK_SUCCESS);
     }
 
 }
