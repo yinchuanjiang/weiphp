@@ -75,7 +75,11 @@
                             {if $vo.photo}
                             已参赛
                             {else /}
-                            未参赛
+                                {if count($vo.photos)}
+                                    已提交作品
+                                {else /}
+                                    未参赛
+                                {/if}
                             {/if}
                         </td>
                         <td>
