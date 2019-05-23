@@ -294,26 +294,16 @@
             let mobile = $('#mobile').val();
             let name = $('#name').val();
             if(!mobile || mobile.length != 11){
-//                swal({
-//                    text: '手机号格式不正确',
-//                    type: 'error'
-//                });
                 layer.msg('手机号格式不正确')
                 return;
             }
             if(!name){
-                swal({
-                    text: '姓名不能为空',
-                    type: 'error'
-                });
+                layer.msg('姓名不能为空')
                 return;
             }
             let files = document.getElementById('picture').files[0]
             if(!files) {
-                swal({
-                    text: '姓名不能为空',
-                    type: 'error'
-                });
+                layer.msg('姓名不能为空')
                 return;
             }
             let formdata = new FormData();
@@ -322,15 +312,10 @@
             formdata.append("name", name);
             axios.post('/smile/smile/upload.html',formdata).then(res => {
                 if(res.data.code == 200){
-                    swal({
-                        text: res.data.msg,
-                        type: 'success'
-                    });
+                    layer.msg(res.data.msg)
+                    window.location.reload();
                 }else {
-                    swal({
-                        text: res.data.msg,
-                        type: 'error'
-                    });
+                    layer.msg(res.data.msg)
                 }
             }).catch(error => {
                 swal({
