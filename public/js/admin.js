@@ -24,7 +24,7 @@ $(function () {
                             timer: 3000,
                         }).then(
                             function () {
-                                //window.location.reload();
+                                window.location.reload();
                             });
                     }
                 }).catch(error => {
