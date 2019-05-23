@@ -42,30 +42,15 @@
                 <input style="width:175px" type="datetime" name="e_time" class="text time mr-1 ml-1" value="{:input('e_time')}" placeholder="请选择时间"/>
                 <pre>  </pre>
 
-                <pre>  </pre>
-                <label class="mr-1 ml-1" style="align-items: start;">
-                    状态：
-                </label>
-                <select name="status" style="max-width:150px;padding:0">
-                    <option value="-2" }selected>选择状态</option>
-                    <option value="0" {eq name=":input('status')" value="0" }selected{
-                    /eq} >待审核</option>
-                    <option value="1" {eq name=":input('status')" value="1" }selected{
-                    /eq} >审核成功</option>
-                    <option value="2" {eq name=":input('status')" value="-1" }selected{
-                    /eq} >审核失败</option>
-
-                </select>
-                <pre>  </pre>
                 <label class="mr-1 ml-1" style="align-items: start;">
                     姓名：
                 </label>
-                <input style="width:175px" type="text" name="name" class="text time mr-1 ml-1" value="{:input('name')}" placeholder="输入姓名"/>
+                <input style="width:175px" type="text" name="name" class="text mr-1 ml-1" value="{:input('name')}" placeholder="输入姓名"/>
                 <pre>  </pre>
                 <label class="mr-1 ml-1" style="align-items: start;">
                     手机：
                 </label>
-                <input style="width:175px" type="text" name="mobile" class="text time mr-1 ml-1" value="{:input('mobile')}" placeholder="输入手机"/>
+                <input style="width:175px" type="text" name="mobile" class="text mr-1 ml-1" value="{:input('mobile')}" placeholder="输入手机"/>
                 <pre>  </pre>
                 <a href="javascript:void(0);" class="btn search_duo" style="margin-left:10px">搜索</a>
             </div>
@@ -132,8 +117,15 @@
         <div class="page"> {$_page|raw|default=''}</div>
     </section>
 </div>
-
-<!-- 用户分组弹框 -->
+<div class="group_html" style="display:none">
+    <div class="manage_group normal_dialog">
+        <div class="content">
+            <div class="picture">
+                <img src="" alt="" style="min-height: 360px">
+            </div>
+        </div>
+    </div>
+</div>
 <style>
     .see{
         width: 200px;
@@ -337,6 +329,14 @@
             }).catch(error => {
                 layer.msg('网络错误')
             })
+        })
+
+        //图片预览
+        $('.preview').click(function () {
+            var img = $(this).attr('src');
+            $('.picture img').attr('src',img)
+            var html = $('.group_html').html();
+            $.Dialog.open('作品预览', {width: 300, height: 450}, html);
         })
     })
 </script>

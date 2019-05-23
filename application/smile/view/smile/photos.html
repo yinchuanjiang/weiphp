@@ -209,7 +209,7 @@
         $('.preview').click(function () {
             var img = $(this).attr('src');
             $('.picture img').attr('src',img)
-            var html = $($('.group_html').html());
+            var html = $('.group_html').html();
             $.Dialog.open('作品预览', {width: 300, height: 450}, html);
         })
     })
