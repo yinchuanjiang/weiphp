@@ -305,6 +305,7 @@
                 layer.msg('姓名不能为空')
                 return;
             }
+            console.log('upload');
             let formdata = new FormData();
             formdata.append("file", $('input[name="file"]')[0].files[0]);
             formdata.append("mobile", mobile);

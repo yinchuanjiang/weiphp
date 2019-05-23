@@ -142,7 +142,6 @@ class Smile extends WebBase
         if (!$info)
             return show(400, '系统错误');
         // 上传失败获取错误信息
-        dump($name);die;
         H5Photo::create([
             'cate' => 'endorse',
             'photo' => config('app_url').'uploads/'.$info->getSaveName(),
