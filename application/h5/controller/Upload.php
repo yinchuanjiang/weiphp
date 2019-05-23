@@ -7,6 +7,7 @@
  */
 namespace app\h5\controller;
 
+use app\h5\model\enum\H5PhotoEnum;
 use app\h5\model\H5User;
 use think\Controller;
 
@@ -23,7 +24,7 @@ class Upload extends Controller{
         $user = H5User::where('openid',$openid)->find();
         if(!$user)
             return show(400,'非法操作');
-        if($user->photo()->count())
+        if($user->photo()->where('status',H5PhotoEnum::CHECK_SUCCESS)->count())
             return show(300,'您已经上传过了');
         // 获取表单上传文件 例如上传了001.jpg
         $file = request()->file('upload');
@@ -36,22 +37,5 @@ class Upload extends Controller{
             // 上传失败获取错误信息
         $user->photo()->save(['photo' => config('app_url').'uploads/'.$info->getSaveName(),'created_at' => date('Y-m-d H:i:s')]);
         return show(200,'上传成功');
-    }
-
-    //校验是否需要上传
-    public function needUpload()
-    {
-        if (request()->isOptions()) {
-            exit();
-        }
-        $openid = input('openid',null);
-        if(!$openid)
-            return show(400,'非法操作1');
-        $user = H5User::where('openid',$openid)->find();
-        if(!$user)
-            return show(400,'非法操作2');
-        if($user->photo()->count())
-            return show(300,'您已经上传过了');
-        return show(200,'可以上传');
     }
 }

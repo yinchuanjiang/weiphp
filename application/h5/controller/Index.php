@@ -2,6 +2,7 @@
 
 namespace app\h5\controller;
 
+use app\h5\model\enum\H5PhotoEnum;
 use app\h5\model\H5Photo;
 use app\h5\model\H5PhotoVote;
 use app\h5\model\H5User;
@@ -101,7 +102,7 @@ class Index extends Controller
         if(!$user)
             return show(400,'非法请求');
         if (in_array($type, ['hot', 'new'])) {
-            $data = H5Photo::where('cate', $cate)->order($order)->with(['user', 'votes' => function ($query) {
+            $data = H5Photo::where('cate', $cate)->where('status',H5PhotoEnum::CHECK_SUCCESS)->order($order)->with(['user', 'votes' => function ($query) {
                 $query->with('voter')->whereTime('created_at', 'today');
             }])->page($page,8)->select();
             //处理今天是否投过票
@@ -113,9 +114,7 @@ class Index extends Controller
                 }
             }
         } else {
-            $openid = input('openid');
-            $user = H5User::where('openid', $openid)->find();
-            $data = H5Photo::where('cate', $cate)->where('h5_user_id', $user->id)->order($order)->with(['user', 'votes' => ['voter']])->find();
+            $data = H5Photo::where('cate', $cate)->where('status',H5PhotoEnum::CHECK_SUCCESS)->where('h5_user_id', $user->id)->order($order)->with(['user', 'votes' => ['voter']])->find();
         }
         return show(200, '获取成功', $data);
     }

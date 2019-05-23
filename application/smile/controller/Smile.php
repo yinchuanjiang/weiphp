@@ -3,6 +3,7 @@
 namespace app\smile\controller;
 
 use app\common\controller\WebBase;
+use app\h5\model\enum\H5PhotoEnum;
 use app\h5\model\H5Photo;
 use app\h5\model\H5User;
 
@@ -75,7 +76,7 @@ class Smile extends WebBase
         if(in_array($status,[-1,0,1])){
             $status = [$status];
         }else{
-            $status = [-1,0,1];
+            $status = [H5PhotoEnum::CHECK_SUCCESS,H5PhotoEnum::CHECK_FAIL,H5PhotoEnum::CHECKING];
         }
         if ($uid) {
             $data_lists = H5Photo::with('user')->where('cate','photo')->where('h5_user_id', $uid)->paginate(20);
