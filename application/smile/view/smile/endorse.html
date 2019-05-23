@@ -319,7 +319,7 @@
             formdata.append("file", $('input[name="file"]')[0].files[0]);
             formdata.append("mobile", mobile);
             formdata.append("name", name);
-            axios.post('/simile/simile/upload.html',formdata).then(res => {
+            axios.post('/smile/smile/upload.html',formdata).then(res => {
                 if(res.data.code == 200){
                     swal({
                         text: res.data.msg,
