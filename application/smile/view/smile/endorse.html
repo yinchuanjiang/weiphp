@@ -318,10 +318,7 @@
                     layer.msg(res.data.msg)
                 }
             }).catch(error => {
-                swal({
-                    text: '网络错误',
-                    type: 'error'
-                });
+                layer.msg('网络错误')
             })
         })
     })
