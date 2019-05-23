@@ -244,7 +244,7 @@
             $.Dialog.open('添加作品', {width: 500, height: 700}, html);
         })
 
-        $('#picture').on('change',function () {
+        $('body').on('#picture','change',function () {
             console.log('change');
             let files = document.getElementById('picture').files[0]
             if(!files)
