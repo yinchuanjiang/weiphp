@@ -16,6 +16,7 @@ $(function () {
         }).then(dismiss => {
             if(dismiss.dismiss !== 'cancel') {
                 axios.get(url).then(res => {
+                    console.log(res)
                     if (res.status == 200) {
                         swal({
                             text: res.data.msg,

@@ -94,7 +94,6 @@ class Smile extends WebBase
     {
         $id = input('id');
         $status = input('status');
-        die();
         if(!$id || $status)
             return show(400, '非法操作');
         $photo = H5Photo::find($id);
