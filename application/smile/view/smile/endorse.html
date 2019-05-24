@@ -112,10 +112,11 @@
         </div>
     </div>
 </div>
+<canvas id="draw_img" width="200" height="320"></canvas>
 <style>
     .see{
-        width: 200px;
-        height: 320px;
+        width: 308px;
+        height: 523px;
         margin: 0 auto;
         position: relative;
         overflow: hidden;
@@ -146,7 +147,48 @@
             autoclose: true
         });
 
-
+        function drawImg(faceBase64){
+            console.log('draw');
+            //生成预览图片
+            let canvas = document.getElementById("draw_img");
+            if (canvas.getContext) {
+                //获取对应的CanvasRenderingContext2D对象(画笔)
+                let ctx = canvas.getContext("2d");
+                ctx.clearRect(0,0,canvas.width,canvas.height);
+                //创建新的图片对象
+                let imgP = new Image();
+                //指定图片的URL
+                imgP.src = faceBase64;
+                //浏览器加载图片完毕后再绘制图片
+                imgP.onload = function () {
+                    let w = 308;
+                    let h = 523;
+                    //以Canvas画布上的坐标(0,0)为起始点，绘制图
+                    let iwidth = $('.upload').offsetWidth;
+                    let iheight = $('.upload')..offsetHeight;
+//                        let iwidth = imgP.width;
+//                        let iheight = imgP.height;
+                    if (iwidth >= iheight) {
+                        iheight = h;
+                    } else {
+                        iwidth = w;
+                    }
+                    ctx.drawImage(imgP, 0, 0, iwidth, iheight);
+                    let imgT = new Image();
+                    imgT.src = '/static/poster2.png';
+                    imgT.onload = function () {
+                        ctx.drawImage(imgT, 0, 0, w, h);
+                        let prewBase64 = canvas.toDataURL();
+                        $('.see img').attr('src', prewBase64).show();
+                    }
+                };
+//                    var canvas = document.getElementById("preview");
+//                    canvas.toBlob(function (blob) {
+//                        console.log(blob)
+//                    });
+//                    console.log(base64);
+            }
+        }
         //search_type搜索功能
         $("#search").click(function () {
             var url = "{:U ( 'smile/smile/photos',['key'=>'s_key','type'=>$type])}";
@@ -230,7 +272,7 @@
                                         </div>
                                     </div>
                                     <div class="see">
-                                        <img src="" alt="" style="display: none">
+                                        <img src="" alt="" style="display: none" class="upload">
                                     </div>
                                     <div class="btn_wrap"><span class="btn setting_group">提交作品</span></div>
                                 </div>
@@ -274,14 +316,14 @@
                 img.onload = function () {
                     that.width = img.width;
                     that.height = img.height;
-                    if (img.width > img.height) {
+                    if (img.width >= img.height) {
                         $('.see img').css('height', '100%')
                     } else {
                         $('.see img').css('width', '100%')
                     }
                 }
                 let arr = imgFile.split(',')
-                $('.see img').attr('src', 'data:image/jpeg;base64,' + arr[1]).show();
+                drawImg('data:image/jpeg;base64,' + arr[1]);
             }
         })
         //提交作品
