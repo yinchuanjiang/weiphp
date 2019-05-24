@@ -316,12 +316,8 @@
                 img.onload = function () {
                     that.width = img.width;
                     that.height = img.height;
-                    if (img.width >= img.height) {
-                        $('.see img').css('height', '100%')
-                    } else {
-                        $('.see img').css('width', '100%')
-                    }
                 }
+                console.log(imgFile)
                 let arr = imgFile.split(',')
                 drawImg('data:image/jpeg;base64,' + arr[1]);
             }
