@@ -157,6 +157,9 @@ class Index extends Controller
     //详情
     public function info()
     {
+        if (request()->isOptions()) {
+            exit();
+        }
         $id = input('id');
         $cate = input('cate');
         $openid = input('openid');
