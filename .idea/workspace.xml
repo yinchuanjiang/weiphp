@@ -15,11 +15,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/h5/controller/Index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1305">
-              <caret line="116" column="92" lean-forward="false" selection-start-line="116" selection-start-column="92" selection-end-line="116" selection-end-column="92" />
+            <state relative-caret-position="546">
+              <caret line="117" column="5" lean-forward="true" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
               <folding>
                 <element signature="e#37#71#0#PHP" expanded="true" />
               </folding>
@@ -42,8 +42,8 @@
       <file leaf-file-name="Smile.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/smile/controller/Smile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="110" column="26" lean-forward="true" selection-start-line="110" selection-start-column="26" selection-end-line="110" selection-end-column="26" />
+            <state relative-caret-position="431">
+              <caret line="116" column="25" lean-forward="true" selection-start-line="116" selection-start-column="25" selection-end-line="116" selection-end-column="25" />
               <folding>
                 <element signature="e#40#74#0#PHP" expanded="true" />
               </folding>
@@ -51,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="endorse.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="endorse.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/smile/view/smile/endorse.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="99" column="24" lean-forward="true" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
+            <state relative-caret-position="155">
+              <caret line="97" column="29" lean-forward="true" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
               <folding>
                 <element signature="n#style#0;n#label#0;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
@@ -66,21 +66,21 @@
                 <element signature="n#style#0;n#input#3;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <marker date="1558595777304" expanded="true" signature="7196:7226" ph="..." />
-                <marker date="1558595777304" expanded="true" signature="7196:9230" ph="..." />
-                <marker date="1558595777304" expanded="true" signature="7265:9199" ph="..." />
-                <marker date="1558595777304" expanded="true" signature="7319:9164" ph="..." />
-                <marker date="1558595777304" expanded="true" signature="7384:7834" ph="..." />
-                <marker date="1558595777304" expanded="true" signature="7484:7538" ph="..." />
-                <marker date="1558595777304" expanded="true" signature="7614:7791" ph="..." />
-                <marker date="1558595777304" expanded="true" signature="7899:8327" ph="..." />
-                <marker date="1558595777304" expanded="true" signature="7997:8051" ph="..." />
-                <marker date="1558595777304" expanded="true" signature="8125:8284" ph="..." />
-                <marker date="1558595777304" expanded="true" signature="8392:8838" ph="..." />
-                <marker date="1558595777304" expanded="true" signature="8493:8547" ph="..." />
-                <marker date="1558595777304" expanded="true" signature="8621:8795" ph="..." />
-                <marker date="1558595777304" expanded="true" signature="8892:9017" ph="..." />
-                <marker date="1558595777304" expanded="true" signature="8960:8973" ph="..." />
+                <marker date="1558595951684" expanded="true" signature="7196:7226" ph="..." />
+                <marker date="1558595951684" expanded="true" signature="7196:9230" ph="..." />
+                <marker date="1558595951684" expanded="true" signature="7265:9199" ph="..." />
+                <marker date="1558595951684" expanded="true" signature="7319:9164" ph="..." />
+                <marker date="1558595951684" expanded="true" signature="7384:7834" ph="..." />
+                <marker date="1558595951684" expanded="true" signature="7484:7538" ph="..." />
+                <marker date="1558595951684" expanded="true" signature="7614:7791" ph="..." />
+                <marker date="1558595951684" expanded="true" signature="7899:8327" ph="..." />
+                <marker date="1558595951684" expanded="true" signature="7997:8051" ph="..." />
+                <marker date="1558595951684" expanded="true" signature="8125:8284" ph="..." />
+                <marker date="1558595951684" expanded="true" signature="8392:8838" ph="..." />
+                <marker date="1558595951684" expanded="true" signature="8493:8547" ph="..." />
+                <marker date="1558595951684" expanded="true" signature="8621:8795" ph="..." />
+                <marker date="1558595951684" expanded="true" signature="8892:9017" ph="..." />
+                <marker date="1558595951684" expanded="true" signature="8960:8973" ph="..." />
               </folding>
             </state>
           </provider>
@@ -204,14 +204,14 @@
         <option value="$PROJECT_DIR$/application/common.php" />
         <option value="$PROJECT_DIR$/public/js/admin.js" />
         <option value="$PROJECT_DIR$/application/h5/model/enum/H5PhotoEnum.php" />
-        <option value="$PROJECT_DIR$/application/h5/controller/Index.php" />
         <option value="$PROJECT_DIR$/application/h5/controller/Upload.php" />
         <option value="$PROJECT_DIR$/application/h5/model/H5User.php" />
         <option value="$PROJECT_DIR$/application/smile/view/smile/lists.html" />
         <option value="$PROJECT_DIR$/application/common/view/base/head.html" />
-        <option value="$PROJECT_DIR$/application/smile/controller/Smile.php" />
         <option value="$PROJECT_DIR$/application/smile/view/smile/photos.html" />
         <option value="$PROJECT_DIR$/application/smile/view/smile/endorse.html" />
+        <option value="$PROJECT_DIR$/application/smile/controller/Smile.php" />
+        <option value="$PROJECT_DIR$/application/h5/controller/Index.php" />
       </list>
     </option>
   </component>
@@ -368,55 +368,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weiphp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weiphp" />
+              <option name="myItemId" value="h5" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weiphp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weiphp" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -518,12 +474,12 @@
       <updated>1558316518481</updated>
       <workItem from="1558316520160" duration="17858000" />
       <workItem from="1558405364249" duration="195000" />
-      <workItem from="1558405570897" duration="56504000" />
+      <workItem from="1558405570897" duration="58437000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74557000" />
+    <option name="totallyTimeSpent" value="76490000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1177" extended-state="6" />
@@ -916,16 +872,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/h5/controller/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="116" column="92" lean-forward="false" selection-start-line="116" selection-start-column="92" selection-end-line="116" selection-end-column="92" />
-          <folding>
-            <element signature="e#37#71#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/common/view/base/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -972,16 +918,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/smile/controller/Smile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="110" column="26" lean-forward="true" selection-start-line="110" selection-start-column="26" selection-end-line="110" selection-end-column="26" />
-          <folding>
-            <element signature="e#40#74#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/smile/view/smile/photos.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -996,8 +932,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/smile/view/smile/endorse.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="99" column="24" lean-forward="true" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
+        <state relative-caret-position="155">
+          <caret line="97" column="29" lean-forward="true" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
           <folding>
             <element signature="n#style#0;n#label#0;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
@@ -1008,21 +944,41 @@
             <element signature="n#style#0;n#input#3;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <marker date="1558595777304" expanded="true" signature="7196:7226" ph="..." />
-            <marker date="1558595777304" expanded="true" signature="7196:9230" ph="..." />
-            <marker date="1558595777304" expanded="true" signature="7265:9199" ph="..." />
-            <marker date="1558595777304" expanded="true" signature="7319:9164" ph="..." />
-            <marker date="1558595777304" expanded="true" signature="7384:7834" ph="..." />
-            <marker date="1558595777304" expanded="true" signature="7484:7538" ph="..." />
-            <marker date="1558595777304" expanded="true" signature="7614:7791" ph="..." />
-            <marker date="1558595777304" expanded="true" signature="7899:8327" ph="..." />
-            <marker date="1558595777304" expanded="true" signature="7997:8051" ph="..." />
-            <marker date="1558595777304" expanded="true" signature="8125:8284" ph="..." />
-            <marker date="1558595777304" expanded="true" signature="8392:8838" ph="..." />
-            <marker date="1558595777304" expanded="true" signature="8493:8547" ph="..." />
-            <marker date="1558595777304" expanded="true" signature="8621:8795" ph="..." />
-            <marker date="1558595777304" expanded="true" signature="8892:9017" ph="..." />
-            <marker date="1558595777304" expanded="true" signature="8960:8973" ph="..." />
+            <marker date="1558595951684" expanded="true" signature="7196:7226" ph="..." />
+            <marker date="1558595951684" expanded="true" signature="7196:9230" ph="..." />
+            <marker date="1558595951684" expanded="true" signature="7265:9199" ph="..." />
+            <marker date="1558595951684" expanded="true" signature="7319:9164" ph="..." />
+            <marker date="1558595951684" expanded="true" signature="7384:7834" ph="..." />
+            <marker date="1558595951684" expanded="true" signature="7484:7538" ph="..." />
+            <marker date="1558595951684" expanded="true" signature="7614:7791" ph="..." />
+            <marker date="1558595951684" expanded="true" signature="7899:8327" ph="..." />
+            <marker date="1558595951684" expanded="true" signature="7997:8051" ph="..." />
+            <marker date="1558595951684" expanded="true" signature="8125:8284" ph="..." />
+            <marker date="1558595951684" expanded="true" signature="8392:8838" ph="..." />
+            <marker date="1558595951684" expanded="true" signature="8493:8547" ph="..." />
+            <marker date="1558595951684" expanded="true" signature="8621:8795" ph="..." />
+            <marker date="1558595951684" expanded="true" signature="8892:9017" ph="..." />
+            <marker date="1558595951684" expanded="true" signature="8960:8973" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/smile/controller/Smile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="116" column="25" lean-forward="true" selection-start-line="116" selection-start-column="25" selection-end-line="116" selection-end-column="25" />
+          <folding>
+            <element signature="e#40#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/h5/controller/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="117" column="5" lean-forward="true" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
+          <folding>
+            <element signature="e#37#71#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
