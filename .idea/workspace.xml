@@ -15,10 +15,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/h5/controller/Index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3588">
+            <state relative-caret-position="1495">
               <caret line="170" column="42" lean-forward="true" selection-start-line="170" selection-start-column="42" selection-end-line="170" selection-end-column="42" />
               <folding>
                 <element signature="e#37#71#0#PHP" expanded="true" />
@@ -54,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Smile.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Smile.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/smile/controller/Smile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-489">
-              <caret line="116" column="25" lean-forward="true" selection-start-line="116" selection-start-column="25" selection-end-line="116" selection-end-column="25" />
+            <state relative-caret-position="431">
+              <caret line="156" column="32" lean-forward="false" selection-start-line="156" selection-start-column="32" selection-end-line="156" selection-end-column="32" />
               <folding>
                 <element signature="e#40#74#0#PHP" expanded="true" />
               </folding>
@@ -214,11 +214,11 @@
         <option value="$PROJECT_DIR$/application/smile/view/smile/lists.html" />
         <option value="$PROJECT_DIR$/application/common/view/base/head.html" />
         <option value="$PROJECT_DIR$/application/smile/view/smile/photos.html" />
-        <option value="$PROJECT_DIR$/application/smile/controller/Smile.php" />
         <option value="$PROJECT_DIR$/application/h5/view/index/index.html" />
         <option value="$PROJECT_DIR$/application/h5/controller/Upload.php" />
         <option value="$PROJECT_DIR$/application/smile/view/smile/endorse.html" />
         <option value="$PROJECT_DIR$/application/h5/controller/Index.php" />
+        <option value="$PROJECT_DIR$/application/smile/controller/Smile.php" />
       </list>
     </option>
   </component>
@@ -521,12 +521,12 @@
       <updated>1558316518481</updated>
       <workItem from="1558316520160" duration="17858000" />
       <workItem from="1558405364249" duration="195000" />
-      <workItem from="1558405570897" duration="69215000" />
+      <workItem from="1558405570897" duration="69426000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87268000" />
+    <option name="totallyTimeSpent" value="87479000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1177" extended-state="6" />
@@ -1006,16 +1006,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/h5/controller/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3588">
-          <caret line="170" column="42" lean-forward="true" selection-start-line="170" selection-start-column="42" selection-end-line="170" selection-end-column="42" />
-          <folding>
-            <element signature="e#37#71#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/h5/controller/Upload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
@@ -1028,10 +1018,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/smile/controller/Smile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-489">
-          <caret line="116" column="25" lean-forward="true" selection-start-line="116" selection-start-column="25" selection-end-line="116" selection-end-column="25" />
+        <state relative-caret-position="431">
+          <caret line="156" column="32" lean-forward="false" selection-start-line="156" selection-start-column="32" selection-end-line="156" selection-end-column="32" />
           <folding>
             <element signature="e#40#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/h5/controller/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1495">
+          <caret line="170" column="42" lean-forward="true" selection-start-line="170" selection-start-column="42" selection-end-line="170" selection-end-column="42" />
+          <folding>
+            <element signature="e#37#71#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
