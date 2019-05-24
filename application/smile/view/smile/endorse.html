@@ -164,11 +164,13 @@
                     let w = 308;
                     let h = 523;
                     //以Canvas画布上的坐标(0,0)为起始点，绘制图
+                    canvas.width = imgP.width;
+                    canvas.height = imgP.height;
                     let iwidth = imgP.width;
                     let iheight = imgP.height;
 
                     console.log('iwidth:'+iwidth+'iheight:'+iheight)
-                    ctx.drawImage(imgP, 0, 0, 308, iheight);
+                    ctx.drawImage(imgP, 0, 0, iwidth, iheight);
                     let imgT = new Image();
                     imgT.src = '/static/poster2.png';
                     imgT.onload = function () {
