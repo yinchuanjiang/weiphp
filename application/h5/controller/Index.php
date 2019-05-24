@@ -167,10 +167,10 @@ class Index extends Controller
         $user = H5User::where('openid',$openid)->find();
         if(!$user)
             return show(400,'非法请求');
-        $photo = H5Photo::with('user')->find($id);
-        dump($photo);
+        $photo = H5Photo::find($id);
+        if($photo->cate == 'photo')
+            $photo->load('user');
         $myVotes = H5PhotoVote::where('vote_user_id',$user->id)->whereTime('created_at','today')->column('h5_photo_id');
-        dump($myVotes);
         $photo->is_voted = false;
         if(in_array($photo->id,$myVotes)){
             $photo->is_voted = true;
