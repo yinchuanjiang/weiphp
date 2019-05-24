@@ -161,9 +161,8 @@ class Index extends Controller
             exit();
         }
         $id = input('id');
-        $cate = input('cate');
         $openid = input('openid');
-        if(!$id || !$cate || !$openid)
+        if(!$id || !$openid)
             return show(400, '非法请求');
         $user = H5User::where('openid',$openid)->find();
         if(!$user)
