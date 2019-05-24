@@ -56761,6 +56761,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             this.endLeft = 0;
             this.endTop = 0;
             var that = this;
+            if (this.faceBase64) {
+                this.$refs.upload.style.left = 0 + 'px';
+                this.$refs.upload.style.top = 0 + 'px';
+                this.$refs.upload.style.height = 'auto';
+                this.$refs.upload.style.width = 'auto';
+            }
             var files = document.getElementById('file').files[0];
             if (!files) return;
             var name = document.getElementById('file').files[0].name;
@@ -56782,6 +56788,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                 return false;
             }
 
+            var divW = this.$refs.cropper.offsetWidth;
+            var divH = this.$refs.cropper.offsetHeight;
             //转码base64
             var reader = new FileReader();
             var imgFile = void 0;
@@ -56794,7 +56802,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                 img.onload = function () {
                     that.width = img.width;
                     that.height = img.height;
-                    if (img.width > img.height) {
+                    //                        if (img.width/img.height >= img.height) {
+                    if (img.width / img.height >= divW / divH) {
                         $('.upload').css('height', '100%');
                     } else {
                         $('.upload').css('width', '100%');
@@ -56829,18 +56838,18 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                     var iheight = that.$refs.upload.offsetHeight;
                     //                        let iwidth = img.width;
                     //                        let iheight = img.height;
-                    if (iwidth > iheight) {
+                    if (iwidth >= iheight) {
                         iheight = h;
                     } else {
                         iwidth = w;
                     }
+                    console.log('left:' + that.left + 'top:' + that.top + 'iw:' + iwidth + 'ih:' + iheight);
                     ctx.drawImage(imgP, that.left, that.top, iwidth, iheight);
                     var imgT = new Image();
                     imgT.src = '/static/poster.png';
                     imgT.onload = function () {
                         ctx.drawImage(imgT, 0, 0, w, h);
                         that.prewBase64 = canvas.toDataURL();
-                        console.log(that.prewBase64);
                     };
                 };
                 //                    var canvas = document.getElementById("preview");
@@ -56908,12 +56917,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             var divH = this.$refs.cropper.offsetHeight;
             var imgW = e.target.offsetWidth;
             var imgH = e.target.offsetHeight;
-            //                console.log('endTop=>'+this.endTop)
-            //                console.log('moveY=>'+this.moveY)
-            //                console.log('top=>'+this.top)
-            //                console.log('imgH=>'+imgH)
-            //                console.log('divH=>'+divH)
-            if (this.width > this.height) {
+            console.log('endTop=>' + this.endTop);
+            console.log('moveY=>' + this.moveY);
+            console.log('top=>' + this.top);
+            console.log('imgH=>' + imgH);
+            console.log('divH=>' + divH);
+            //                if (this.width >= this.height) {
+            if (this.width / this.height >= divW / divH) {
                 if (this.moveX < 0 && imgW + this.moveX + this.left > divW) {
                     this.left = this.moveX + this.endLeft;
                 }

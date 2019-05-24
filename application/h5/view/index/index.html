@@ -25,13 +25,13 @@
             sharelayer: 'sharelayer.png', // 分享遮罩层路径
         };
         (function () {
-//        var openid = 'oKwWb1JwyBYICmRxZsFFzzpDprnM';
+//            var openid = 'oKwWb1JwyBYICmRxZsFFzzpDprnM';
             var openid = '{$openid}';
             window.localStorage.setItem('openid',openid);
-//        var avatar = 'http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIKWlTsamHwrSicXsSwdfOCBQwQTSYWtNPNXOqn5ffUsiak7dq00xShpZLpqPKN9ZqEqibmowiaQQJCvg/132';
-//        var nickname = '江敏';
-            var avatar = '{$avatar}';
-            var nickname = '{$nickname}';
+//            var avatar = 'http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIKWlTsamHwrSicXsSwdfOCBQwQTSYWtNPNXOqn5ffUsiak7dq00xShpZLpqPKN9ZqEqibmowiaQQJCvg/132';
+//            var nickname = '江敏';
+        var avatar = '{$avatar}';
+        var nickname = '{$nickname}';
             if(!avatar){
                 window.localStorage.removeItem('avatar');
             }else {
@@ -43,9 +43,9 @@
                 window.localStorage.setItem('nickname',avatar);
             }
 
-            if(avatar && nickname){
-                location.href = '#/photo';
-            }
+//        if(avatar && nickname){
+//            location.href = '#/photo';
+//        }
 
             var doc = document.documentElement, w = APP_CONFIG.designWidth, b = APP_CONFIG.base
 
