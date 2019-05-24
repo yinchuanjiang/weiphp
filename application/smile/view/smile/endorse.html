@@ -166,11 +166,6 @@
                     //以Canvas画布上的坐标(0,0)为起始点，绘制图
                     let iwidth = imgP.width;
                     let iheight = imgP.height;
-                    if (iwidth >= iheight) {
-                        iheight = h;
-                    } else {
-                        iwidth = w;
-                    }
                     ctx.drawImage(imgP, 0, 0, iwidth, iheight);
                     let imgT = new Image();
                     imgT.src = '/static/poster2.png';
