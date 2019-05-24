@@ -26,6 +26,9 @@ class Upload extends Controller{
             return show(400,'非法操作');
         if($user->photo()->where('status',H5PhotoEnum::CHECK_SUCCESS)->count())
             return show(300,'您已经上传过了');
+        if($user->photo()->where('status',H5PhotoEnum::CHECKING)->count())
+            return show(300,'您的作品正在审核中，请稍后再试');
+
         // 获取表单上传文件 例如上传了001.jpg
         $file = request()->file('upload');
         // 移动到框架应用根目录/uploads/ 目录下
