@@ -114,7 +114,7 @@
 </div>
 <canvas id="draw_img" width="308" height="523"></canvas>
 <style>
-    .see{
+    .see {
         width: 308px;
         height: 523px;
         margin: 0 auto;
@@ -147,14 +147,14 @@
             autoclose: true
         });
 
-        function drawImg(faceBase64){
+        function drawImg(faceBase64) {
             console.log('draw');
             //生成预览图片
             let canvas = document.getElementById("draw_img");
             if (canvas.getContext) {
                 //获取对应的CanvasRenderingContext2D对象(画笔)
                 let ctx = canvas.getContext("2d");
-                ctx.clearRect(0,0,canvas.width,canvas.height);
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
                 //创建新的图片对象
                 let imgP = new Image();
                 //指定图片的URL
@@ -164,10 +164,8 @@
                     let w = 308;
                     let h = 523;
                     //以Canvas画布上的坐标(0,0)为起始点，绘制图
-                    let iwidth = $('.upload').offsetWidth;
-                    let iheight = $('.upload').offsetHeight;
-//                        let iwidth = imgP.width;
-//                        let iheight = imgP.height;
+                    let iwidth = imgP.width;
+                    let iheight = imgP.height;
                     if (iwidth >= iheight) {
                         iheight = h;
                     } else {
@@ -189,6 +187,7 @@
 //                    console.log(base64);
             }
         }
+
         //search_type搜索功能
         $("#search").click(function () {
             var url = "{:U ( 'smile/smile/photos',['key'=>'s_key','type'=>$type])}";
@@ -281,10 +280,10 @@
             $.Dialog.open('添加作品', {width: 500, height: 700}, html);
         })
 
-        $('body').on('change','#picture',function () {
+        $('body').on('change', '#picture', function () {
             let that = this;
             let files = document.getElementById('picture').files[0]
-            if(!files)
+            if (!files)
                 return;
             let name = document.getElementById('picture').files[0].name
             let arr = name.split('.')
@@ -317,25 +316,23 @@
                     that.width = img.width;
                     that.height = img.height;
                 }
-                console.log(imgFile)
-                let arr = imgFile.split(',')
-                drawImg('data:image/jpeg;base64,' + arr[1]);
+                drawImg(imgFile);
             }
         })
         //提交作品
-        $('body').on('click','.setting_group',function () {
+        $('body').on('click', '.setting_group', function () {
             let mobile = $('#mobile').val();
             let name = $('#name').val();
-            if(!mobile || mobile.length != 11){
+            if (!mobile || mobile.length != 11) {
                 layer.msg('手机号格式不正确')
                 return;
             }
-            if(!name){
+            if (!name) {
                 layer.msg('姓名不能为空')
                 return;
             }
             let files = document.getElementById('picture').files[0]
-            if(!files) {
+            if (!files) {
                 layer.msg('姓名不能为空')
                 return;
             }
@@ -343,11 +340,11 @@
             formdata.append("file", $('input[name="file"]')[0].files[0]);
             formdata.append("mobile", mobile);
             formdata.append("name", name);
-            axios.post('/smile/smile/upload.html',formdata).then(res => {
-                if(res.data.code == 200){
+            axios.post('/smile/smile/upload.html', formdata).then(res => {
+                if (res.data.code == 200) {
                     layer.msg(res.data.msg)
                     window.location.reload();
-                }else {
+                } else {
                     layer.msg(res.data.msg)
                 }
             }).catch(error => {
@@ -358,7 +355,7 @@
         //图片预览
         $('.preview').click(function () {
             var img = $(this).attr('src');
-            $('.picture img').attr('src',img)
+            $('.picture img').attr('src', img)
             var html = $('.group_html').html();
             $.Dialog.open('作品预览', {width: 300, height: 450}, html);
         })
