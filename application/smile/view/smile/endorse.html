@@ -335,20 +335,25 @@
                 layer.msg('姓名不能为空')
                 return;
             }
-            let formdata = new FormData();
-            formdata.append("file", $('input[name="file"]')[0].files[0]);
-            formdata.append("mobile", mobile);
-            formdata.append("name", name);
-            axios.post('/smile/smile/upload.html', formdata).then(res => {
-                if (res.data.code == 200) {
-                    layer.msg(res.data.msg)
-                    window.location.reload();
-                } else {
-                    layer.msg(res.data.msg)
-                }
-            }).catch(error => {
-                layer.msg('网络错误')
-            })
+            let canvas = document.getElementById("draw_img");
+            if (canvas.getContext) {
+                canvas.toBlob(function (blob) {
+                    let formdata = new FormData();
+                    formdata.append("upload", blob);
+                    formdata.append("mobile", mobile);
+                    formdata.append("name", name);
+                    axios.post('/smile/smile/upload.html', formdata).then(res => {
+                        if (res.data.code == 200) {
+                            layer.msg(res.data.msg)
+                            window.location.reload();
+                        } else {
+                            layer.msg(res.data.msg)
+                        }
+                    }).catch(error => {
+                        layer.msg('网络错误')
+                    })
+                });
+            }
         })
 
         //图片预览
