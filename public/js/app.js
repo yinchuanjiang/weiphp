@@ -56858,26 +56858,28 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         },
         confirmupload: function confirmupload() {
             var that = this;
-            var canvas = document.getElementById("preview");
-            canvas.toBlob(function (blob) {
-                var formdata = new FormData();
-                formdata.append("upload", blob);
-                formdata.append("openid", __WEBPACK_IMPORTED_MODULE_0__helpers_openid__["a" /* default */].getOpenid());
-                formdata.append("avatar", __WEBPACK_IMPORTED_MODULE_0__helpers_openid__["a" /* default */].getAvatar());
-                formdata.append("nickname", __WEBPACK_IMPORTED_MODULE_0__helpers_openid__["a" /* default */].getNickname());
-                axios.post(__WEBPACK_IMPORTED_MODULE_1__config__["a" /* APP_URL */] + 'h5/upload/upload', formdata).then(function (res) {
-                    if (res.data.code == 200 || res.data.code == 300) {
-                        layer.msg(res.data.msg);
-                        that.timer = setTimeout(function () {
-                            that.$router.push('/list-photo/hot');
-                        }, 1000);
-                    } else {
+            var canvas = document.getElementById("draw_img");
+            if (canvas.getContext) {
+                canvas.toBlob(function (blob) {
+                    var formdata = new FormData();
+                    formdata.append("upload", blob);
+                    formdata.append("openid", __WEBPACK_IMPORTED_MODULE_0__helpers_openid__["a" /* default */].getOpenid());
+                    formdata.append("avatar", __WEBPACK_IMPORTED_MODULE_0__helpers_openid__["a" /* default */].getAvatar());
+                    formdata.append("nickname", __WEBPACK_IMPORTED_MODULE_0__helpers_openid__["a" /* default */].getNickname());
+                    axios.post(__WEBPACK_IMPORTED_MODULE_1__config__["a" /* APP_URL */] + 'h5/upload/upload', formdata).then(function (res) {
+                        if (res.data.code == 200 || res.data.code == 300) {
+                            layer.msg(res.data.msg);
+                            that.timer = setTimeout(function () {
+                                that.$router.push('/list-photo/hot');
+                            }, 1000);
+                        } else {
+                            layer.msg('系统错误');
+                        }
+                    }).catch(function (error) {
                         layer.msg('系统错误');
-                    }
-                }).catch(function (error) {
-                    layer.msg('系统错误');
+                    });
                 });
-            });
+            }
         },
         rule: function rule() {
             $('.h5-rule').show();
