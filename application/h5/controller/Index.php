@@ -30,10 +30,21 @@ class Index extends Controller
             abort(404);
         $openid = $data['openid'];
         $this->saveUser($openid);
-        $this->assign('openid', $openid);
-        $this->assign('avatar', '');
-        $this->assign('nickname', '');
-        return $this->fetch();
+        return $this->redirect('/h5/index/home?openid='.$openid);
+    }
+
+    public function home()
+    {
+        $openid = input('openid');
+        if(!$openid)
+            return $this->redirect('/h5/auth/auth');
+        $user = H5User::where('openid',$openid)->find();
+        if(!$user)
+            return $this->redirect('/h5/auth/auth');
+        $this->assign('openid', $user->openid);
+        $this->assign('avatar', $user->avatar);
+        $this->assign('nickname', $user->nickname);
+        return $this->fetch('index');
     }
 
     //photo 拍照页面授权
@@ -74,14 +85,15 @@ class Index extends Controller
         if (!isset($info['openid']) || !isset($info['headimgurl']) || !isset($info['nickname']))
             abort(404);
         $this->saveUser($openid, $info['headimgurl'], $info['nickname']);
-        $this->assign('avatar', $info['headimgurl']);
-        $this->assign('nickname', $info['nickname']);
-        $this->assign('openid', $info['openid']);
+//        $this->assign('avatar', $info['headimgurl']);
+//        $this->assign('nickname', $info['nickname']);
+//        $this->assign('openid', $info['openid']);
 //        $user = H5User::where('openid','oKwWb1JwyBYICmRxZsFFzzpDprnM')->find();
 //        $this->assign('avatar', $user->avatar);
 //        $this->assign('nickname', $user->nickname);
 //        $this->assign('openid', $user->openid);
-        return $this->fetch('index');
+//        return $this->fetch('index');
+        return $this->redirect('/h5/index/home?openid='.$openid);
     }
 
     //列表页
