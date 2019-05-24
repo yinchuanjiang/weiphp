@@ -145,7 +145,7 @@ class Smile extends WebBase
     public function upload()
     {
         // 获取表单上传文件 例如上传了001.jpg
-        $file = request()->file('file');
+        $file = request()->file('upload');
         $name = input('name');
         $mobile = input('mobile');
         // 移动到框架应用根目录/uploads/ 目录下
