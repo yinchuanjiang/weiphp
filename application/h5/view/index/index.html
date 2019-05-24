@@ -25,8 +25,11 @@
             sharelayer: 'sharelayer.png', // 分享遮罩层路径
         };
         (function () {
+//        var openid = 'oKwWb1JwyBYICmRxZsFFzzpDprnM';
             var openid = '{$openid}';
             window.localStorage.setItem('openid',openid);
+//        var avatar = 'http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIKWlTsamHwrSicXsSwdfOCBQwQTSYWtNPNXOqn5ffUsiak7dq00xShpZLpqPKN9ZqEqibmowiaQQJCvg/132';
+//        var nickname = '江敏';
             var avatar = '{$avatar}';
             var nickname = '{$nickname}';
             if(!avatar){
@@ -37,7 +40,7 @@
             if(!nickname){
                 window.localStorage.removeItem('nickname');
             }else {
-                window.localStorage.setItem('nickname',nickname);
+                window.localStorage.setItem('nickname',avatar);
             }
 
             if(avatar && nickname){
@@ -61,12 +64,355 @@
     <link rel="stylesheet" href="/css/font_405927_zn9t5o7hhvj3v7vi.css">
     <link rel="stylesheet" href="/css/vuep.css">
     <link href="/css/index.css" rel="stylesheet">
+    <style>
+        #layermbox2{
+            position: absolute;
+            top:30%;
+            left: 10%;
+            width: 80%;
+            background-color: white;
+        }
+    </style>
+    <style type="text/css" id="wechat-inject-css-B05C347073E78">.layermbox {
+        position: relative;
+        z-index: 19920626;
+    }
+
+    .laymshade,
+    .layermmain {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .laymshade {
+        background-color: rgba(0, 0, 0, .5);
+        pointer-events: auto;
+    }
+
+    .layermmain {
+        display: table;
+        font-family: Helvetica, arial, sans-serif;
+        pointer-events: none;
+    }
+
+    .layermmain .section {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .layermchild {
+        position: relative;
+        display: inline-block;
+        text-align: left;
+        background-color: #FAFAFC;
+        font-size: 14px;
+        border-radius: 3px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+        pointer-events: auto;
+        box-shadow: 1px 1px 8px #353535
+    }
+
+    .layermchild {
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-duration: .18s;
+        animation-duration: .18s;
+    }
+
+    .layermborder {
+        border: 1px solid #999;
+    }
+
+    @-webkit-keyframes layerbounceInEffect {
+        0% {
+            opacity: 0;
+            -webkit-transform: scale(.5);
+            transform: scale(.5)
+        }
+        100% {
+            opacity: 1;
+            -webkit-transform: scale(1);
+            transform: scale(1)
+        }
+    }
+
+    .layermanim {
+        animation-name: layerbounceInEffect;
+        -webkit-animation-name: layerbounceInEffect;
+    }
+
+    .layermbox0 .layermchild {
+        max-width: 90%;
+        min-width: 240px;
+    }
+
+    .layermbox1 .layermchild {
+        border: none;
+        border-radius: 0;
+    }
+
+    .layermbox2 .layermchild {
+        width: auto;
+        max-width: 260px;
+        min-width: 40px;
+        border: none;
+        background: none;
+        box-shadow: none;
+        color: #fff;
+    }
+
+    .layermchild h3 {
+        padding: 0 45px 0px 20px;
+        height: 50px;
+        line-height: 50px;
+        border-bottom: 1px solid #EBEBEB;
+        font-size: 16px;
+        font-weight: 400;
+        border-radius: 3px 3px 0 0;
+        margin: 0;
+    }
+
+    .layermchild h3,
+    .layermbtn span {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .layermcont {
+        padding: 20px 15px;
+        line-height: 22px;
+        text-align: center;
+        color: #2d2d2d;
+    }
+
+    .layermbox1 .layermcont {
+        padding: 0;
+        text-align: left;
+    }
+
+    .layermbox2 .layermcont {
+        text-align: center;
+        padding: 0;
+        line-height: 0;
+    }
+
+    .layermbox2 .layermcont i {
+        width: 25px;
+        height: 25px;
+        margin-left: 8px;
+        display: inline-block;
+        background-color: #fff;
+        border-radius: 100%;
+    }
+
+    .layermbox2 .layermcont i {
+        -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+        animation: bouncedelay 1.4s infinite ease-in-out;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+
+    @-webkit-keyframes bouncedelay {
+        0%,
+        80%,
+        100% {
+            transform: scale(0);
+            -webkit-transform: scale(0)
+        }
+        40% {
+            transform: scale(1);
+            -webkit-transform: scale(1)
+        }
+    }
+
+    @keyframes bouncedelay {
+        0%,
+        80%,
+        100% {
+            transform: scale(0);
+            -webkit-transform: scale(0)
+        }
+        40% {
+            transform: scale(1);
+            -webkit-transform: scale(1)
+        }
+    }
+
+    .layermbox2 .layermcont i:first-child {
+        margin-left: 0;
+        -webkit-animation-delay: -.32s;
+        animation-delay: -.32s;
+    }
+
+    .layermbox2 .layermcont i.laymloadtwo {
+        -webkit-animation-delay: -.16s;
+        animation-delay: -.16s;
+    }
+
+    .layermbox2 .layermcont>div {
+        line-height: 22px;
+        padding-top: 7px;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+
+    .layermbtn {
+        position: relative;
+        height: 40px;
+        line-height: 40px;
+        font-size: 0;
+        text-align: center;
+        border-top: 1px solid #EBEBEB;
+    }
+
+    .layermbtn span {
+        position: relative;
+        display: inline-block;
+        width: 50%;
+        text-align: center;
+        font-size: 14px;
+        cursor: pointer;
+        border-radius: 0 3px 0 0;
+    }
+
+    .layermbtn span:first-child {
+        height: 39px;
+        background-color: #fff;
+        border-radius: 0 0 0 3px;
+    }
+
+    .layermbtn span:last-child {
+        color: #0BB20C;
+        height: 39px;
+    }
+
+    .layermbtn:before {
+        content: '\20';
+        position: absolute;
+        width: 1px;
+        height: 39px;
+        left: 50%;
+        top: 0;
+        background-color: #EBEBEB;
+    }
+
+    .layermend {
+        position: absolute;
+        right: 7px;
+        top: 10px;
+        width: 30px;
+        height: 30px;
+        border: 0;
+        font-weight: 400;
+        background: transparent;
+        cursor: pointer;
+        -webkit-appearance: none;
+        font-size: 30px;
+    }
+
+    .layermend::before,
+    .layermend::after {
+        position: absolute;
+        left: 5px;
+        top: 15px;
+        content: '';
+        width: 18px;
+        height: 1px;
+        background-color: #999;
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        border-radius: 3px;
+    }
+
+    .layermend::after {
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+    }
+
+    .layermbox2 .laym-loading {
+        color: #fff;
+        font-size: 10px;
+        font-weight: 900;
+        -webkit-transform-origin: center;
+        -ms-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: scale(0.7);
+        -ms-transform: scale(0.7);
+        transform: scale(0.7);
+        margin-top: 10px;
+    }
+
+    .wechat--muisc{
+        width:32px;
+        height: 32px;
+        position: fixed;
+        top:16px;
+        right: 16px;
+        z-index:999999;
+    }
+    .wechat--muisc svg{
+        transform:translateX(-14px);
+        -webkit-transform:translateX(-14px);
+    }
+    .wechat--muisc .wm--playing path{
+        transform-box: fill-box;
+        transform-origin:center center;
+        animation:wechatmusic 5s linear 0s infinite normal;
+        -webkit-transform-origin:center center;
+        -webkit-animation:wechatmusic 5s linear 0s infinite normal;
+    }
+    .wechat--muisc .wm--pause{
+        display:none;
+    }
+    .wm--pause .wm--playing{
+        display:none;
+    }
+    .wm--pause .wm--pause{
+        display:block;
+    }
+    .wechat--muisc.wm--pause{
+        -webkit-animation:none;
+        animation:none;
+    }
+    .wechat--muisc.wm--playing{
+        -webkit-animation:wechatmusic 5s linear 0s infinite normal;
+        animation:wechatmusic 5s linear 0s infinite normal
+    }
+    @-webkit-keyframes wechatmusic{
+        from{
+            -webkit-transform:rotate(0);
+            transform:rotate(0);
+        }
+        to{
+            -webkit-transform:rotate(-360deg);
+            transform:rotate(-360deg);
+        }
+    }
+    @keyframes wechatmusic{
+        from{
+            -webkit-transform:rotate(0);
+            transform:rotate(0);
+        }
+        to{
+            -webkit-transform:rotate(-360deg);
+            transform:rotate(-360deg);
+        }
+    }
+    </style>
 </head>
-<body>
+<body style="padding:0;margin:0">
 <div id="mix">
     <router-view></router-view>
 </div>
 <audio src="/static/background.mp3" id="audio" style="display: none" loop ></audio>
+<audio src="/static/kacha.mp3" id="kacha" preload="metadata" style="display: none"></audio>
 <script src="/js/app.js"></script>
 <script src="https://cdn.bootcss.com/layer/2.3/layer.js"></script>
 <link href="https://cdn.bootcss.com/layer/2.3/skin/layer.css" rel="stylesheet">
