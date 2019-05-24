@@ -153,4 +153,24 @@ class Index extends Controller
         $photo->save();
         return show(200, '投票成功');
     }
+
+    //详情
+    public function info()
+    {
+        $id = input('id');
+        $cate = input('cate');
+        $openid = input('openid');
+        if(!$id || !$cate || !$openid)
+            return show(400, '非法请求');
+        $user = H5User::where('openid',$openid)->find();
+        if(!$user)
+            return show(400,'非法请求');
+        $photo = H5Photo::with('user')->find($id);
+        $myVotes = H5PhotoVote::where('vote_user_id',$user->id)->whereTime('created_at','today')->column('h5_photo_id');
+        $photo->is_voted = false;
+        if(in_array($photo->id,$myVotes)){
+            $photo->is_voted = true;
+        }
+        return show(200, '获取成功', $photo);
+    }
 }
