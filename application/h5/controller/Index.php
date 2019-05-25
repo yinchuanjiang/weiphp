@@ -69,11 +69,6 @@ class Index extends Controller
         $this->assign('signPackage',$this->getSignPackage($openid));
         return $this->fetch('index');
     }
-    public function getT()
-    {
-        dump($this->getJsApiTicket());
-        dump($this->getSignPackage('oKwWb1JwyBYICmRxZsFFzzpDprnM'));
-    }
     //保存用户信息
 
     public function authUser()

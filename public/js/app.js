@@ -52712,22 +52712,8 @@ exports.push([module.i, "\n.container[data-v-43758cdc]{\n    width: 100vw;\n    
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_common_Music__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_common_Music___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__components_common_Music__);
 //
 //
 //
@@ -52753,7 +52739,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 
+
 /* harmony default export */ __webpack_exports__["default"] = ({
+    components: {
+        Music: __WEBPACK_IMPORTED_MODULE_0__components_common_Music___default.a
+    },
     created: function created() {
         var audio = document.getElementById('audio');
         audio.play();
@@ -52869,73 +52859,12 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container" }, [
-    _vm._m(0),
-    _vm._v(" "),
-    _c("div", { staticClass: "music-status" }, [
-      _c(
-        "svg",
-        {
-          staticClass: "svg-icon svg-icon-left",
-          attrs: {
-            viewBox: "0 0 1024 1024",
-            version: "1.1",
-            xmlns: "http://www.w3.org/2000/svg",
-            "p-id": "5354",
-            "xmlns:xlink": "http://www.w3.org/1999/xlink",
-            width: "32px",
-            height: "32px"
-          }
-        },
-        [
-          _c("path", {
-            attrs: {
-              d:
-                "M648.43588 542.014594c-3.50994 2.400676-5.947456 3.187599-7.451716 2.364861-1.50426-0.823761-2.506077-2.472308-2.973728-4.9088-0.465604-2.435469-0.033769-6.446829 1.291412-12.071943 2.113127-9.0624 1.683339-16.516162-1.396813-22.372543-3.082198-5.840008-9.064446-11.464099-18.092054-16.891715-9.350972-5.767354-16.766872-13.164834-22.209838-22.192442-5.446036-9.010211-9.780761-17.195637-12.968359-24.431435-3.152806-6.538927-6.304589-9.636474-9.529027-9.296737-3.189645 0.323365-5.481851 2.257413-6.807033 5.804193l-17.158798 45.639456c-1.147126 3.063779-2.400676 6.376221-3.582595 9.564843l-29.80584 78.526471-17.3389 46.033429c-1.75497 5.409197-4.838192 11.069103-9.242502 16.908088-4.371564 5.803169-10.280134 10.568706-17.73185 14.402011-7.451716 3.795443-16.265452 6.088672-26.582425 6.912433-10.316973 0.825808-22.102391-0.895393-35.393091-5.052063-13.506619-4.332678-24.575722-11.17655-33.244148-20.48966-8.670473-9.315156-14.402011-19.165502-17.196661-29.445636-2.793626-10.317996-2.292206-20.277836 1.432629-29.878494 3.725858-9.671267 11.319813-17.087167 22.820752-22.38994 11.463076-5.337565 22.676465-7.845689 33.56649-7.522324 10.891048 0.285502 20.921495 1.898233 30.057573 4.942569 9.099239 3.045359 16.872273 6.66377 23.39278 10.926864 6.482645 4.227278 11.140735 7.631818 14.007015 10.210549l39.872103-106.71958 0.179079 0.303922c8.705266-23.106254 18.378579-48.469921 29.017894-76.359109 2.435469-6.41306 6.088672-11.06808 11.033287-13.916964 4.871961-2.830465 10.245342-3.546779 16.121166-2.078335 4.943592 1.091868 8.489348 3.475148 10.56666 7.182586 2.042519 3.672646 3.833305 8.400321 5.231141 14.114462 1.432629 5.749958 3.366677 12.358469 5.837962 19.86442 2.400676 7.487531 6.484691 15.476483 12.323677 23.984251 4.800329 7.649214 9.314133 13.522991 13.541411 17.625426 4.191462 4.15667 8.132214 7.953136 11.821233 11.499915 3.690042 3.475148 7.130398 7.433296 10.388605 11.67797 3.260254 4.281513 6.376221 10.371208 9.278317 18.305925 2.973728 7.701402 3.942799 14.902408 2.758834 21.566178-1.254573 6.628978-3.295046 12.288884-6.268774 17.016559C655.062811 536.103978 651.874189 539.613918 648.43588 542.014594z",
-              "p-id": "5355",
-              fill: "#ffffff"
-            }
-          })
-        ]
-      ),
-      _vm._v(" "),
-      _c(
-        "svg",
-        {
-          staticClass: "svg-icon svg-icon-right",
-          attrs: {
-            viewBox: "0 0 1024 1024",
-            version: "1.1",
-            xmlns: "http://www.w3.org/2000/svg",
-            "p-id": "5354",
-            "xmlns:xlink": "http://www.w3.org/1999/xlink",
-            width: "32px",
-            height: "32px"
-          }
-        },
-        [
-          _c("path", {
-            attrs: {
-              d:
-                "M648.43588 542.014594c-3.50994 2.400676-5.947456 3.187599-7.451716 2.364861-1.50426-0.823761-2.506077-2.472308-2.973728-4.9088-0.465604-2.435469-0.033769-6.446829 1.291412-12.071943 2.113127-9.0624 1.683339-16.516162-1.396813-22.372543-3.082198-5.840008-9.064446-11.464099-18.092054-16.891715-9.350972-5.767354-16.766872-13.164834-22.209838-22.192442-5.446036-9.010211-9.780761-17.195637-12.968359-24.431435-3.152806-6.538927-6.304589-9.636474-9.529027-9.296737-3.189645 0.323365-5.481851 2.257413-6.807033 5.804193l-17.158798 45.639456c-1.147126 3.063779-2.400676 6.376221-3.582595 9.564843l-29.80584 78.526471-17.3389 46.033429c-1.75497 5.409197-4.838192 11.069103-9.242502 16.908088-4.371564 5.803169-10.280134 10.568706-17.73185 14.402011-7.451716 3.795443-16.265452 6.088672-26.582425 6.912433-10.316973 0.825808-22.102391-0.895393-35.393091-5.052063-13.506619-4.332678-24.575722-11.17655-33.244148-20.48966-8.670473-9.315156-14.402011-19.165502-17.196661-29.445636-2.793626-10.317996-2.292206-20.277836 1.432629-29.878494 3.725858-9.671267 11.319813-17.087167 22.820752-22.38994 11.463076-5.337565 22.676465-7.845689 33.56649-7.522324 10.891048 0.285502 20.921495 1.898233 30.057573 4.942569 9.099239 3.045359 16.872273 6.66377 23.39278 10.926864 6.482645 4.227278 11.140735 7.631818 14.007015 10.210549l39.872103-106.71958 0.179079 0.303922c8.705266-23.106254 18.378579-48.469921 29.017894-76.359109 2.435469-6.41306 6.088672-11.06808 11.033287-13.916964 4.871961-2.830465 10.245342-3.546779 16.121166-2.078335 4.943592 1.091868 8.489348 3.475148 10.56666 7.182586 2.042519 3.672646 3.833305 8.400321 5.231141 14.114462 1.432629 5.749958 3.366677 12.358469 5.837962 19.86442 2.400676 7.487531 6.484691 15.476483 12.323677 23.984251 4.800329 7.649214 9.314133 13.522991 13.541411 17.625426 4.191462 4.15667 8.132214 7.953136 11.821233 11.499915 3.690042 3.475148 7.130398 7.433296 10.388605 11.67797 3.260254 4.281513 6.376221 10.371208 9.278317 18.305925 2.973728 7.701402 3.942799 14.902408 2.758834 21.566178-1.254573 6.628978-3.295046 12.288884-6.268774 17.016559C655.062811 536.103978 651.874189 539.613918 648.43588 542.014594z",
-              "p-id": "5355",
-              fill: "#ffffff"
-            }
-          })
-        ]
-      ),
-      _vm._v(" "),
-      _c("img", {
-        staticClass: "play",
-        attrs: {
-          src:
-            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAABGdBTUEAALGPC/xhBQAAAFdQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////AAAA////LEkQMAAAABx0Uk5TTz+/j29fz5/Qr5B/cFCw4PCg3zAgYMDvgBBAAHW8PxYAAAHKSURBVEjHlZZZgoMgDECdaavWuiEoEHP/c04VZE3tmD8JD0JWi/VcdLpQnO/n0zUAJF4B9Gvk/wLEz2uT2zTwtYZvAFQTGhna9+eizoGH3b00M98XFnk/AcBsZ51fWhAn+ADoat9ei/DdcluqNAXw0lgehao1FpYiB7g0Ohbu7+z7UfIUOPajCuOAmBEW0Icv0eUCv0kMpNQR8PSaeY+di4aTKgTmQCG3owBz6Tygo8uf2w0EMGkHqPwoRhDqAOILjFFizAF5AHOq+c1vdf7YgJ68fMiB3gLEWUA7ygCUZnsGI88paGuxfPsif3e7A5QHERuXqvHbir1GkHZJplnOgHd+8kvAlgrqEvBOKj1QQB43HJdGKQDtS85FjnLrMPu67gkvzVRSujIdEs8VWe7zuHFFRgmTS+khsdSBrTb5miQhY2ljY4ukHkU+I2JlYRuolXo9AZiraaA9tCYdBXybYScAiy6wgEv9HHAdYtRh5wNfBYk0kUG+Gc9JZ82ePKftXrkijOa0xGS9SLwho8y4yyz+wcjq9pdLP9HE0dPHjh6KwuTyc18TDzcCevFx7IKNuSyDKoPTwQ4s6kYjg++/DqCWPaXrRUGu/QN05O4Hr4RngQAAAABJRU5ErkJggg=="
-        }
-      }),
-      _vm._v(" "),
-      _vm._m(1)
-    ])
-  ])
+  return _c(
+    "div",
+    { staticClass: "container" },
+    [_vm._m(0), _vm._v(" "), _c("music")],
+    1
+  )
 }
 var staticRenderFns = [
   function() {
@@ -52975,24 +52904,6 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("p")
       ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "playing-line" }, [
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" })
     ])
   }
 ]
@@ -53102,22 +53013,8 @@ exports.push([module.i, "\n.layermbox {\n    position: relative;\n    z-index: 1
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_common_Music__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_common_Music___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__components_common_Music__);
 //
 //
 //
@@ -53430,7 +53327,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 
+
 /* harmony default export */ __webpack_exports__["default"] = ({
+    components: {
+        Music: __WEBPACK_IMPORTED_MODULE_0__components_common_Music___default.a
+    },
     mounted: function mounted() {
         console.log('Component mounted.');
     }
@@ -53444,176 +53345,124 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container" }, [
-    _c(
-      "div",
-      {
-        staticClass: "_vp_page vp-psd1 app-view",
-        staticStyle: { background: "rgb(35, 24, 21)" }
-      },
-      [
-        _c("router-link", { attrs: { to: "/about" } }, [
-          _c(
-            "div",
-            {
-              staticClass: "_vp_layer vp-image-title",
-              staticStyle: { width: "90%", height: "5%", left: "5%", top: "2%" }
-            },
-            [_c("img", { attrs: { src: "/static/title.png" } })]
-          )
-        ]),
-        _vm._v(" "),
-        _vm._m(0),
-        _vm._v(" "),
-        _c("router-link", { attrs: { to: "/list-photo/hot" } }, [
-          _c(
-            "div",
-            {
-              staticStyle: {
-                width: "90%",
-                "background-color": "rgb(236, 233, 0)",
-                "margin-top": "45%",
-                "margin-left": "5%"
-              }
-            },
-            [
-              _c("br"),
-              _vm._v(" "),
-              _c("img", {
-                staticStyle: {
-                  margin: "0px auto",
-                  display: "block",
-                  width: "90%"
-                },
-                attrs: { src: "/static/gif1.gif" }
-              }),
-              _vm._v(" "),
-              _c("div", { staticStyle: { width: "100%" } }, [
-                _c(
-                  "h3",
-                  {
-                    staticStyle: {
-                      margin: "0px auto",
-                      "text-align": "center",
-                      color: "black",
-                      padding: "10px"
-                    }
-                  },
-                  [_vm._v("六安市银发微笑摄影大赛")]
-                )
-              ])
-            ]
-          )
-        ]),
-        _vm._v(" "),
-        _c("router-link", { attrs: { to: "/list-spokesman/hot" } }, [
-          _c(
-            "div",
-            {
-              staticStyle: {
-                width: "90%",
-                "background-color": "rgb(236, 233, 0)",
-                "margin-top": "8%",
-                "margin-left": "5%"
-              }
-            },
-            [
-              _c("br"),
-              _vm._v(" "),
-              _c("img", {
-                staticStyle: {
-                  margin: "0px auto",
-                  display: "block",
-                  width: "90%"
-                },
-                attrs: { src: "/static/gif0.gif" }
-              }),
-              _vm._v(" "),
-              _c("div", { staticStyle: { width: "100%" } }, [
-                _c(
-                  "h3",
-                  {
-                    staticStyle: {
-                      margin: "0px auto",
-                      "text-align": "center",
-                      color: "black",
-                      padding: "10px"
-                    }
-                  },
-                  [_vm._v("六安市银发微笑代言人选举")]
-                )
-              ])
-            ]
-          )
-        ])
-      ],
-      1
-    ),
-    _vm._v(" "),
-    _c("div", { staticClass: "music-status" }, [
+  return _c(
+    "div",
+    { staticClass: "container" },
+    [
       _c(
-        "svg",
+        "div",
         {
-          staticClass: "svg-icon svg-icon-left",
-          attrs: {
-            viewBox: "0 0 1024 1024",
-            version: "1.1",
-            xmlns: "http://www.w3.org/2000/svg",
-            "p-id": "5354",
-            "xmlns:xlink": "http://www.w3.org/1999/xlink",
-            width: "32px",
-            height: "32px"
-          }
+          staticClass: "_vp_page vp-psd1 app-view",
+          staticStyle: { background: "rgb(35, 24, 21)" }
         },
         [
-          _c("path", {
-            attrs: {
-              d:
-                "M648.43588 542.014594c-3.50994 2.400676-5.947456 3.187599-7.451716 2.364861-1.50426-0.823761-2.506077-2.472308-2.973728-4.9088-0.465604-2.435469-0.033769-6.446829 1.291412-12.071943 2.113127-9.0624 1.683339-16.516162-1.396813-22.372543-3.082198-5.840008-9.064446-11.464099-18.092054-16.891715-9.350972-5.767354-16.766872-13.164834-22.209838-22.192442-5.446036-9.010211-9.780761-17.195637-12.968359-24.431435-3.152806-6.538927-6.304589-9.636474-9.529027-9.296737-3.189645 0.323365-5.481851 2.257413-6.807033 5.804193l-17.158798 45.639456c-1.147126 3.063779-2.400676 6.376221-3.582595 9.564843l-29.80584 78.526471-17.3389 46.033429c-1.75497 5.409197-4.838192 11.069103-9.242502 16.908088-4.371564 5.803169-10.280134 10.568706-17.73185 14.402011-7.451716 3.795443-16.265452 6.088672-26.582425 6.912433-10.316973 0.825808-22.102391-0.895393-35.393091-5.052063-13.506619-4.332678-24.575722-11.17655-33.244148-20.48966-8.670473-9.315156-14.402011-19.165502-17.196661-29.445636-2.793626-10.317996-2.292206-20.277836 1.432629-29.878494 3.725858-9.671267 11.319813-17.087167 22.820752-22.38994 11.463076-5.337565 22.676465-7.845689 33.56649-7.522324 10.891048 0.285502 20.921495 1.898233 30.057573 4.942569 9.099239 3.045359 16.872273 6.66377 23.39278 10.926864 6.482645 4.227278 11.140735 7.631818 14.007015 10.210549l39.872103-106.71958 0.179079 0.303922c8.705266-23.106254 18.378579-48.469921 29.017894-76.359109 2.435469-6.41306 6.088672-11.06808 11.033287-13.916964 4.871961-2.830465 10.245342-3.546779 16.121166-2.078335 4.943592 1.091868 8.489348 3.475148 10.56666 7.182586 2.042519 3.672646 3.833305 8.400321 5.231141 14.114462 1.432629 5.749958 3.366677 12.358469 5.837962 19.86442 2.400676 7.487531 6.484691 15.476483 12.323677 23.984251 4.800329 7.649214 9.314133 13.522991 13.541411 17.625426 4.191462 4.15667 8.132214 7.953136 11.821233 11.499915 3.690042 3.475148 7.130398 7.433296 10.388605 11.67797 3.260254 4.281513 6.376221 10.371208 9.278317 18.305925 2.973728 7.701402 3.942799 14.902408 2.758834 21.566178-1.254573 6.628978-3.295046 12.288884-6.268774 17.016559C655.062811 536.103978 651.874189 539.613918 648.43588 542.014594z",
-              "p-id": "5355",
-              fill: "#ffffff"
-            }
-          })
-        ]
+          _c("router-link", { attrs: { to: "/about" } }, [
+            _c(
+              "div",
+              {
+                staticClass: "_vp_layer vp-image-title",
+                staticStyle: {
+                  width: "90%",
+                  height: "5%",
+                  left: "5%",
+                  top: "2%"
+                }
+              },
+              [_c("img", { attrs: { src: "/static/title.png" } })]
+            )
+          ]),
+          _vm._v(" "),
+          _vm._m(0),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/list-photo/hot" } }, [
+            _c(
+              "div",
+              {
+                staticStyle: {
+                  width: "90%",
+                  "background-color": "rgb(236, 233, 0)",
+                  "margin-top": "45%",
+                  "margin-left": "5%"
+                }
+              },
+              [
+                _c("br"),
+                _vm._v(" "),
+                _c("img", {
+                  staticStyle: {
+                    margin: "0px auto",
+                    display: "block",
+                    width: "90%"
+                  },
+                  attrs: { src: "/static/gif1.gif" }
+                }),
+                _vm._v(" "),
+                _c("div", { staticStyle: { width: "100%" } }, [
+                  _c(
+                    "h3",
+                    {
+                      staticStyle: {
+                        margin: "0px auto",
+                        "text-align": "center",
+                        color: "black",
+                        padding: "10px"
+                      }
+                    },
+                    [_vm._v("六安市银发微笑摄影大赛")]
+                  )
+                ])
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/list-spokesman/hot" } }, [
+            _c(
+              "div",
+              {
+                staticStyle: {
+                  width: "90%",
+                  "background-color": "rgb(236, 233, 0)",
+                  "margin-top": "8%",
+                  "margin-left": "5%"
+                }
+              },
+              [
+                _c("br"),
+                _vm._v(" "),
+                _c("img", {
+                  staticStyle: {
+                    margin: "0px auto",
+                    display: "block",
+                    width: "90%"
+                  },
+                  attrs: { src: "/static/gif0.gif" }
+                }),
+                _vm._v(" "),
+                _c("div", { staticStyle: { width: "100%" } }, [
+                  _c(
+                    "h3",
+                    {
+                      staticStyle: {
+                        margin: "0px auto",
+                        "text-align": "center",
+                        color: "black",
+                        padding: "10px"
+                      }
+                    },
+                    [_vm._v("六安市银发微笑代言人选举")]
+                  )
+                ])
+              ]
+            )
+          ])
+        ],
+        1
       ),
       _vm._v(" "),
-      _c(
-        "svg",
-        {
-          staticClass: "svg-icon svg-icon-right",
-          attrs: {
-            viewBox: "0 0 1024 1024",
-            version: "1.1",
-            xmlns: "http://www.w3.org/2000/svg",
-            "p-id": "5354",
-            "xmlns:xlink": "http://www.w3.org/1999/xlink",
-            width: "32px",
-            height: "32px"
-          }
-        },
-        [
-          _c("path", {
-            attrs: {
-              d:
-                "M648.43588 542.014594c-3.50994 2.400676-5.947456 3.187599-7.451716 2.364861-1.50426-0.823761-2.506077-2.472308-2.973728-4.9088-0.465604-2.435469-0.033769-6.446829 1.291412-12.071943 2.113127-9.0624 1.683339-16.516162-1.396813-22.372543-3.082198-5.840008-9.064446-11.464099-18.092054-16.891715-9.350972-5.767354-16.766872-13.164834-22.209838-22.192442-5.446036-9.010211-9.780761-17.195637-12.968359-24.431435-3.152806-6.538927-6.304589-9.636474-9.529027-9.296737-3.189645 0.323365-5.481851 2.257413-6.807033 5.804193l-17.158798 45.639456c-1.147126 3.063779-2.400676 6.376221-3.582595 9.564843l-29.80584 78.526471-17.3389 46.033429c-1.75497 5.409197-4.838192 11.069103-9.242502 16.908088-4.371564 5.803169-10.280134 10.568706-17.73185 14.402011-7.451716 3.795443-16.265452 6.088672-26.582425 6.912433-10.316973 0.825808-22.102391-0.895393-35.393091-5.052063-13.506619-4.332678-24.575722-11.17655-33.244148-20.48966-8.670473-9.315156-14.402011-19.165502-17.196661-29.445636-2.793626-10.317996-2.292206-20.277836 1.432629-29.878494 3.725858-9.671267 11.319813-17.087167 22.820752-22.38994 11.463076-5.337565 22.676465-7.845689 33.56649-7.522324 10.891048 0.285502 20.921495 1.898233 30.057573 4.942569 9.099239 3.045359 16.872273 6.66377 23.39278 10.926864 6.482645 4.227278 11.140735 7.631818 14.007015 10.210549l39.872103-106.71958 0.179079 0.303922c8.705266-23.106254 18.378579-48.469921 29.017894-76.359109 2.435469-6.41306 6.088672-11.06808 11.033287-13.916964 4.871961-2.830465 10.245342-3.546779 16.121166-2.078335 4.943592 1.091868 8.489348 3.475148 10.56666 7.182586 2.042519 3.672646 3.833305 8.400321 5.231141 14.114462 1.432629 5.749958 3.366677 12.358469 5.837962 19.86442 2.400676 7.487531 6.484691 15.476483 12.323677 23.984251 4.800329 7.649214 9.314133 13.522991 13.541411 17.625426 4.191462 4.15667 8.132214 7.953136 11.821233 11.499915 3.690042 3.475148 7.130398 7.433296 10.388605 11.67797 3.260254 4.281513 6.376221 10.371208 9.278317 18.305925 2.973728 7.701402 3.942799 14.902408 2.758834 21.566178-1.254573 6.628978-3.295046 12.288884-6.268774 17.016559C655.062811 536.103978 651.874189 539.613918 648.43588 542.014594z",
-              "p-id": "5355",
-              fill: "#ffffff"
-            }
-          })
-        ]
-      ),
-      _vm._v(" "),
-      _c("img", {
-        staticClass: "play",
-        attrs: {
-          src:
-            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAABGdBTUEAALGPC/xhBQAAAFdQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////AAAA////LEkQMAAAABx0Uk5TTz+/j29fz5/Qr5B/cFCw4PCg3zAgYMDvgBBAAHW8PxYAAAHKSURBVEjHlZZZgoMgDECdaavWuiEoEHP/c04VZE3tmD8JD0JWi/VcdLpQnO/n0zUAJF4B9Gvk/wLEz2uT2zTwtYZvAFQTGhna9+eizoGH3b00M98XFnk/AcBsZ51fWhAn+ADoat9ei/DdcluqNAXw0lgehao1FpYiB7g0Ohbu7+z7UfIUOPajCuOAmBEW0Icv0eUCv0kMpNQR8PSaeY+di4aTKgTmQCG3owBz6Tygo8uf2w0EMGkHqPwoRhDqAOILjFFizAF5AHOq+c1vdf7YgJ68fMiB3gLEWUA7ygCUZnsGI88paGuxfPsif3e7A5QHERuXqvHbir1GkHZJplnOgHd+8kvAlgrqEvBOKj1QQB43HJdGKQDtS85FjnLrMPu67gkvzVRSujIdEs8VWe7zuHFFRgmTS+khsdSBrTb5miQhY2ljY4ukHkU+I2JlYRuolXo9AZiraaA9tCYdBXybYScAiy6wgEv9HHAdYtRh5wNfBYk0kUG+Gc9JZ82ePKftXrkijOa0xGS9SLwho8y4yyz+wcjq9pdLP9HE0dPHjh6KwuTyc18TDzcCevFx7IKNuSyDKoPTwQ4s6kYjg++/DqCWPaXrRUGu/QN05O4Hr4RngQAAAABJRU5ErkJggg=="
-        }
-      }),
-      _vm._v(" "),
-      _vm._m(1)
-    ])
-  ])
+      _c("music")
+    ],
+    1
+  )
 }
 var staticRenderFns = [
   function() {
@@ -53628,24 +53477,6 @@ var staticRenderFns = [
       },
       [_c("img", { attrs: { src: "/static/vp-image-m1_6.png" } })]
     )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "playing-line" }, [
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" })
-    ])
   }
 ]
 render._withStripped = true
@@ -53758,6 +53589,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__common_Menu___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__common_Menu__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__helpers_openid__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_common_Music__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_common_Music___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__components_common_Music__);
 //
 //
 //
@@ -53901,29 +53734,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+
 
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     components: {
-        TopMenu: __WEBPACK_IMPORTED_MODULE_0__common_Menu___default.a
+        TopMenu: __WEBPACK_IMPORTED_MODULE_0__common_Menu___default.a,
+        Music: __WEBPACK_IMPORTED_MODULE_3__components_common_Music___default.a
     },
     created: function created() {
         this.getData();
@@ -53934,6 +53753,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             var _this = this;
 
             axios.get(__WEBPACK_IMPORTED_MODULE_1__config__["a" /* APP_URL */] + 'h5/index/lists.html?cate=photo&openid=' + __WEBPACK_IMPORTED_MODULE_2__helpers_openid__["a" /* default */].getOpenid() + '&type=' + this.$route.params.type + '&page=' + this.page).then(function (res) {
+                _this.$refs.loding.style.diplay = 'none';
                 //添加分页数据
                 if (_this.$route.params.type != 'my' && _this.photos.length) {
                     if (res.data.data) {
@@ -53995,6 +53815,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         }
     },
     mounted: function mounted() {
+        this.$refs.loding.style.diplay = 'block';
         window.addEventListener('scroll', this.handleScroll, true);
     },
     data: function data() {
@@ -54297,21 +54118,27 @@ var render = function() {
                         "div",
                         {
                           key: photo.id,
-                          staticClass: "poster card-width mode-rank",
-                          on: {
-                            click: function($event) {
-                              return _vm.toInfo(photo.id)
-                            }
-                          }
+                          staticClass: "poster card-width mode-rank"
                         },
                         [
-                          _c("div", { staticClass: "picture" }, [
-                            _c("img", {
-                              staticClass: "image",
-                              staticStyle: { height: "200px" },
-                              attrs: { src: photo.photo }
-                            })
-                          ]),
+                          _c(
+                            "div",
+                            {
+                              staticClass: "picture",
+                              on: {
+                                click: function($event) {
+                                  return _vm.toInfo(photo.id)
+                                }
+                              }
+                            },
+                            [
+                              _c("img", {
+                                staticClass: "image",
+                                staticStyle: { height: "200px" },
+                                attrs: { src: photo.photo }
+                              })
+                            ]
+                          ),
                           _vm._v(" "),
                           _c("div", { staticClass: "author" }, [
                             _c("div", { staticClass: "avatar" }, [
@@ -54356,6 +54183,7 @@ var render = function() {
               _c(
                 "div",
                 {
+                  ref: "loding",
                   staticClass: "loading-view",
                   staticStyle: { display: "none" }
                 },
@@ -54454,7 +54282,9 @@ var render = function() {
                   }
                 },
                 [
-                  _c("i", { staticClass: "iconfont icon-kong" }),
+                  _vm.photos.length && _vm.type != "my"
+                    ? _c("i", { staticClass: "iconfont icon-kong" })
+                    : _vm._e(),
                   _vm._v(" "),
                   _vm.photos.length && _vm.type != "my"
                     ? _c("span", [_vm._v("点击加载更多...")])
@@ -54603,69 +54433,7 @@ var render = function() {
         ]
       ),
       _vm._v(" "),
-      _c("div", { staticClass: "music-status" }, [
-        _c(
-          "svg",
-          {
-            staticClass: "svg-icon svg-icon-left",
-            attrs: {
-              viewBox: "0 0 1024 1024",
-              version: "1.1",
-              xmlns: "http://www.w3.org/2000/svg",
-              "p-id": "5354",
-              "xmlns:xlink": "http://www.w3.org/1999/xlink",
-              width: "32px",
-              height: "32px"
-            }
-          },
-          [
-            _c("path", {
-              attrs: {
-                d:
-                  "M648.43588 542.014594c-3.50994 2.400676-5.947456 3.187599-7.451716 2.364861-1.50426-0.823761-2.506077-2.472308-2.973728-4.9088-0.465604-2.435469-0.033769-6.446829 1.291412-12.071943 2.113127-9.0624 1.683339-16.516162-1.396813-22.372543-3.082198-5.840008-9.064446-11.464099-18.092054-16.891715-9.350972-5.767354-16.766872-13.164834-22.209838-22.192442-5.446036-9.010211-9.780761-17.195637-12.968359-24.431435-3.152806-6.538927-6.304589-9.636474-9.529027-9.296737-3.189645 0.323365-5.481851 2.257413-6.807033 5.804193l-17.158798 45.639456c-1.147126 3.063779-2.400676 6.376221-3.582595 9.564843l-29.80584 78.526471-17.3389 46.033429c-1.75497 5.409197-4.838192 11.069103-9.242502 16.908088-4.371564 5.803169-10.280134 10.568706-17.73185 14.402011-7.451716 3.795443-16.265452 6.088672-26.582425 6.912433-10.316973 0.825808-22.102391-0.895393-35.393091-5.052063-13.506619-4.332678-24.575722-11.17655-33.244148-20.48966-8.670473-9.315156-14.402011-19.165502-17.196661-29.445636-2.793626-10.317996-2.292206-20.277836 1.432629-29.878494 3.725858-9.671267 11.319813-17.087167 22.820752-22.38994 11.463076-5.337565 22.676465-7.845689 33.56649-7.522324 10.891048 0.285502 20.921495 1.898233 30.057573 4.942569 9.099239 3.045359 16.872273 6.66377 23.39278 10.926864 6.482645 4.227278 11.140735 7.631818 14.007015 10.210549l39.872103-106.71958 0.179079 0.303922c8.705266-23.106254 18.378579-48.469921 29.017894-76.359109 2.435469-6.41306 6.088672-11.06808 11.033287-13.916964 4.871961-2.830465 10.245342-3.546779 16.121166-2.078335 4.943592 1.091868 8.489348 3.475148 10.56666 7.182586 2.042519 3.672646 3.833305 8.400321 5.231141 14.114462 1.432629 5.749958 3.366677 12.358469 5.837962 19.86442 2.400676 7.487531 6.484691 15.476483 12.323677 23.984251 4.800329 7.649214 9.314133 13.522991 13.541411 17.625426 4.191462 4.15667 8.132214 7.953136 11.821233 11.499915 3.690042 3.475148 7.130398 7.433296 10.388605 11.67797 3.260254 4.281513 6.376221 10.371208 9.278317 18.305925 2.973728 7.701402 3.942799 14.902408 2.758834 21.566178-1.254573 6.628978-3.295046 12.288884-6.268774 17.016559C655.062811 536.103978 651.874189 539.613918 648.43588 542.014594z",
-                "p-id": "5355",
-                fill: "#ffffff"
-              }
-            })
-          ]
-        ),
-        _vm._v(" "),
-        _c(
-          "svg",
-          {
-            staticClass: "svg-icon svg-icon-right",
-            attrs: {
-              viewBox: "0 0 1024 1024",
-              version: "1.1",
-              xmlns: "http://www.w3.org/2000/svg",
-              "p-id": "5354",
-              "xmlns:xlink": "http://www.w3.org/1999/xlink",
-              width: "32px",
-              height: "32px"
-            }
-          },
-          [
-            _c("path", {
-              attrs: {
-                d:
-                  "M648.43588 542.014594c-3.50994 2.400676-5.947456 3.187599-7.451716 2.364861-1.50426-0.823761-2.506077-2.472308-2.973728-4.9088-0.465604-2.435469-0.033769-6.446829 1.291412-12.071943 2.113127-9.0624 1.683339-16.516162-1.396813-22.372543-3.082198-5.840008-9.064446-11.464099-18.092054-16.891715-9.350972-5.767354-16.766872-13.164834-22.209838-22.192442-5.446036-9.010211-9.780761-17.195637-12.968359-24.431435-3.152806-6.538927-6.304589-9.636474-9.529027-9.296737-3.189645 0.323365-5.481851 2.257413-6.807033 5.804193l-17.158798 45.639456c-1.147126 3.063779-2.400676 6.376221-3.582595 9.564843l-29.80584 78.526471-17.3389 46.033429c-1.75497 5.409197-4.838192 11.069103-9.242502 16.908088-4.371564 5.803169-10.280134 10.568706-17.73185 14.402011-7.451716 3.795443-16.265452 6.088672-26.582425 6.912433-10.316973 0.825808-22.102391-0.895393-35.393091-5.052063-13.506619-4.332678-24.575722-11.17655-33.244148-20.48966-8.670473-9.315156-14.402011-19.165502-17.196661-29.445636-2.793626-10.317996-2.292206-20.277836 1.432629-29.878494 3.725858-9.671267 11.319813-17.087167 22.820752-22.38994 11.463076-5.337565 22.676465-7.845689 33.56649-7.522324 10.891048 0.285502 20.921495 1.898233 30.057573 4.942569 9.099239 3.045359 16.872273 6.66377 23.39278 10.926864 6.482645 4.227278 11.140735 7.631818 14.007015 10.210549l39.872103-106.71958 0.179079 0.303922c8.705266-23.106254 18.378579-48.469921 29.017894-76.359109 2.435469-6.41306 6.088672-11.06808 11.033287-13.916964 4.871961-2.830465 10.245342-3.546779 16.121166-2.078335 4.943592 1.091868 8.489348 3.475148 10.56666 7.182586 2.042519 3.672646 3.833305 8.400321 5.231141 14.114462 1.432629 5.749958 3.366677 12.358469 5.837962 19.86442 2.400676 7.487531 6.484691 15.476483 12.323677 23.984251 4.800329 7.649214 9.314133 13.522991 13.541411 17.625426 4.191462 4.15667 8.132214 7.953136 11.821233 11.499915 3.690042 3.475148 7.130398 7.433296 10.388605 11.67797 3.260254 4.281513 6.376221 10.371208 9.278317 18.305925 2.973728 7.701402 3.942799 14.902408 2.758834 21.566178-1.254573 6.628978-3.295046 12.288884-6.268774 17.016559C655.062811 536.103978 651.874189 539.613918 648.43588 542.014594z",
-                "p-id": "5355",
-                fill: "#ffffff"
-              }
-            })
-          ]
-        ),
-        _vm._v(" "),
-        _c("img", {
-          staticClass: "play",
-          attrs: {
-            src:
-              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAABGdBTUEAALGPC/xhBQAAAFdQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////AAAA////LEkQMAAAABx0Uk5TTz+/j29fz5/Qr5B/cFCw4PCg3zAgYMDvgBBAAHW8PxYAAAHKSURBVEjHlZZZgoMgDECdaavWuiEoEHP/c04VZE3tmD8JD0JWi/VcdLpQnO/n0zUAJF4B9Gvk/wLEz2uT2zTwtYZvAFQTGhna9+eizoGH3b00M98XFnk/AcBsZ51fWhAn+ADoat9ei/DdcluqNAXw0lgehao1FpYiB7g0Ohbu7+z7UfIUOPajCuOAmBEW0Icv0eUCv0kMpNQR8PSaeY+di4aTKgTmQCG3owBz6Tygo8uf2w0EMGkHqPwoRhDqAOILjFFizAF5AHOq+c1vdf7YgJ68fMiB3gLEWUA7ygCUZnsGI88paGuxfPsif3e7A5QHERuXqvHbir1GkHZJplnOgHd+8kvAlgrqEvBOKj1QQB43HJdGKQDtS85FjnLrMPu67gkvzVRSujIdEs8VWe7zuHFFRgmTS+khsdSBrTb5miQhY2ljY4ukHkU+I2JlYRuolXo9AZiraaA9tCYdBXybYScAiy6wgEv9HHAdYtRh5wNfBYk0kUG+Gc9JZ82ePKftXrkijOa0xGS9SLwho8y4yyz+wcjq9pdLP9HE0dPHjh6KwuTyc18TDzcCevFx7IKNuSyDKoPTwQ4s6kYjg++/DqCWPaXrRUGu/QN05O4Hr4RngQAAAABJRU5ErkJggg=="
-          }
-        }),
-        _vm._v(" "),
-        _vm._m(7)
-      ])
+      _c("music")
     ],
     1
   )
@@ -54785,24 +54553,6 @@ var staticRenderFns = [
         [_c("img", { attrs: { src: "/static/rule.png" } })]
       )
     ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "playing-line" }, [
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" })
-    ])
   }
 ]
 render._withStripped = true
@@ -54915,6 +54665,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__common_Menu___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__common_Menu__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__helpers_openid__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_common_Music__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_common_Music___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__components_common_Music__);
 //
 //
 //
@@ -55027,27 +54779,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+
 
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     components: {
-        TopMenu: __WEBPACK_IMPORTED_MODULE_0__common_Menu___default.a
+        TopMenu: __WEBPACK_IMPORTED_MODULE_0__common_Menu___default.a,
+        Music: __WEBPACK_IMPORTED_MODULE_3__components_common_Music___default.a
     },
     created: function created() {
         this.getData();
@@ -55057,11 +54797,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         getData: function getData() {
             var _this = this;
 
-            axios.get(__WEBPACK_IMPORTED_MODULE_1__config__["a" /* APP_URL */] + 'h5/index/lists.html?cate=spokesman&openid=' + __WEBPACK_IMPORTED_MODULE_2__helpers_openid__["a" /* default */].getOpenid() + '&type=' + this.$route.params.type).then(function (res) {
+            axios.get(__WEBPACK_IMPORTED_MODULE_1__config__["a" /* APP_URL */] + 'h5/index/lists.html?cate=spokesman&openid=' + __WEBPACK_IMPORTED_MODULE_2__helpers_openid__["a" /* default */].getOpenid() + '&type=' + this.$route.params.type + '&page=' + this.page).then(function (res) {
                 //添加分页数据
                 if (_this.$route.params.type != 'my' && _this.photos.length) {
-                    if (res.data.data) {
+                    if (res.data.data.length) {
                         _this.photos = _this.photos.concat(res.data.data);
+                    } else {
+                        _this.$refs.no_more.style.display = 'none';
+                        _this.$refs.no_data.style.display = 'block';
                     }
                 } else {
                     _this.photos = res.data.data;
@@ -55234,24 +54977,30 @@ var render = function() {
                         "div",
                         {
                           key: photo.id,
-                          staticClass: "poster card-width mode-rank",
-                          on: {
-                            click: function($event) {
-                              return _vm.toInfo(photo.id)
-                            }
-                          }
+                          staticClass: "poster card-width mode-rank"
                         },
                         [
-                          _c("div", { staticClass: "picture" }, [
-                            _c("img", {
-                              staticClass: "image",
-                              staticStyle: {
-                                "max-height": "191px",
-                                "min-height": "191px"
-                              },
-                              attrs: { src: photo.photo }
-                            })
-                          ]),
+                          _c(
+                            "div",
+                            {
+                              staticClass: "picture",
+                              on: {
+                                click: function($event) {
+                                  return _vm.toInfo(photo.id)
+                                }
+                              }
+                            },
+                            [
+                              _c("img", {
+                                staticClass: "image",
+                                staticStyle: {
+                                  "max-height": "191px",
+                                  "min-height": "191px"
+                                },
+                                attrs: { src: photo.photo }
+                              })
+                            ]
+                          ),
                           _vm._v(" "),
                           _c("div", { staticClass: "author" }, [
                             _c("div", { staticClass: "nickname" }, [
@@ -55292,8 +55041,9 @@ var render = function() {
               _c(
                 "div",
                 {
+                  ref: "loding",
                   staticClass: "loading-view",
-                  staticStyle: { display: "none" }
+                  attrs: { none: "" }
                 },
                 [
                   _c(
@@ -55382,6 +55132,7 @@ var render = function() {
               _c(
                 "div",
                 {
+                  ref: "no_more",
                   staticClass: "not-more",
                   on: {
                     click: function($event) {
@@ -55390,11 +55141,27 @@ var render = function() {
                   }
                 },
                 [
-                  _c("i", { staticClass: "iconfont icon-kong" }),
+                  _vm.photos.length && _vm.type != "my"
+                    ? _c("i", { staticClass: "iconfont icon-kong" })
+                    : _vm._e(),
                   _vm._v(" "),
                   _vm.photos.length && _vm.type != "my"
                     ? _c("span", [_vm._v("点击加载更多...")])
                     : _vm._e()
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  ref: "no_data",
+                  staticClass: "not-more",
+                  staticStyle: { display: "none" }
+                },
+                [
+                  _c("i", { staticClass: "iconfont icon-kong" }),
+                  _vm._v(" "),
+                  _c("span", [_vm._v("没有了...")])
                 ]
               )
             ]
@@ -55491,69 +55258,7 @@ var render = function() {
         ]
       ),
       _vm._v(" "),
-      _c("div", { staticClass: "music-status" }, [
-        _c(
-          "svg",
-          {
-            staticClass: "svg-icon svg-icon-left",
-            attrs: {
-              viewBox: "0 0 1024 1024",
-              version: "1.1",
-              xmlns: "http://www.w3.org/2000/svg",
-              "p-id": "5354",
-              "xmlns:xlink": "http://www.w3.org/1999/xlink",
-              width: "32px",
-              height: "32px"
-            }
-          },
-          [
-            _c("path", {
-              attrs: {
-                d:
-                  "M648.43588 542.014594c-3.50994 2.400676-5.947456 3.187599-7.451716 2.364861-1.50426-0.823761-2.506077-2.472308-2.973728-4.9088-0.465604-2.435469-0.033769-6.446829 1.291412-12.071943 2.113127-9.0624 1.683339-16.516162-1.396813-22.372543-3.082198-5.840008-9.064446-11.464099-18.092054-16.891715-9.350972-5.767354-16.766872-13.164834-22.209838-22.192442-5.446036-9.010211-9.780761-17.195637-12.968359-24.431435-3.152806-6.538927-6.304589-9.636474-9.529027-9.296737-3.189645 0.323365-5.481851 2.257413-6.807033 5.804193l-17.158798 45.639456c-1.147126 3.063779-2.400676 6.376221-3.582595 9.564843l-29.80584 78.526471-17.3389 46.033429c-1.75497 5.409197-4.838192 11.069103-9.242502 16.908088-4.371564 5.803169-10.280134 10.568706-17.73185 14.402011-7.451716 3.795443-16.265452 6.088672-26.582425 6.912433-10.316973 0.825808-22.102391-0.895393-35.393091-5.052063-13.506619-4.332678-24.575722-11.17655-33.244148-20.48966-8.670473-9.315156-14.402011-19.165502-17.196661-29.445636-2.793626-10.317996-2.292206-20.277836 1.432629-29.878494 3.725858-9.671267 11.319813-17.087167 22.820752-22.38994 11.463076-5.337565 22.676465-7.845689 33.56649-7.522324 10.891048 0.285502 20.921495 1.898233 30.057573 4.942569 9.099239 3.045359 16.872273 6.66377 23.39278 10.926864 6.482645 4.227278 11.140735 7.631818 14.007015 10.210549l39.872103-106.71958 0.179079 0.303922c8.705266-23.106254 18.378579-48.469921 29.017894-76.359109 2.435469-6.41306 6.088672-11.06808 11.033287-13.916964 4.871961-2.830465 10.245342-3.546779 16.121166-2.078335 4.943592 1.091868 8.489348 3.475148 10.56666 7.182586 2.042519 3.672646 3.833305 8.400321 5.231141 14.114462 1.432629 5.749958 3.366677 12.358469 5.837962 19.86442 2.400676 7.487531 6.484691 15.476483 12.323677 23.984251 4.800329 7.649214 9.314133 13.522991 13.541411 17.625426 4.191462 4.15667 8.132214 7.953136 11.821233 11.499915 3.690042 3.475148 7.130398 7.433296 10.388605 11.67797 3.260254 4.281513 6.376221 10.371208 9.278317 18.305925 2.973728 7.701402 3.942799 14.902408 2.758834 21.566178-1.254573 6.628978-3.295046 12.288884-6.268774 17.016559C655.062811 536.103978 651.874189 539.613918 648.43588 542.014594z",
-                "p-id": "5355",
-                fill: "#ffffff"
-              }
-            })
-          ]
-        ),
-        _vm._v(" "),
-        _c(
-          "svg",
-          {
-            staticClass: "svg-icon svg-icon-right",
-            attrs: {
-              viewBox: "0 0 1024 1024",
-              version: "1.1",
-              xmlns: "http://www.w3.org/2000/svg",
-              "p-id": "5354",
-              "xmlns:xlink": "http://www.w3.org/1999/xlink",
-              width: "32px",
-              height: "32px"
-            }
-          },
-          [
-            _c("path", {
-              attrs: {
-                d:
-                  "M648.43588 542.014594c-3.50994 2.400676-5.947456 3.187599-7.451716 2.364861-1.50426-0.823761-2.506077-2.472308-2.973728-4.9088-0.465604-2.435469-0.033769-6.446829 1.291412-12.071943 2.113127-9.0624 1.683339-16.516162-1.396813-22.372543-3.082198-5.840008-9.064446-11.464099-18.092054-16.891715-9.350972-5.767354-16.766872-13.164834-22.209838-22.192442-5.446036-9.010211-9.780761-17.195637-12.968359-24.431435-3.152806-6.538927-6.304589-9.636474-9.529027-9.296737-3.189645 0.323365-5.481851 2.257413-6.807033 5.804193l-17.158798 45.639456c-1.147126 3.063779-2.400676 6.376221-3.582595 9.564843l-29.80584 78.526471-17.3389 46.033429c-1.75497 5.409197-4.838192 11.069103-9.242502 16.908088-4.371564 5.803169-10.280134 10.568706-17.73185 14.402011-7.451716 3.795443-16.265452 6.088672-26.582425 6.912433-10.316973 0.825808-22.102391-0.895393-35.393091-5.052063-13.506619-4.332678-24.575722-11.17655-33.244148-20.48966-8.670473-9.315156-14.402011-19.165502-17.196661-29.445636-2.793626-10.317996-2.292206-20.277836 1.432629-29.878494 3.725858-9.671267 11.319813-17.087167 22.820752-22.38994 11.463076-5.337565 22.676465-7.845689 33.56649-7.522324 10.891048 0.285502 20.921495 1.898233 30.057573 4.942569 9.099239 3.045359 16.872273 6.66377 23.39278 10.926864 6.482645 4.227278 11.140735 7.631818 14.007015 10.210549l39.872103-106.71958 0.179079 0.303922c8.705266-23.106254 18.378579-48.469921 29.017894-76.359109 2.435469-6.41306 6.088672-11.06808 11.033287-13.916964 4.871961-2.830465 10.245342-3.546779 16.121166-2.078335 4.943592 1.091868 8.489348 3.475148 10.56666 7.182586 2.042519 3.672646 3.833305 8.400321 5.231141 14.114462 1.432629 5.749958 3.366677 12.358469 5.837962 19.86442 2.400676 7.487531 6.484691 15.476483 12.323677 23.984251 4.800329 7.649214 9.314133 13.522991 13.541411 17.625426 4.191462 4.15667 8.132214 7.953136 11.821233 11.499915 3.690042 3.475148 7.130398 7.433296 10.388605 11.67797 3.260254 4.281513 6.376221 10.371208 9.278317 18.305925 2.973728 7.701402 3.942799 14.902408 2.758834 21.566178-1.254573 6.628978-3.295046 12.288884-6.268774 17.016559C655.062811 536.103978 651.874189 539.613918 648.43588 542.014594z",
-                "p-id": "5355",
-                fill: "#ffffff"
-              }
-            })
-          ]
-        ),
-        _vm._v(" "),
-        _c("img", {
-          staticClass: "play",
-          attrs: {
-            src:
-              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAABGdBTUEAALGPC/xhBQAAAFdQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////AAAA////LEkQMAAAABx0Uk5TTz+/j29fz5/Qr5B/cFCw4PCg3zAgYMDvgBBAAHW8PxYAAAHKSURBVEjHlZZZgoMgDECdaavWuiEoEHP/c04VZE3tmD8JD0JWi/VcdLpQnO/n0zUAJF4B9Gvk/wLEz2uT2zTwtYZvAFQTGhna9+eizoGH3b00M98XFnk/AcBsZ51fWhAn+ADoat9ei/DdcluqNAXw0lgehao1FpYiB7g0Ohbu7+z7UfIUOPajCuOAmBEW0Icv0eUCv0kMpNQR8PSaeY+di4aTKgTmQCG3owBz6Tygo8uf2w0EMGkHqPwoRhDqAOILjFFizAF5AHOq+c1vdf7YgJ68fMiB3gLEWUA7ygCUZnsGI88paGuxfPsif3e7A5QHERuXqvHbir1GkHZJplnOgHd+8kvAlgrqEvBOKj1QQB43HJdGKQDtS85FjnLrMPu67gkvzVRSujIdEs8VWe7zuHFFRgmTS+khsdSBrTb5miQhY2ljY4ukHkU+I2JlYRuolXo9AZiraaA9tCYdBXybYScAiy6wgEv9HHAdYtRh5wNfBYk0kUG+Gc9JZ82ePKftXrkijOa0xGS9SLwho8y4yyz+wcjq9pdLP9HE0dPHjh6KwuTyc18TDzcCevFx7IKNuSyDKoPTwQ4s6kYjg++/DqCWPaXrRUGu/QN05O4Hr4RngQAAAABJRU5ErkJggg=="
-          }
-        }),
-        _vm._v(" "),
-        _vm._m(4)
-      ])
+      _c("music")
     ],
     1
   )
@@ -55606,24 +55311,6 @@ var staticRenderFns = [
         },
         [_c("img", { attrs: { src: "/static/rule2.png" } })]
       )
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "playing-line" }, [
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" })
     ])
   }
 ]
@@ -55689,22 +55376,8 @@ module.exports = Component.exports
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_common_Music__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_common_Music___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__components_common_Music__);
 //
 //
 //
@@ -55719,7 +55392,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 
+
 /* harmony default export */ __webpack_exports__["default"] = ({
+    components: {
+        Music: __WEBPACK_IMPORTED_MODULE_0__components_common_Music___default.a
+    },
     methods: {
         close: function close() {
             this.$router.push({ name: 'activity' });
@@ -55735,92 +55412,35 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container" }, [
-    _c(
-      "div",
-      {
-        staticClass: "_vp_page vp-m2 app-view",
-        staticStyle: { background: "rgb(35, 24, 21)" }
-      },
-      [
-        _vm._m(0),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass: "_vp_layer close-psd",
-            staticStyle: { top: "2.1rem" },
-            on: { click: _vm.close }
-          },
-          [_c("i", { staticClass: "iconfont icon-danchuang" })]
-        )
-      ]
-    ),
-    _vm._v(" "),
-    _c("div", { staticClass: "music-status" }, [
+  return _c(
+    "div",
+    { staticClass: "container" },
+    [
       _c(
-        "svg",
+        "div",
         {
-          staticClass: "svg-icon svg-icon-left",
-          attrs: {
-            viewBox: "0 0 1024 1024",
-            version: "1.1",
-            xmlns: "http://www.w3.org/2000/svg",
-            "p-id": "5354",
-            "xmlns:xlink": "http://www.w3.org/1999/xlink",
-            width: "32px",
-            height: "32px"
-          }
+          staticClass: "_vp_page vp-m2 app-view",
+          staticStyle: { background: "rgb(35, 24, 21)" }
         },
         [
-          _c("path", {
-            attrs: {
-              d:
-                "M648.43588 542.014594c-3.50994 2.400676-5.947456 3.187599-7.451716 2.364861-1.50426-0.823761-2.506077-2.472308-2.973728-4.9088-0.465604-2.435469-0.033769-6.446829 1.291412-12.071943 2.113127-9.0624 1.683339-16.516162-1.396813-22.372543-3.082198-5.840008-9.064446-11.464099-18.092054-16.891715-9.350972-5.767354-16.766872-13.164834-22.209838-22.192442-5.446036-9.010211-9.780761-17.195637-12.968359-24.431435-3.152806-6.538927-6.304589-9.636474-9.529027-9.296737-3.189645 0.323365-5.481851 2.257413-6.807033 5.804193l-17.158798 45.639456c-1.147126 3.063779-2.400676 6.376221-3.582595 9.564843l-29.80584 78.526471-17.3389 46.033429c-1.75497 5.409197-4.838192 11.069103-9.242502 16.908088-4.371564 5.803169-10.280134 10.568706-17.73185 14.402011-7.451716 3.795443-16.265452 6.088672-26.582425 6.912433-10.316973 0.825808-22.102391-0.895393-35.393091-5.052063-13.506619-4.332678-24.575722-11.17655-33.244148-20.48966-8.670473-9.315156-14.402011-19.165502-17.196661-29.445636-2.793626-10.317996-2.292206-20.277836 1.432629-29.878494 3.725858-9.671267 11.319813-17.087167 22.820752-22.38994 11.463076-5.337565 22.676465-7.845689 33.56649-7.522324 10.891048 0.285502 20.921495 1.898233 30.057573 4.942569 9.099239 3.045359 16.872273 6.66377 23.39278 10.926864 6.482645 4.227278 11.140735 7.631818 14.007015 10.210549l39.872103-106.71958 0.179079 0.303922c8.705266-23.106254 18.378579-48.469921 29.017894-76.359109 2.435469-6.41306 6.088672-11.06808 11.033287-13.916964 4.871961-2.830465 10.245342-3.546779 16.121166-2.078335 4.943592 1.091868 8.489348 3.475148 10.56666 7.182586 2.042519 3.672646 3.833305 8.400321 5.231141 14.114462 1.432629 5.749958 3.366677 12.358469 5.837962 19.86442 2.400676 7.487531 6.484691 15.476483 12.323677 23.984251 4.800329 7.649214 9.314133 13.522991 13.541411 17.625426 4.191462 4.15667 8.132214 7.953136 11.821233 11.499915 3.690042 3.475148 7.130398 7.433296 10.388605 11.67797 3.260254 4.281513 6.376221 10.371208 9.278317 18.305925 2.973728 7.701402 3.942799 14.902408 2.758834 21.566178-1.254573 6.628978-3.295046 12.288884-6.268774 17.016559C655.062811 536.103978 651.874189 539.613918 648.43588 542.014594z",
-              "p-id": "5355",
-              fill: "#ffffff"
-            }
-          })
+          _vm._m(0),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "_vp_layer close-psd",
+              staticStyle: { top: "2.1rem" },
+              on: { click: _vm.close }
+            },
+            [_c("i", { staticClass: "iconfont icon-danchuang" })]
+          )
         ]
       ),
       _vm._v(" "),
-      _c(
-        "svg",
-        {
-          staticClass: "svg-icon svg-icon-right",
-          attrs: {
-            viewBox: "0 0 1024 1024",
-            version: "1.1",
-            xmlns: "http://www.w3.org/2000/svg",
-            "p-id": "5354",
-            "xmlns:xlink": "http://www.w3.org/1999/xlink",
-            width: "32px",
-            height: "32px"
-          }
-        },
-        [
-          _c("path", {
-            attrs: {
-              d:
-                "M648.43588 542.014594c-3.50994 2.400676-5.947456 3.187599-7.451716 2.364861-1.50426-0.823761-2.506077-2.472308-2.973728-4.9088-0.465604-2.435469-0.033769-6.446829 1.291412-12.071943 2.113127-9.0624 1.683339-16.516162-1.396813-22.372543-3.082198-5.840008-9.064446-11.464099-18.092054-16.891715-9.350972-5.767354-16.766872-13.164834-22.209838-22.192442-5.446036-9.010211-9.780761-17.195637-12.968359-24.431435-3.152806-6.538927-6.304589-9.636474-9.529027-9.296737-3.189645 0.323365-5.481851 2.257413-6.807033 5.804193l-17.158798 45.639456c-1.147126 3.063779-2.400676 6.376221-3.582595 9.564843l-29.80584 78.526471-17.3389 46.033429c-1.75497 5.409197-4.838192 11.069103-9.242502 16.908088-4.371564 5.803169-10.280134 10.568706-17.73185 14.402011-7.451716 3.795443-16.265452 6.088672-26.582425 6.912433-10.316973 0.825808-22.102391-0.895393-35.393091-5.052063-13.506619-4.332678-24.575722-11.17655-33.244148-20.48966-8.670473-9.315156-14.402011-19.165502-17.196661-29.445636-2.793626-10.317996-2.292206-20.277836 1.432629-29.878494 3.725858-9.671267 11.319813-17.087167 22.820752-22.38994 11.463076-5.337565 22.676465-7.845689 33.56649-7.522324 10.891048 0.285502 20.921495 1.898233 30.057573 4.942569 9.099239 3.045359 16.872273 6.66377 23.39278 10.926864 6.482645 4.227278 11.140735 7.631818 14.007015 10.210549l39.872103-106.71958 0.179079 0.303922c8.705266-23.106254 18.378579-48.469921 29.017894-76.359109 2.435469-6.41306 6.088672-11.06808 11.033287-13.916964 4.871961-2.830465 10.245342-3.546779 16.121166-2.078335 4.943592 1.091868 8.489348 3.475148 10.56666 7.182586 2.042519 3.672646 3.833305 8.400321 5.231141 14.114462 1.432629 5.749958 3.366677 12.358469 5.837962 19.86442 2.400676 7.487531 6.484691 15.476483 12.323677 23.984251 4.800329 7.649214 9.314133 13.522991 13.541411 17.625426 4.191462 4.15667 8.132214 7.953136 11.821233 11.499915 3.690042 3.475148 7.130398 7.433296 10.388605 11.67797 3.260254 4.281513 6.376221 10.371208 9.278317 18.305925 2.973728 7.701402 3.942799 14.902408 2.758834 21.566178-1.254573 6.628978-3.295046 12.288884-6.268774 17.016559C655.062811 536.103978 651.874189 539.613918 648.43588 542.014594z",
-              "p-id": "5355",
-              fill: "#ffffff"
-            }
-          })
-        ]
-      ),
-      _vm._v(" "),
-      _c("img", {
-        staticClass: "play",
-        attrs: {
-          src:
-            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAABGdBTUEAALGPC/xhBQAAAFdQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////AAAA////LEkQMAAAABx0Uk5TTz+/j29fz5/Qr5B/cFCw4PCg3zAgYMDvgBBAAHW8PxYAAAHKSURBVEjHlZZZgoMgDECdaavWuiEoEHP/c04VZE3tmD8JD0JWi/VcdLpQnO/n0zUAJF4B9Gvk/wLEz2uT2zTwtYZvAFQTGhna9+eizoGH3b00M98XFnk/AcBsZ51fWhAn+ADoat9ei/DdcluqNAXw0lgehao1FpYiB7g0Ohbu7+z7UfIUOPajCuOAmBEW0Icv0eUCv0kMpNQR8PSaeY+di4aTKgTmQCG3owBz6Tygo8uf2w0EMGkHqPwoRhDqAOILjFFizAF5AHOq+c1vdf7YgJ68fMiB3gLEWUA7ygCUZnsGI88paGuxfPsif3e7A5QHERuXqvHbir1GkHZJplnOgHd+8kvAlgrqEvBOKj1QQB43HJdGKQDtS85FjnLrMPu67gkvzVRSujIdEs8VWe7zuHFFRgmTS+khsdSBrTb5miQhY2ljY4ukHkU+I2JlYRuolXo9AZiraaA9tCYdBXybYScAiy6wgEv9HHAdYtRh5wNfBYk0kUG+Gc9JZ82ePKftXrkijOa0xGS9SLwho8y4yyz+wcjq9pdLP9HE0dPHjh6KwuTyc18TDzcCevFx7IKNuSyDKoPTwQ4s6kYjg++/DqCWPaXrRUGu/QN05O4Hr4RngQAAAABJRU5ErkJggg=="
-        }
-      }),
-      _vm._v(" "),
-      _vm._m(1)
-    ])
-  ])
+      _c("music")
+    ],
+    1
+  )
 }
 var staticRenderFns = [
   function() {
@@ -55835,24 +55455,6 @@ var staticRenderFns = [
       },
       [_c("img", { attrs: { src: "/static/about.png" } })]
     )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "playing-line" }, [
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" })
-    ])
   }
 ]
 render._withStripped = true
@@ -55963,6 +55565,8 @@ exports.push([module.i, "\ncontainer .uploader-page .editor {\n    width: 80%;\n
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__helpers_openid__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_common_Music__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_common_Music___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__components_common_Music__);
 //
 //
 //
@@ -56113,27 +55717,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-    components: {},
+    components: {
+        Music: __WEBPACK_IMPORTED_MODULE_2__components_common_Music___default.a
+    },
     methods: {
         photo: function photo() {
             var avatar = __WEBPACK_IMPORTED_MODULE_0__helpers_openid__["a" /* default */].getAvatar();
@@ -56404,442 +55995,392 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container" }, [
-    _c("div", { staticClass: "uploader-page app-view" }, [
-      _c("div", { staticClass: "editor" }, [
+  return _c(
+    "div",
+    { staticClass: "container" },
+    [
+      _c("div", { staticClass: "uploader-page app-view" }, [
+        _c("div", { staticClass: "editor" }, [
+          _c(
+            "div",
+            {
+              ref: "cropper",
+              staticClass: "comp-cropper",
+              attrs: { "data-width": "80%" }
+            },
+            [
+              _vm.faceBase64
+                ? _c("img", {
+                    ref: "upload",
+                    staticClass: "upload",
+                    staticStyle: { left: "0px", top: "0px" },
+                    attrs: { src: _vm.faceBase64 },
+                    on: {
+                      touchmove: _vm.drag,
+                      touchstart: _vm.startDrag,
+                      touchend: _vm.endDrag
+                    }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              !_vm.faceBase64
+                ? _c("div", { staticClass: "upload-icon" }, [
+                    _c("i", { staticClass: "iconfont icon-zhongxinshangchuan" })
+                  ])
+                : _vm._e(),
+              _vm._v(" "),
+              _c("div", { staticClass: "preload-hidden" }, [
+                _c("canvas", { attrs: { width: "0", height: "0" } }),
+                _vm._v(" "),
+                _c("img", {
+                  staticClass: "hidden",
+                  attrs: { src: "/static/poster.png" }
+                }),
+                _vm._v(" "),
+                _c("input", {
+                  ref: "file",
+                  staticStyle: {
+                    display: "block",
+                    width: "0px",
+                    height: "0px"
+                  },
+                  attrs: { type: "file", name: "uplaod", id: "file" },
+                  on: { change: _vm.shangc }
+                })
+              ]),
+              _vm._v(" "),
+              _vm._m(0),
+              _vm._v(" "),
+              !_vm.faceBase64
+                ? _c("div", { staticClass: "tools" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "icon-btn",
+                        attrs: { "data-v-0dcfc57a": "", title: "拍照" }
+                      },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass: "icon",
+                            attrs: { "data-v-0dcfc57a": "" },
+                            on: { click: _vm.photo }
+                          },
+                          [
+                            _c("i", {
+                              staticClass: "iconfont icon-paizhao2",
+                              attrs: { "data-v-0dcfc57a": "" }
+                            })
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "text",
+                            attrs: { "data-v-0dcfc57a": "" }
+                          },
+                          [_vm._v("拍照")]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass: "icon-btn",
+                        attrs: { "data-v-0dcfc57a": "", title: "作品墙" },
+                        on: { click: _vm.list }
+                      },
+                      [
+                        _vm._m(1),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "text",
+                            attrs: { "data-v-0dcfc57a": "" }
+                          },
+                          [_vm._v("作品墙")]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass: "icon-btn",
+                        attrs: { "data-v-0dcfc57a": "", title: "规则" }
+                      },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass: "icon",
+                            attrs: { "data-v-0dcfc57a": "" }
+                          },
+                          [
+                            _c("i", {
+                              staticClass: "iconfont icon-guize1",
+                              attrs: { "data-v-0dcfc57a": "" },
+                              on: { click: _vm.rule }
+                            })
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "text",
+                            attrs: { "data-v-0dcfc57a": "" }
+                          },
+                          [_vm._v("规则")]
+                        )
+                      ]
+                    )
+                  ])
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.faceBase64
+                ? _c("div", { staticClass: "tools" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "icon-btn",
+                        attrs: { "data-v-0dcfc57a": "", title: "重拍" },
+                        on: { click: _vm.photo }
+                      },
+                      [
+                        _vm._m(2),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "text",
+                            attrs: { "data-v-0dcfc57a": "" }
+                          },
+                          [_vm._v("重拍")]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass: "icon-btn",
+                        attrs: { "data-v-0dcfc57a": "", title: "预览" },
+                        on: { click: _vm.showadverb }
+                      },
+                      [
+                        _vm._m(3),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "text",
+                            attrs: { "data-v-0dcfc57a": "" }
+                          },
+                          [_vm._v("预览")]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass: "icon-btn",
+                        attrs: { "data-v-0dcfc57a": "", title: "提交" },
+                        on: { click: _vm.upload }
+                      },
+                      [
+                        _vm._m(4),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "text",
+                            attrs: { "data-v-0dcfc57a": "" }
+                          },
+                          [_vm._v("提交")]
+                        )
+                      ]
+                    )
+                  ])
+                : _vm._e()
+            ]
+          ),
+          _vm._v(" "),
+          _c("img", {
+            staticClass: "masker",
+            attrs: { src: "/static/masker.png" }
+          })
+        ]),
+        _vm._v(" "),
         _c(
           "div",
           {
-            ref: "cropper",
-            staticClass: "comp-cropper",
-            attrs: { "data-width": "80%" }
+            staticClass: "modal-mask preview-modal size-mini",
+            staticStyle: { display: "none" },
+            on: { click: _vm.adverb }
           },
           [
-            _vm.faceBase64
-              ? _c("img", {
-                  ref: "upload",
-                  staticClass: "upload",
-                  staticStyle: { left: "0px", top: "0px" },
-                  attrs: { src: _vm.faceBase64 },
-                  on: {
-                    touchmove: _vm.drag,
-                    touchstart: _vm.startDrag,
-                    touchend: _vm.endDrag
-                  }
-                })
-              : _vm._e(),
-            _vm._v(" "),
-            !_vm.faceBase64
-              ? _c("div", { staticClass: "upload-icon" }, [
-                  _c("i", { staticClass: "iconfont icon-zhongxinshangchuan" })
-                ])
-              : _vm._e(),
-            _vm._v(" "),
-            _c("div", { staticClass: "preload-hidden" }, [
-              _c("canvas", { attrs: { width: "0", height: "0" } }),
-              _vm._v(" "),
-              _c("img", {
-                staticClass: "hidden",
-                attrs: { src: "/static/poster.png" }
-              }),
-              _vm._v(" "),
-              _c("input", {
-                ref: "file",
-                staticStyle: { display: "block", width: "0px", height: "0px" },
-                attrs: { type: "file", name: "uplaod", id: "file" },
-                on: { change: _vm.shangc }
-              })
-            ]),
-            _vm._v(" "),
-            _vm._m(0),
-            _vm._v(" "),
-            !_vm.faceBase64
-              ? _c("div", { staticClass: "tools" }, [
-                  _c(
-                    "div",
-                    {
-                      staticClass: "icon-btn",
-                      attrs: { "data-v-0dcfc57a": "", title: "拍照" }
-                    },
-                    [
-                      _c(
-                        "div",
-                        {
-                          staticClass: "icon",
-                          attrs: { "data-v-0dcfc57a": "" },
-                          on: { click: _vm.photo }
-                        },
-                        [
-                          _c("i", {
-                            staticClass: "iconfont icon-paizhao2",
-                            attrs: { "data-v-0dcfc57a": "" }
-                          })
-                        ]
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        {
-                          staticClass: "text",
-                          attrs: { "data-v-0dcfc57a": "" }
-                        },
-                        [_vm._v("拍照")]
-                      )
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    {
-                      staticClass: "icon-btn",
-                      attrs: { "data-v-0dcfc57a": "", title: "作品墙" },
-                      on: { click: _vm.list }
-                    },
-                    [
-                      _vm._m(1),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        {
-                          staticClass: "text",
-                          attrs: { "data-v-0dcfc57a": "" }
-                        },
-                        [_vm._v("作品墙")]
-                      )
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    {
-                      staticClass: "icon-btn",
-                      attrs: { "data-v-0dcfc57a": "", title: "规则" }
-                    },
-                    [
-                      _c(
-                        "div",
-                        {
-                          staticClass: "icon",
-                          attrs: { "data-v-0dcfc57a": "" }
-                        },
-                        [
-                          _c("i", {
-                            staticClass: "iconfont icon-guize1",
-                            attrs: { "data-v-0dcfc57a": "" },
-                            on: { click: _vm.rule }
-                          })
-                        ]
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        {
-                          staticClass: "text",
-                          attrs: { "data-v-0dcfc57a": "" }
-                        },
-                        [_vm._v("规则")]
-                      )
-                    ]
-                  )
-                ])
-              : _vm._e(),
-            _vm._v(" "),
-            _vm.faceBase64
-              ? _c("div", { staticClass: "tools" }, [
-                  _c(
-                    "div",
-                    {
-                      staticClass: "icon-btn",
-                      attrs: { "data-v-0dcfc57a": "", title: "重拍" },
-                      on: { click: _vm.photo }
-                    },
-                    [
-                      _vm._m(2),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        {
-                          staticClass: "text",
-                          attrs: { "data-v-0dcfc57a": "" }
-                        },
-                        [_vm._v("重拍")]
-                      )
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    {
-                      staticClass: "icon-btn",
-                      attrs: { "data-v-0dcfc57a": "", title: "预览" },
-                      on: { click: _vm.showadverb }
-                    },
-                    [
-                      _vm._m(3),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        {
-                          staticClass: "text",
-                          attrs: { "data-v-0dcfc57a": "" }
-                        },
-                        [_vm._v("预览")]
-                      )
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    {
-                      staticClass: "icon-btn",
-                      attrs: { "data-v-0dcfc57a": "", title: "提交" },
-                      on: { click: _vm.upload }
-                    },
-                    [
-                      _vm._m(4),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        {
-                          staticClass: "text",
-                          attrs: { "data-v-0dcfc57a": "" }
-                        },
-                        [_vm._v("提交")]
-                      )
-                    ]
-                  )
-                ])
-              : _vm._e()
+            _c("div", { staticClass: "modal-wrapper" }, [
+              _c("div", { staticClass: "modal-container" }, [
+                _vm._m(5),
+                _vm._v(" "),
+                _c("i", {
+                  staticClass: "close-btn iconfont icon-guanbi",
+                  staticStyle: { "font-size": "1.6rem" }
+                }),
+                _vm._v(" "),
+                _c("div", { staticClass: "modal-body" }, [
+                  _c("img", {
+                    staticClass: "preview-src",
+                    attrs: { src: _vm.prewBase64 }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "modal-footer" })
+              ])
+            ])
           ]
-        ),
-        _vm._v(" "),
-        _c("img", {
-          staticClass: "masker",
-          attrs: { src: "/static/masker.png" }
-        })
+        )
       ]),
       _vm._v(" "),
       _c(
         "div",
         {
-          staticClass: "modal-mask preview-modal size-mini",
-          staticStyle: { display: "none" },
-          on: { click: _vm.adverb }
+          staticClass: "modal-mask h5-rule size-middle",
+          staticStyle: { display: "none" }
         },
         [
           _c("div", { staticClass: "modal-wrapper" }, [
             _c("div", { staticClass: "modal-container" }, [
-              _vm._m(5),
+              _vm._m(6),
               _vm._v(" "),
               _c("i", {
                 staticClass: "close-btn iconfont icon-guanbi",
-                staticStyle: { "font-size": "1.6rem" }
+                staticStyle: { "font-size": "1.6rem" },
+                on: { click: _vm.close }
               }),
               _vm._v(" "),
-              _c("div", { staticClass: "modal-body" }, [
-                _c("img", {
-                  staticClass: "preview-src",
-                  attrs: { src: _vm.prewBase64 }
-                })
-              ]),
+              _vm._m(7),
+              _vm._v(" "),
+              _vm._m(8),
               _vm._v(" "),
               _c("div", { staticClass: "modal-footer" })
             ])
           ])
         ]
-      )
-    ]),
-    _vm._v(" "),
-    _c(
-      "div",
-      {
-        staticClass: "modal-mask h5-rule size-middle",
-        staticStyle: { display: "none" }
-      },
-      [
-        _c("div", { staticClass: "modal-wrapper" }, [
-          _c("div", { staticClass: "modal-container" }, [
-            _vm._m(6),
-            _vm._v(" "),
-            _c("i", {
-              staticClass: "close-btn iconfont icon-guanbi",
-              staticStyle: { "font-size": "1.6rem" },
-              on: { click: _vm.close }
-            }),
-            _vm._v(" "),
-            _vm._m(7),
-            _vm._v(" "),
-            _vm._m(8),
-            _vm._v(" "),
-            _c("div", { staticClass: "modal-footer" })
-          ])
-        ])
-      ]
-    ),
-    _vm._v(" "),
-    _c("div", { staticClass: "music-status" }, [
+      ),
+      _vm._v(" "),
+      _c("music"),
+      _vm._v(" "),
       _c(
-        "svg",
+        "div",
         {
-          staticClass: "svg-icon svg-icon-left",
-          attrs: {
-            viewBox: "0 0 1024 1024",
-            version: "1.1",
-            xmlns: "http://www.w3.org/2000/svg",
-            "p-id": "5354",
-            "xmlns:xlink": "http://www.w3.org/1999/xlink",
-            width: "32px",
-            height: "32px"
-          }
+          staticClass: "layermbox layermbox0",
+          staticStyle: { display: "none" },
+          attrs: { id: "layermbox2", index: "11" }
         },
         [
-          _c("path", {
-            attrs: {
-              d:
-                "M648.43588 542.014594c-3.50994 2.400676-5.947456 3.187599-7.451716 2.364861-1.50426-0.823761-2.506077-2.472308-2.973728-4.9088-0.465604-2.435469-0.033769-6.446829 1.291412-12.071943 2.113127-9.0624 1.683339-16.516162-1.396813-22.372543-3.082198-5.840008-9.064446-11.464099-18.092054-16.891715-9.350972-5.767354-16.766872-13.164834-22.209838-22.192442-5.446036-9.010211-9.780761-17.195637-12.968359-24.431435-3.152806-6.538927-6.304589-9.636474-9.529027-9.296737-3.189645 0.323365-5.481851 2.257413-6.807033 5.804193l-17.158798 45.639456c-1.147126 3.063779-2.400676 6.376221-3.582595 9.564843l-29.80584 78.526471-17.3389 46.033429c-1.75497 5.409197-4.838192 11.069103-9.242502 16.908088-4.371564 5.803169-10.280134 10.568706-17.73185 14.402011-7.451716 3.795443-16.265452 6.088672-26.582425 6.912433-10.316973 0.825808-22.102391-0.895393-35.393091-5.052063-13.506619-4.332678-24.575722-11.17655-33.244148-20.48966-8.670473-9.315156-14.402011-19.165502-17.196661-29.445636-2.793626-10.317996-2.292206-20.277836 1.432629-29.878494 3.725858-9.671267 11.319813-17.087167 22.820752-22.38994 11.463076-5.337565 22.676465-7.845689 33.56649-7.522324 10.891048 0.285502 20.921495 1.898233 30.057573 4.942569 9.099239 3.045359 16.872273 6.66377 23.39278 10.926864 6.482645 4.227278 11.140735 7.631818 14.007015 10.210549l39.872103-106.71958 0.179079 0.303922c8.705266-23.106254 18.378579-48.469921 29.017894-76.359109 2.435469-6.41306 6.088672-11.06808 11.033287-13.916964 4.871961-2.830465 10.245342-3.546779 16.121166-2.078335 4.943592 1.091868 8.489348 3.475148 10.56666 7.182586 2.042519 3.672646 3.833305 8.400321 5.231141 14.114462 1.432629 5.749958 3.366677 12.358469 5.837962 19.86442 2.400676 7.487531 6.484691 15.476483 12.323677 23.984251 4.800329 7.649214 9.314133 13.522991 13.541411 17.625426 4.191462 4.15667 8.132214 7.953136 11.821233 11.499915 3.690042 3.475148 7.130398 7.433296 10.388605 11.67797 3.260254 4.281513 6.376221 10.371208 9.278317 18.305925 2.973728 7.701402 3.942799 14.902408 2.758834 21.566178-1.254573 6.628978-3.295046 12.288884-6.268774 17.016559C655.062811 536.103978 651.874189 539.613918 648.43588 542.014594z",
-              "p-id": "5355",
-              fill: "#ffffff"
-            }
-          })
+          _c("div", { staticClass: "laymshade" }),
+          _vm._v(" "),
+          _c("div", { staticClass: "layermmain" }, [
+            _c("div", { staticClass: "section" }, [
+              _c(
+                "div",
+                { staticClass: "layermchild upload-tips-layer layermanim" },
+                [
+                  _c("h3", {}, [_vm._v("上传至作品墙参与打榜？")]),
+                  _vm._v(" "),
+                  _c("button", {
+                    staticClass: "layermend",
+                    on: { click: _vm.nosure }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "layermcont" }, [
+                    _vm._v(
+                      "您的超赞海报已制作好，是否要上传至作品墙晒照，参与PK打榜？"
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "layermbtn" }, [
+                    _c(
+                      "span",
+                      { attrs: { type: "0" }, on: { click: _vm.nosure } },
+                      [_vm._v("不需要")]
+                    ),
+                    _c(
+                      "span",
+                      {
+                        attrs: { type: "1" },
+                        on: { click: _vm.confirmupload }
+                      },
+                      [_vm._v("上传至作品墙")]
+                    )
+                  ])
+                ]
+              )
+            ])
+          ])
         ]
       ),
       _vm._v(" "),
       _c(
-        "svg",
+        "div",
         {
-          staticClass: "svg-icon svg-icon-right",
-          attrs: {
-            viewBox: "0 0 1024 1024",
-            version: "1.1",
-            xmlns: "http://www.w3.org/2000/svg",
-            "p-id": "5354",
-            "xmlns:xlink": "http://www.w3.org/1999/xlink",
-            width: "32px",
-            height: "32px"
-          }
+          staticClass: "layermbox layermbox0",
+          staticStyle: { display: "none" },
+          attrs: { id: "layermbox3", index: "11" }
         },
         [
-          _c("path", {
-            attrs: {
-              d:
-                "M648.43588 542.014594c-3.50994 2.400676-5.947456 3.187599-7.451716 2.364861-1.50426-0.823761-2.506077-2.472308-2.973728-4.9088-0.465604-2.435469-0.033769-6.446829 1.291412-12.071943 2.113127-9.0624 1.683339-16.516162-1.396813-22.372543-3.082198-5.840008-9.064446-11.464099-18.092054-16.891715-9.350972-5.767354-16.766872-13.164834-22.209838-22.192442-5.446036-9.010211-9.780761-17.195637-12.968359-24.431435-3.152806-6.538927-6.304589-9.636474-9.529027-9.296737-3.189645 0.323365-5.481851 2.257413-6.807033 5.804193l-17.158798 45.639456c-1.147126 3.063779-2.400676 6.376221-3.582595 9.564843l-29.80584 78.526471-17.3389 46.033429c-1.75497 5.409197-4.838192 11.069103-9.242502 16.908088-4.371564 5.803169-10.280134 10.568706-17.73185 14.402011-7.451716 3.795443-16.265452 6.088672-26.582425 6.912433-10.316973 0.825808-22.102391-0.895393-35.393091-5.052063-13.506619-4.332678-24.575722-11.17655-33.244148-20.48966-8.670473-9.315156-14.402011-19.165502-17.196661-29.445636-2.793626-10.317996-2.292206-20.277836 1.432629-29.878494 3.725858-9.671267 11.319813-17.087167 22.820752-22.38994 11.463076-5.337565 22.676465-7.845689 33.56649-7.522324 10.891048 0.285502 20.921495 1.898233 30.057573 4.942569 9.099239 3.045359 16.872273 6.66377 23.39278 10.926864 6.482645 4.227278 11.140735 7.631818 14.007015 10.210549l39.872103-106.71958 0.179079 0.303922c8.705266-23.106254 18.378579-48.469921 29.017894-76.359109 2.435469-6.41306 6.088672-11.06808 11.033287-13.916964 4.871961-2.830465 10.245342-3.546779 16.121166-2.078335 4.943592 1.091868 8.489348 3.475148 10.56666 7.182586 2.042519 3.672646 3.833305 8.400321 5.231141 14.114462 1.432629 5.749958 3.366677 12.358469 5.837962 19.86442 2.400676 7.487531 6.484691 15.476483 12.323677 23.984251 4.800329 7.649214 9.314133 13.522991 13.541411 17.625426 4.191462 4.15667 8.132214 7.953136 11.821233 11.499915 3.690042 3.475148 7.130398 7.433296 10.388605 11.67797 3.260254 4.281513 6.376221 10.371208 9.278317 18.305925 2.973728 7.701402 3.942799 14.902408 2.758834 21.566178-1.254573 6.628978-3.295046 12.288884-6.268774 17.016559C655.062811 536.103978 651.874189 539.613918 648.43588 542.014594z",
-              "p-id": "5355",
-              fill: "#ffffff"
-            }
-          })
+          _c("div", { staticClass: "laymshade" }),
+          _vm._v(" "),
+          _c("div", { staticClass: "layermmain" }, [
+            _c("div", { staticClass: "section" }, [
+              _c(
+                "div",
+                { staticClass: "layermchild upload-tips-layer layermanim" },
+                [
+                  _c("h3", {}, [_vm._v("tips")]),
+                  _vm._v(" "),
+                  _c("button", {
+                    staticClass: "layermend",
+                    on: { click: _vm.nosure }
+                  }),
+                  _vm._v(" "),
+                  _c("img", {
+                    staticStyle: { width: "100%" },
+                    attrs: { src: "/static/qr_code.jpg", alt: "" }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "layermcont" }, [
+                    _vm._v("您的超赞海报已制作好，扫码关注，获奖信息推送")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "layermbtn" }, [
+                    _c(
+                      "span",
+                      { attrs: { type: "0" }, on: { click: _vm.nosure } },
+                      [_vm._v("确定")]
+                    )
+                  ])
+                ]
+              )
+            ])
+          ])
         ]
       ),
       _vm._v(" "),
-      _c("img", {
-        staticClass: "play",
-        attrs: {
-          src:
-            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAABGdBTUEAALGPC/xhBQAAAFdQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////AAAA////LEkQMAAAABx0Uk5TTz+/j29fz5/Qr5B/cFCw4PCg3zAgYMDvgBBAAHW8PxYAAAHKSURBVEjHlZZZgoMgDECdaavWuiEoEHP/c04VZE3tmD8JD0JWi/VcdLpQnO/n0zUAJF4B9Gvk/wLEz2uT2zTwtYZvAFQTGhna9+eizoGH3b00M98XFnk/AcBsZ51fWhAn+ADoat9ei/DdcluqNAXw0lgehao1FpYiB7g0Ohbu7+z7UfIUOPajCuOAmBEW0Icv0eUCv0kMpNQR8PSaeY+di4aTKgTmQCG3owBz6Tygo8uf2w0EMGkHqPwoRhDqAOILjFFizAF5AHOq+c1vdf7YgJ68fMiB3gLEWUA7ygCUZnsGI88paGuxfPsif3e7A5QHERuXqvHbir1GkHZJplnOgHd+8kvAlgrqEvBOKj1QQB43HJdGKQDtS85FjnLrMPu67gkvzVRSujIdEs8VWe7zuHFFRgmTS+khsdSBrTb5miQhY2ljY4ukHkU+I2JlYRuolXo9AZiraaA9tCYdBXybYScAiy6wgEv9HHAdYtRh5wNfBYk0kUG+Gc9JZ82ePKftXrkijOa0xGS9SLwho8y4yyz+wcjq9pdLP9HE0dPHjh6KwuTyc18TDzcCevFx7IKNuSyDKoPTwQ4s6kYjg++/DqCWPaXrRUGu/QN05O4Hr4RngQAAAABJRU5ErkJggg=="
-        }
-      }),
-      _vm._v(" "),
-      _vm._m(9)
-    ]),
-    _vm._v(" "),
-    _c(
-      "div",
-      {
-        staticClass: "layermbox layermbox0",
+      _c("canvas", {
         staticStyle: { display: "none" },
-        attrs: { id: "layermbox2", index: "11" }
-      },
-      [
-        _c("div", { staticClass: "laymshade" }),
-        _vm._v(" "),
-        _c("div", { staticClass: "layermmain" }, [
-          _c("div", { staticClass: "section" }, [
-            _c(
-              "div",
-              { staticClass: "layermchild upload-tips-layer layermanim" },
-              [
-                _c("h3", {}, [_vm._v("上传至作品墙参与打榜？")]),
-                _vm._v(" "),
-                _c("button", {
-                  staticClass: "layermend",
-                  on: { click: _vm.nosure }
-                }),
-                _vm._v(" "),
-                _c("div", { staticClass: "layermcont" }, [
-                  _vm._v(
-                    "您的超赞海报已制作好，是否要上传至作品墙晒照，参与PK打榜？"
-                  )
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "layermbtn" }, [
-                  _c(
-                    "span",
-                    { attrs: { type: "0" }, on: { click: _vm.nosure } },
-                    [_vm._v("不需要")]
-                  ),
-                  _c(
-                    "span",
-                    { attrs: { type: "1" }, on: { click: _vm.confirmupload } },
-                    [_vm._v("上传至作品墙")]
-                  )
-                ])
-              ]
-            )
-          ])
-        ])
-      ]
-    ),
-    _vm._v(" "),
-    _c(
-      "div",
-      {
-        staticClass: "layermbox layermbox0",
-        staticStyle: { display: "none" },
-        attrs: { id: "layermbox3", index: "11" }
-      },
-      [
-        _c("div", { staticClass: "laymshade" }),
-        _vm._v(" "),
-        _c("div", { staticClass: "layermmain" }, [
-          _c("div", { staticClass: "section" }, [
-            _c(
-              "div",
-              { staticClass: "layermchild upload-tips-layer layermanim" },
-              [
-                _c("h3", {}, [_vm._v("tips")]),
-                _vm._v(" "),
-                _c("button", {
-                  staticClass: "layermend",
-                  on: { click: _vm.nosure }
-                }),
-                _vm._v(" "),
-                _c("img", {
-                  staticStyle: { width: "100%" },
-                  attrs: { src: "/static/qr_code.jpg", alt: "" }
-                }),
-                _vm._v(" "),
-                _c("div", { staticClass: "layermcont" }, [
-                  _vm._v("您的超赞海报已制作好，扫码关注，获奖信息推送")
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "layermbtn" }, [
-                  _c(
-                    "span",
-                    { attrs: { type: "0" }, on: { click: _vm.nosure } },
-                    [_vm._v("确定")]
-                  )
-                ])
-              ]
-            )
-          ])
-        ])
-      ]
-    ),
-    _vm._v(" "),
-    _c("canvas", {
-      staticStyle: { display: "none" },
-      attrs: { id: "draw_img", width: "308", height: "523" }
-    })
-  ])
+        attrs: { id: "draw_img", width: "308", height: "523" }
+      })
+    ],
+    1
+  )
 }
 var staticRenderFns = [
   function() {
@@ -56970,24 +56511,6 @@ var staticRenderFns = [
         [_c("img", { attrs: { src: "/static/rule.png" } })]
       )
     ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "playing-line" }, [
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" })
-    ])
   }
 ]
 render._withStripped = true
@@ -57054,6 +56577,8 @@ module.exports = Component.exports
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__helpers_openid__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_common_Music__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_common_Music___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__components_common_Music__);
 //
 //
 //
@@ -57183,26 +56708,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
+    components: {
+        Music: __WEBPACK_IMPORTED_MODULE_2__components_common_Music___default.a
+    },
     created: function created() {
         this.type = this.$route.params.type;
         this.getData();
@@ -57263,324 +56776,267 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container" }, [
-    _c("div", { staticClass: "page-detail app-view" }, [
-      _vm._m(0),
+  return _c(
+    "div",
+    { staticClass: "container" },
+    [
+      _c("div", { staticClass: "page-detail app-view" }, [
+        _vm._m(0),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass: "_vp_box vp-group-topper",
+            staticStyle: {
+              position: "relative",
+              width: "18rem",
+              height: "4.0875rem",
+              "padding-left": "1rem",
+              "padding-top": "0px"
+            }
+          },
+          [
+            _c(
+              "div",
+              {
+                staticClass: "_vp_box vp-group-topper",
+                staticStyle: {
+                  position: "relative",
+                  width: "80%",
+                  height: "16%",
+                  "padding-left": "10%"
+                }
+              },
+              [
+                _c("div", { staticClass: "_vp_group-content" }, [
+                  _c("br"),
+                  _vm._v(" "),
+                  _c("img", {
+                    staticStyle: { width: "120%" },
+                    attrs: { src: "/static/top.png", alt: "" },
+                    on: { click: _vm.rule }
+                  })
+                ])
+              ]
+            )
+          ]
+        ),
+        _vm._v(" "),
+        _vm.photos.id && _vm.type == "photo"
+          ? _c("div", { staticClass: "detail-view" }, [
+              _c("div", { staticClass: "poster mode-detail" }, [
+                _c("div", { staticClass: "picture" }, [
+                  _c("img", {
+                    staticClass: "image",
+                    staticStyle: {},
+                    attrs: { src: _vm.photos.photo }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "author" }, [
+                  _c("div", { staticClass: "avatar" }, [
+                    _c("img", { attrs: { src: _vm.photos.user.avatar } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "nickname" }, [
+                    _vm._v(_vm._s(_vm.photos.user.nickname))
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "like" }, [
+                    _c("div", { staticClass: "icon" }, [
+                      _c("i", {
+                        staticClass: "iconfont icon-dianzan1",
+                        class: _vm.photos.is_voted ? "active" : ""
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "num" }, [
+                      _vm._v(
+                        "\n                            " +
+                          _vm._s(_vm.photos.vote_num) +
+                          "\n                        "
+                      )
+                    ])
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "action" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass: "act-btn",
+                    on: {
+                      click: function($event) {
+                        return _vm.vote($event, _vm.photos.id)
+                      }
+                    }
+                  },
+                  [
+                    _c("i", {
+                      staticClass: "iconfont icon-duduyinleappicon1601"
+                    }),
+                    _vm._v(" 为他投票\n                ")
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "act-btn",
+                    on: {
+                      click: function($event) {
+                        return _vm.attend()
+                      }
+                    }
+                  },
+                  [
+                    _c("i", { staticClass: "iconfont icon-paizhao2" }),
+                    _vm._v(" 我要参与")
+                  ]
+                )
+              ])
+            ])
+          : _vm._e(),
+        _vm._v(" "),
+        _vm.photos.id && _vm.type != "photo"
+          ? _c("div", { staticClass: "detail-view" }, [
+              _c("div", { staticClass: "poster mode-detail" }, [
+                _c("div", { staticClass: "picture" }, [
+                  _c("img", {
+                    staticClass: "image",
+                    staticStyle: {},
+                    attrs: { src: _vm.photos.photo }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "author" }, [
+                  _c("div", { staticClass: "nickname" }, [
+                    _vm._v(_vm._s(_vm.photos.name))
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "like" }, [
+                    _c("div", { staticClass: "icon" }, [
+                      _c("i", {
+                        staticClass: "iconfont icon-dianzan1",
+                        class: _vm.photos.is_voted ? "active" : ""
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "num" }, [
+                      _vm._v(
+                        "\n                            " +
+                          _vm._s(_vm.photos.vote_num) +
+                          "\n                        "
+                      )
+                    ])
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "action" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass: "act-btn",
+                    on: {
+                      click: function($event) {
+                        return _vm.vote($event, _vm.photos.id)
+                      }
+                    }
+                  },
+                  [
+                    _c("i", {
+                      staticClass: "iconfont icon-duduyinleappicon1601"
+                    }),
+                    _vm._v(" 为他投票\n                ")
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "act-btn",
+                    on: {
+                      click: function($event) {
+                        return _vm.more()
+                      }
+                    }
+                  },
+                  [
+                    _c("i", { staticClass: "iconfont icon-paizhao2" }),
+                    _vm._v(" 作品列表")
+                  ]
+                )
+              ])
+            ])
+          : _vm._e()
+      ]),
       _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "_vp_box vp-group-topper",
-          staticStyle: {
-            position: "relative",
-            width: "18rem",
-            height: "4.0875rem",
-            "padding-left": "1rem",
-            "padding-top": "0px"
-          }
-        },
-        [
-          _c(
+      _vm.type == "phpto"
+        ? _c(
             "div",
             {
-              staticClass: "_vp_box vp-group-topper",
-              staticStyle: {
-                position: "relative",
-                width: "80%",
-                height: "16%",
-                "padding-left": "10%"
-              }
+              staticClass: "modal-mask h5-rule size-middle",
+              staticStyle: { display: "none" }
             },
             [
-              _c("div", { staticClass: "_vp_group-content" }, [
-                _c("br"),
-                _vm._v(" "),
-                _c("img", {
-                  staticStyle: { width: "120%" },
-                  attrs: { src: "/static/top.png", alt: "" },
-                  on: { click: _vm.rule }
-                })
+              _c("div", { staticClass: "modal-wrapper" }, [
+                _c("div", { staticClass: "modal-container" }, [
+                  _vm._m(1),
+                  _vm._v(" "),
+                  _c("i", {
+                    staticClass: "close-btn iconfont icon-guanbi",
+                    staticStyle: { "font-size": "1.6rem" },
+                    on: { click: _vm.close }
+                  }),
+                  _vm._v(" "),
+                  _vm._m(2),
+                  _vm._v(" "),
+                  _vm._m(3),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "modal-footer" })
+                ])
               ])
             ]
           )
-        ]
-      ),
-      _vm._v(" "),
-      _vm.photos.id && _vm.type == "photo"
-        ? _c("div", { staticClass: "detail-view" }, [
-            _c("div", { staticClass: "poster mode-detail" }, [
-              _c("div", { staticClass: "picture" }, [
-                _c("img", {
-                  staticClass: "image",
-                  staticStyle: {},
-                  attrs: { src: _vm.photos.photo }
-                })
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "author" }, [
-                _c("div", { staticClass: "avatar" }, [
-                  _c("img", { attrs: { src: _vm.photos.user.avatar } })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "nickname" }, [
-                  _vm._v(_vm._s(_vm.photos.user.nickname))
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "like" }, [
-                  _c("div", { staticClass: "icon" }, [
-                    _c("i", {
-                      staticClass: "iconfont icon-dianzan1",
-                      class: _vm.photos.is_voted ? "active" : ""
-                    })
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "num" }, [
-                    _vm._v(
-                      "\n                            " +
-                        _vm._s(_vm.photos.vote_num) +
-                        "\n                        "
-                    )
-                  ])
-                ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "action" }, [
-              _c(
-                "div",
-                {
-                  staticClass: "act-btn",
-                  on: {
-                    click: function($event) {
-                      return _vm.vote($event, _vm.photos.id)
-                    }
-                  }
-                },
-                [
-                  _c("i", {
-                    staticClass: "iconfont icon-duduyinleappicon1601"
-                  }),
-                  _vm._v(" 为他投票\n                ")
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                {
-                  staticClass: "act-btn",
-                  on: {
-                    click: function($event) {
-                      return _vm.attend()
-                    }
-                  }
-                },
-                [
-                  _c("i", { staticClass: "iconfont icon-paizhao2" }),
-                  _vm._v(" 我要参与")
-                ]
-              )
-            ])
-          ])
         : _vm._e(),
       _vm._v(" "),
-      _vm.photos.id && _vm.type != "photo"
-        ? _c("div", { staticClass: "detail-view" }, [
-            _c("div", { staticClass: "poster mode-detail" }, [
-              _c("div", { staticClass: "picture" }, [
-                _c("img", {
-                  staticClass: "image",
-                  staticStyle: {},
-                  attrs: { src: _vm.photos.photo }
-                })
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "author" }, [
-                _c("div", { staticClass: "nickname" }, [
-                  _vm._v(_vm._s(_vm.photos.name))
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "like" }, [
-                  _c("div", { staticClass: "icon" }, [
-                    _c("i", {
-                      staticClass: "iconfont icon-dianzan1",
-                      class: _vm.photos.is_voted ? "active" : ""
-                    })
-                  ]),
+      _vm.type != "phpto"
+        ? _c(
+            "div",
+            {
+              staticClass: "modal-mask h5-rule size-middle",
+              staticStyle: { display: "none" }
+            },
+            [
+              _c("div", { staticClass: "modal-wrapper" }, [
+                _c("div", { staticClass: "modal-container" }, [
+                  _vm._m(4),
                   _vm._v(" "),
-                  _c("div", { staticClass: "num" }, [
-                    _vm._v(
-                      "\n                            " +
-                        _vm._s(_vm.photos.vote_num) +
-                        "\n                        "
-                    )
-                  ])
+                  _c("i", {
+                    staticClass: "close-btn iconfont icon-guanbi",
+                    staticStyle: { "font-size": "1.6rem" },
+                    on: { click: _vm.close }
+                  }),
+                  _vm._v(" "),
+                  _vm._m(5),
+                  _vm._v(" "),
+                  _vm._m(6),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "modal-footer" })
                 ])
               ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "action" }, [
-              _c(
-                "div",
-                {
-                  staticClass: "act-btn",
-                  on: {
-                    click: function($event) {
-                      return _vm.vote($event, _vm.photos.id)
-                    }
-                  }
-                },
-                [
-                  _c("i", {
-                    staticClass: "iconfont icon-duduyinleappicon1601"
-                  }),
-                  _vm._v(" 为他投票\n                ")
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                {
-                  staticClass: "act-btn",
-                  on: {
-                    click: function($event) {
-                      return _vm.more()
-                    }
-                  }
-                },
-                [
-                  _c("i", { staticClass: "iconfont icon-paizhao2" }),
-                  _vm._v(" 作品列表")
-                ]
-              )
-            ])
-          ])
-        : _vm._e()
-    ]),
-    _vm._v(" "),
-    _vm.type == "phpto"
-      ? _c(
-          "div",
-          {
-            staticClass: "modal-mask h5-rule size-middle",
-            staticStyle: { display: "none" }
-          },
-          [
-            _c("div", { staticClass: "modal-wrapper" }, [
-              _c("div", { staticClass: "modal-container" }, [
-                _vm._m(1),
-                _vm._v(" "),
-                _c("i", {
-                  staticClass: "close-btn iconfont icon-guanbi",
-                  staticStyle: { "font-size": "1.6rem" },
-                  on: { click: _vm.close }
-                }),
-                _vm._v(" "),
-                _vm._m(2),
-                _vm._v(" "),
-                _vm._m(3),
-                _vm._v(" "),
-                _c("div", { staticClass: "modal-footer" })
-              ])
-            ])
-          ]
-        )
-      : _vm._e(),
-    _vm._v(" "),
-    _vm.type != "phpto"
-      ? _c(
-          "div",
-          {
-            staticClass: "modal-mask h5-rule size-middle",
-            staticStyle: { display: "none" }
-          },
-          [
-            _c("div", { staticClass: "modal-wrapper" }, [
-              _c("div", { staticClass: "modal-container" }, [
-                _vm._m(4),
-                _vm._v(" "),
-                _c("i", {
-                  staticClass: "close-btn iconfont icon-guanbi",
-                  staticStyle: { "font-size": "1.6rem" },
-                  on: { click: _vm.close }
-                }),
-                _vm._v(" "),
-                _vm._m(5),
-                _vm._v(" "),
-                _vm._m(6),
-                _vm._v(" "),
-                _c("div", { staticClass: "modal-footer" })
-              ])
-            ])
-          ]
-        )
-      : _vm._e(),
-    _vm._v(" "),
-    _c("div", { staticClass: "music-status" }, [
-      _c(
-        "svg",
-        {
-          staticClass: "svg-icon svg-icon-left",
-          attrs: {
-            viewBox: "0 0 1024 1024",
-            version: "1.1",
-            xmlns: "http://www.w3.org/2000/svg",
-            "p-id": "5354",
-            "xmlns:xlink": "http://www.w3.org/1999/xlink",
-            width: "32px",
-            height: "32px"
-          }
-        },
-        [
-          _c("path", {
-            attrs: {
-              d:
-                "M648.43588 542.014594c-3.50994 2.400676-5.947456 3.187599-7.451716 2.364861-1.50426-0.823761-2.506077-2.472308-2.973728-4.9088-0.465604-2.435469-0.033769-6.446829 1.291412-12.071943 2.113127-9.0624 1.683339-16.516162-1.396813-22.372543-3.082198-5.840008-9.064446-11.464099-18.092054-16.891715-9.350972-5.767354-16.766872-13.164834-22.209838-22.192442-5.446036-9.010211-9.780761-17.195637-12.968359-24.431435-3.152806-6.538927-6.304589-9.636474-9.529027-9.296737-3.189645 0.323365-5.481851 2.257413-6.807033 5.804193l-17.158798 45.639456c-1.147126 3.063779-2.400676 6.376221-3.582595 9.564843l-29.80584 78.526471-17.3389 46.033429c-1.75497 5.409197-4.838192 11.069103-9.242502 16.908088-4.371564 5.803169-10.280134 10.568706-17.73185 14.402011-7.451716 3.795443-16.265452 6.088672-26.582425 6.912433-10.316973 0.825808-22.102391-0.895393-35.393091-5.052063-13.506619-4.332678-24.575722-11.17655-33.244148-20.48966-8.670473-9.315156-14.402011-19.165502-17.196661-29.445636-2.793626-10.317996-2.292206-20.277836 1.432629-29.878494 3.725858-9.671267 11.319813-17.087167 22.820752-22.38994 11.463076-5.337565 22.676465-7.845689 33.56649-7.522324 10.891048 0.285502 20.921495 1.898233 30.057573 4.942569 9.099239 3.045359 16.872273 6.66377 23.39278 10.926864 6.482645 4.227278 11.140735 7.631818 14.007015 10.210549l39.872103-106.71958 0.179079 0.303922c8.705266-23.106254 18.378579-48.469921 29.017894-76.359109 2.435469-6.41306 6.088672-11.06808 11.033287-13.916964 4.871961-2.830465 10.245342-3.546779 16.121166-2.078335 4.943592 1.091868 8.489348 3.475148 10.56666 7.182586 2.042519 3.672646 3.833305 8.400321 5.231141 14.114462 1.432629 5.749958 3.366677 12.358469 5.837962 19.86442 2.400676 7.487531 6.484691 15.476483 12.323677 23.984251 4.800329 7.649214 9.314133 13.522991 13.541411 17.625426 4.191462 4.15667 8.132214 7.953136 11.821233 11.499915 3.690042 3.475148 7.130398 7.433296 10.388605 11.67797 3.260254 4.281513 6.376221 10.371208 9.278317 18.305925 2.973728 7.701402 3.942799 14.902408 2.758834 21.566178-1.254573 6.628978-3.295046 12.288884-6.268774 17.016559C655.062811 536.103978 651.874189 539.613918 648.43588 542.014594z",
-              "p-id": "5355",
-              fill: "#ffffff"
-            }
-          })
-        ]
-      ),
+            ]
+          )
+        : _vm._e(),
       _vm._v(" "),
-      _c(
-        "svg",
-        {
-          staticClass: "svg-icon svg-icon-right",
-          attrs: {
-            viewBox: "0 0 1024 1024",
-            version: "1.1",
-            xmlns: "http://www.w3.org/2000/svg",
-            "p-id": "5354",
-            "xmlns:xlink": "http://www.w3.org/1999/xlink",
-            width: "32px",
-            height: "32px"
-          }
-        },
-        [
-          _c("path", {
-            attrs: {
-              d:
-                "M648.43588 542.014594c-3.50994 2.400676-5.947456 3.187599-7.451716 2.364861-1.50426-0.823761-2.506077-2.472308-2.973728-4.9088-0.465604-2.435469-0.033769-6.446829 1.291412-12.071943 2.113127-9.0624 1.683339-16.516162-1.396813-22.372543-3.082198-5.840008-9.064446-11.464099-18.092054-16.891715-9.350972-5.767354-16.766872-13.164834-22.209838-22.192442-5.446036-9.010211-9.780761-17.195637-12.968359-24.431435-3.152806-6.538927-6.304589-9.636474-9.529027-9.296737-3.189645 0.323365-5.481851 2.257413-6.807033 5.804193l-17.158798 45.639456c-1.147126 3.063779-2.400676 6.376221-3.582595 9.564843l-29.80584 78.526471-17.3389 46.033429c-1.75497 5.409197-4.838192 11.069103-9.242502 16.908088-4.371564 5.803169-10.280134 10.568706-17.73185 14.402011-7.451716 3.795443-16.265452 6.088672-26.582425 6.912433-10.316973 0.825808-22.102391-0.895393-35.393091-5.052063-13.506619-4.332678-24.575722-11.17655-33.244148-20.48966-8.670473-9.315156-14.402011-19.165502-17.196661-29.445636-2.793626-10.317996-2.292206-20.277836 1.432629-29.878494 3.725858-9.671267 11.319813-17.087167 22.820752-22.38994 11.463076-5.337565 22.676465-7.845689 33.56649-7.522324 10.891048 0.285502 20.921495 1.898233 30.057573 4.942569 9.099239 3.045359 16.872273 6.66377 23.39278 10.926864 6.482645 4.227278 11.140735 7.631818 14.007015 10.210549l39.872103-106.71958 0.179079 0.303922c8.705266-23.106254 18.378579-48.469921 29.017894-76.359109 2.435469-6.41306 6.088672-11.06808 11.033287-13.916964 4.871961-2.830465 10.245342-3.546779 16.121166-2.078335 4.943592 1.091868 8.489348 3.475148 10.56666 7.182586 2.042519 3.672646 3.833305 8.400321 5.231141 14.114462 1.432629 5.749958 3.366677 12.358469 5.837962 19.86442 2.400676 7.487531 6.484691 15.476483 12.323677 23.984251 4.800329 7.649214 9.314133 13.522991 13.541411 17.625426 4.191462 4.15667 8.132214 7.953136 11.821233 11.499915 3.690042 3.475148 7.130398 7.433296 10.388605 11.67797 3.260254 4.281513 6.376221 10.371208 9.278317 18.305925 2.973728 7.701402 3.942799 14.902408 2.758834 21.566178-1.254573 6.628978-3.295046 12.288884-6.268774 17.016559C655.062811 536.103978 651.874189 539.613918 648.43588 542.014594z",
-              "p-id": "5355",
-              fill: "#ffffff"
-            }
-          })
-        ]
-      ),
-      _vm._v(" "),
-      _c("img", {
-        staticClass: "play",
-        attrs: {
-          src:
-            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAABGdBTUEAALGPC/xhBQAAAFdQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////AAAA////LEkQMAAAABx0Uk5TTz+/j29fz5/Qr5B/cFCw4PCg3zAgYMDvgBBAAHW8PxYAAAHKSURBVEjHlZZZgoMgDECdaavWuiEoEHP/c04VZE3tmD8JD0JWi/VcdLpQnO/n0zUAJF4B9Gvk/wLEz2uT2zTwtYZvAFQTGhna9+eizoGH3b00M98XFnk/AcBsZ51fWhAn+ADoat9ei/DdcluqNAXw0lgehao1FpYiB7g0Ohbu7+z7UfIUOPajCuOAmBEW0Icv0eUCv0kMpNQR8PSaeY+di4aTKgTmQCG3owBz6Tygo8uf2w0EMGkHqPwoRhDqAOILjFFizAF5AHOq+c1vdf7YgJ68fMiB3gLEWUA7ygCUZnsGI88paGuxfPsif3e7A5QHERuXqvHbir1GkHZJplnOgHd+8kvAlgrqEvBOKj1QQB43HJdGKQDtS85FjnLrMPu67gkvzVRSujIdEs8VWe7zuHFFRgmTS+khsdSBrTb5miQhY2ljY4ukHkU+I2JlYRuolXo9AZiraaA9tCYdBXybYScAiy6wgEv9HHAdYtRh5wNfBYk0kUG+Gc9JZ82ePKftXrkijOa0xGS9SLwho8y4yyz+wcjq9pdLP9HE0dPHjh6KwuTyc18TDzcCevFx7IKNuSyDKoPTwQ4s6kYjg++/DqCWPaXrRUGu/QN05O4Hr4RngQAAAABJRU5ErkJggg=="
-        }
-      }),
+      _c("music"),
       _vm._v(" "),
       _vm._m(7)
-    ]),
-    _vm._v(" "),
-    _vm._m(8)
-  ])
+    ],
+    1
+  )
 }
 var staticRenderFns = [
   function() {
@@ -57687,24 +57143,6 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "playing-line" }, [
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
     return _c(
       "div",
       {
@@ -57739,6 +57177,211 @@ if (false) {
   module.hot.accept()
   if (module.hot.data) {
     require("vue-hot-reload-api")      .rerender("data-v-224c3110", module.exports)
+  }
+}
+
+/***/ }),
+/* 89 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(1)
+/* script */
+var __vue_script__ = __webpack_require__(90)
+/* template */
+var __vue_template__ = __webpack_require__(91)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/components/common/Music.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-4925f410", Component.options)
+  } else {
+    hotAPI.reload("data-v-4925f410", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 90 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    mounted: function mounted() {},
+
+    methods: {
+        music: function music() {
+            if (this.music_status) {
+                var audio = document.getElementById('audio');
+                audio.pause();
+                this.music_status = false;
+            } else {
+                var _audio = document.getElementById('audio');
+                _audio.play();
+                this.music_status = true;
+            }
+        }
+    },
+    data: function data() {
+        return {
+            music_status: true
+        };
+    }
+});
+
+/***/ }),
+/* 91 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    {
+      staticClass: "music-status",
+      class: !_vm.music_status ? "pause" : "",
+      on: { click: _vm.music }
+    },
+    [
+      _c(
+        "svg",
+        {
+          staticClass: "svg-icon svg-icon-left",
+          attrs: {
+            viewBox: "0 0 1024 1024",
+            version: "1.1",
+            xmlns: "http://www.w3.org/2000/svg",
+            "p-id": "5354",
+            "xmlns:xlink": "http://www.w3.org/1999/xlink",
+            width: "32px",
+            height: "32px"
+          }
+        },
+        [
+          _c("path", {
+            attrs: {
+              d:
+                "M648.43588 542.014594c-3.50994 2.400676-5.947456 3.187599-7.451716 2.364861-1.50426-0.823761-2.506077-2.472308-2.973728-4.9088-0.465604-2.435469-0.033769-6.446829 1.291412-12.071943 2.113127-9.0624 1.683339-16.516162-1.396813-22.372543-3.082198-5.840008-9.064446-11.464099-18.092054-16.891715-9.350972-5.767354-16.766872-13.164834-22.209838-22.192442-5.446036-9.010211-9.780761-17.195637-12.968359-24.431435-3.152806-6.538927-6.304589-9.636474-9.529027-9.296737-3.189645 0.323365-5.481851 2.257413-6.807033 5.804193l-17.158798 45.639456c-1.147126 3.063779-2.400676 6.376221-3.582595 9.564843l-29.80584 78.526471-17.3389 46.033429c-1.75497 5.409197-4.838192 11.069103-9.242502 16.908088-4.371564 5.803169-10.280134 10.568706-17.73185 14.402011-7.451716 3.795443-16.265452 6.088672-26.582425 6.912433-10.316973 0.825808-22.102391-0.895393-35.393091-5.052063-13.506619-4.332678-24.575722-11.17655-33.244148-20.48966-8.670473-9.315156-14.402011-19.165502-17.196661-29.445636-2.793626-10.317996-2.292206-20.277836 1.432629-29.878494 3.725858-9.671267 11.319813-17.087167 22.820752-22.38994 11.463076-5.337565 22.676465-7.845689 33.56649-7.522324 10.891048 0.285502 20.921495 1.898233 30.057573 4.942569 9.099239 3.045359 16.872273 6.66377 23.39278 10.926864 6.482645 4.227278 11.140735 7.631818 14.007015 10.210549l39.872103-106.71958 0.179079 0.303922c8.705266-23.106254 18.378579-48.469921 29.017894-76.359109 2.435469-6.41306 6.088672-11.06808 11.033287-13.916964 4.871961-2.830465 10.245342-3.546779 16.121166-2.078335 4.943592 1.091868 8.489348 3.475148 10.56666 7.182586 2.042519 3.672646 3.833305 8.400321 5.231141 14.114462 1.432629 5.749958 3.366677 12.358469 5.837962 19.86442 2.400676 7.487531 6.484691 15.476483 12.323677 23.984251 4.800329 7.649214 9.314133 13.522991 13.541411 17.625426 4.191462 4.15667 8.132214 7.953136 11.821233 11.499915 3.690042 3.475148 7.130398 7.433296 10.388605 11.67797 3.260254 4.281513 6.376221 10.371208 9.278317 18.305925 2.973728 7.701402 3.942799 14.902408 2.758834 21.566178-1.254573 6.628978-3.295046 12.288884-6.268774 17.016559C655.062811 536.103978 651.874189 539.613918 648.43588 542.014594z",
+              "p-id": "5355",
+              fill: "#ffffff"
+            }
+          })
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "svg",
+        {
+          staticClass: "svg-icon svg-icon-right",
+          attrs: {
+            viewBox: "0 0 1024 1024",
+            version: "1.1",
+            xmlns: "http://www.w3.org/2000/svg",
+            "p-id": "5354",
+            "xmlns:xlink": "http://www.w3.org/1999/xlink",
+            width: "32px",
+            height: "32px"
+          }
+        },
+        [
+          _c("path", {
+            attrs: {
+              d:
+                "M648.43588 542.014594c-3.50994 2.400676-5.947456 3.187599-7.451716 2.364861-1.50426-0.823761-2.506077-2.472308-2.973728-4.9088-0.465604-2.435469-0.033769-6.446829 1.291412-12.071943 2.113127-9.0624 1.683339-16.516162-1.396813-22.372543-3.082198-5.840008-9.064446-11.464099-18.092054-16.891715-9.350972-5.767354-16.766872-13.164834-22.209838-22.192442-5.446036-9.010211-9.780761-17.195637-12.968359-24.431435-3.152806-6.538927-6.304589-9.636474-9.529027-9.296737-3.189645 0.323365-5.481851 2.257413-6.807033 5.804193l-17.158798 45.639456c-1.147126 3.063779-2.400676 6.376221-3.582595 9.564843l-29.80584 78.526471-17.3389 46.033429c-1.75497 5.409197-4.838192 11.069103-9.242502 16.908088-4.371564 5.803169-10.280134 10.568706-17.73185 14.402011-7.451716 3.795443-16.265452 6.088672-26.582425 6.912433-10.316973 0.825808-22.102391-0.895393-35.393091-5.052063-13.506619-4.332678-24.575722-11.17655-33.244148-20.48966-8.670473-9.315156-14.402011-19.165502-17.196661-29.445636-2.793626-10.317996-2.292206-20.277836 1.432629-29.878494 3.725858-9.671267 11.319813-17.087167 22.820752-22.38994 11.463076-5.337565 22.676465-7.845689 33.56649-7.522324 10.891048 0.285502 20.921495 1.898233 30.057573 4.942569 9.099239 3.045359 16.872273 6.66377 23.39278 10.926864 6.482645 4.227278 11.140735 7.631818 14.007015 10.210549l39.872103-106.71958 0.179079 0.303922c8.705266-23.106254 18.378579-48.469921 29.017894-76.359109 2.435469-6.41306 6.088672-11.06808 11.033287-13.916964 4.871961-2.830465 10.245342-3.546779 16.121166-2.078335 4.943592 1.091868 8.489348 3.475148 10.56666 7.182586 2.042519 3.672646 3.833305 8.400321 5.231141 14.114462 1.432629 5.749958 3.366677 12.358469 5.837962 19.86442 2.400676 7.487531 6.484691 15.476483 12.323677 23.984251 4.800329 7.649214 9.314133 13.522991 13.541411 17.625426 4.191462 4.15667 8.132214 7.953136 11.821233 11.499915 3.690042 3.475148 7.130398 7.433296 10.388605 11.67797 3.260254 4.281513 6.376221 10.371208 9.278317 18.305925 2.973728 7.701402 3.942799 14.902408 2.758834 21.566178-1.254573 6.628978-3.295046 12.288884-6.268774 17.016559C655.062811 536.103978 651.874189 539.613918 648.43588 542.014594z",
+              "p-id": "5355",
+              fill: "#ffffff"
+            }
+          })
+        ]
+      ),
+      _vm._v(" "),
+      _c("img", {
+        staticClass: "play",
+        attrs: {
+          src:
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAABGdBTUEAALGPC/xhBQAAAFdQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////AAAA////LEkQMAAAABx0Uk5TTz+/j29fz5/Qr5B/cFCw4PCg3zAgYMDvgBBAAHW8PxYAAAHKSURBVEjHlZZZgoMgDECdaavWuiEoEHP/c04VZE3tmD8JD0JWi/VcdLpQnO/n0zUAJF4B9Gvk/wLEz2uT2zTwtYZvAFQTGhna9+eizoGH3b00M98XFnk/AcBsZ51fWhAn+ADoat9ei/DdcluqNAXw0lgehao1FpYiB7g0Ohbu7+z7UfIUOPajCuOAmBEW0Icv0eUCv0kMpNQR8PSaeY+di4aTKgTmQCG3owBz6Tygo8uf2w0EMGkHqPwoRhDqAOILjFFizAF5AHOq+c1vdf7YgJ68fMiB3gLEWUA7ygCUZnsGI88paGuxfPsif3e7A5QHERuXqvHbir1GkHZJplnOgHd+8kvAlgrqEvBOKj1QQB43HJdGKQDtS85FjnLrMPu67gkvzVRSujIdEs8VWe7zuHFFRgmTS+khsdSBrTb5miQhY2ljY4ukHkU+I2JlYRuolXo9AZiraaA9tCYdBXybYScAiy6wgEv9HHAdYtRh5wNfBYk0kUG+Gc9JZ82ePKftXrkijOa0xGS9SLwho8y4yyz+wcjq9pdLP9HE0dPHjh6KwuTyc18TDzcCevFx7IKNuSyDKoPTwQ4s6kYjg++/DqCWPaXrRUGu/QN05O4Hr4RngQAAAABJRU5ErkJggg=="
+        }
+      }),
+      _vm._v(" "),
+      _vm._m(0)
+    ]
+  )
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "playing-line" }, [
+      _c("div", { staticClass: "note" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "note" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "note" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "note" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "note" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "note" })
+    ])
+  }
+]
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-4925f410", module.exports)
   }
 }
 
