@@ -55043,6 +55043,7 @@ var render = function() {
                 {
                   ref: "loding",
                   staticClass: "loading-view",
+                  staticStyle: { display: "none" },
                   attrs: { none: "" }
                 },
                 [
@@ -55892,6 +55893,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                         if (res.data.code == 200) {
                             $('#layermbox3').show();
                         } else {
+                            $('#layermbox2').hide();
                             layer.msg(res.data.msg);
                         }
                     }).catch(function (error) {
