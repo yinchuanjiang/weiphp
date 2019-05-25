@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 18);
+/******/ 	return __webpack_require__(__webpack_require__.s = 20);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -70,8 +70,8 @@
 "use strict";
 
 
-var bind = __webpack_require__(10);
-var isBuffer = __webpack_require__(26);
+var bind = __webpack_require__(11);
+var isBuffer = __webpack_require__(28);
 
 /*global toString:true*/
 
@@ -584,7 +584,7 @@ if (typeof DEBUG !== 'undefined' && DEBUG) {
   ) }
 }
 
-var listToStyles = __webpack_require__(51)
+var listToStyles = __webpack_require__(53)
 
 /*
 type StyleObject = {
@@ -794,6 +794,53 @@ function applyToTag (styleElement, obj) {
 
 /***/ }),
 /* 4 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(1)
+/* script */
+var __vue_script__ = __webpack_require__(62)
+/* template */
+var __vue_template__ = __webpack_require__(63)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/components/common/Music.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-4925f410", Component.options)
+  } else {
+    hotAPI.reload("data-v-4925f410", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 5 */
 /***/ (function(module, exports) {
 
 var g;
@@ -820,7 +867,7 @@ module.exports = g;
 
 
 /***/ }),
-/* 5 */
+/* 6 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -831,7 +878,7 @@ module.exports = g;
 var APP_URL = 'https://lets.gaojb.com/';
 
 /***/ }),
-/* 6 */
+/* 7 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -851,14 +898,14 @@ var APP_URL = 'https://lets.gaojb.com/';
 });
 
 /***/ }),
-/* 7 */
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {
 
 var utils = __webpack_require__(0);
-var normalizeHeaderName = __webpack_require__(28);
+var normalizeHeaderName = __webpack_require__(30);
 
 var DEFAULT_CONTENT_TYPE = {
   'Content-Type': 'application/x-www-form-urlencoded'
@@ -874,10 +921,10 @@ function getDefaultAdapter() {
   var adapter;
   if (typeof XMLHttpRequest !== 'undefined') {
     // For browsers use XHR adapter
-    adapter = __webpack_require__(12);
+    adapter = __webpack_require__(13);
   } else if (typeof process !== 'undefined') {
     // For node use HTTP adapter
-    adapter = __webpack_require__(12);
+    adapter = __webpack_require__(13);
   }
   return adapter;
 }
@@ -952,10 +999,10 @@ utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
 
 module.exports = defaults;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(11)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
-/* 8 */
+/* 9 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3565,10 +3612,10 @@ Popper.Defaults = Defaults;
 /* harmony default export */ __webpack_exports__["default"] = (Popper);
 //# sourceMappingURL=popper.js.map
 
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(4)))
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(5)))
 
 /***/ }),
-/* 9 */
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -14173,7 +14220,7 @@ return jQuery;
 
 
 /***/ }),
-/* 10 */
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14191,7 +14238,7 @@ module.exports = function bind(fn, thisArg) {
 
 
 /***/ }),
-/* 11 */
+/* 12 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -14381,19 +14428,19 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
-/* 12 */
+/* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 var utils = __webpack_require__(0);
-var settle = __webpack_require__(29);
-var buildURL = __webpack_require__(31);
-var parseHeaders = __webpack_require__(32);
-var isURLSameOrigin = __webpack_require__(33);
-var createError = __webpack_require__(13);
-var btoa = (typeof window !== 'undefined' && window.btoa && window.btoa.bind(window)) || __webpack_require__(34);
+var settle = __webpack_require__(31);
+var buildURL = __webpack_require__(33);
+var parseHeaders = __webpack_require__(34);
+var isURLSameOrigin = __webpack_require__(35);
+var createError = __webpack_require__(14);
+var btoa = (typeof window !== 'undefined' && window.btoa && window.btoa.bind(window)) || __webpack_require__(36);
 
 module.exports = function xhrAdapter(config) {
   return new Promise(function dispatchXhrRequest(resolve, reject) {
@@ -14490,7 +14537,7 @@ module.exports = function xhrAdapter(config) {
     // This is only done if running in a standard browser environment.
     // Specifically not if we're in a web worker, or react-native.
     if (utils.isStandardBrowserEnv()) {
-      var cookies = __webpack_require__(35);
+      var cookies = __webpack_require__(37);
 
       // Add xsrf header
       var xsrfValue = (config.withCredentials || isURLSameOrigin(config.url)) && config.xsrfCookieName ?
@@ -14568,13 +14615,13 @@ module.exports = function xhrAdapter(config) {
 
 
 /***/ }),
-/* 13 */
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var enhanceError = __webpack_require__(30);
+var enhanceError = __webpack_require__(32);
 
 /**
  * Create an Error with the specified message, config, error code, request and response.
@@ -14593,7 +14640,7 @@ module.exports = function createError(message, config, code, request, response) 
 
 
 /***/ }),
-/* 14 */
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14605,7 +14652,7 @@ module.exports = function isCancel(value) {
 
 
 /***/ }),
-/* 15 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14631,7 +14678,7 @@ module.exports = Cancel;
 
 
 /***/ }),
-/* 16 */
+/* 17 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17309,19 +17356,19 @@ if (inBrowser && window.Vue) {
 
 
 /***/ }),
-/* 17 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(68)
+  __webpack_require__(74)
 }
 var normalizeComponent = __webpack_require__(1)
 /* script */
-var __vue_script__ = __webpack_require__(70)
+var __vue_script__ = __webpack_require__(76)
 /* template */
-var __vue_template__ = __webpack_require__(71)
+var __vue_template__ = __webpack_require__(77)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -17360,20 +17407,1086 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 18 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(19);
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;(function() {
+
+    var debug = false;
+
+    var root = this;
+
+    var EXIF = function(obj) {
+        if (obj instanceof EXIF) return obj;
+        if (!(this instanceof EXIF)) return new EXIF(obj);
+        this.EXIFwrapped = obj;
+    };
+
+    if (true) {
+        if (typeof module !== 'undefined' && module.exports) {
+            exports = module.exports = EXIF;
+        }
+        exports.EXIF = EXIF;
+    } else {
+        root.EXIF = EXIF;
+    }
+
+    var ExifTags = EXIF.Tags = {
+
+        // version tags
+        0x9000 : "ExifVersion",             // EXIF version
+        0xA000 : "FlashpixVersion",         // Flashpix format version
+
+        // colorspace tags
+        0xA001 : "ColorSpace",              // Color space information tag
+
+        // image configuration
+        0xA002 : "PixelXDimension",         // Valid width of meaningful image
+        0xA003 : "PixelYDimension",         // Valid height of meaningful image
+        0x9101 : "ComponentsConfiguration", // Information about channels
+        0x9102 : "CompressedBitsPerPixel",  // Compressed bits per pixel
+
+        // user information
+        0x927C : "MakerNote",               // Any desired information written by the manufacturer
+        0x9286 : "UserComment",             // Comments by user
+
+        // related file
+        0xA004 : "RelatedSoundFile",        // Name of related sound file
+
+        // date and time
+        0x9003 : "DateTimeOriginal",        // Date and time when the original image was generated
+        0x9004 : "DateTimeDigitized",       // Date and time when the image was stored digitally
+        0x9290 : "SubsecTime",              // Fractions of seconds for DateTime
+        0x9291 : "SubsecTimeOriginal",      // Fractions of seconds for DateTimeOriginal
+        0x9292 : "SubsecTimeDigitized",     // Fractions of seconds for DateTimeDigitized
+
+        // picture-taking conditions
+        0x829A : "ExposureTime",            // Exposure time (in seconds)
+        0x829D : "FNumber",                 // F number
+        0x8822 : "ExposureProgram",         // Exposure program
+        0x8824 : "SpectralSensitivity",     // Spectral sensitivity
+        0x8827 : "ISOSpeedRatings",         // ISO speed rating
+        0x8828 : "OECF",                    // Optoelectric conversion factor
+        0x9201 : "ShutterSpeedValue",       // Shutter speed
+        0x9202 : "ApertureValue",           // Lens aperture
+        0x9203 : "BrightnessValue",         // Value of brightness
+        0x9204 : "ExposureBias",            // Exposure bias
+        0x9205 : "MaxApertureValue",        // Smallest F number of lens
+        0x9206 : "SubjectDistance",         // Distance to subject in meters
+        0x9207 : "MeteringMode",            // Metering mode
+        0x9208 : "LightSource",             // Kind of light source
+        0x9209 : "Flash",                   // Flash status
+        0x9214 : "SubjectArea",             // Location and area of main subject
+        0x920A : "FocalLength",             // Focal length of the lens in mm
+        0xA20B : "FlashEnergy",             // Strobe energy in BCPS
+        0xA20C : "SpatialFrequencyResponse",    //
+        0xA20E : "FocalPlaneXResolution",   // Number of pixels in width direction per FocalPlaneResolutionUnit
+        0xA20F : "FocalPlaneYResolution",   // Number of pixels in height direction per FocalPlaneResolutionUnit
+        0xA210 : "FocalPlaneResolutionUnit",    // Unit for measuring FocalPlaneXResolution and FocalPlaneYResolution
+        0xA214 : "SubjectLocation",         // Location of subject in image
+        0xA215 : "ExposureIndex",           // Exposure index selected on camera
+        0xA217 : "SensingMethod",           // Image sensor type
+        0xA300 : "FileSource",              // Image source (3 == DSC)
+        0xA301 : "SceneType",               // Scene type (1 == directly photographed)
+        0xA302 : "CFAPattern",              // Color filter array geometric pattern
+        0xA401 : "CustomRendered",          // Special processing
+        0xA402 : "ExposureMode",            // Exposure mode
+        0xA403 : "WhiteBalance",            // 1 = auto white balance, 2 = manual
+        0xA404 : "DigitalZoomRation",       // Digital zoom ratio
+        0xA405 : "FocalLengthIn35mmFilm",   // Equivalent foacl length assuming 35mm film camera (in mm)
+        0xA406 : "SceneCaptureType",        // Type of scene
+        0xA407 : "GainControl",             // Degree of overall image gain adjustment
+        0xA408 : "Contrast",                // Direction of contrast processing applied by camera
+        0xA409 : "Saturation",              // Direction of saturation processing applied by camera
+        0xA40A : "Sharpness",               // Direction of sharpness processing applied by camera
+        0xA40B : "DeviceSettingDescription",    //
+        0xA40C : "SubjectDistanceRange",    // Distance to subject
+
+        // other tags
+        0xA005 : "InteroperabilityIFDPointer",
+        0xA420 : "ImageUniqueID"            // Identifier assigned uniquely to each image
+    };
+
+    var TiffTags = EXIF.TiffTags = {
+        0x0100 : "ImageWidth",
+        0x0101 : "ImageHeight",
+        0x8769 : "ExifIFDPointer",
+        0x8825 : "GPSInfoIFDPointer",
+        0xA005 : "InteroperabilityIFDPointer",
+        0x0102 : "BitsPerSample",
+        0x0103 : "Compression",
+        0x0106 : "PhotometricInterpretation",
+        0x0112 : "Orientation",
+        0x0115 : "SamplesPerPixel",
+        0x011C : "PlanarConfiguration",
+        0x0212 : "YCbCrSubSampling",
+        0x0213 : "YCbCrPositioning",
+        0x011A : "XResolution",
+        0x011B : "YResolution",
+        0x0128 : "ResolutionUnit",
+        0x0111 : "StripOffsets",
+        0x0116 : "RowsPerStrip",
+        0x0117 : "StripByteCounts",
+        0x0201 : "JPEGInterchangeFormat",
+        0x0202 : "JPEGInterchangeFormatLength",
+        0x012D : "TransferFunction",
+        0x013E : "WhitePoint",
+        0x013F : "PrimaryChromaticities",
+        0x0211 : "YCbCrCoefficients",
+        0x0214 : "ReferenceBlackWhite",
+        0x0132 : "DateTime",
+        0x010E : "ImageDescription",
+        0x010F : "Make",
+        0x0110 : "Model",
+        0x0131 : "Software",
+        0x013B : "Artist",
+        0x8298 : "Copyright"
+    };
+
+    var GPSTags = EXIF.GPSTags = {
+        0x0000 : "GPSVersionID",
+        0x0001 : "GPSLatitudeRef",
+        0x0002 : "GPSLatitude",
+        0x0003 : "GPSLongitudeRef",
+        0x0004 : "GPSLongitude",
+        0x0005 : "GPSAltitudeRef",
+        0x0006 : "GPSAltitude",
+        0x0007 : "GPSTimeStamp",
+        0x0008 : "GPSSatellites",
+        0x0009 : "GPSStatus",
+        0x000A : "GPSMeasureMode",
+        0x000B : "GPSDOP",
+        0x000C : "GPSSpeedRef",
+        0x000D : "GPSSpeed",
+        0x000E : "GPSTrackRef",
+        0x000F : "GPSTrack",
+        0x0010 : "GPSImgDirectionRef",
+        0x0011 : "GPSImgDirection",
+        0x0012 : "GPSMapDatum",
+        0x0013 : "GPSDestLatitudeRef",
+        0x0014 : "GPSDestLatitude",
+        0x0015 : "GPSDestLongitudeRef",
+        0x0016 : "GPSDestLongitude",
+        0x0017 : "GPSDestBearingRef",
+        0x0018 : "GPSDestBearing",
+        0x0019 : "GPSDestDistanceRef",
+        0x001A : "GPSDestDistance",
+        0x001B : "GPSProcessingMethod",
+        0x001C : "GPSAreaInformation",
+        0x001D : "GPSDateStamp",
+        0x001E : "GPSDifferential"
+    };
+
+     // EXIF 2.3 Spec
+    var IFD1Tags = EXIF.IFD1Tags = {
+        0x0100: "ImageWidth",
+        0x0101: "ImageHeight",
+        0x0102: "BitsPerSample",
+        0x0103: "Compression",
+        0x0106: "PhotometricInterpretation",
+        0x0111: "StripOffsets",
+        0x0112: "Orientation",
+        0x0115: "SamplesPerPixel",
+        0x0116: "RowsPerStrip",
+        0x0117: "StripByteCounts",
+        0x011A: "XResolution",
+        0x011B: "YResolution",
+        0x011C: "PlanarConfiguration",
+        0x0128: "ResolutionUnit",
+        0x0201: "JpegIFOffset",    // When image format is JPEG, this value show offset to JPEG data stored.(aka "ThumbnailOffset" or "JPEGInterchangeFormat")
+        0x0202: "JpegIFByteCount", // When image format is JPEG, this value shows data size of JPEG image (aka "ThumbnailLength" or "JPEGInterchangeFormatLength")
+        0x0211: "YCbCrCoefficients",
+        0x0212: "YCbCrSubSampling",
+        0x0213: "YCbCrPositioning",
+        0x0214: "ReferenceBlackWhite"
+    };
+
+    var StringValues = EXIF.StringValues = {
+        ExposureProgram : {
+            0 : "Not defined",
+            1 : "Manual",
+            2 : "Normal program",
+            3 : "Aperture priority",
+            4 : "Shutter priority",
+            5 : "Creative program",
+            6 : "Action program",
+            7 : "Portrait mode",
+            8 : "Landscape mode"
+        },
+        MeteringMode : {
+            0 : "Unknown",
+            1 : "Average",
+            2 : "CenterWeightedAverage",
+            3 : "Spot",
+            4 : "MultiSpot",
+            5 : "Pattern",
+            6 : "Partial",
+            255 : "Other"
+        },
+        LightSource : {
+            0 : "Unknown",
+            1 : "Daylight",
+            2 : "Fluorescent",
+            3 : "Tungsten (incandescent light)",
+            4 : "Flash",
+            9 : "Fine weather",
+            10 : "Cloudy weather",
+            11 : "Shade",
+            12 : "Daylight fluorescent (D 5700 - 7100K)",
+            13 : "Day white fluorescent (N 4600 - 5400K)",
+            14 : "Cool white fluorescent (W 3900 - 4500K)",
+            15 : "White fluorescent (WW 3200 - 3700K)",
+            17 : "Standard light A",
+            18 : "Standard light B",
+            19 : "Standard light C",
+            20 : "D55",
+            21 : "D65",
+            22 : "D75",
+            23 : "D50",
+            24 : "ISO studio tungsten",
+            255 : "Other"
+        },
+        Flash : {
+            0x0000 : "Flash did not fire",
+            0x0001 : "Flash fired",
+            0x0005 : "Strobe return light not detected",
+            0x0007 : "Strobe return light detected",
+            0x0009 : "Flash fired, compulsory flash mode",
+            0x000D : "Flash fired, compulsory flash mode, return light not detected",
+            0x000F : "Flash fired, compulsory flash mode, return light detected",
+            0x0010 : "Flash did not fire, compulsory flash mode",
+            0x0018 : "Flash did not fire, auto mode",
+            0x0019 : "Flash fired, auto mode",
+            0x001D : "Flash fired, auto mode, return light not detected",
+            0x001F : "Flash fired, auto mode, return light detected",
+            0x0020 : "No flash function",
+            0x0041 : "Flash fired, red-eye reduction mode",
+            0x0045 : "Flash fired, red-eye reduction mode, return light not detected",
+            0x0047 : "Flash fired, red-eye reduction mode, return light detected",
+            0x0049 : "Flash fired, compulsory flash mode, red-eye reduction mode",
+            0x004D : "Flash fired, compulsory flash mode, red-eye reduction mode, return light not detected",
+            0x004F : "Flash fired, compulsory flash mode, red-eye reduction mode, return light detected",
+            0x0059 : "Flash fired, auto mode, red-eye reduction mode",
+            0x005D : "Flash fired, auto mode, return light not detected, red-eye reduction mode",
+            0x005F : "Flash fired, auto mode, return light detected, red-eye reduction mode"
+        },
+        SensingMethod : {
+            1 : "Not defined",
+            2 : "One-chip color area sensor",
+            3 : "Two-chip color area sensor",
+            4 : "Three-chip color area sensor",
+            5 : "Color sequential area sensor",
+            7 : "Trilinear sensor",
+            8 : "Color sequential linear sensor"
+        },
+        SceneCaptureType : {
+            0 : "Standard",
+            1 : "Landscape",
+            2 : "Portrait",
+            3 : "Night scene"
+        },
+        SceneType : {
+            1 : "Directly photographed"
+        },
+        CustomRendered : {
+            0 : "Normal process",
+            1 : "Custom process"
+        },
+        WhiteBalance : {
+            0 : "Auto white balance",
+            1 : "Manual white balance"
+        },
+        GainControl : {
+            0 : "None",
+            1 : "Low gain up",
+            2 : "High gain up",
+            3 : "Low gain down",
+            4 : "High gain down"
+        },
+        Contrast : {
+            0 : "Normal",
+            1 : "Soft",
+            2 : "Hard"
+        },
+        Saturation : {
+            0 : "Normal",
+            1 : "Low saturation",
+            2 : "High saturation"
+        },
+        Sharpness : {
+            0 : "Normal",
+            1 : "Soft",
+            2 : "Hard"
+        },
+        SubjectDistanceRange : {
+            0 : "Unknown",
+            1 : "Macro",
+            2 : "Close view",
+            3 : "Distant view"
+        },
+        FileSource : {
+            3 : "DSC"
+        },
+
+        Components : {
+            0 : "",
+            1 : "Y",
+            2 : "Cb",
+            3 : "Cr",
+            4 : "R",
+            5 : "G",
+            6 : "B"
+        }
+    };
+
+    function addEvent(element, event, handler) {
+        if (element.addEventListener) {
+            element.addEventListener(event, handler, false);
+        } else if (element.attachEvent) {
+            element.attachEvent("on" + event, handler);
+        }
+    }
+
+    function imageHasData(img) {
+        return !!(img.exifdata);
+    }
+
+
+    function base64ToArrayBuffer(base64, contentType) {
+        contentType = contentType || base64.match(/^data\:([^\;]+)\;base64,/mi)[1] || ''; // e.g. 'data:image/jpeg;base64,...' => 'image/jpeg'
+        base64 = base64.replace(/^data\:([^\;]+)\;base64,/gmi, '');
+        var binary = atob(base64);
+        var len = binary.length;
+        var buffer = new ArrayBuffer(len);
+        var view = new Uint8Array(buffer);
+        for (var i = 0; i < len; i++) {
+            view[i] = binary.charCodeAt(i);
+        }
+        return buffer;
+    }
+
+    function objectURLToBlob(url, callback) {
+        var http = new XMLHttpRequest();
+        http.open("GET", url, true);
+        http.responseType = "blob";
+        http.onload = function(e) {
+            if (this.status == 200 || this.status === 0) {
+                callback(this.response);
+            }
+        };
+        http.send();
+    }
+
+    function getImageData(img, callback) {
+        function handleBinaryFile(binFile) {
+            var data = findEXIFinJPEG(binFile);
+            img.exifdata = data || {};
+            var iptcdata = findIPTCinJPEG(binFile);
+            img.iptcdata = iptcdata || {};
+            if (EXIF.isXmpEnabled) {
+               var xmpdata= findXMPinJPEG(binFile);
+               img.xmpdata = xmpdata || {};               
+            }
+            if (callback) {
+                callback.call(img);
+            }
+        }
+
+        if (img.src) {
+            if (/^data\:/i.test(img.src)) { // Data URI
+                var arrayBuffer = base64ToArrayBuffer(img.src);
+                handleBinaryFile(arrayBuffer);
+
+            } else if (/^blob\:/i.test(img.src)) { // Object URL
+                var fileReader = new FileReader();
+                fileReader.onload = function(e) {
+                    handleBinaryFile(e.target.result);
+                };
+                objectURLToBlob(img.src, function (blob) {
+                    fileReader.readAsArrayBuffer(blob);
+                });
+            } else {
+                var http = new XMLHttpRequest();
+                http.onload = function() {
+                    if (this.status == 200 || this.status === 0) {
+                        handleBinaryFile(http.response);
+                    } else {
+                        throw "Could not load image";
+                    }
+                    http = null;
+                };
+                http.open("GET", img.src, true);
+                http.responseType = "arraybuffer";
+                http.send(null);
+            }
+        } else if (self.FileReader && (img instanceof self.Blob || img instanceof self.File)) {
+            var fileReader = new FileReader();
+            fileReader.onload = function(e) {
+                if (debug) console.log("Got file of length " + e.target.result.byteLength);
+                handleBinaryFile(e.target.result);
+            };
+
+            fileReader.readAsArrayBuffer(img);
+        }
+    }
+
+    function findEXIFinJPEG(file) {
+        var dataView = new DataView(file);
+
+        if (debug) console.log("Got file of length " + file.byteLength);
+        if ((dataView.getUint8(0) != 0xFF) || (dataView.getUint8(1) != 0xD8)) {
+            if (debug) console.log("Not a valid JPEG");
+            return false; // not a valid jpeg
+        }
+
+        var offset = 2,
+            length = file.byteLength,
+            marker;
+
+        while (offset < length) {
+            if (dataView.getUint8(offset) != 0xFF) {
+                if (debug) console.log("Not a valid marker at offset " + offset + ", found: " + dataView.getUint8(offset));
+                return false; // not a valid marker, something is wrong
+            }
+
+            marker = dataView.getUint8(offset + 1);
+            if (debug) console.log(marker);
+
+            // we could implement handling for other markers here,
+            // but we're only looking for 0xFFE1 for EXIF data
+
+            if (marker == 225) {
+                if (debug) console.log("Found 0xFFE1 marker");
+
+                return readEXIFData(dataView, offset + 4, dataView.getUint16(offset + 2) - 2);
+
+                // offset += 2 + file.getShortAt(offset+2, true);
+
+            } else {
+                offset += 2 + dataView.getUint16(offset+2);
+            }
+
+        }
+
+    }
+
+    function findIPTCinJPEG(file) {
+        var dataView = new DataView(file);
+
+        if (debug) console.log("Got file of length " + file.byteLength);
+        if ((dataView.getUint8(0) != 0xFF) || (dataView.getUint8(1) != 0xD8)) {
+            if (debug) console.log("Not a valid JPEG");
+            return false; // not a valid jpeg
+        }
+
+        var offset = 2,
+            length = file.byteLength;
+
+
+        var isFieldSegmentStart = function(dataView, offset){
+            return (
+                dataView.getUint8(offset) === 0x38 &&
+                dataView.getUint8(offset+1) === 0x42 &&
+                dataView.getUint8(offset+2) === 0x49 &&
+                dataView.getUint8(offset+3) === 0x4D &&
+                dataView.getUint8(offset+4) === 0x04 &&
+                dataView.getUint8(offset+5) === 0x04
+            );
+        };
+
+        while (offset < length) {
+
+            if ( isFieldSegmentStart(dataView, offset )){
+
+                // Get the length of the name header (which is padded to an even number of bytes)
+                var nameHeaderLength = dataView.getUint8(offset+7);
+                if(nameHeaderLength % 2 !== 0) nameHeaderLength += 1;
+                // Check for pre photoshop 6 format
+                if(nameHeaderLength === 0) {
+                    // Always 4
+                    nameHeaderLength = 4;
+                }
+
+                var startOffset = offset + 8 + nameHeaderLength;
+                var sectionLength = dataView.getUint16(offset + 6 + nameHeaderLength);
+
+                return readIPTCData(file, startOffset, sectionLength);
+
+                break;
+
+            }
+
+
+            // Not the marker, continue searching
+            offset++;
+
+        }
+
+    }
+    var IptcFieldMap = {
+        0x78 : 'caption',
+        0x6E : 'credit',
+        0x19 : 'keywords',
+        0x37 : 'dateCreated',
+        0x50 : 'byline',
+        0x55 : 'bylineTitle',
+        0x7A : 'captionWriter',
+        0x69 : 'headline',
+        0x74 : 'copyright',
+        0x0F : 'category'
+    };
+    function readIPTCData(file, startOffset, sectionLength){
+        var dataView = new DataView(file);
+        var data = {};
+        var fieldValue, fieldName, dataSize, segmentType, segmentSize;
+        var segmentStartPos = startOffset;
+        while(segmentStartPos < startOffset+sectionLength) {
+            if(dataView.getUint8(segmentStartPos) === 0x1C && dataView.getUint8(segmentStartPos+1) === 0x02){
+                segmentType = dataView.getUint8(segmentStartPos+2);
+                if(segmentType in IptcFieldMap) {
+                    dataSize = dataView.getInt16(segmentStartPos+3);
+                    segmentSize = dataSize + 5;
+                    fieldName = IptcFieldMap[segmentType];
+                    fieldValue = getStringFromDB(dataView, segmentStartPos+5, dataSize);
+                    // Check if we already stored a value with this name
+                    if(data.hasOwnProperty(fieldName)) {
+                        // Value already stored with this name, create multivalue field
+                        if(data[fieldName] instanceof Array) {
+                            data[fieldName].push(fieldValue);
+                        }
+                        else {
+                            data[fieldName] = [data[fieldName], fieldValue];
+                        }
+                    }
+                    else {
+                        data[fieldName] = fieldValue;
+                    }
+                }
+
+            }
+            segmentStartPos++;
+        }
+        return data;
+    }
+
+
+
+    function readTags(file, tiffStart, dirStart, strings, bigEnd) {
+        var entries = file.getUint16(dirStart, !bigEnd),
+            tags = {},
+            entryOffset, tag,
+            i;
+
+        for (i=0;i<entries;i++) {
+            entryOffset = dirStart + i*12 + 2;
+            tag = strings[file.getUint16(entryOffset, !bigEnd)];
+            if (!tag && debug) console.log("Unknown tag: " + file.getUint16(entryOffset, !bigEnd));
+            tags[tag] = readTagValue(file, entryOffset, tiffStart, dirStart, bigEnd);
+        }
+        return tags;
+    }
+
+
+    function readTagValue(file, entryOffset, tiffStart, dirStart, bigEnd) {
+        var type = file.getUint16(entryOffset+2, !bigEnd),
+            numValues = file.getUint32(entryOffset+4, !bigEnd),
+            valueOffset = file.getUint32(entryOffset+8, !bigEnd) + tiffStart,
+            offset,
+            vals, val, n,
+            numerator, denominator;
+
+        switch (type) {
+            case 1: // byte, 8-bit unsigned int
+            case 7: // undefined, 8-bit byte, value depending on field
+                if (numValues == 1) {
+                    return file.getUint8(entryOffset + 8, !bigEnd);
+                } else {
+                    offset = numValues > 4 ? valueOffset : (entryOffset + 8);
+                    vals = [];
+                    for (n=0;n<numValues;n++) {
+                        vals[n] = file.getUint8(offset + n);
+                    }
+                    return vals;
+                }
+
+            case 2: // ascii, 8-bit byte
+                offset = numValues > 4 ? valueOffset : (entryOffset + 8);
+                return getStringFromDB(file, offset, numValues-1);
+
+            case 3: // short, 16 bit int
+                if (numValues == 1) {
+                    return file.getUint16(entryOffset + 8, !bigEnd);
+                } else {
+                    offset = numValues > 2 ? valueOffset : (entryOffset + 8);
+                    vals = [];
+                    for (n=0;n<numValues;n++) {
+                        vals[n] = file.getUint16(offset + 2*n, !bigEnd);
+                    }
+                    return vals;
+                }
+
+            case 4: // long, 32 bit int
+                if (numValues == 1) {
+                    return file.getUint32(entryOffset + 8, !bigEnd);
+                } else {
+                    vals = [];
+                    for (n=0;n<numValues;n++) {
+                        vals[n] = file.getUint32(valueOffset + 4*n, !bigEnd);
+                    }
+                    return vals;
+                }
+
+            case 5:    // rational = two long values, first is numerator, second is denominator
+                if (numValues == 1) {
+                    numerator = file.getUint32(valueOffset, !bigEnd);
+                    denominator = file.getUint32(valueOffset+4, !bigEnd);
+                    val = new Number(numerator / denominator);
+                    val.numerator = numerator;
+                    val.denominator = denominator;
+                    return val;
+                } else {
+                    vals = [];
+                    for (n=0;n<numValues;n++) {
+                        numerator = file.getUint32(valueOffset + 8*n, !bigEnd);
+                        denominator = file.getUint32(valueOffset+4 + 8*n, !bigEnd);
+                        vals[n] = new Number(numerator / denominator);
+                        vals[n].numerator = numerator;
+                        vals[n].denominator = denominator;
+                    }
+                    return vals;
+                }
+
+            case 9: // slong, 32 bit signed int
+                if (numValues == 1) {
+                    return file.getInt32(entryOffset + 8, !bigEnd);
+                } else {
+                    vals = [];
+                    for (n=0;n<numValues;n++) {
+                        vals[n] = file.getInt32(valueOffset + 4*n, !bigEnd);
+                    }
+                    return vals;
+                }
+
+            case 10: // signed rational, two slongs, first is numerator, second is denominator
+                if (numValues == 1) {
+                    return file.getInt32(valueOffset, !bigEnd) / file.getInt32(valueOffset+4, !bigEnd);
+                } else {
+                    vals = [];
+                    for (n=0;n<numValues;n++) {
+                        vals[n] = file.getInt32(valueOffset + 8*n, !bigEnd) / file.getInt32(valueOffset+4 + 8*n, !bigEnd);
+                    }
+                    return vals;
+                }
+        }
+    }
+
+    /**
+    * Given an IFD (Image File Directory) start offset
+    * returns an offset to next IFD or 0 if it's the last IFD.
+    */
+    function getNextIFDOffset(dataView, dirStart, bigEnd){
+        //the first 2bytes means the number of directory entries contains in this IFD
+        var entries = dataView.getUint16(dirStart, !bigEnd);
+
+        // After last directory entry, there is a 4bytes of data,
+        // it means an offset to next IFD.
+        // If its value is '0x00000000', it means this is the last IFD and there is no linked IFD.
+
+        return dataView.getUint32(dirStart + 2 + entries * 12, !bigEnd); // each entry is 12 bytes long
+    }
+
+    function readThumbnailImage(dataView, tiffStart, firstIFDOffset, bigEnd){
+        // get the IFD1 offset
+        var IFD1OffsetPointer = getNextIFDOffset(dataView, tiffStart+firstIFDOffset, bigEnd);
+
+        if (!IFD1OffsetPointer) {
+            // console.log('******** IFD1Offset is empty, image thumb not found ********');
+            return {};
+        }
+        else if (IFD1OffsetPointer > dataView.byteLength) { // this should not happen
+            // console.log('******** IFD1Offset is outside the bounds of the DataView ********');
+            return {};
+        }
+        // console.log('*******  thumbnail IFD offset (IFD1) is: %s', IFD1OffsetPointer);
+
+        var thumbTags = readTags(dataView, tiffStart, tiffStart + IFD1OffsetPointer, IFD1Tags, bigEnd)
+
+        // EXIF 2.3 specification for JPEG format thumbnail
+
+        // If the value of Compression(0x0103) Tag in IFD1 is '6', thumbnail image format is JPEG.
+        // Most of Exif image uses JPEG format for thumbnail. In that case, you can get offset of thumbnail
+        // by JpegIFOffset(0x0201) Tag in IFD1, size of thumbnail by JpegIFByteCount(0x0202) Tag.
+        // Data format is ordinary JPEG format, starts from 0xFFD8 and ends by 0xFFD9. It seems that
+        // JPEG format and 160x120pixels of size are recommended thumbnail format for Exif2.1 or later.
+
+        if (thumbTags['Compression']) {
+            // console.log('Thumbnail image found!');
+
+            switch (thumbTags['Compression']) {
+                case 6:
+                    // console.log('Thumbnail image format is JPEG');
+                    if (thumbTags.JpegIFOffset && thumbTags.JpegIFByteCount) {
+                    // extract the thumbnail
+                        var tOffset = tiffStart + thumbTags.JpegIFOffset;
+                        var tLength = thumbTags.JpegIFByteCount;
+                        thumbTags['blob'] = new Blob([new Uint8Array(dataView.buffer, tOffset, tLength)], {
+                            type: 'image/jpeg'
+                        });
+                    }
+                break;
+
+            case 1:
+                console.log("Thumbnail image format is TIFF, which is not implemented.");
+                break;
+            default:
+                console.log("Unknown thumbnail image format '%s'", thumbTags['Compression']);
+            }
+        }
+        else if (thumbTags['PhotometricInterpretation'] == 2) {
+            console.log("Thumbnail image format is RGB, which is not implemented.");
+        }
+        return thumbTags;
+    }
+
+    function getStringFromDB(buffer, start, length) {
+        var outstr = "";
+        for (n = start; n < start+length; n++) {
+            outstr += String.fromCharCode(buffer.getUint8(n));
+        }
+        return outstr;
+    }
+
+    function readEXIFData(file, start) {
+        if (getStringFromDB(file, start, 4) != "Exif") {
+            if (debug) console.log("Not valid EXIF data! " + getStringFromDB(file, start, 4));
+            return false;
+        }
+
+        var bigEnd,
+            tags, tag,
+            exifData, gpsData,
+            tiffOffset = start + 6;
+
+        // test for TIFF validity and endianness
+        if (file.getUint16(tiffOffset) == 0x4949) {
+            bigEnd = false;
+        } else if (file.getUint16(tiffOffset) == 0x4D4D) {
+            bigEnd = true;
+        } else {
+            if (debug) console.log("Not valid TIFF data! (no 0x4949 or 0x4D4D)");
+            return false;
+        }
+
+        if (file.getUint16(tiffOffset+2, !bigEnd) != 0x002A) {
+            if (debug) console.log("Not valid TIFF data! (no 0x002A)");
+            return false;
+        }
+
+        var firstIFDOffset = file.getUint32(tiffOffset+4, !bigEnd);
+
+        if (firstIFDOffset < 0x00000008) {
+            if (debug) console.log("Not valid TIFF data! (First offset less than 8)", file.getUint32(tiffOffset+4, !bigEnd));
+            return false;
+        }
+
+        tags = readTags(file, tiffOffset, tiffOffset + firstIFDOffset, TiffTags, bigEnd);
+
+        if (tags.ExifIFDPointer) {
+            exifData = readTags(file, tiffOffset, tiffOffset + tags.ExifIFDPointer, ExifTags, bigEnd);
+            for (tag in exifData) {
+                switch (tag) {
+                    case "LightSource" :
+                    case "Flash" :
+                    case "MeteringMode" :
+                    case "ExposureProgram" :
+                    case "SensingMethod" :
+                    case "SceneCaptureType" :
+                    case "SceneType" :
+                    case "CustomRendered" :
+                    case "WhiteBalance" :
+                    case "GainControl" :
+                    case "Contrast" :
+                    case "Saturation" :
+                    case "Sharpness" :
+                    case "SubjectDistanceRange" :
+                    case "FileSource" :
+                        exifData[tag] = StringValues[tag][exifData[tag]];
+                        break;
+
+                    case "ExifVersion" :
+                    case "FlashpixVersion" :
+                        exifData[tag] = String.fromCharCode(exifData[tag][0], exifData[tag][1], exifData[tag][2], exifData[tag][3]);
+                        break;
+
+                    case "ComponentsConfiguration" :
+                        exifData[tag] =
+                            StringValues.Components[exifData[tag][0]] +
+                            StringValues.Components[exifData[tag][1]] +
+                            StringValues.Components[exifData[tag][2]] +
+                            StringValues.Components[exifData[tag][3]];
+                        break;
+                }
+                tags[tag] = exifData[tag];
+            }
+        }
+
+        if (tags.GPSInfoIFDPointer) {
+            gpsData = readTags(file, tiffOffset, tiffOffset + tags.GPSInfoIFDPointer, GPSTags, bigEnd);
+            for (tag in gpsData) {
+                switch (tag) {
+                    case "GPSVersionID" :
+                        gpsData[tag] = gpsData[tag][0] +
+                            "." + gpsData[tag][1] +
+                            "." + gpsData[tag][2] +
+                            "." + gpsData[tag][3];
+                        break;
+                }
+                tags[tag] = gpsData[tag];
+            }
+        }
+
+        // extract thumbnail
+        tags['thumbnail'] = readThumbnailImage(file, tiffOffset, firstIFDOffset, bigEnd);
+
+        return tags;
+    }
+
+   function findXMPinJPEG(file) {
+
+        if (!('DOMParser' in self)) {
+            // console.warn('XML parsing not supported without DOMParser');
+            return;
+        }
+        var dataView = new DataView(file);
+
+        if (debug) console.log("Got file of length " + file.byteLength);
+        if ((dataView.getUint8(0) != 0xFF) || (dataView.getUint8(1) != 0xD8)) {
+           if (debug) console.log("Not a valid JPEG");
+           return false; // not a valid jpeg
+        }
+
+        var offset = 2,
+            length = file.byteLength,
+            dom = new DOMParser();
+
+        while (offset < (length-4)) {
+            if (getStringFromDB(dataView, offset, 4) == "http") {
+                var startOffset = offset - 1;
+                var sectionLength = dataView.getUint16(offset - 2) - 1;
+                var xmpString = getStringFromDB(dataView, startOffset, sectionLength)
+                var xmpEndIndex = xmpString.indexOf('xmpmeta>') + 8;
+                xmpString = xmpString.substring( xmpString.indexOf( '<x:xmpmeta' ), xmpEndIndex );
+
+                var indexOfXmp = xmpString.indexOf('x:xmpmeta') + 10
+                //Many custom written programs embed xmp/xml without any namespace. Following are some of them.
+                //Without these namespaces, XML is thought to be invalid by parsers
+                xmpString = xmpString.slice(0, indexOfXmp)
+                            + 'xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/" '
+                            + 'xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" '
+                            + 'xmlns:tiff="http://ns.adobe.com/tiff/1.0/" '
+                            + 'xmlns:plus="http://schemas.android.com/apk/lib/com.google.android.gms.plus" '
+                            + 'xmlns:ext="http://www.gettyimages.com/xsltExtension/1.0" '
+                            + 'xmlns:exif="http://ns.adobe.com/exif/1.0/" '
+                            + 'xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" '
+                            + 'xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" '
+                            + 'xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" '
+                            + 'xmlns:xapGImg="http://ns.adobe.com/xap/1.0/g/img/" '
+                            + 'xmlns:Iptc4xmpExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/" '
+                            + xmpString.slice(indexOfXmp)
+
+                var domDocument = dom.parseFromString( xmpString, 'text/xml' );
+                return xml2Object(domDocument);
+            } else{
+             offset++;
+            }
+        }
+    }
+
+    function xml2json(xml) {
+        var json = {};
+      
+        if (xml.nodeType == 1) { // element node
+          if (xml.attributes.length > 0) {
+            json['@attributes'] = {};
+            for (var j = 0; j < xml.attributes.length; j++) {
+              var attribute = xml.attributes.item(j);
+              json['@attributes'][attribute.nodeName] = attribute.nodeValue;
+            }
+          }
+        } else if (xml.nodeType == 3) { // text node
+          return xml.nodeValue;
+        }
+      
+        // deal with children
+        if (xml.hasChildNodes()) {
+          for(var i = 0; i < xml.childNodes.length; i++) {
+            var child = xml.childNodes.item(i);
+            var nodeName = child.nodeName;
+            if (json[nodeName] == null) {
+              json[nodeName] = xml2json(child);
+            } else {
+              if (json[nodeName].push == null) {
+                var old = json[nodeName];
+                json[nodeName] = [];
+                json[nodeName].push(old);
+              }
+              json[nodeName].push(xml2json(child));
+            }
+          }
+        }
+        
+        return json;
+    }
+
+    function xml2Object(xml) {
+        try {
+            var obj = {};
+            if (xml.children.length > 0) {
+              for (var i = 0; i < xml.children.length; i++) {
+                var item = xml.children.item(i);
+                var attributes = item.attributes;
+                for(var idx in attributes) {
+                    var itemAtt = attributes[idx];
+                    var dataKey = itemAtt.nodeName;
+                    var dataValue = itemAtt.nodeValue;
+
+                    if(dataKey !== undefined) {
+                        obj[dataKey] = dataValue;
+                    }
+                }
+                var nodeName = item.nodeName;
+
+                if (typeof (obj[nodeName]) == "undefined") {
+                  obj[nodeName] = xml2json(item);
+                } else {
+                  if (typeof (obj[nodeName].push) == "undefined") {
+                    var old = obj[nodeName];
+
+                    obj[nodeName] = [];
+                    obj[nodeName].push(old);
+                  }
+                  obj[nodeName].push(xml2json(item));
+                }
+              }
+            } else {
+              obj = xml.textContent;
+            }
+            return obj;
+          } catch (e) {
+              console.log(e.message);
+          }
+    }
+
+    EXIF.enableXmp = function() {
+        EXIF.isXmpEnabled = true;
+    }
+
+    EXIF.disableXmp = function() {
+        EXIF.isXmpEnabled = false;
+    }
+
+    EXIF.getData = function(img, callback) {
+        if (((self.Image && img instanceof self.Image)
+            || (self.HTMLImageElement && img instanceof self.HTMLImageElement))
+            && !img.complete)
+            return false;
+
+        if (!imageHasData(img)) {
+            getImageData(img, callback);
+        } else {
+            if (callback) {
+                callback.call(img);
+            }
+        }
+        return true;
+    }
+
+    EXIF.getTag = function(img, tag) {
+        if (!imageHasData(img)) return;
+        return img.exifdata[tag];
+    }
+    
+    EXIF.getIptcTag = function(img, tag) {
+        if (!imageHasData(img)) return;
+        return img.iptcdata[tag];
+    }
+
+    EXIF.getAllTags = function(img) {
+        if (!imageHasData(img)) return {};
+        var a,
+            data = img.exifdata,
+            tags = {};
+        for (a in data) {
+            if (data.hasOwnProperty(a)) {
+                tags[a] = data[a];
+            }
+        }
+        return tags;
+    }
+    
+    EXIF.getAllIptcTags = function(img) {
+        if (!imageHasData(img)) return {};
+        var a,
+            data = img.iptcdata,
+            tags = {};
+        for (a in data) {
+            if (data.hasOwnProperty(a)) {
+                tags[a] = data[a];
+            }
+        }
+        return tags;
+    }
+
+    EXIF.pretty = function(img) {
+        if (!imageHasData(img)) return "";
+        var a,
+            data = img.exifdata,
+            strPretty = "";
+        for (a in data) {
+            if (data.hasOwnProperty(a)) {
+                if (typeof data[a] == "object") {
+                    if (data[a] instanceof Number) {
+                        strPretty += a + " : " + data[a] + " [" + data[a].numerator + "/" + data[a].denominator + "]\r\n";
+                    } else {
+                        strPretty += a + " : [" + data[a].length + " values]\r\n";
+                    }
+                } else {
+                    strPretty += a + " : " + data[a] + "\r\n";
+                }
+            }
+        }
+        return strPretty;
+    }
+
+    EXIF.readFromBinaryFile = function(file) {
+        return findEXIFinJPEG(file);
+    }
+
+    if (true) {
+        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function() {
+            return EXIF;
+        }).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+    }
+}.call(this));
+
 
 
 /***/ }),
-/* 19 */
+/* 20 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(21);
+
+
+/***/ }),
+/* 21 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue_router__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__routes__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue_router__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__routes__ = __webpack_require__(49);
 
 /**
  * First we will load all of this project's JavaScript dependencies which
@@ -17381,9 +18494,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-__webpack_require__(20);
+__webpack_require__(22);
 
-window.Vue = __webpack_require__(43);
+window.Vue = __webpack_require__(45);
 
 
 
@@ -17396,12 +18509,12 @@ new Vue({
 });
 
 /***/ }),
-/* 20 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-window._ = __webpack_require__(21);
-window.Popper = __webpack_require__(8).default;
+window._ = __webpack_require__(23);
+window.Popper = __webpack_require__(9).default;
 
 /**
  * We'll load jQuery and the Bootstrap jQuery plugin which provides support
@@ -17410,9 +18523,9 @@ window.Popper = __webpack_require__(8).default;
  */
 
 try {
-  window.$ = window.jQuery = __webpack_require__(9);
+  window.$ = window.jQuery = __webpack_require__(10);
 
-  __webpack_require__(23);
+  __webpack_require__(25);
 } catch (e) {}
 
 /**
@@ -17421,7 +18534,7 @@ try {
  * CSRF token as a header based on the value of the "XSRF" token cookie.
  */
 
-window.axios = __webpack_require__(24);
+window.axios = __webpack_require__(26);
 
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
@@ -17457,7 +18570,7 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 // });
 
 /***/ }),
-/* 21 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, module) {var __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -34569,10 +35682,10 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
   }
 }.call(this));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4), __webpack_require__(22)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5), __webpack_require__(24)(module)))
 
 /***/ }),
-/* 22 */
+/* 24 */
 /***/ (function(module, exports) {
 
 module.exports = function(module) {
@@ -34600,7 +35713,7 @@ module.exports = function(module) {
 
 
 /***/ }),
-/* 23 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*!
@@ -34609,7 +35722,7 @@ module.exports = function(module) {
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
   */
 (function (global, factory) {
-   true ? factory(exports, __webpack_require__(9), __webpack_require__(8)) :
+   true ? factory(exports, __webpack_require__(10), __webpack_require__(9)) :
   typeof define === 'function' && define.amd ? define(['exports', 'jquery', 'popper.js'], factory) :
   (global = global || self, factory(global.bootstrap = {}, global.jQuery, global.Popper));
 }(this, function (exports, $, Popper) { 'use strict';
@@ -39041,22 +40154,22 @@ module.exports = function(module) {
 
 
 /***/ }),
-/* 24 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(25);
+module.exports = __webpack_require__(27);
 
 /***/ }),
-/* 25 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 var utils = __webpack_require__(0);
-var bind = __webpack_require__(10);
-var Axios = __webpack_require__(27);
-var defaults = __webpack_require__(7);
+var bind = __webpack_require__(11);
+var Axios = __webpack_require__(29);
+var defaults = __webpack_require__(8);
 
 /**
  * Create an instance of Axios
@@ -39089,15 +40202,15 @@ axios.create = function create(instanceConfig) {
 };
 
 // Expose Cancel & CancelToken
-axios.Cancel = __webpack_require__(15);
-axios.CancelToken = __webpack_require__(41);
-axios.isCancel = __webpack_require__(14);
+axios.Cancel = __webpack_require__(16);
+axios.CancelToken = __webpack_require__(43);
+axios.isCancel = __webpack_require__(15);
 
 // Expose all/spread
 axios.all = function all(promises) {
   return Promise.all(promises);
 };
-axios.spread = __webpack_require__(42);
+axios.spread = __webpack_require__(44);
 
 module.exports = axios;
 
@@ -39106,7 +40219,7 @@ module.exports.default = axios;
 
 
 /***/ }),
-/* 26 */
+/* 28 */
 /***/ (function(module, exports) {
 
 /*!
@@ -39133,16 +40246,16 @@ function isSlowBuffer (obj) {
 
 
 /***/ }),
-/* 27 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var defaults = __webpack_require__(7);
+var defaults = __webpack_require__(8);
 var utils = __webpack_require__(0);
-var InterceptorManager = __webpack_require__(36);
-var dispatchRequest = __webpack_require__(37);
+var InterceptorManager = __webpack_require__(38);
+var dispatchRequest = __webpack_require__(39);
 
 /**
  * Create a new instance of Axios
@@ -39219,7 +40332,7 @@ module.exports = Axios;
 
 
 /***/ }),
-/* 28 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39238,13 +40351,13 @@ module.exports = function normalizeHeaderName(headers, normalizedName) {
 
 
 /***/ }),
-/* 29 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var createError = __webpack_require__(13);
+var createError = __webpack_require__(14);
 
 /**
  * Resolve or reject a Promise based on response status.
@@ -39271,7 +40384,7 @@ module.exports = function settle(resolve, reject, response) {
 
 
 /***/ }),
-/* 30 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39299,7 +40412,7 @@ module.exports = function enhanceError(error, config, code, request, response) {
 
 
 /***/ }),
-/* 31 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39372,7 +40485,7 @@ module.exports = function buildURL(url, params, paramsSerializer) {
 
 
 /***/ }),
-/* 32 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39432,7 +40545,7 @@ module.exports = function parseHeaders(headers) {
 
 
 /***/ }),
-/* 33 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39507,7 +40620,7 @@ module.exports = (
 
 
 /***/ }),
-/* 34 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39550,7 +40663,7 @@ module.exports = btoa;
 
 
 /***/ }),
-/* 35 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39610,7 +40723,7 @@ module.exports = (
 
 
 /***/ }),
-/* 36 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39669,18 +40782,18 @@ module.exports = InterceptorManager;
 
 
 /***/ }),
-/* 37 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 var utils = __webpack_require__(0);
-var transformData = __webpack_require__(38);
-var isCancel = __webpack_require__(14);
-var defaults = __webpack_require__(7);
-var isAbsoluteURL = __webpack_require__(39);
-var combineURLs = __webpack_require__(40);
+var transformData = __webpack_require__(40);
+var isCancel = __webpack_require__(15);
+var defaults = __webpack_require__(8);
+var isAbsoluteURL = __webpack_require__(41);
+var combineURLs = __webpack_require__(42);
 
 /**
  * Throws a `Cancel` if cancellation has been requested.
@@ -39762,7 +40875,7 @@ module.exports = function dispatchRequest(config) {
 
 
 /***/ }),
-/* 38 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39789,7 +40902,7 @@ module.exports = function transformData(data, headers, fns) {
 
 
 /***/ }),
-/* 39 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39810,7 +40923,7 @@ module.exports = function isAbsoluteURL(url) {
 
 
 /***/ }),
-/* 40 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39831,13 +40944,13 @@ module.exports = function combineURLs(baseURL, relativeURL) {
 
 
 /***/ }),
-/* 41 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var Cancel = __webpack_require__(15);
+var Cancel = __webpack_require__(16);
 
 /**
  * A `CancelToken` is an object that can be used to request cancellation of an operation.
@@ -39895,7 +41008,7 @@ module.exports = CancelToken;
 
 
 /***/ }),
-/* 42 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39929,18 +41042,18 @@ module.exports = function spread(callback) {
 
 
 /***/ }),
-/* 43 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 if (false) {
   module.exports = require('./vue.common.prod.js')
 } else {
-  module.exports = __webpack_require__(44)
+  module.exports = __webpack_require__(46)
 }
 
 
 /***/ }),
-/* 44 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51883,10 +52996,10 @@ Vue.compile = compileToFunctions;
 
 module.exports = Vue;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4), __webpack_require__(45).setImmediate))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5), __webpack_require__(47).setImmediate))
 
 /***/ }),
-/* 45 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {var scope = (typeof global !== "undefined" && global) ||
@@ -51942,7 +53055,7 @@ exports._unrefActive = exports.active = function(item) {
 };
 
 // setimmediate attaches itself to the global object
-__webpack_require__(46);
+__webpack_require__(48);
 // On some exotic environments, it's not clear which object `setimmediate` was
 // able to install onto.  Search each possibility in the same order as the
 // `setimmediate` library.
@@ -51953,10 +53066,10 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
                          (typeof global !== "undefined" && global.clearImmediate) ||
                          (this && this.clearImmediate);
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ }),
-/* 46 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, process) {(function (global, undefined) {
@@ -52146,14 +53259,14 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
     attachTo.clearImmediate = clearImmediate;
 }(typeof self === "undefined" ? typeof global === "undefined" ? this : global : self));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4), __webpack_require__(11)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5), __webpack_require__(12)))
 
 /***/ }),
-/* 47 */
+/* 49 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue_router__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue_router__ = __webpack_require__(17);
 /**
  * Created by yinchuanjiang on 2019/5/20.
  */
@@ -52161,34 +53274,34 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 
 var routes = [{
     path: '/',
-    component: __webpack_require__(48)
+    component: __webpack_require__(50)
 }, {
     path: '/animation',
-    component: __webpack_require__(54)
+    component: __webpack_require__(56)
 }, {
     path: '/activity',
     name: 'activity',
-    component: __webpack_require__(59)
+    component: __webpack_require__(65)
 }, {
     path: '/list-photo/:type',
     name: 'list-photo',
-    component: __webpack_require__(64)
+    component: __webpack_require__(70)
 }, {
     path: '/list-spokesman/:type',
     name: 'list-spokesman',
-    component: __webpack_require__(73)
+    component: __webpack_require__(79)
 }, {
     path: '/about',
     name: 'list-about',
-    component: __webpack_require__(78)
+    component: __webpack_require__(84)
 }, {
     path: '/photo',
     name: 'photo',
-    component: __webpack_require__(81)
+    component: __webpack_require__(87)
 }, {
     path: '/info/:id/:cate',
     name: 'info',
-    component: __webpack_require__(86)
+    component: __webpack_require__(92)
 }];
 
 /* harmony default export */ __webpack_exports__["a"] = (new __WEBPACK_IMPORTED_MODULE_0_vue_router__["a" /* default */]({
@@ -52197,19 +53310,19 @@ var routes = [{
 }));
 
 /***/ }),
-/* 48 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(49)
+  __webpack_require__(51)
 }
 var normalizeComponent = __webpack_require__(1)
 /* script */
-var __vue_script__ = __webpack_require__(52)
+var __vue_script__ = __webpack_require__(54)
 /* template */
-var __vue_template__ = __webpack_require__(53)
+var __vue_template__ = __webpack_require__(55)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -52248,13 +53361,13 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 49 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(50);
+var content = __webpack_require__(52);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -52274,7 +53387,7 @@ if(false) {
 }
 
 /***/ }),
-/* 50 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(2)(false);
@@ -52288,7 +53401,7 @@ exports.push([module.i, "\n.container[data-v-bf02b192] {\n    width: 100vw;\n   
 
 
 /***/ }),
-/* 51 */
+/* 53 */
 /***/ (function(module, exports) {
 
 /**
@@ -52321,7 +53434,7 @@ module.exports = function listToStyles (parentId, list) {
 
 
 /***/ }),
-/* 52 */
+/* 54 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -52447,7 +53560,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 53 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -52518,20 +53631,20 @@ if (false) {
 }
 
 /***/ }),
-/* 54 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(92)
-  __webpack_require__(94)
+  __webpack_require__(57)
+  __webpack_require__(59)
 }
 var normalizeComponent = __webpack_require__(1)
 /* script */
-var __vue_script__ = __webpack_require__(57)
+var __vue_script__ = __webpack_require__(61)
 /* template */
-var __vue_template__ = __webpack_require__(58)
+var __vue_template__ = __webpack_require__(64)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -52570,14 +53683,92 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 55 */,
-/* 56 */,
 /* 57 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(58);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(3)("6852abbe", content, false, {});
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-43758cdc\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Animation.vue", function() {
+     var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-43758cdc\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Animation.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 58 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(2)(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 59 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(60);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(3)("8e3a8ea8", content, false, {});
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-43758cdc\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=1!./Animation.vue", function() {
+     var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-43758cdc\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=1!./Animation.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 60 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(2)(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.container[data-v-43758cdc] {\n    width: 100vw;\n    height: 100vh;\n    /* display: flex;\n    flex-direction: column;\n    justify-content: space-around;\n    color: #FFF;\n    padding: 80px 0; */\n    box-sizing: border-box;\n}\n*[data-v-43758cdc] {\n    margin: 0;\n    padding: 0;\n}\nbody[data-v-43758cdc] {\n    background: #000;\n    overflow: hidden;\n}\n#perspective[data-v-43758cdc] {\n    perspective: 800px;\n}\n#wrap[data-v-43758cdc] {\n    width: 120px; /*133:200  4:6  */\n    height: 180px;\n    margin: 0 auto;\n    position: relative;\n    top: 2rem;\n    /*搭建3D效果必须的两个属性：一个变换风格变3d，一个场景景深800px*/\n    transform-style: preserve-3d;\n    transform: rotateX(-15deg) rotateY(0deg);\n}\n#wrap img[data-v-43758cdc] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    border-radius: 1px;\n\n    transform: rotateY(0deg) translateZ(0px);\n    /*倒影：朝向 偏移 遮盖*//*线性渐变(从哪里开始,开始时候的颜色,结束时候的颜色)*/\n    -webkit-box-reflect: below 5px -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.5) 100%);\n}\n#wrap p[data-v-43758cdc] {\n    width: 1200px;\n    height: 1200px;\n    background: -webkit-radial-gradient(center center, 600px 600px, rgba(244, 23, 234, 0.2), rgba(0, 0, 0, 0));\n    border-radius: 100%;\n    position: absolute;\n    left: 50%;\n    top: 102%;\n    margin-left: -600px;\n    margin-top: -600px;\n    transform: rotateX(90deg);\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 61 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_common_Music__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_common_Music__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_common_Music___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__components_common_Music__);
 //
 //
@@ -52645,7 +53836,165 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 58 */
+/* 62 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    mounted: function mounted() {},
+
+    methods: {
+        music: function music() {
+            if (this.music_status) {
+                var audio = document.getElementById('audio');
+                audio.pause();
+                this.music_status = false;
+            } else {
+                var _audio = document.getElementById('audio');
+                _audio.play();
+                this.music_status = true;
+            }
+        }
+    },
+    data: function data() {
+        return {
+            music_status: true
+        };
+    }
+});
+
+/***/ }),
+/* 63 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    {
+      staticClass: "music-status",
+      class: !_vm.music_status ? "pause" : "",
+      on: { click: _vm.music }
+    },
+    [
+      _c(
+        "svg",
+        {
+          staticClass: "svg-icon svg-icon-left",
+          attrs: {
+            viewBox: "0 0 1024 1024",
+            version: "1.1",
+            xmlns: "http://www.w3.org/2000/svg",
+            "p-id": "5354",
+            "xmlns:xlink": "http://www.w3.org/1999/xlink",
+            width: "32px",
+            height: "32px"
+          }
+        },
+        [
+          _c("path", {
+            attrs: {
+              d:
+                "M648.43588 542.014594c-3.50994 2.400676-5.947456 3.187599-7.451716 2.364861-1.50426-0.823761-2.506077-2.472308-2.973728-4.9088-0.465604-2.435469-0.033769-6.446829 1.291412-12.071943 2.113127-9.0624 1.683339-16.516162-1.396813-22.372543-3.082198-5.840008-9.064446-11.464099-18.092054-16.891715-9.350972-5.767354-16.766872-13.164834-22.209838-22.192442-5.446036-9.010211-9.780761-17.195637-12.968359-24.431435-3.152806-6.538927-6.304589-9.636474-9.529027-9.296737-3.189645 0.323365-5.481851 2.257413-6.807033 5.804193l-17.158798 45.639456c-1.147126 3.063779-2.400676 6.376221-3.582595 9.564843l-29.80584 78.526471-17.3389 46.033429c-1.75497 5.409197-4.838192 11.069103-9.242502 16.908088-4.371564 5.803169-10.280134 10.568706-17.73185 14.402011-7.451716 3.795443-16.265452 6.088672-26.582425 6.912433-10.316973 0.825808-22.102391-0.895393-35.393091-5.052063-13.506619-4.332678-24.575722-11.17655-33.244148-20.48966-8.670473-9.315156-14.402011-19.165502-17.196661-29.445636-2.793626-10.317996-2.292206-20.277836 1.432629-29.878494 3.725858-9.671267 11.319813-17.087167 22.820752-22.38994 11.463076-5.337565 22.676465-7.845689 33.56649-7.522324 10.891048 0.285502 20.921495 1.898233 30.057573 4.942569 9.099239 3.045359 16.872273 6.66377 23.39278 10.926864 6.482645 4.227278 11.140735 7.631818 14.007015 10.210549l39.872103-106.71958 0.179079 0.303922c8.705266-23.106254 18.378579-48.469921 29.017894-76.359109 2.435469-6.41306 6.088672-11.06808 11.033287-13.916964 4.871961-2.830465 10.245342-3.546779 16.121166-2.078335 4.943592 1.091868 8.489348 3.475148 10.56666 7.182586 2.042519 3.672646 3.833305 8.400321 5.231141 14.114462 1.432629 5.749958 3.366677 12.358469 5.837962 19.86442 2.400676 7.487531 6.484691 15.476483 12.323677 23.984251 4.800329 7.649214 9.314133 13.522991 13.541411 17.625426 4.191462 4.15667 8.132214 7.953136 11.821233 11.499915 3.690042 3.475148 7.130398 7.433296 10.388605 11.67797 3.260254 4.281513 6.376221 10.371208 9.278317 18.305925 2.973728 7.701402 3.942799 14.902408 2.758834 21.566178-1.254573 6.628978-3.295046 12.288884-6.268774 17.016559C655.062811 536.103978 651.874189 539.613918 648.43588 542.014594z",
+              "p-id": "5355",
+              fill: "#ffffff"
+            }
+          })
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "svg",
+        {
+          staticClass: "svg-icon svg-icon-right",
+          attrs: {
+            viewBox: "0 0 1024 1024",
+            version: "1.1",
+            xmlns: "http://www.w3.org/2000/svg",
+            "p-id": "5354",
+            "xmlns:xlink": "http://www.w3.org/1999/xlink",
+            width: "32px",
+            height: "32px"
+          }
+        },
+        [
+          _c("path", {
+            attrs: {
+              d:
+                "M648.43588 542.014594c-3.50994 2.400676-5.947456 3.187599-7.451716 2.364861-1.50426-0.823761-2.506077-2.472308-2.973728-4.9088-0.465604-2.435469-0.033769-6.446829 1.291412-12.071943 2.113127-9.0624 1.683339-16.516162-1.396813-22.372543-3.082198-5.840008-9.064446-11.464099-18.092054-16.891715-9.350972-5.767354-16.766872-13.164834-22.209838-22.192442-5.446036-9.010211-9.780761-17.195637-12.968359-24.431435-3.152806-6.538927-6.304589-9.636474-9.529027-9.296737-3.189645 0.323365-5.481851 2.257413-6.807033 5.804193l-17.158798 45.639456c-1.147126 3.063779-2.400676 6.376221-3.582595 9.564843l-29.80584 78.526471-17.3389 46.033429c-1.75497 5.409197-4.838192 11.069103-9.242502 16.908088-4.371564 5.803169-10.280134 10.568706-17.73185 14.402011-7.451716 3.795443-16.265452 6.088672-26.582425 6.912433-10.316973 0.825808-22.102391-0.895393-35.393091-5.052063-13.506619-4.332678-24.575722-11.17655-33.244148-20.48966-8.670473-9.315156-14.402011-19.165502-17.196661-29.445636-2.793626-10.317996-2.292206-20.277836 1.432629-29.878494 3.725858-9.671267 11.319813-17.087167 22.820752-22.38994 11.463076-5.337565 22.676465-7.845689 33.56649-7.522324 10.891048 0.285502 20.921495 1.898233 30.057573 4.942569 9.099239 3.045359 16.872273 6.66377 23.39278 10.926864 6.482645 4.227278 11.140735 7.631818 14.007015 10.210549l39.872103-106.71958 0.179079 0.303922c8.705266-23.106254 18.378579-48.469921 29.017894-76.359109 2.435469-6.41306 6.088672-11.06808 11.033287-13.916964 4.871961-2.830465 10.245342-3.546779 16.121166-2.078335 4.943592 1.091868 8.489348 3.475148 10.56666 7.182586 2.042519 3.672646 3.833305 8.400321 5.231141 14.114462 1.432629 5.749958 3.366677 12.358469 5.837962 19.86442 2.400676 7.487531 6.484691 15.476483 12.323677 23.984251 4.800329 7.649214 9.314133 13.522991 13.541411 17.625426 4.191462 4.15667 8.132214 7.953136 11.821233 11.499915 3.690042 3.475148 7.130398 7.433296 10.388605 11.67797 3.260254 4.281513 6.376221 10.371208 9.278317 18.305925 2.973728 7.701402 3.942799 14.902408 2.758834 21.566178-1.254573 6.628978-3.295046 12.288884-6.268774 17.016559C655.062811 536.103978 651.874189 539.613918 648.43588 542.014594z",
+              "p-id": "5355",
+              fill: "#ffffff"
+            }
+          })
+        ]
+      ),
+      _vm._v(" "),
+      _c("img", {
+        staticClass: "play",
+        attrs: {
+          src:
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAABGdBTUEAALGPC/xhBQAAAFdQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////AAAA////LEkQMAAAABx0Uk5TTz+/j29fz5/Qr5B/cFCw4PCg3zAgYMDvgBBAAHW8PxYAAAHKSURBVEjHlZZZgoMgDECdaavWuiEoEHP/c04VZE3tmD8JD0JWi/VcdLpQnO/n0zUAJF4B9Gvk/wLEz2uT2zTwtYZvAFQTGhna9+eizoGH3b00M98XFnk/AcBsZ51fWhAn+ADoat9ei/DdcluqNAXw0lgehao1FpYiB7g0Ohbu7+z7UfIUOPajCuOAmBEW0Icv0eUCv0kMpNQR8PSaeY+di4aTKgTmQCG3owBz6Tygo8uf2w0EMGkHqPwoRhDqAOILjFFizAF5AHOq+c1vdf7YgJ68fMiB3gLEWUA7ygCUZnsGI88paGuxfPsif3e7A5QHERuXqvHbir1GkHZJplnOgHd+8kvAlgrqEvBOKj1QQB43HJdGKQDtS85FjnLrMPu67gkvzVRSujIdEs8VWe7zuHFFRgmTS+khsdSBrTb5miQhY2ljY4ukHkU+I2JlYRuolXo9AZiraaA9tCYdBXybYScAiy6wgEv9HHAdYtRh5wNfBYk0kUG+Gc9JZ82ePKftXrkijOa0xGS9SLwho8y4yyz+wcjq9pdLP9HE0dPHjh6KwuTyc18TDzcCevFx7IKNuSyDKoPTwQ4s6kYjg++/DqCWPaXrRUGu/QN05O4Hr4RngQAAAABJRU5ErkJggg=="
+        }
+      }),
+      _vm._v(" "),
+      _vm._m(0)
+    ]
+  )
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "playing-line" }, [
+      _c("div", { staticClass: "note" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "note" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "note" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "note" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "note" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "note" })
+    ])
+  }
+]
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-4925f410", module.exports)
+  }
+}
+
+/***/ }),
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -52727,19 +54076,19 @@ if (false) {
 }
 
 /***/ }),
-/* 59 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(60)
+  __webpack_require__(66)
 }
 var normalizeComponent = __webpack_require__(1)
 /* script */
-var __vue_script__ = __webpack_require__(62)
+var __vue_script__ = __webpack_require__(68)
 /* template */
-var __vue_template__ = __webpack_require__(63)
+var __vue_template__ = __webpack_require__(69)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -52778,13 +54127,13 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 60 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(61);
+var content = __webpack_require__(67);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -52804,7 +54153,7 @@ if(false) {
 }
 
 /***/ }),
-/* 61 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(2)(false);
@@ -52818,12 +54167,12 @@ exports.push([module.i, "\n.layermbox {\n    position: relative;\n    z-index: 1
 
 
 /***/ }),
-/* 62 */
+/* 68 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_common_Music__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_common_Music__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_common_Music___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__components_common_Music__);
 //
 //
@@ -53148,7 +54497,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 63 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -53299,19 +54648,19 @@ if (false) {
 }
 
 /***/ }),
-/* 64 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(65)
+  __webpack_require__(71)
 }
 var normalizeComponent = __webpack_require__(1)
 /* script */
-var __vue_script__ = __webpack_require__(67)
+var __vue_script__ = __webpack_require__(73)
 /* template */
-var __vue_template__ = __webpack_require__(72)
+var __vue_template__ = __webpack_require__(78)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -53350,13 +54699,13 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 65 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(66);
+var content = __webpack_require__(72);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -53376,7 +54725,7 @@ if(false) {
 }
 
 /***/ }),
-/* 66 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(2)(false);
@@ -53390,16 +54739,16 @@ exports.push([module.i, "\na {\n    text-decoration: none;\n}\n", ""]);
 
 
 /***/ }),
-/* 67 */
+/* 73 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__common_Menu__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__common_Menu__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__common_Menu___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__common_Menu__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__helpers_openid__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_common_Music__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__helpers_openid__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_common_Music__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_common_Music___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__components_common_Music__);
 //
 //
@@ -53640,13 +54989,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 68 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(69);
+var content = __webpack_require__(75);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -53666,7 +55015,7 @@ if(false) {
 }
 
 /***/ }),
-/* 69 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(2)(false);
@@ -53680,7 +55029,7 @@ exports.push([module.i, "\n.activity {\n    width: 100%;\n    height: 2rem;\n   
 
 
 /***/ }),
-/* 70 */
+/* 76 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53728,7 +55077,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 71 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -53775,7 +55124,7 @@ if (false) {
 }
 
 /***/ }),
-/* 72 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -54388,19 +55737,19 @@ if (false) {
 }
 
 /***/ }),
-/* 73 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(74)
+  __webpack_require__(80)
 }
 var normalizeComponent = __webpack_require__(1)
 /* script */
-var __vue_script__ = __webpack_require__(76)
+var __vue_script__ = __webpack_require__(82)
 /* template */
-var __vue_template__ = __webpack_require__(77)
+var __vue_template__ = __webpack_require__(83)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -54439,13 +55788,13 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 74 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(75);
+var content = __webpack_require__(81);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -54465,7 +55814,7 @@ if(false) {
 }
 
 /***/ }),
-/* 75 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(2)(false);
@@ -54479,16 +55828,16 @@ exports.push([module.i, "\na {\n    text-decoration: none;\n}\n", ""]);
 
 
 /***/ }),
-/* 76 */
+/* 82 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__common_Menu__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__common_Menu__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__common_Menu___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__common_Menu__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__helpers_openid__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_common_Music__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__helpers_openid__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_common_Music__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_common_Music___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__components_common_Music__);
 //
 //
@@ -54699,7 +56048,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 77 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -55161,15 +56510,15 @@ if (false) {
 }
 
 /***/ }),
-/* 78 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var normalizeComponent = __webpack_require__(1)
 /* script */
-var __vue_script__ = __webpack_require__(79)
+var __vue_script__ = __webpack_require__(85)
 /* template */
-var __vue_template__ = __webpack_require__(80)
+var __vue_template__ = __webpack_require__(86)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -55208,12 +56557,12 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 79 */
+/* 85 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_common_Music__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_common_Music__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_common_Music___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__components_common_Music__);
 //
 //
@@ -55242,7 +56591,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 80 */
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -55304,19 +56653,19 @@ if (false) {
 }
 
 /***/ }),
-/* 81 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(82)
+  __webpack_require__(88)
 }
 var normalizeComponent = __webpack_require__(1)
 /* script */
-var __vue_script__ = __webpack_require__(84)
+var __vue_script__ = __webpack_require__(90)
 /* template */
-var __vue_template__ = __webpack_require__(85)
+var __vue_template__ = __webpack_require__(91)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -55355,13 +56704,13 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 82 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(83);
+var content = __webpack_require__(89);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -55381,7 +56730,7 @@ if(false) {
 }
 
 /***/ }),
-/* 83 */
+/* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(2)(false);
@@ -55395,17 +56744,18 @@ exports.push([module.i, "\ncontainer .uploader-page .editor {\n    width: 80%;\n
 
 
 /***/ }),
-/* 84 */
+/* 90 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__helpers_openid__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_common_Music__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__helpers_openid__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_common_Music__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_common_Music___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__components_common_Music__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__helpers_exif__ = __webpack_require__(96);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__helpers_exif___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__helpers_exif__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_exif_js__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_exif_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_exif_js__);
+//
 //
 //
 //
@@ -55578,19 +56928,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             }
         },
         shangc: function shangc(e) {
-            var _this = this;
-
-            this.left = 0;
-            this.top = 0;
-            this.endLeft = 0;
-            this.endTop = 0;
             var that = this;
-            if (this.faceBase64) {
-                this.$refs.upload.style.left = 0 + 'px';
-                this.$refs.upload.style.top = 0 + 'px';
-                this.$refs.upload.style.height = 'auto';
-                this.$refs.upload.style.width = 'auto';
-            }
             var files = document.getElementById('file').files[0];
             if (!files) return;
             var name = document.getElementById('file').files[0].name;
@@ -55602,16 +56940,29 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                 if (fileSize > 10 * 1024 * 1024) {
                     layer.msg("文件大小不能大于10M！");
                     file.value = "";
+                    that.faceBase64 = '';
+                    that.clearDraw();
                     return false;
                 } else if (fileSize <= 0) {
-                    ayer.msg("文件大小不能为0M！");
+                    layer.msg("文件大小不能为0M！");
                     file.value = "";
+                    that.faceBase64 = '';
+                    that.clearDraw();
                     return false;
                 }
             } else {
                 return false;
             }
-
+            this.left = 0;
+            this.top = 0;
+            this.endLeft = 0;
+            this.endTop = 0;
+            if (this.faceBase64) {
+                this.$refs.upload.style.left = 0 + 'px';
+                this.$refs.upload.style.top = 0 + 'px';
+                this.$refs.upload.style.height = 'auto';
+                this.$refs.upload.style.width = 'auto';
+            }
             var divW = this.$refs.cropper.offsetWidth;
             var divH = this.$refs.cropper.offsetHeight;
             //转码base64
@@ -55623,29 +56974,94 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                 imgFile = e.target.result;
                 var img = new Image();
                 img.src = imgFile;
+                //画预览图 处理旋转
+                var Orientation = void 0;
                 img.onload = function () {
-                    that.width = img.width;
-                    that.height = img.height;
-                    //                        if (img.width/img.height >= img.height) {
-                    if (img.width / img.height >= divW / divH) {
-                        $('.upload').css('height', '100%');
-                    } else {
-                        $('.upload').css('width', '100%');
+                    console.log(img.width);
+                    console.log(img.height);
+                    console.log(divH);
+                    console.log(divW);
+                    if (img.width < divH && img.height < divH) {
+                        layer.msg('图片尺寸太小');
+                        that.faceBase64 = '';
+                        that.clearDraw();
+                        return false;
                     }
+                    __WEBPACK_IMPORTED_MODULE_3_exif_js___default.a.getData(img, function (imageEvent) {
+                        __WEBPACK_IMPORTED_MODULE_3_exif_js___default.a.getAllTags(this);
+                        Orientation = __WEBPACK_IMPORTED_MODULE_3_exif_js___default.a.getTag(this, 'Orientation');
+                    });
+                    //开始画预览图
+                    var canvas = document.getElementById("draw_see_img");
+                    if (canvas.getContext) {
+                        var cxt = canvas.getContext('2d');
+                        cxt.clearRect(0, 0, canvas.width, canvas.height);
+                        if (Orientation == 3) {
+                            canvas.width = img.width;
+                            canvas.height = img.height;
+                            cxt.rotate(Math.PI);
+                            cxt.drawImage(img, 0, 0, -img.width, -img.height);
+                        } else if (Orientation == 8) {
+                            canvas.width = img.height;
+                            canvas.height = img.width;
+                            cxt.rotate(Math.PI * 3 / 2);
+                            cxt.drawImage(img, 0, 0, -img.width, img.height);
+                        } else if (Orientation == 6) {
+                            canvas.width = img.height;
+                            canvas.height = img.width;
+                            cxt.rotate(Math.PI / 2);
+                            cxt.drawImage(img, 0, 0, img.width, -img.height);
+                        } else {
+                            canvas.width = img.width;
+                            canvas.height = img.height;
+                            cxt.drawImage(img, 0, 0, img.width, img.height);
+                        }
+                        that.faceBase64 = canvas.toDataURL();
+
+                        var imgSee = new Image();
+                        imgSee.src = that.faceBase64;
+                        imgSee.onload = function () {
+                            that.width = imgSee.width;
+                            that.height = imgSee.height;
+                            var bili = divW / imgSee.width;
+                            var lasth = bili * imgSee.height;
+                            console.log('lasth ' + lasth + ' bili' + bili + ' divH ' + divH + ' divW ' + divW + ' w ' + that.width + ' h ' + that.height);
+                            if (lasth > divH) {
+                                $('.upload').css('width', '100%');
+                            } else {
+                                $('.upload').css('height', '100%');
+                            }
+                            //                                if (imgSee.width / imgSee.height >= divW / divH) {
+                            //                                    $('.upload').css('height', '100%')
+                            //                                } else {
+                            //                                    $('.upload').css('width', '100%')
+                            //                                }
+                            //生成预览图片
+                            that.drawImg();
+                        };
+                    }
+                    //                        if (img.width/img.height >= img.height) {
                 };
-                var arr = imgFile.split(',');
-                _this.faceBase64 = 'data:image/jpeg;base64,' + arr[1];
+                //let arr = imgFile.split(',')
+                //this.faceBase64 = 'data:image/jpeg;base64,' + arr[1]
                 //console.log(imgFile)
                 // console.log(this.datas.faceBase64)
-
-                //生成预览图片
-                _this.drawImg();
             };
+        },
+        clearDraw: function clearDraw() {
+            var canvas = document.getElementById("draw_img");
+            if (canvas.getContext) {
+                //获取对应的CanvasRenderingContext2D对象(画笔)
+                var ctx = canvas.getContext("2d");
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+            }
         },
         drawImg: function drawImg() {
             console.log('draw');
             //生成预览图片
             var canvas = document.getElementById("draw_img");
+            var divW = this.$refs.cropper.offsetWidth;
+            var divH = this.$refs.cropper.offsetHeight;
             var that = this;
             if (canvas.getContext) {
                 //获取对应的CanvasRenderingContext2D对象(画笔)
@@ -55655,67 +57071,29 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                 var imgP = new Image();
                 //指定图片的URL
                 imgP.src = this.faceBase64;
+                var Orientation = void 0;
                 //浏览器加载图片完毕后再绘制图片
                 imgP.onload = function () {
                     //获取图片旋转
-                    __WEBPACK_IMPORTED_MODULE_3__helpers_exif__["Exif"].getData(imgP, function () {
-                        EXIF.getAllTags(this);
-                        Orientation = EXIF.getTag(this, 'Orientation');
-                    });
-                    var w = 308;
-                    var h = 523;
+                    canvas.width = divW;
+                    canvas.height = divH;
                     //以Canvas画布上的坐标(0,0)为起始点，绘制图
                     var iwidth = that.$refs.upload.offsetWidth;
                     var iheight = that.$refs.upload.offsetHeight;
-                    //                        let iwidth = imgP.width;
-                    //                        let iheight = imgP.height;
-                    console.log('left:' + that.left + 'top:' + that.top + 'iw:' + iwidth + 'ih:' + iheight + 'w:' + this.width + 'h:' + this.height);
-
-                    //                        if (iwidth <= iheight) {
-                    //                            iheight = h;
-                    //                        } else {
-                    //                            iwidth = w;
-                    //                            //iheight = h;
-                    //                        }
-                    if (iwidth / iheight >= w / h) {
-                        iheight = h;
+                    var bili = divW / that.width;
+                    var lasth = that.height * bili;
+                    if (lasth > divH) {
+                        ctx.drawImage(imgP, that.left, that.top, divW, iheight);
                     } else {
-                        iwidth = w;
+                        ctx.drawImage(imgP, that.left, that.top, iwidth, divH);
                     }
-                    if (iwidth < iheight) {
-                        if (iwidth > w) {
-                            //iwidth = w;
-                            iheight = h;
-                        } else {
-                            iwidth = w;
-                        }
-                    }
-                    if (iwidth == iheight) {
-                        iheight = h;
-                    }
-                    if (iwidth > iheight) {
-                        if (iwidth > w) {
-                            iheight = h;
-                        } else {
-                            iwidth = w;
-                        }
-                    }
-                    console.log('left:' + that.left + 'top:' + that.top + 'iw:' + iwidth + 'ih:' + iheight + 'w:' + this.width + 'h:' + this.height);
-
-                    console.log('Orientation:' + Orientation);
-                    ctx.drawImage(imgP, that.left, that.top, iwidth, iheight);
                     var imgT = new Image();
                     imgT.src = '/static/poster.png';
                     imgT.onload = function () {
-                        ctx.drawImage(imgT, 0, 0, w, h);
+                        ctx.drawImage(imgT, 0, 0, divW, divH);
                         that.prewBase64 = canvas.toDataURL();
                     };
                 };
-                //                    var canvas = document.getElementById("preview");
-                //                    canvas.toBlob(function (blob) {
-                //                        console.log(blob)
-                //                    });
-                //                    console.log(base64);
             }
         },
         upload: function upload() {
@@ -55836,7 +57214,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 85 */
+/* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -56224,7 +57602,12 @@ var render = function() {
       _vm._v(" "),
       _c("canvas", {
         staticStyle: { display: "none" },
-        attrs: { id: "draw_img", width: "308", height: "523" }
+        attrs: { id: "draw_img" }
+      }),
+      _vm._v(" "),
+      _c("canvas", {
+        staticStyle: { display: "none" },
+        attrs: { id: "draw_see_img" }
       })
     ],
     1
@@ -56371,15 +57754,15 @@ if (false) {
 }
 
 /***/ }),
-/* 86 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var normalizeComponent = __webpack_require__(1)
 /* script */
-var __vue_script__ = __webpack_require__(87)
+var __vue_script__ = __webpack_require__(93)
 /* template */
-var __vue_template__ = __webpack_require__(88)
+var __vue_template__ = __webpack_require__(94)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -56418,14 +57801,14 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 87 */
+/* 93 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__helpers_openid__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_common_Music__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__helpers_openid__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_common_Music__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_common_Music___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__components_common_Music__);
 //
 //
@@ -56617,7 +58000,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 88 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -57027,1088 +58410,6 @@ if (false) {
     require("vue-hot-reload-api")      .rerender("data-v-224c3110", module.exports)
   }
 }
-
-/***/ }),
-/* 89 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var disposed = false
-var normalizeComponent = __webpack_require__(1)
-/* script */
-var __vue_script__ = __webpack_require__(90)
-/* template */
-var __vue_template__ = __webpack_require__(91)
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = null
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __vue_script__,
-  __vue_template__,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-Component.options.__file = "resources/assets/js/components/common/Music.vue"
-
-/* hot reload */
-if (false) {(function () {
-  var hotAPI = require("vue-hot-reload-api")
-  hotAPI.install(require("vue"), false)
-  if (!hotAPI.compatible) return
-  module.hot.accept()
-  if (!module.hot.data) {
-    hotAPI.createRecord("data-v-4925f410", Component.options)
-  } else {
-    hotAPI.reload("data-v-4925f410", Component.options)
-  }
-  module.hot.dispose(function (data) {
-    disposed = true
-  })
-})()}
-
-module.exports = Component.exports
-
-
-/***/ }),
-/* 90 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-    mounted: function mounted() {},
-
-    methods: {
-        music: function music() {
-            if (this.music_status) {
-                var audio = document.getElementById('audio');
-                audio.pause();
-                this.music_status = false;
-            } else {
-                var _audio = document.getElementById('audio');
-                _audio.play();
-                this.music_status = true;
-            }
-        }
-    },
-    data: function data() {
-        return {
-            music_status: true
-        };
-    }
-});
-
-/***/ }),
-/* 91 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    {
-      staticClass: "music-status",
-      class: !_vm.music_status ? "pause" : "",
-      on: { click: _vm.music }
-    },
-    [
-      _c(
-        "svg",
-        {
-          staticClass: "svg-icon svg-icon-left",
-          attrs: {
-            viewBox: "0 0 1024 1024",
-            version: "1.1",
-            xmlns: "http://www.w3.org/2000/svg",
-            "p-id": "5354",
-            "xmlns:xlink": "http://www.w3.org/1999/xlink",
-            width: "32px",
-            height: "32px"
-          }
-        },
-        [
-          _c("path", {
-            attrs: {
-              d:
-                "M648.43588 542.014594c-3.50994 2.400676-5.947456 3.187599-7.451716 2.364861-1.50426-0.823761-2.506077-2.472308-2.973728-4.9088-0.465604-2.435469-0.033769-6.446829 1.291412-12.071943 2.113127-9.0624 1.683339-16.516162-1.396813-22.372543-3.082198-5.840008-9.064446-11.464099-18.092054-16.891715-9.350972-5.767354-16.766872-13.164834-22.209838-22.192442-5.446036-9.010211-9.780761-17.195637-12.968359-24.431435-3.152806-6.538927-6.304589-9.636474-9.529027-9.296737-3.189645 0.323365-5.481851 2.257413-6.807033 5.804193l-17.158798 45.639456c-1.147126 3.063779-2.400676 6.376221-3.582595 9.564843l-29.80584 78.526471-17.3389 46.033429c-1.75497 5.409197-4.838192 11.069103-9.242502 16.908088-4.371564 5.803169-10.280134 10.568706-17.73185 14.402011-7.451716 3.795443-16.265452 6.088672-26.582425 6.912433-10.316973 0.825808-22.102391-0.895393-35.393091-5.052063-13.506619-4.332678-24.575722-11.17655-33.244148-20.48966-8.670473-9.315156-14.402011-19.165502-17.196661-29.445636-2.793626-10.317996-2.292206-20.277836 1.432629-29.878494 3.725858-9.671267 11.319813-17.087167 22.820752-22.38994 11.463076-5.337565 22.676465-7.845689 33.56649-7.522324 10.891048 0.285502 20.921495 1.898233 30.057573 4.942569 9.099239 3.045359 16.872273 6.66377 23.39278 10.926864 6.482645 4.227278 11.140735 7.631818 14.007015 10.210549l39.872103-106.71958 0.179079 0.303922c8.705266-23.106254 18.378579-48.469921 29.017894-76.359109 2.435469-6.41306 6.088672-11.06808 11.033287-13.916964 4.871961-2.830465 10.245342-3.546779 16.121166-2.078335 4.943592 1.091868 8.489348 3.475148 10.56666 7.182586 2.042519 3.672646 3.833305 8.400321 5.231141 14.114462 1.432629 5.749958 3.366677 12.358469 5.837962 19.86442 2.400676 7.487531 6.484691 15.476483 12.323677 23.984251 4.800329 7.649214 9.314133 13.522991 13.541411 17.625426 4.191462 4.15667 8.132214 7.953136 11.821233 11.499915 3.690042 3.475148 7.130398 7.433296 10.388605 11.67797 3.260254 4.281513 6.376221 10.371208 9.278317 18.305925 2.973728 7.701402 3.942799 14.902408 2.758834 21.566178-1.254573 6.628978-3.295046 12.288884-6.268774 17.016559C655.062811 536.103978 651.874189 539.613918 648.43588 542.014594z",
-              "p-id": "5355",
-              fill: "#ffffff"
-            }
-          })
-        ]
-      ),
-      _vm._v(" "),
-      _c(
-        "svg",
-        {
-          staticClass: "svg-icon svg-icon-right",
-          attrs: {
-            viewBox: "0 0 1024 1024",
-            version: "1.1",
-            xmlns: "http://www.w3.org/2000/svg",
-            "p-id": "5354",
-            "xmlns:xlink": "http://www.w3.org/1999/xlink",
-            width: "32px",
-            height: "32px"
-          }
-        },
-        [
-          _c("path", {
-            attrs: {
-              d:
-                "M648.43588 542.014594c-3.50994 2.400676-5.947456 3.187599-7.451716 2.364861-1.50426-0.823761-2.506077-2.472308-2.973728-4.9088-0.465604-2.435469-0.033769-6.446829 1.291412-12.071943 2.113127-9.0624 1.683339-16.516162-1.396813-22.372543-3.082198-5.840008-9.064446-11.464099-18.092054-16.891715-9.350972-5.767354-16.766872-13.164834-22.209838-22.192442-5.446036-9.010211-9.780761-17.195637-12.968359-24.431435-3.152806-6.538927-6.304589-9.636474-9.529027-9.296737-3.189645 0.323365-5.481851 2.257413-6.807033 5.804193l-17.158798 45.639456c-1.147126 3.063779-2.400676 6.376221-3.582595 9.564843l-29.80584 78.526471-17.3389 46.033429c-1.75497 5.409197-4.838192 11.069103-9.242502 16.908088-4.371564 5.803169-10.280134 10.568706-17.73185 14.402011-7.451716 3.795443-16.265452 6.088672-26.582425 6.912433-10.316973 0.825808-22.102391-0.895393-35.393091-5.052063-13.506619-4.332678-24.575722-11.17655-33.244148-20.48966-8.670473-9.315156-14.402011-19.165502-17.196661-29.445636-2.793626-10.317996-2.292206-20.277836 1.432629-29.878494 3.725858-9.671267 11.319813-17.087167 22.820752-22.38994 11.463076-5.337565 22.676465-7.845689 33.56649-7.522324 10.891048 0.285502 20.921495 1.898233 30.057573 4.942569 9.099239 3.045359 16.872273 6.66377 23.39278 10.926864 6.482645 4.227278 11.140735 7.631818 14.007015 10.210549l39.872103-106.71958 0.179079 0.303922c8.705266-23.106254 18.378579-48.469921 29.017894-76.359109 2.435469-6.41306 6.088672-11.06808 11.033287-13.916964 4.871961-2.830465 10.245342-3.546779 16.121166-2.078335 4.943592 1.091868 8.489348 3.475148 10.56666 7.182586 2.042519 3.672646 3.833305 8.400321 5.231141 14.114462 1.432629 5.749958 3.366677 12.358469 5.837962 19.86442 2.400676 7.487531 6.484691 15.476483 12.323677 23.984251 4.800329 7.649214 9.314133 13.522991 13.541411 17.625426 4.191462 4.15667 8.132214 7.953136 11.821233 11.499915 3.690042 3.475148 7.130398 7.433296 10.388605 11.67797 3.260254 4.281513 6.376221 10.371208 9.278317 18.305925 2.973728 7.701402 3.942799 14.902408 2.758834 21.566178-1.254573 6.628978-3.295046 12.288884-6.268774 17.016559C655.062811 536.103978 651.874189 539.613918 648.43588 542.014594z",
-              "p-id": "5355",
-              fill: "#ffffff"
-            }
-          })
-        ]
-      ),
-      _vm._v(" "),
-      _c("img", {
-        staticClass: "play",
-        attrs: {
-          src:
-            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAABGdBTUEAALGPC/xhBQAAAFdQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////AAAA////LEkQMAAAABx0Uk5TTz+/j29fz5/Qr5B/cFCw4PCg3zAgYMDvgBBAAHW8PxYAAAHKSURBVEjHlZZZgoMgDECdaavWuiEoEHP/c04VZE3tmD8JD0JWi/VcdLpQnO/n0zUAJF4B9Gvk/wLEz2uT2zTwtYZvAFQTGhna9+eizoGH3b00M98XFnk/AcBsZ51fWhAn+ADoat9ei/DdcluqNAXw0lgehao1FpYiB7g0Ohbu7+z7UfIUOPajCuOAmBEW0Icv0eUCv0kMpNQR8PSaeY+di4aTKgTmQCG3owBz6Tygo8uf2w0EMGkHqPwoRhDqAOILjFFizAF5AHOq+c1vdf7YgJ68fMiB3gLEWUA7ygCUZnsGI88paGuxfPsif3e7A5QHERuXqvHbir1GkHZJplnOgHd+8kvAlgrqEvBOKj1QQB43HJdGKQDtS85FjnLrMPu67gkvzVRSujIdEs8VWe7zuHFFRgmTS+khsdSBrTb5miQhY2ljY4ukHkU+I2JlYRuolXo9AZiraaA9tCYdBXybYScAiy6wgEv9HHAdYtRh5wNfBYk0kUG+Gc9JZ82ePKftXrkijOa0xGS9SLwho8y4yyz+wcjq9pdLP9HE0dPHjh6KwuTyc18TDzcCevFx7IKNuSyDKoPTwQ4s6kYjg++/DqCWPaXrRUGu/QN05O4Hr4RngQAAAABJRU5ErkJggg=="
-        }
-      }),
-      _vm._v(" "),
-      _vm._m(0)
-    ]
-  )
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "playing-line" }, [
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "note" })
-    ])
-  }
-]
-render._withStripped = true
-module.exports = { render: render, staticRenderFns: staticRenderFns }
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-4925f410", module.exports)
-  }
-}
-
-/***/ }),
-/* 92 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(93);
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var update = __webpack_require__(3)("6852abbe", content, false, {});
-// Hot Module Replacement
-if(false) {
- // When the styles change, update the <style> tags
- if(!content.locals) {
-   module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-43758cdc\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Animation.vue", function() {
-     var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-43758cdc\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Animation.vue");
-     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-     update(newContent);
-   });
- }
- // When the module is disposed, remove the <style> tags
- module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
-/* 93 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(2)(false);
-// imports
-
-
-// module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
-
-// exports
-
-
-/***/ }),
-/* 94 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(95);
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var update = __webpack_require__(3)("8e3a8ea8", content, false, {});
-// Hot Module Replacement
-if(false) {
- // When the styles change, update the <style> tags
- if(!content.locals) {
-   module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-43758cdc\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=1!./Animation.vue", function() {
-     var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-43758cdc\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=1!./Animation.vue");
-     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-     update(newContent);
-   });
- }
- // When the module is disposed, remove the <style> tags
- module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
-/* 95 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(2)(false);
-// imports
-
-
-// module
-exports.push([module.i, "\n.container[data-v-43758cdc] {\n    width: 100vw;\n    height: 100vh;\n    /* display: flex;\n    flex-direction: column;\n    justify-content: space-around;\n    color: #FFF;\n    padding: 80px 0; */\n    box-sizing: border-box;\n}\n*[data-v-43758cdc] {\n    margin: 0;\n    padding: 0;\n}\nbody[data-v-43758cdc] {\n    background: #000;\n    overflow: hidden;\n}\n#perspective[data-v-43758cdc] {\n    perspective: 800px;\n}\n#wrap[data-v-43758cdc] {\n    width: 120px; /*133:200  4:6  */\n    height: 180px;\n    margin: 0 auto;\n    position: relative;\n    top: 2rem;\n    /*搭建3D效果必须的两个属性：一个变换风格变3d，一个场景景深800px*/\n    transform-style: preserve-3d;\n    transform: rotateX(-15deg) rotateY(0deg);\n}\n#wrap img[data-v-43758cdc] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    border-radius: 1px;\n\n    transform: rotateY(0deg) translateZ(0px);\n    /*倒影：朝向 偏移 遮盖*//*线性渐变(从哪里开始,开始时候的颜色,结束时候的颜色)*/\n    -webkit-box-reflect: below 5px -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.5) 100%);\n}\n#wrap p[data-v-43758cdc] {\n    width: 1200px;\n    height: 1200px;\n    background: -webkit-radial-gradient(center center, 600px 600px, rgba(244, 23, 234, 0.2), rgba(0, 0, 0, 0));\n    border-radius: 100%;\n    position: absolute;\n    left: 50%;\n    top: 102%;\n    margin-left: -600px;\n    margin-top: -600px;\n    transform: rotateX(90deg);\n}\n", ""]);
-
-// exports
-
-
-/***/ }),
-/* 96 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-(function () {
-
-    var debug = false;
-
-    var root = this;
-
-    var EXIF = function EXIF(obj) {
-        if (obj instanceof EXIF) return obj;
-        if (!(this instanceof EXIF)) return new EXIF(obj);
-        this.EXIFwrapped = obj;
-    };
-
-    if (true) {
-        if (typeof module !== 'undefined' && module.exports) {
-            exports = module.exports = EXIF;
-        }
-        exports.EXIF = EXIF;
-    } else {
-        root.EXIF = EXIF;
-    }
-
-    var ExifTags = EXIF.Tags = {
-
-        // version tags
-        0x9000: "ExifVersion", // EXIF version
-        0xA000: "FlashpixVersion", // Flashpix format version
-
-        // colorspace tags
-        0xA001: "ColorSpace", // Color space information tag
-
-        // image configuration
-        0xA002: "PixelXDimension", // Valid width of meaningful image
-        0xA003: "PixelYDimension", // Valid height of meaningful image
-        0x9101: "ComponentsConfiguration", // Information about channels
-        0x9102: "CompressedBitsPerPixel", // Compressed bits per pixel
-
-        // user information
-        0x927C: "MakerNote", // Any desired information written by the manufacturer
-        0x9286: "UserComment", // Comments by user
-
-        // related file
-        0xA004: "RelatedSoundFile", // Name of related sound file
-
-        // date and time
-        0x9003: "DateTimeOriginal", // Date and time when the original image was generated
-        0x9004: "DateTimeDigitized", // Date and time when the image was stored digitally
-        0x9290: "SubsecTime", // Fractions of seconds for DateTime
-        0x9291: "SubsecTimeOriginal", // Fractions of seconds for DateTimeOriginal
-        0x9292: "SubsecTimeDigitized", // Fractions of seconds for DateTimeDigitized
-
-        // picture-taking conditions
-        0x829A: "ExposureTime", // Exposure time (in seconds)
-        0x829D: "FNumber", // F number
-        0x8822: "ExposureProgram", // Exposure program
-        0x8824: "SpectralSensitivity", // Spectral sensitivity
-        0x8827: "ISOSpeedRatings", // ISO speed rating
-        0x8828: "OECF", // Optoelectric conversion factor
-        0x9201: "ShutterSpeedValue", // Shutter speed
-        0x9202: "ApertureValue", // Lens aperture
-        0x9203: "BrightnessValue", // Value of brightness
-        0x9204: "ExposureBias", // Exposure bias
-        0x9205: "MaxApertureValue", // Smallest F number of lens
-        0x9206: "SubjectDistance", // Distance to subject in meters
-        0x9207: "MeteringMode", // Metering mode
-        0x9208: "LightSource", // Kind of light source
-        0x9209: "Flash", // Flash status
-        0x9214: "SubjectArea", // Location and area of main subject
-        0x920A: "FocalLength", // Focal length of the lens in mm
-        0xA20B: "FlashEnergy", // Strobe energy in BCPS
-        0xA20C: "SpatialFrequencyResponse", //
-        0xA20E: "FocalPlaneXResolution", // Number of pixels in width direction per FocalPlaneResolutionUnit
-        0xA20F: "FocalPlaneYResolution", // Number of pixels in height direction per FocalPlaneResolutionUnit
-        0xA210: "FocalPlaneResolutionUnit", // Unit for measuring FocalPlaneXResolution and FocalPlaneYResolution
-        0xA214: "SubjectLocation", // Location of subject in image
-        0xA215: "ExposureIndex", // Exposure index selected on camera
-        0xA217: "SensingMethod", // Image sensor type
-        0xA300: "FileSource", // Image source (3 == DSC)
-        0xA301: "SceneType", // Scene type (1 == directly photographed)
-        0xA302: "CFAPattern", // Color filter array geometric pattern
-        0xA401: "CustomRendered", // Special processing
-        0xA402: "ExposureMode", // Exposure mode
-        0xA403: "WhiteBalance", // 1 = auto white balance, 2 = manual
-        0xA404: "DigitalZoomRation", // Digital zoom ratio
-        0xA405: "FocalLengthIn35mmFilm", // Equivalent foacl length assuming 35mm film camera (in mm)
-        0xA406: "SceneCaptureType", // Type of scene
-        0xA407: "GainControl", // Degree of overall image gain adjustment
-        0xA408: "Contrast", // Direction of contrast processing applied by camera
-        0xA409: "Saturation", // Direction of saturation processing applied by camera
-        0xA40A: "Sharpness", // Direction of sharpness processing applied by camera
-        0xA40B: "DeviceSettingDescription", //
-        0xA40C: "SubjectDistanceRange", // Distance to subject
-
-        // other tags
-        0xA005: "InteroperabilityIFDPointer",
-        0xA420: "ImageUniqueID" // Identifier assigned uniquely to each image
-    };
-
-    var TiffTags = EXIF.TiffTags = {
-        0x0100: "ImageWidth",
-        0x0101: "ImageHeight",
-        0x8769: "ExifIFDPointer",
-        0x8825: "GPSInfoIFDPointer",
-        0xA005: "InteroperabilityIFDPointer",
-        0x0102: "BitsPerSample",
-        0x0103: "Compression",
-        0x0106: "PhotometricInterpretation",
-        0x0112: "Orientation",
-        0x0115: "SamplesPerPixel",
-        0x011C: "PlanarConfiguration",
-        0x0212: "YCbCrSubSampling",
-        0x0213: "YCbCrPositioning",
-        0x011A: "XResolution",
-        0x011B: "YResolution",
-        0x0128: "ResolutionUnit",
-        0x0111: "StripOffsets",
-        0x0116: "RowsPerStrip",
-        0x0117: "StripByteCounts",
-        0x0201: "JPEGInterchangeFormat",
-        0x0202: "JPEGInterchangeFormatLength",
-        0x012D: "TransferFunction",
-        0x013E: "WhitePoint",
-        0x013F: "PrimaryChromaticities",
-        0x0211: "YCbCrCoefficients",
-        0x0214: "ReferenceBlackWhite",
-        0x0132: "DateTime",
-        0x010E: "ImageDescription",
-        0x010F: "Make",
-        0x0110: "Model",
-        0x0131: "Software",
-        0x013B: "Artist",
-        0x8298: "Copyright"
-    };
-
-    var GPSTags = EXIF.GPSTags = {
-        0x0000: "GPSVersionID",
-        0x0001: "GPSLatitudeRef",
-        0x0002: "GPSLatitude",
-        0x0003: "GPSLongitudeRef",
-        0x0004: "GPSLongitude",
-        0x0005: "GPSAltitudeRef",
-        0x0006: "GPSAltitude",
-        0x0007: "GPSTimeStamp",
-        0x0008: "GPSSatellites",
-        0x0009: "GPSStatus",
-        0x000A: "GPSMeasureMode",
-        0x000B: "GPSDOP",
-        0x000C: "GPSSpeedRef",
-        0x000D: "GPSSpeed",
-        0x000E: "GPSTrackRef",
-        0x000F: "GPSTrack",
-        0x0010: "GPSImgDirectionRef",
-        0x0011: "GPSImgDirection",
-        0x0012: "GPSMapDatum",
-        0x0013: "GPSDestLatitudeRef",
-        0x0014: "GPSDestLatitude",
-        0x0015: "GPSDestLongitudeRef",
-        0x0016: "GPSDestLongitude",
-        0x0017: "GPSDestBearingRef",
-        0x0018: "GPSDestBearing",
-        0x0019: "GPSDestDistanceRef",
-        0x001A: "GPSDestDistance",
-        0x001B: "GPSProcessingMethod",
-        0x001C: "GPSAreaInformation",
-        0x001D: "GPSDateStamp",
-        0x001E: "GPSDifferential"
-    };
-
-    var StringValues = EXIF.StringValues = {
-        ExposureProgram: {
-            0: "Not defined",
-            1: "Manual",
-            2: "Normal program",
-            3: "Aperture priority",
-            4: "Shutter priority",
-            5: "Creative program",
-            6: "Action program",
-            7: "Portrait mode",
-            8: "Landscape mode"
-        },
-        MeteringMode: {
-            0: "Unknown",
-            1: "Average",
-            2: "CenterWeightedAverage",
-            3: "Spot",
-            4: "MultiSpot",
-            5: "Pattern",
-            6: "Partial",
-            255: "Other"
-        },
-        LightSource: {
-            0: "Unknown",
-            1: "Daylight",
-            2: "Fluorescent",
-            3: "Tungsten (incandescent light)",
-            4: "Flash",
-            9: "Fine weather",
-            10: "Cloudy weather",
-            11: "Shade",
-            12: "Daylight fluorescent (D 5700 - 7100K)",
-            13: "Day white fluorescent (N 4600 - 5400K)",
-            14: "Cool white fluorescent (W 3900 - 4500K)",
-            15: "White fluorescent (WW 3200 - 3700K)",
-            17: "Standard light A",
-            18: "Standard light B",
-            19: "Standard light C",
-            20: "D55",
-            21: "D65",
-            22: "D75",
-            23: "D50",
-            24: "ISO studio tungsten",
-            255: "Other"
-        },
-        Flash: {
-            0x0000: "Flash did not fire",
-            0x0001: "Flash fired",
-            0x0005: "Strobe return light not detected",
-            0x0007: "Strobe return light detected",
-            0x0009: "Flash fired, compulsory flash mode",
-            0x000D: "Flash fired, compulsory flash mode, return light not detected",
-            0x000F: "Flash fired, compulsory flash mode, return light detected",
-            0x0010: "Flash did not fire, compulsory flash mode",
-            0x0018: "Flash did not fire, auto mode",
-            0x0019: "Flash fired, auto mode",
-            0x001D: "Flash fired, auto mode, return light not detected",
-            0x001F: "Flash fired, auto mode, return light detected",
-            0x0020: "No flash function",
-            0x0041: "Flash fired, red-eye reduction mode",
-            0x0045: "Flash fired, red-eye reduction mode, return light not detected",
-            0x0047: "Flash fired, red-eye reduction mode, return light detected",
-            0x0049: "Flash fired, compulsory flash mode, red-eye reduction mode",
-            0x004D: "Flash fired, compulsory flash mode, red-eye reduction mode, return light not detected",
-            0x004F: "Flash fired, compulsory flash mode, red-eye reduction mode, return light detected",
-            0x0059: "Flash fired, auto mode, red-eye reduction mode",
-            0x005D: "Flash fired, auto mode, return light not detected, red-eye reduction mode",
-            0x005F: "Flash fired, auto mode, return light detected, red-eye reduction mode"
-        },
-        SensingMethod: {
-            1: "Not defined",
-            2: "One-chip color area sensor",
-            3: "Two-chip color area sensor",
-            4: "Three-chip color area sensor",
-            5: "Color sequential area sensor",
-            7: "Trilinear sensor",
-            8: "Color sequential linear sensor"
-        },
-        SceneCaptureType: {
-            0: "Standard",
-            1: "Landscape",
-            2: "Portrait",
-            3: "Night scene"
-        },
-        SceneType: {
-            1: "Directly photographed"
-        },
-        CustomRendered: {
-            0: "Normal process",
-            1: "Custom process"
-        },
-        WhiteBalance: {
-            0: "Auto white balance",
-            1: "Manual white balance"
-        },
-        GainControl: {
-            0: "None",
-            1: "Low gain up",
-            2: "High gain up",
-            3: "Low gain down",
-            4: "High gain down"
-        },
-        Contrast: {
-            0: "Normal",
-            1: "Soft",
-            2: "Hard"
-        },
-        Saturation: {
-            0: "Normal",
-            1: "Low saturation",
-            2: "High saturation"
-        },
-        Sharpness: {
-            0: "Normal",
-            1: "Soft",
-            2: "Hard"
-        },
-        SubjectDistanceRange: {
-            0: "Unknown",
-            1: "Macro",
-            2: "Close view",
-            3: "Distant view"
-        },
-        FileSource: {
-            3: "DSC"
-        },
-
-        Components: {
-            0: "",
-            1: "Y",
-            2: "Cb",
-            3: "Cr",
-            4: "R",
-            5: "G",
-            6: "B"
-        }
-    };
-
-    function addEvent(element, event, handler) {
-        if (element.addEventListener) {
-            element.addEventListener(event, handler, false);
-        } else if (element.attachEvent) {
-            element.attachEvent("on" + event, handler);
-        }
-    }
-
-    function imageHasData(img) {
-        return !!img.exifdata;
-    }
-
-    function base64ToArrayBuffer(base64, contentType) {
-        contentType = contentType || base64.match(/^data\:([^\;]+)\;base64,/mi)[1] || ''; // e.g. 'data:image/jpeg;base64,...' => 'image/jpeg'
-        base64 = base64.replace(/^data\:([^\;]+)\;base64,/gmi, '');
-        var binary = atob(base64);
-        var len = binary.length;
-        var buffer = new ArrayBuffer(len);
-        var view = new Uint8Array(buffer);
-        for (var i = 0; i < len; i++) {
-            view[i] = binary.charCodeAt(i);
-        }
-        return buffer;
-    }
-
-    function objectURLToBlob(url, callback) {
-        var http = new XMLHttpRequest();
-        http.open("GET", url, true);
-        http.responseType = "blob";
-        http.onload = function (e) {
-            if (this.status == 200 || this.status === 0) {
-                callback(this.response);
-            }
-        };
-        http.send();
-    }
-
-    function getImageData(img, callback) {
-        function handleBinaryFile(binFile) {
-            var data = findEXIFinJPEG(binFile);
-            var iptcdata = findIPTCinJPEG(binFile);
-            img.exifdata = data || {};
-            img.iptcdata = iptcdata || {};
-            if (callback) {
-                callback.call(img);
-            }
-        }
-
-        if (img.src) {
-            if (/^data\:/i.test(img.src)) {
-                // Data URI
-                var arrayBuffer = base64ToArrayBuffer(img.src);
-                handleBinaryFile(arrayBuffer);
-            } else if (/^blob\:/i.test(img.src)) {
-                // Object URL
-                var fileReader = new FileReader();
-                fileReader.onload = function (e) {
-                    handleBinaryFile(e.target.result);
-                };
-                objectURLToBlob(img.src, function (blob) {
-                    fileReader.readAsArrayBuffer(blob);
-                });
-            } else {
-                var http = new XMLHttpRequest();
-                http.onload = function () {
-                    if (this.status == 200 || this.status === 0) {
-                        handleBinaryFile(http.response);
-                    } else {
-                        throw "Could not load image";
-                    }
-                    http = null;
-                };
-                http.open("GET", img.src, true);
-                http.responseType = "arraybuffer";
-                http.send(null);
-            }
-        } else if (window.FileReader && (img instanceof window.Blob || img instanceof window.File)) {
-            var fileReader = new FileReader();
-            fileReader.onload = function (e) {
-                if (debug) console.log("Got file of length " + e.target.result.byteLength);
-                handleBinaryFile(e.target.result);
-            };
-
-            fileReader.readAsArrayBuffer(img);
-        }
-    }
-
-    function findEXIFinJPEG(file) {
-        var dataView = new DataView(file);
-
-        if (debug) console.log("Got file of length " + file.byteLength);
-        if (dataView.getUint8(0) != 0xFF || dataView.getUint8(1) != 0xD8) {
-            if (debug) console.log("Not a valid JPEG");
-            return false; // not a valid jpeg
-        }
-
-        var offset = 2,
-            length = file.byteLength,
-            marker;
-
-        while (offset < length) {
-            if (dataView.getUint8(offset) != 0xFF) {
-                if (debug) console.log("Not a valid marker at offset " + offset + ", found: " + dataView.getUint8(offset));
-                return false; // not a valid marker, something is wrong
-            }
-
-            marker = dataView.getUint8(offset + 1);
-            if (debug) console.log(marker);
-
-            // we could implement handling for other markers here,
-            // but we're only looking for 0xFFE1 for EXIF data
-
-            if (marker == 225) {
-                if (debug) console.log("Found 0xFFE1 marker");
-
-                return readEXIFData(dataView, offset + 4, dataView.getUint16(offset + 2) - 2);
-
-                // offset += 2 + file.getShortAt(offset+2, true);
-            } else {
-                offset += 2 + dataView.getUint16(offset + 2);
-            }
-        }
-    }
-
-    function findIPTCinJPEG(file) {
-        var dataView = new DataView(file);
-
-        if (debug) console.log("Got file of length " + file.byteLength);
-        if (dataView.getUint8(0) != 0xFF || dataView.getUint8(1) != 0xD8) {
-            if (debug) console.log("Not a valid JPEG");
-            return false; // not a valid jpeg
-        }
-
-        var offset = 2,
-            length = file.byteLength;
-
-        var isFieldSegmentStart = function isFieldSegmentStart(dataView, offset) {
-            return dataView.getUint8(offset) === 0x38 && dataView.getUint8(offset + 1) === 0x42 && dataView.getUint8(offset + 2) === 0x49 && dataView.getUint8(offset + 3) === 0x4D && dataView.getUint8(offset + 4) === 0x04 && dataView.getUint8(offset + 5) === 0x04;
-        };
-
-        while (offset < length) {
-
-            if (isFieldSegmentStart(dataView, offset)) {
-
-                // Get the length of the name header (which is padded to an even number of bytes)
-                var nameHeaderLength = dataView.getUint8(offset + 7);
-                if (nameHeaderLength % 2 !== 0) nameHeaderLength += 1;
-                // Check for pre photoshop 6 format
-                if (nameHeaderLength === 0) {
-                    // Always 4
-                    nameHeaderLength = 4;
-                }
-
-                var startOffset = offset + 8 + nameHeaderLength;
-                var sectionLength = dataView.getUint16(offset + 6 + nameHeaderLength);
-
-                return readIPTCData(file, startOffset, sectionLength);
-
-                break;
-            }
-
-            // Not the marker, continue searching
-            offset++;
-        }
-    }
-    var IptcFieldMap = {
-        0x78: 'caption',
-        0x6E: 'credit',
-        0x19: 'keywords',
-        0x37: 'dateCreated',
-        0x50: 'byline',
-        0x55: 'bylineTitle',
-        0x7A: 'captionWriter',
-        0x69: 'headline',
-        0x74: 'copyright',
-        0x0F: 'category'
-    };
-    function readIPTCData(file, startOffset, sectionLength) {
-        var dataView = new DataView(file);
-        var data = {};
-        var fieldValue, fieldName, dataSize, segmentType, segmentSize;
-        var segmentStartPos = startOffset;
-        while (segmentStartPos < startOffset + sectionLength) {
-            if (dataView.getUint8(segmentStartPos) === 0x1C && dataView.getUint8(segmentStartPos + 1) === 0x02) {
-                segmentType = dataView.getUint8(segmentStartPos + 2);
-                if (segmentType in IptcFieldMap) {
-                    dataSize = dataView.getInt16(segmentStartPos + 3);
-                    segmentSize = dataSize + 5;
-                    fieldName = IptcFieldMap[segmentType];
-                    fieldValue = getStringFromDB(dataView, segmentStartPos + 5, dataSize);
-                    // Check if we already stored a value with this name
-                    if (data.hasOwnProperty(fieldName)) {
-                        // Value already stored with this name, create multivalue field
-                        if (data[fieldName] instanceof Array) {
-                            data[fieldName].push(fieldValue);
-                        } else {
-                            data[fieldName] = [data[fieldName], fieldValue];
-                        }
-                    } else {
-                        data[fieldName] = fieldValue;
-                    }
-                }
-            }
-            segmentStartPos++;
-        }
-        return data;
-    }
-
-    function readTags(file, tiffStart, dirStart, strings, bigEnd) {
-        var entries = file.getUint16(dirStart, !bigEnd),
-            tags = {},
-            entryOffset,
-            tag,
-            i;
-
-        for (i = 0; i < entries; i++) {
-            entryOffset = dirStart + i * 12 + 2;
-            tag = strings[file.getUint16(entryOffset, !bigEnd)];
-            if (!tag && debug) console.log("Unknown tag: " + file.getUint16(entryOffset, !bigEnd));
-            tags[tag] = readTagValue(file, entryOffset, tiffStart, dirStart, bigEnd);
-        }
-        return tags;
-    }
-
-    function readTagValue(file, entryOffset, tiffStart, dirStart, bigEnd) {
-        var type = file.getUint16(entryOffset + 2, !bigEnd),
-            numValues = file.getUint32(entryOffset + 4, !bigEnd),
-            valueOffset = file.getUint32(entryOffset + 8, !bigEnd) + tiffStart,
-            offset,
-            vals,
-            val,
-            n,
-            numerator,
-            denominator;
-
-        switch (type) {
-            case 1: // byte, 8-bit unsigned int
-            case 7:
-                // undefined, 8-bit byte, value depending on field
-                if (numValues == 1) {
-                    return file.getUint8(entryOffset + 8, !bigEnd);
-                } else {
-                    offset = numValues > 4 ? valueOffset : entryOffset + 8;
-                    vals = [];
-                    for (n = 0; n < numValues; n++) {
-                        vals[n] = file.getUint8(offset + n);
-                    }
-                    return vals;
-                }
-
-            case 2:
-                // ascii, 8-bit byte
-                offset = numValues > 4 ? valueOffset : entryOffset + 8;
-                return getStringFromDB(file, offset, numValues - 1);
-
-            case 3:
-                // short, 16 bit int
-                if (numValues == 1) {
-                    return file.getUint16(entryOffset + 8, !bigEnd);
-                } else {
-                    offset = numValues > 2 ? valueOffset : entryOffset + 8;
-                    vals = [];
-                    for (n = 0; n < numValues; n++) {
-                        vals[n] = file.getUint16(offset + 2 * n, !bigEnd);
-                    }
-                    return vals;
-                }
-
-            case 4:
-                // long, 32 bit int
-                if (numValues == 1) {
-                    return file.getUint32(entryOffset + 8, !bigEnd);
-                } else {
-                    vals = [];
-                    for (n = 0; n < numValues; n++) {
-                        vals[n] = file.getUint32(valueOffset + 4 * n, !bigEnd);
-                    }
-                    return vals;
-                }
-
-            case 5:
-                // rational = two long values, first is numerator, second is denominator
-                if (numValues == 1) {
-                    numerator = file.getUint32(valueOffset, !bigEnd);
-                    denominator = file.getUint32(valueOffset + 4, !bigEnd);
-                    val = new Number(numerator / denominator);
-                    val.numerator = numerator;
-                    val.denominator = denominator;
-                    return val;
-                } else {
-                    vals = [];
-                    for (n = 0; n < numValues; n++) {
-                        numerator = file.getUint32(valueOffset + 8 * n, !bigEnd);
-                        denominator = file.getUint32(valueOffset + 4 + 8 * n, !bigEnd);
-                        vals[n] = new Number(numerator / denominator);
-                        vals[n].numerator = numerator;
-                        vals[n].denominator = denominator;
-                    }
-                    return vals;
-                }
-
-            case 9:
-                // slong, 32 bit signed int
-                if (numValues == 1) {
-                    return file.getInt32(entryOffset + 8, !bigEnd);
-                } else {
-                    vals = [];
-                    for (n = 0; n < numValues; n++) {
-                        vals[n] = file.getInt32(valueOffset + 4 * n, !bigEnd);
-                    }
-                    return vals;
-                }
-
-            case 10:
-                // signed rational, two slongs, first is numerator, second is denominator
-                if (numValues == 1) {
-                    return file.getInt32(valueOffset, !bigEnd) / file.getInt32(valueOffset + 4, !bigEnd);
-                } else {
-                    vals = [];
-                    for (n = 0; n < numValues; n++) {
-                        vals[n] = file.getInt32(valueOffset + 8 * n, !bigEnd) / file.getInt32(valueOffset + 4 + 8 * n, !bigEnd);
-                    }
-                    return vals;
-                }
-        }
-    }
-
-    function getStringFromDB(buffer, start, length) {
-        var outstr = "";
-        for (n = start; n < start + length; n++) {
-            outstr += String.fromCharCode(buffer.getUint8(n));
-        }
-        return outstr;
-    }
-
-    function readEXIFData(file, start) {
-        if (getStringFromDB(file, start, 4) != "Exif") {
-            if (debug) console.log("Not valid EXIF data! " + getStringFromDB(file, start, 4));
-            return false;
-        }
-
-        var bigEnd,
-            tags,
-            tag,
-            exifData,
-            gpsData,
-            tiffOffset = start + 6;
-
-        // test for TIFF validity and endianness
-        if (file.getUint16(tiffOffset) == 0x4949) {
-            bigEnd = false;
-        } else if (file.getUint16(tiffOffset) == 0x4D4D) {
-            bigEnd = true;
-        } else {
-            if (debug) console.log("Not valid TIFF data! (no 0x4949 or 0x4D4D)");
-            return false;
-        }
-
-        if (file.getUint16(tiffOffset + 2, !bigEnd) != 0x002A) {
-            if (debug) console.log("Not valid TIFF data! (no 0x002A)");
-            return false;
-        }
-
-        var firstIFDOffset = file.getUint32(tiffOffset + 4, !bigEnd);
-
-        if (firstIFDOffset < 0x00000008) {
-            if (debug) console.log("Not valid TIFF data! (First offset less than 8)", file.getUint32(tiffOffset + 4, !bigEnd));
-            return false;
-        }
-
-        tags = readTags(file, tiffOffset, tiffOffset + firstIFDOffset, TiffTags, bigEnd);
-
-        if (tags.ExifIFDPointer) {
-            exifData = readTags(file, tiffOffset, tiffOffset + tags.ExifIFDPointer, ExifTags, bigEnd);
-            for (tag in exifData) {
-                switch (tag) {
-                    case "LightSource":
-                    case "Flash":
-                    case "MeteringMode":
-                    case "ExposureProgram":
-                    case "SensingMethod":
-                    case "SceneCaptureType":
-                    case "SceneType":
-                    case "CustomRendered":
-                    case "WhiteBalance":
-                    case "GainControl":
-                    case "Contrast":
-                    case "Saturation":
-                    case "Sharpness":
-                    case "SubjectDistanceRange":
-                    case "FileSource":
-                        exifData[tag] = StringValues[tag][exifData[tag]];
-                        break;
-
-                    case "ExifVersion":
-                    case "FlashpixVersion":
-                        exifData[tag] = String.fromCharCode(exifData[tag][0], exifData[tag][1], exifData[tag][2], exifData[tag][3]);
-                        break;
-
-                    case "ComponentsConfiguration":
-                        exifData[tag] = StringValues.Components[exifData[tag][0]] + StringValues.Components[exifData[tag][1]] + StringValues.Components[exifData[tag][2]] + StringValues.Components[exifData[tag][3]];
-                        break;
-                }
-                tags[tag] = exifData[tag];
-            }
-        }
-
-        if (tags.GPSInfoIFDPointer) {
-            gpsData = readTags(file, tiffOffset, tiffOffset + tags.GPSInfoIFDPointer, GPSTags, bigEnd);
-            for (tag in gpsData) {
-                switch (tag) {
-                    case "GPSVersionID":
-                        gpsData[tag] = gpsData[tag][0] + "." + gpsData[tag][1] + "." + gpsData[tag][2] + "." + gpsData[tag][3];
-                        break;
-                }
-                tags[tag] = gpsData[tag];
-            }
-        }
-
-        return tags;
-    }
-
-    EXIF.getData = function (img, callback) {
-        if ((img instanceof Image || img instanceof HTMLImageElement) && !img.complete) return false;
-
-        if (!imageHasData(img)) {
-            getImageData(img, callback);
-        } else {
-            if (callback) {
-                callback.call(img);
-            }
-        }
-        return true;
-    };
-
-    EXIF.getTag = function (img, tag) {
-        if (!imageHasData(img)) return;
-        return img.exifdata[tag];
-    };
-
-    EXIF.getAllTags = function (img) {
-        if (!imageHasData(img)) return {};
-        var a,
-            data = img.exifdata,
-            tags = {};
-        for (a in data) {
-            if (data.hasOwnProperty(a)) {
-                tags[a] = data[a];
-            }
-        }
-        return tags;
-    };
-
-    EXIF.pretty = function (img) {
-        if (!imageHasData(img)) return "";
-        var a,
-            data = img.exifdata,
-            strPretty = "";
-        for (a in data) {
-            if (data.hasOwnProperty(a)) {
-                if (_typeof(data[a]) == "object") {
-                    if (data[a] instanceof Number) {
-                        strPretty += a + " : " + data[a] + " [" + data[a].numerator + "/" + data[a].denominator + "]\r\n";
-                    } else {
-                        strPretty += a + " : [" + data[a].length + " values]\r\n";
-                    }
-                } else {
-                    strPretty += a + " : " + data[a] + "\r\n";
-                }
-            }
-        }
-        return strPretty;
-    };
-
-    EXIF.readFromBinaryFile = function (file) {
-        return findEXIFinJPEG(file);
-    };
-
-    if (true) {
-        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
-            return EXIF;
-        }).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
-				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-    }
-}).call(this);
 
 /***/ })
 /******/ ]);
