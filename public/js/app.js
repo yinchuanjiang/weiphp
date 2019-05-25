@@ -53548,7 +53548,7 @@ var staticRenderFns = [
               staticStyle: {
                 width: "90%",
                 "background-color": "rgb(236, 233, 0)",
-                "margin-top": "50%",
+                "margin-top": "40%",
                 "margin-left": "5%"
               }
             },
