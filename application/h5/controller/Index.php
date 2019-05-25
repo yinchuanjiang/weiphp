@@ -214,7 +214,7 @@ class Index extends Controller
 
     private function getJsApiTicket()
     {
-        $accessToken = get_access_token();
+        $accessToken = get_access_token(82);
         // 如果是企业号用以下 URL 获取 ticket
         // $url = "https://qyapi.weixin.qq.com/cgi-bin/get_jsapi_ticket?access_token=$accessToken";
         $url = "https://api.weixin.qq.com/cgi-bin/ticket/getticket?type=jsapi&access_token=$accessToken";
