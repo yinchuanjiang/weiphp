@@ -71,6 +71,7 @@ class Index extends Controller
     }
     public function getT()
     {
+        dump($this->getJsApiTicket());
         dump($this->getSignPackage('oKwWb1JwyBYICmRxZsFFzzpDprnM'));
     }
     //保存用户信息
