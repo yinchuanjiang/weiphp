@@ -53091,7 +53091,7 @@ exports = module.exports = __webpack_require__(2)(false);
 
 
 // module
-exports.push([module.i, "\n.layermbox {\n    position: relative;\n    z-index: 19920626;\n}\n.laymshade,\n.layermmain {\n    position: fixed;\n    left: 0;\n    top: 0;\n    width: 100%;\n    height: 100%;\n}\n.laymshade {\n    background-color: rgba(0, 0, 0, .5);\n    pointer-events: auto;\n}\n.layermmain {\n    display: table;\n    font-family: Helvetica, arial, sans-serif;\n    pointer-events: none;\n}\n.layermmain .section {\n    display: table-cell;\n    vertical-align: middle;\n    text-align: center;\n}\n.layermchild {\n    position: relative;\n    display: inline-block;\n    text-align: left;\n    background-color: #FAFAFC;\n    font-size: 14px;\n    border-radius: 3px;\n    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);\n    pointer-events: auto;\n    box-shadow: 1px 1px 8px #353535\n}\n.layermchild {\n    -webkit-animation-fill-mode: both;\n    animation-fill-mode: both;\n    -webkit-animation-duration: .18s;\n    animation-duration: .18s;\n}\n.layermborder {\n    border: 1px solid #999;\n}\n@-webkit-keyframes layerbounceInEffect {\n0% {\n        opacity: 0;\n        -webkit-transform: scale(.5);\n        transform: scale(.5)\n}\n100% {\n        opacity: 1;\n        -webkit-transform: scale(1);\n        transform: scale(1)\n}\n}\n.layermanim {\n    animation-name: layerbounceInEffect;\n    -webkit-animation-name: layerbounceInEffect;\n}\n.layermbox0 .layermchild {\n    max-width: 90%;\n    min-width: 240px;\n}\n.layermbox1 .layermchild {\n    border: none;\n    border-radius: 0;\n}\n.layermbox2 .layermchild {\n    width: auto;\n    max-width: 260px;\n    min-width: 40px;\n    border: none;\n    background: none;\n    box-shadow: none;\n    color: #fff;\n}\n.layermchild h3 {\n    padding: 0 45px 0px 20px;\n    height: 50px;\n    line-height: 50px;\n    border-bottom: 1px solid #EBEBEB;\n    font-size: 16px;\n    font-weight: 400;\n    border-radius: 3px 3px 0 0;\n    margin: 0;\n}\n.layermchild h3,\n.layermbtn span {\n    text-overflow: ellipsis;\n    overflow: hidden;\n    white-space: nowrap;\n}\n.layermbox1 .layermcont {\n    padding: 0;\n    text-align: left;\n}\n.layermbox2 .layermcont {\n    text-align: center;\n    padding: 0;\n    line-height: 0;\n}\n.layermbox2 .layermcont i {\n    width: 25px;\n    height: 25px;\n    margin-left: 8px;\n    display: inline-block;\n    background-color: #fff;\n    border-radius: 100%;\n}\n.layermbox2 .layermcont i {\n    -webkit-animation: bouncedelay 1.4s infinite ease-in-out;\n    animation: bouncedelay 1.4s infinite ease-in-out;\n    -webkit-animation-fill-mode: both;\n    animation-fill-mode: both;\n}\n@-webkit-keyframes bouncedelay {\n0%,\n    80%,\n    100% {\n        transform: scale(0);\n        -webkit-transform: scale(0)\n}\n40% {\n        transform: scale(1);\n        -webkit-transform: scale(1)\n}\n}\n@keyframes bouncedelay {\n0%,\n    80%,\n    100% {\n        transform: scale(0);\n        -webkit-transform: scale(0)\n}\n40% {\n        transform: scale(1);\n        -webkit-transform: scale(1)\n}\n}\n.layermbox2 .layermcont i:first-child {\n    margin-left: 0;\n    -webkit-animation-delay: -.32s;\n    animation-delay: -.32s;\n}\n.layermbox2 .layermcont i.laymloadtwo {\n    -webkit-animation-delay: -.16s;\n    animation-delay: -.16s;\n}\n.layermbox2 .layermcont > div {\n    line-height: 22px;\n    padding-top: 7px;\n    margin-bottom: 20px;\n    font-size: 14px;\n}\n.layermbtn span {\n    position: relative;\n    display: inline-block;\n    width: 50%;\n    text-align: center;\n    font-size: 14px;\n    cursor: pointer;\n    border-radius: 0 3px 0 0;\n}\n.layermbtn span:first-child {\n    height: 39px;\n    background-color: #fff;\n    border-radius: 0 0 0 3px;\n}\n.layermbtn span:last-child {\n    color: #0BB20C;\n    height: 39px;\n}\n.layermbox2 .laym-loading {\n    color: #fff;\n    font-size: 10px;\n    font-weight: 900;\n    -webkit-transform-origin: center;\n    -ms-transform-origin: center;\n    transform-origin: center;\n    -webkit-transform: scale(0.7);\n    -ms-transform: scale(0.7);\n    transform: scale(0.7);\n    margin-top: 10px;\n}\n.wechat--muisc svg {\n    transform: translateX(-14px);\n    -webkit-transform: translateX(-14px);\n}\n.wechat--muisc .wm--playing path {\n    transform-box: fill-box;\n    transform-origin: center center;\n    animation: wechatmusic 5s linear 0s infinite normal;\n    -webkit-transform-origin: center center;\n    -webkit-animation: wechatmusic 5s linear 0s infinite normal;\n}\n.wechat--muisc .wm--pause {\n    display: none;\n}\n.wm--pause .wm--playing {\n    display: none;\n}\n.wm--pause .wm--pause {\n    display: block;\n}\n@-webkit-keyframes wechatmusic {\nfrom {\n        -webkit-transform: rotate(0);\n        transform: rotate(0);\n}\nto {\n        -webkit-transform: rotate(-360deg);\n        transform: rotate(-360deg);\n}\n}\n@keyframes wechatmusic {\nfrom {\n        -webkit-transform: rotate(0);\n        transform: rotate(0);\n}\nto {\n        -webkit-transform: rotate(-360deg);\n        transform: rotate(-360deg);\n}\n}\n.vp-image-m1_4, .vp-image-m1_5 {\n    background-color: rgb(236, 233, 0);\n}\na{\n        text-decoration: none;\n}\n", ""]);
+exports.push([module.i, "\n.layermbox {\n    position: relative;\n    z-index: 19920626;\n}\n.laymshade,\n.layermmain {\n    position: fixed;\n    left: 0;\n    top: 0;\n    width: 100%;\n    height: 100%;\n}\n.laymshade {\n    background-color: rgba(0, 0, 0, .5);\n    pointer-events: auto;\n}\n.layermmain {\n    display: table;\n    font-family: Helvetica, arial, sans-serif;\n    pointer-events: none;\n}\n.layermmain .section {\n    display: table-cell;\n    vertical-align: middle;\n    text-align: center;\n}\n.layermchild {\n    position: relative;\n    display: inline-block;\n    text-align: left;\n    background-color: #FAFAFC;\n    font-size: 14px;\n    border-radius: 3px;\n    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);\n    pointer-events: auto;\n    box-shadow: 1px 1px 8px #353535\n}\n.layermchild {\n    -webkit-animation-fill-mode: both;\n    animation-fill-mode: both;\n    -webkit-animation-duration: .18s;\n    animation-duration: .18s;\n}\n.layermborder {\n    border: 1px solid #999;\n}\n@-webkit-keyframes layerbounceInEffect {\n0% {\n        opacity: 0;\n        -webkit-transform: scale(.5);\n        transform: scale(.5)\n}\n100% {\n        opacity: 1;\n        -webkit-transform: scale(1);\n        transform: scale(1)\n}\n}\n.layermanim {\n    animation-name: layerbounceInEffect;\n    -webkit-animation-name: layerbounceInEffect;\n}\n.layermbox0 .layermchild {\n    max-width: 90%;\n    min-width: 240px;\n}\n.layermbox1 .layermchild {\n    border: none;\n    border-radius: 0;\n}\n.layermbox2 .layermchild {\n    width: auto;\n    max-width: 260px;\n    min-width: 40px;\n    border: none;\n    background: none;\n    box-shadow: none;\n    color: #fff;\n}\n.layermchild h3 {\n    padding: 0 45px 0px 20px;\n    height: 50px;\n    line-height: 50px;\n    border-bottom: 1px solid #EBEBEB;\n    font-size: 16px;\n    font-weight: 400;\n    border-radius: 3px 3px 0 0;\n    margin: 0;\n}\n.layermchild h3,\n.layermbtn span {\n    text-overflow: ellipsis;\n    overflow: hidden;\n    white-space: nowrap;\n}\n.layermbox1 .layermcont {\n    padding: 0;\n    text-align: left;\n}\n.layermbox2 .layermcont {\n    text-align: center;\n    padding: 0;\n    line-height: 0;\n}\n.layermbox2 .layermcont i {\n    width: 25px;\n    height: 25px;\n    margin-left: 8px;\n    display: inline-block;\n    background-color: #fff;\n    border-radius: 100%;\n}\n.layermbox2 .layermcont i {\n    -webkit-animation: bouncedelay 1.4s infinite ease-in-out;\n    animation: bouncedelay 1.4s infinite ease-in-out;\n    -webkit-animation-fill-mode: both;\n    animation-fill-mode: both;\n}\n@-webkit-keyframes bouncedelay {\n0%,\n    80%,\n    100% {\n        transform: scale(0);\n        -webkit-transform: scale(0)\n}\n40% {\n        transform: scale(1);\n        -webkit-transform: scale(1)\n}\n}\n@keyframes bouncedelay {\n0%,\n    80%,\n    100% {\n        transform: scale(0);\n        -webkit-transform: scale(0)\n}\n40% {\n        transform: scale(1);\n        -webkit-transform: scale(1)\n}\n}\n.layermbox2 .layermcont i:first-child {\n    margin-left: 0;\n    -webkit-animation-delay: -.32s;\n    animation-delay: -.32s;\n}\n.layermbox2 .layermcont i.laymloadtwo {\n    -webkit-animation-delay: -.16s;\n    animation-delay: -.16s;\n}\n.layermbox2 .layermcont > div {\n    line-height: 22px;\n    padding-top: 7px;\n    margin-bottom: 20px;\n    font-size: 14px;\n}\n.layermbtn span {\n    position: relative;\n    display: inline-block;\n    width: 50%;\n    text-align: center;\n    font-size: 14px;\n    cursor: pointer;\n    border-radius: 0 3px 0 0;\n}\n.layermbtn span:first-child {\n    height: 39px;\n    background-color: #fff;\n    border-radius: 0 0 0 3px;\n}\n.layermbtn span:last-child {\n    color: #0BB20C;\n    height: 39px;\n}\n.layermbox2 .laym-loading {\n    color: #fff;\n    font-size: 10px;\n    font-weight: 900;\n    -webkit-transform-origin: center;\n    -ms-transform-origin: center;\n    transform-origin: center;\n    -webkit-transform: scale(0.7);\n    -ms-transform: scale(0.7);\n    transform: scale(0.7);\n    margin-top: 10px;\n}\n.wechat--muisc svg {\n    transform: translateX(-14px);\n    -webkit-transform: translateX(-14px);\n}\n.wechat--muisc .wm--playing path {\n    transform-box: fill-box;\n    transform-origin: center center;\n    animation: wechatmusic 5s linear 0s infinite normal;\n    -webkit-transform-origin: center center;\n    -webkit-animation: wechatmusic 5s linear 0s infinite normal;\n}\n.wechat--muisc .wm--pause {\n    display: none;\n}\n.wm--pause .wm--playing {\n    display: none;\n}\n.wm--pause .wm--pause {\n    display: block;\n}\n@-webkit-keyframes wechatmusic {\nfrom {\n        -webkit-transform: rotate(0);\n        transform: rotate(0);\n}\nto {\n        -webkit-transform: rotate(-360deg);\n        transform: rotate(-360deg);\n}\n}\n@keyframes wechatmusic {\nfrom {\n        -webkit-transform: rotate(0);\n        transform: rotate(0);\n}\nto {\n        -webkit-transform: rotate(-360deg);\n        transform: rotate(-360deg);\n}\n}\n.vp-image-m1_4, .vp-image-m1_5 {\n    background-color: rgb(236, 233, 0);\n}\na {\n    text-decoration: none;\n}\n", ""]);
 
 // exports
 
@@ -53102,15 +53102,6 @@ exports.push([module.i, "\n.layermbox {\n    position: relative;\n    z-index: 1
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -53451,140 +53442,7 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "container" }, [
-    _c(
-      "div",
-      {
-        staticClass: "_vp_page vp-psd1 app-view",
-        staticStyle: { background: "rgb(35, 24, 21)" }
-      },
-      [
-        _c("router-link", { attrs: { to: "/about" } }, [
-          _c(
-            "div",
-            {
-              staticClass: "_vp_layer vp-image-title",
-              staticStyle: { width: "90%", height: "9%", left: "5%", top: "5%" }
-            },
-            [_c("img", { attrs: { src: "/static/title.png" } })]
-          )
-        ]),
-        _vm._v(" "),
-        _vm._m(0),
-        _vm._v(" "),
-        _c(
-          "router-link",
-          { attrs: { to: { name: "list-photo", params: { type: "hot" } } } },
-          [
-            _c(
-              "div",
-              {
-                staticStyle: {
-                  width: "90%",
-                  "background-color": "rgb(236, 233, 0)",
-                  "margin-top": "60%",
-                  "margin-left": "5%"
-                }
-              },
-              [
-                _c("br"),
-                _vm._v(" "),
-                _c("img", {
-                  staticStyle: { margin: "0 auto", display: "block" },
-                  attrs: { src: "/static/gif1.gif" }
-                }),
-                _vm._v(" "),
-                _c("div", { staticStyle: { width: "100%" } }, [
-                  _c(
-                    "h3",
-                    {
-                      staticStyle: {
-                        margin: "0 auto",
-                        "text-align": "center",
-                        color: "black",
-                        padding: "10px"
-                      }
-                    },
-                    [_vm._v("六安市银发微笑摄影大赛")]
-                  )
-                ])
-              ]
-            ),
-            _vm._v(" "),
-            _c("div", { staticClass: "next-page" }, [
-              _c("div", { staticClass: "relative" }, [
-                _c("div", { staticClass: "click-here" }),
-                _vm._v(" "),
-                _c("img", {
-                  staticClass: "finger",
-                  attrs: {
-                    src:
-                      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAAAnCAMAAABqmqV3AAAABGdBTUEAALGPC/xhBQAAAwBQTFRFFwsICgAAZl5cHxQRJhsYOC4rOC4rHRMPJhsYvLm4IRYTOS8sIRYTEgcFkY2LOC4rvLm4FwsHAwAAPjU0KB0avLm4JRoXOjAtIRYTKB4aIhcUHhIPDQEAGA0KY1tZop6cCQAA+fn4+Pf3HhMQDQIAiYOCCQAACgAAGQ0KHxQRbGVjGg8MnJaVcmxpHhMQVUxJYltZCgAAv7y7BwAAKiAdjIaFHhMQGw8Mr6yrHhMQPjMxEwcEtrKxIhcUqKSjsq6sJxwZIhgVoZybGxANMSckzsvLOC8sJxwZOC4r09HQ1dPTDQMDtLCv6+vpJhsYn5qYFw0KMSYkDQICMykmFQoIEwcEycfFQTk2qaakl5GQGQ0KCgAAHREOIRYTqKOj5OPj4+LiDgEAFwwKHxQS8fDwEwgFHBAN9fX1FAgFEAUBtrOyLyUhrqup9fTzGQ4LHhMQ8fDwDwMAo5+dgXt5LCEf397ddnBu5OPiUkpGYltYY1xaKh8by8nIoJyZ0M3MqqelQDg1y8nIZ19ddm9tGg8MHxQRCQAAEQUCDQAAv7y7IRYTCQAAIRYTIxgVEgYC+Pf3bmdkNConHRIPHhMQW1NQJhsYCQAA6unp/Pz8FgwItLGwcmtpFgoHfnh22dfXHhIQGw8M5+bmFQoGvbm4mZSSFQoGNSsoFAcEGAwJ6OfnGg8MCgAALSQf09HQ1dPS19bVCgAA+vr6FwsI6efn9PPzJhsYHBEO//7/0tDQIhYTo5+dcWtoIBUSpJ+eIhYT//7+WFBNHBEOIRYTIBQRJBkW0tDPIhcUIRYTIhcU5uXkaGBeIRYTIxgVcmxpHRIPIxgVa2RhIRYTHxQRCQAAIRUSAAAArqqpwb28joiHq6aljYeFpqKgZV1bIxgVXldUc21rW1JR6efnRDk4OS4saGBfPTQwcWlnsa2s8vLxgXp4d3BvOzEv1tPTXFRRKyAdTEJALSMgioOBfXZ0NCknVUxKQzo42NbWQDYzxMHBRTw5amJhbGRiTENAUklHyMXE////W1WY3gAAANZ0Uk5TeK/tRIDt96u10zLICXTvz9pHm/3M4n7OIcFONj9B6+aR+ffzXPvH6XB+0eLx3Fz38av908/T8YvI3vFV+aPM8e3myKPD97XkuvX5j/3xxc5/5F3eoMHzvtnzUmOVDOD9+7JV5vc57/V/b/X37/Otx/Np7/33+ffvudHD7evO8dm86f3eZ2uwl6zjZ3sLQZ383MkpWLzZqPT9kOToK/70Gxb1tP79Zryt6/EwYLrx8fC4/Dj3+4hf/voP0M4G0QP7vBI7EQLwBRQE8dEIAeZoP+ACYq8TADN1MD8AAAJuSURBVEjHpdRldNNQGIDh4u7u7u7u7u7u7q5DtzGYO3N3hZX66i0kDDr64e4Ocy3htBvnQGlu7tr3d/Ik+e69YcF/yWUqLXYqidpwE8sIUVVg2dha38POupyDq9zYUbo6dG5YPuP+rzL04GFWP+4/jjI9ccPnEI6nI1Wm2uU+byv4y5EmHgzlbKTMiNOgHvnHUW/dfOBrKmVWNx5fvlLqELZf8rdQ5vbEQ1riEBHFuZT5ParvYnAE63RrLWDaZ5Z8l3xbzhoLGKp/hxaGOUfv2G6BkrosK4zUr7sg+HAS4roE/rFb+rrz+b18bht3/lzx9+Vywz7cVHAI9bz440fFYrGbm3OXHt16pxl38UKyjDScC6W3H/K9k6KO3NTn3/NZV9AYJ9JA6TkNHL4YcxChwVygi1Wz5VMvzIkG9RlB71Sv5Ye7Ml6ZMfSOXZXa2Ofo0wp6J8X5Kq4zfUEyvVOxxiVMJio7QkTvuFeuhr79mtUpoZAnHDro9TAt0DtVK9VFO2fPxIaHTx4YOXiIGhBOSp1GaOd63GmFQjEp/+UAFdJpgjmfV29nyBFO42ZtMOc8cyEX4TT37oTphKyUIZyAji8wnQ8eqxCOxjfbE4tRvJuLmjNI3Pej98/SOTze6PE+byYg1x3IfUVI5+SS2KkTx40d5YJi9P/DgBM7kfsnIS5+2sg8GxIYHAjTBTEe9TFTohkdYnfhXibI8f18RgcCI4t2MUEZMcwOqPb8YPgL+eetx3CASPv5bfVHemZW4SICxwGQsOcV6Fo73TWVU9+c2VrAc4AkJK3Y6SazY/sqAdcBEDWV2t8xlb1UxsDAb475dGo9KSI4AAAAAElFTkSuQmCC"
-                  }
-                })
-              ])
-            ])
-          ]
-        ),
-        _vm._v(" "),
-        _c(
-          "router-link",
-          {
-            attrs: { to: { name: "list-spokesman", params: { type: "hot" } } }
-          },
-          [
-            _c(
-              "div",
-              {
-                staticStyle: {
-                  width: "90%",
-                  "background-color": "rgb(236, 233, 0)",
-                  "margin-top": "10%",
-                  "margin-left": "5%"
-                }
-              },
-              [
-                _c("br"),
-                _vm._v(" "),
-                _c("img", {
-                  staticStyle: { margin: "0 auto", display: "block" },
-                  attrs: { src: "/static/gif0.gif" }
-                }),
-                _vm._v(" "),
-                _c("div", { staticStyle: { width: "100%" } }, [
-                  _c(
-                    "h3",
-                    {
-                      staticStyle: {
-                        margin: "0 auto",
-                        "text-align": "center",
-                        color: "black",
-                        padding: "10px"
-                      }
-                    },
-                    [_vm._v("六安市银发微笑代言人选举")]
-                  )
-                ])
-              ]
-            ),
-            _vm._v(" "),
-            _c("div", { staticClass: "next-page" }, [
-              _c("div", { staticClass: "relative" }, [
-                _c("div", { staticClass: "click-here" }),
-                _vm._v(" "),
-                _c("img", {
-                  staticClass: "finger",
-                  attrs: {
-                    src:
-                      "data:image/png;base64,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"
-                  }
-                })
-              ])
-            ])
-          ]
-        )
-      ],
-      1
-    ),
+    _vm._m(0),
     _vm._v(" "),
     _c("div", { staticClass: "music-status" }, [
       _c(
@@ -53659,10 +53517,132 @@ var staticRenderFns = [
     return _c(
       "div",
       {
-        staticClass: "_vp_layer vp-image-m1_6",
-        staticStyle: { width: "90%", height: "8%", left: "5%", top: "18%" }
+        staticClass: "_vp_page vp-psd1 app-view",
+        staticStyle: { background: "rgb(35, 24, 21)" }
       },
-      [_c("img", { attrs: { src: "/static/vp-image-m1_6.png" } })]
+      [
+        _c("a", { attrs: { href: "#/about" } }, [
+          _c(
+            "div",
+            {
+              staticClass: "_vp_layer vp-image-title",
+              staticStyle: { width: "90%", height: "5%", left: "5%", top: "2%" }
+            },
+            [_c("img", { attrs: { src: "/static/title.png" } })]
+          )
+        ]),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass: "_vp_layer vp-image-m1_6",
+            staticStyle: { width: "90%", height: "5%", left: "5%", top: "12%" }
+          },
+          [_c("img", { attrs: { src: "/static/vp-image-m1_6.png" } })]
+        ),
+        _vm._v(" "),
+        _c("a", { attrs: { href: "#/list-photo/hot" } }, [
+          _c(
+            "div",
+            {
+              staticStyle: {
+                width: "90%",
+                "background-color": "rgb(236, 233, 0)",
+                "margin-top": "50%",
+                "margin-left": "5%"
+              }
+            },
+            [
+              _c("br"),
+              _vm._v(" "),
+              _c("img", {
+                staticStyle: { margin: "0px auto", display: "block" },
+                attrs: { src: "/static/gif1.gif" }
+              }),
+              _vm._v(" "),
+              _c("div", { staticStyle: { width: "100%" } }, [
+                _c(
+                  "h3",
+                  {
+                    staticStyle: {
+                      margin: "0px auto",
+                      "text-align": "center",
+                      color: "black",
+                      padding: "10px"
+                    }
+                  },
+                  [_vm._v("六安市银发微笑摄影大赛")]
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "next-page" }, [
+            _c("div", { staticClass: "relative" }, [
+              _c("div", { staticClass: "click-here" }),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "finger",
+                attrs: {
+                  src:
+                    "data:image/png;base64,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"
+                }
+              })
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("a", { attrs: { href: "#/list-spokesman/hot" } }, [
+          _c(
+            "div",
+            {
+              staticStyle: {
+                width: "90%",
+                "background-color": "rgb(236, 233, 0)",
+                "margin-top": "8%",
+                "margin-left": "5%"
+              }
+            },
+            [
+              _c("br"),
+              _vm._v(" "),
+              _c("img", {
+                staticStyle: { margin: "0px auto", display: "block" },
+                attrs: { src: "/static/gif0.gif" }
+              }),
+              _vm._v(" "),
+              _c("div", { staticStyle: { width: "100%" } }, [
+                _c(
+                  "h3",
+                  {
+                    staticStyle: {
+                      margin: "0px auto",
+                      "text-align": "center",
+                      color: "black",
+                      padding: "10px"
+                    }
+                  },
+                  [_vm._v("六安市银发微笑代言人选举")]
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "next-page" }, [
+            _c("div", { staticClass: "relative" }, [
+              _c("div", { staticClass: "click-here" }),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "finger",
+                attrs: {
+                  src:
+                    "data:image/png;base64,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"
+                }
+              })
+            ])
+          ])
+        ])
+      ]
     )
   },
   function() {
@@ -54201,9 +54181,8 @@ var render = function() {
               staticStyle: {
                 position: "relative",
                 width: "80%",
-                height: "16%",
                 "padding-left": "10%",
-                "padding-top": "2rem"
+                top: "2rem"
               }
             },
             [
@@ -54219,254 +54198,264 @@ var render = function() {
             ]
           ),
           _vm._v(" "),
-          _c("div", { staticClass: "poster-list" }, [
-            _c("div", {
-              staticClass: "poster-category-stick-height",
-              staticStyle: { height: "4rem", display: "none" }
-            }),
-            _vm._v(" "),
-            _c("div", { staticClass: "poster-category" }, [
-              _c(
-                "div",
-                {
-                  staticClass: "btn-action",
-                  class: _vm.type == "hot" ? "active" : "",
-                  on: {
-                    click: function($event) {
-                      return _vm.jump("hot")
-                    }
-                  }
-                },
-                [
-                  _c("i", { staticClass: "iconfont icon-zuire" }),
-                  _vm._v(" 最热\n                ")
-                ]
-              ),
+          _c(
+            "div",
+            {
+              staticClass: "poster-list",
+              staticStyle: { position: "relative", top: "2rem" }
+            },
+            [
+              _c("div", {
+                staticClass: "poster-category-stick-height",
+                staticStyle: { height: "4rem", display: "none" }
+              }),
               _vm._v(" "),
-              _c(
-                "div",
-                {
-                  staticClass: "btn-action",
-                  class: _vm.type == "new" ? "active" : "",
-                  on: {
-                    click: function($event) {
-                      return _vm.jump("new")
-                    }
-                  }
-                },
-                [
-                  _c("i", { staticClass: "iconfont icon-zuixin" }),
-                  _vm._v(" 最新\n                ")
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                {
-                  staticClass: "btn-action",
-                  class: _vm.type == "my" ? "active" : "",
-                  on: {
-                    click: function($event) {
-                      return _vm.jump("my")
-                    }
-                  }
-                },
-                [
-                  _c("i", { staticClass: "iconfont icon-paizhao2" }),
-                  _vm._v(" 我的\n                ")
-                ]
-              )
-            ]),
-            _vm._v(" "),
-            _vm.type == "my" && !_vm.photos
-              ? _c("div", { staticClass: "poster-list" }, [
-                  _c("div", { staticClass: "why" }, [
-                    _c("i", { staticClass: "iconfont icon-none" }),
-                    _vm._v(" "),
-                    _c("div", [_vm._v("抱歉，没有发现您的摄影作品呢。")]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "why-action" }, [
-                      _c(
-                        "div",
-                        {
-                          staticClass: "icon-btn",
-                          attrs: { "data-v-0dcfc57a": "", title: "了解规则" },
-                          on: { click: _vm.rule }
-                        },
-                        [
-                          _vm._m(0),
-                          _vm._v(" "),
-                          _c(
-                            "div",
-                            {
-                              staticClass: "text",
-                              attrs: { "data-v-0dcfc57a": "" }
-                            },
-                            [_vm._v("了解规则")]
-                          )
-                        ]
-                      ),
-                      _vm._v(" "),
-                      _vm._m(1)
-                    ])
-                  ])
-                ])
-              : _vm._e(),
-            _vm._v(" "),
-            _vm.type != "my"
-              ? _c(
-                  "div",
-                  { staticClass: "poster-list" },
-                  _vm._l(_vm.photos, function(photo) {
-                    return _c(
-                      "div",
-                      {
-                        key: photo.id,
-                        staticClass: "poster card-width mode-rank",
-                        on: {
-                          click: function($event) {
-                            return _vm.toInfo(photo.id)
-                          }
-                        }
-                      },
-                      [
-                        _c("div", { staticClass: "picture" }, [
-                          _c("img", {
-                            staticClass: "image",
-                            staticStyle: { height: "200px" },
-                            attrs: { src: photo.photo }
-                          })
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "author" }, [
-                          _c("div", { staticClass: "avatar" }, [
-                            _c("img", { attrs: { src: photo.user.avatar } })
-                          ]),
-                          _vm._v(" "),
-                          _c("div", { staticClass: "nickname" }, [
-                            _vm._v(_vm._s(photo.user.nickname))
-                          ]),
-                          _vm._v(" "),
-                          _c("div", { staticClass: "like" }, [
-                            _c(
-                              "div",
-                              {
-                                staticClass: "icon",
-                                on: {
-                                  click: function($event) {
-                                    return _vm.vote($event, photo.id)
-                                  }
-                                }
-                              },
-                              [
-                                _c("i", {
-                                  staticClass: "iconfont icon-dianzan1",
-                                  class: photo.is_voted ? "active" : ""
-                                })
-                              ]
-                            ),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "num" }, [
-                              _vm._v(_vm._s(photo.vote_num))
-                            ])
-                          ])
-                        ])
-                      ]
-                    )
-                  }),
-                  0
-                )
-              : _vm._e(),
-            _vm._v(" "),
-            _c(
-              "div",
-              { staticClass: "loading-view", staticStyle: { display: "none" } },
-              [
+              _c("div", { staticClass: "poster-category" }, [
                 _c(
-                  "svg",
+                  "div",
                   {
-                    attrs: {
-                      xmlns: "http://www.w3.org/2000/svg",
-                      width: "48px",
-                      height: "48px",
-                      viewBox: "0 0 128 128",
-                      x: "64",
-                      y: "0"
+                    staticClass: "btn-action",
+                    class: _vm.type == "hot" ? "active" : "",
+                    on: {
+                      click: function($event) {
+                        return _vm.jump("hot")
+                      }
                     }
                   },
                   [
-                    _c("path", {
-                      attrs: {
-                        d:
-                          "M64 0L40.08 21.9a10.98 10.98 0 0 0-5.05 8.75C34.37 44.85 64 60.63 64 60.63V0z",
-                        fill: "#ffb118"
+                    _c("i", { staticClass: "iconfont icon-zuire" }),
+                    _vm._v(" 最热\n                ")
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "btn-action",
+                    class: _vm.type == "new" ? "active" : "",
+                    on: {
+                      click: function($event) {
+                        return _vm.jump("new")
                       }
-                    }),
-                    _vm._v(" "),
-                    _c("path", {
-                      attrs: {
-                        d:
-                          "M128 64l-21.88-23.9a10.97 10.97 0 0 0-8.75-5.05C83.17 34.4 67.4 64 67.4 64H128z",
-                        fill: "#80c141"
+                    }
+                  },
+                  [
+                    _c("i", { staticClass: "iconfont icon-zuixin" }),
+                    _vm._v(" 最新\n                ")
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "btn-action",
+                    class: _vm.type == "my" ? "active" : "",
+                    on: {
+                      click: function($event) {
+                        return _vm.jump("my")
                       }
-                    }),
-                    _vm._v(" "),
-                    _c("path", {
-                      attrs: {
-                        d:
-                          "M63.7 69.73a110.97 110.97 0 0 1-5.04-20.54c-1.16-8.7.68-14.17.68-14.17h38.03s-4.3-.86-14.47 10.1c-3.06 3.3-19.2 24.58-19.2 24.58z",
-                        fill: "#cadc28"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c("path", {
-                      attrs: {
-                        d:
-                          "M64 128l23.9-21.88a10.97 10.97 0 0 0 5.05-8.75C93.6 83.17 64 67.4 64 67.4V128z",
-                        fill: "#cf171f"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c("path", {
-                      attrs: {
-                        d:
-                          "M58.27 63.7a110.97 110.97 0 0 1 20.54-5.04c8.7-1.16 14.17.68 14.17.68v38.03s.86-4.3-10.1-14.47c-3.3-3.06-24.58-19.2-24.58-19.2z",
-                        fill: "#ec1b21"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c("path", {
-                      attrs: {
-                        d:
-                          "M0 64l21.88 23.9a10.97 10.97 0 0 0 8.75 5.05C44.83 93.6 60.6 64 60.6 64H0z",
-                        fill: "#018ed5"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c("path", {
-                      attrs: {
-                        d:
-                          "M64.3 58.27a110.97 110.97 0 0 1 5.04 20.54c1.16 8.7-.68 14.17-.68 14.17H30.63s4.3.86 14.47-10.1c3.06-3.3 19.2-24.58 19.2-24.58z",
-                        fill: "#00bbf2"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c("path", {
-                      attrs: {
-                        d:
-                          "M69.73 64.34a111.02 111.02 0 0 1-20.55 5.05c-8.7 1.14-14.15-.7-14.15-.7V30.65s-.86 4.3 10.1 14.5c3.3 3.05 24.6 19.2 24.6 19.2z",
-                        fill: "#f8f400"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c("circle", { attrs: { cx: "64", cy: "64", r: "2.03" } })
+                    }
+                  },
+                  [
+                    _c("i", { staticClass: "iconfont icon-paizhao2" }),
+                    _vm._v(" 我的\n                ")
                   ]
                 )
-              ]
-            ),
-            _vm._v(" "),
-            _vm._m(2)
-          ]),
+              ]),
+              _vm._v(" "),
+              _vm.type == "my" && !_vm.photos
+                ? _c("div", { staticClass: "poster-list" }, [
+                    _c("div", { staticClass: "why" }, [
+                      _c("i", { staticClass: "iconfont icon-none" }),
+                      _vm._v(" "),
+                      _c("div", [_vm._v("抱歉，没有发现您的摄影作品呢。")]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "why-action" }, [
+                        _c(
+                          "div",
+                          {
+                            staticClass: "icon-btn",
+                            attrs: { "data-v-0dcfc57a": "", title: "了解规则" },
+                            on: { click: _vm.rule }
+                          },
+                          [
+                            _vm._m(0),
+                            _vm._v(" "),
+                            _c(
+                              "div",
+                              {
+                                staticClass: "text",
+                                attrs: { "data-v-0dcfc57a": "" }
+                              },
+                              [_vm._v("了解规则")]
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _vm._m(1)
+                      ])
+                    ])
+                  ])
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.type != "my"
+                ? _c(
+                    "div",
+                    { staticClass: "poster-list" },
+                    _vm._l(_vm.photos, function(photo) {
+                      return _c(
+                        "div",
+                        {
+                          key: photo.id,
+                          staticClass: "poster card-width mode-rank",
+                          on: {
+                            click: function($event) {
+                              return _vm.toInfo(photo.id)
+                            }
+                          }
+                        },
+                        [
+                          _c("div", { staticClass: "picture" }, [
+                            _c("img", {
+                              staticClass: "image",
+                              staticStyle: { height: "200px" },
+                              attrs: { src: photo.photo }
+                            })
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "author" }, [
+                            _c("div", { staticClass: "avatar" }, [
+                              _c("img", { attrs: { src: photo.user.avatar } })
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "nickname" }, [
+                              _vm._v(_vm._s(photo.user.nickname))
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "like" }, [
+                              _c(
+                                "div",
+                                {
+                                  staticClass: "icon",
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.vote($event, photo.id)
+                                    }
+                                  }
+                                },
+                                [
+                                  _c("i", {
+                                    staticClass: "iconfont icon-dianzan1",
+                                    class: photo.is_voted ? "active" : ""
+                                  })
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "num" }, [
+                                _vm._v(_vm._s(photo.vote_num))
+                              ])
+                            ])
+                          ])
+                        ]
+                      )
+                    }),
+                    0
+                  )
+                : _vm._e(),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "loading-view",
+                  staticStyle: { display: "none" }
+                },
+                [
+                  _c(
+                    "svg",
+                    {
+                      attrs: {
+                        xmlns: "http://www.w3.org/2000/svg",
+                        width: "48px",
+                        height: "48px",
+                        viewBox: "0 0 128 128",
+                        x: "64",
+                        y: "0"
+                      }
+                    },
+                    [
+                      _c("path", {
+                        attrs: {
+                          d:
+                            "M64 0L40.08 21.9a10.98 10.98 0 0 0-5.05 8.75C34.37 44.85 64 60.63 64 60.63V0z",
+                          fill: "#ffb118"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("path", {
+                        attrs: {
+                          d:
+                            "M128 64l-21.88-23.9a10.97 10.97 0 0 0-8.75-5.05C83.17 34.4 67.4 64 67.4 64H128z",
+                          fill: "#80c141"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("path", {
+                        attrs: {
+                          d:
+                            "M63.7 69.73a110.97 110.97 0 0 1-5.04-20.54c-1.16-8.7.68-14.17.68-14.17h38.03s-4.3-.86-14.47 10.1c-3.06 3.3-19.2 24.58-19.2 24.58z",
+                          fill: "#cadc28"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("path", {
+                        attrs: {
+                          d:
+                            "M64 128l23.9-21.88a10.97 10.97 0 0 0 5.05-8.75C93.6 83.17 64 67.4 64 67.4V128z",
+                          fill: "#cf171f"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("path", {
+                        attrs: {
+                          d:
+                            "M58.27 63.7a110.97 110.97 0 0 1 20.54-5.04c8.7-1.16 14.17.68 14.17.68v38.03s.86-4.3-10.1-14.47c-3.3-3.06-24.58-19.2-24.58-19.2z",
+                          fill: "#ec1b21"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("path", {
+                        attrs: {
+                          d:
+                            "M0 64l21.88 23.9a10.97 10.97 0 0 0 8.75 5.05C44.83 93.6 60.6 64 60.6 64H0z",
+                          fill: "#018ed5"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("path", {
+                        attrs: {
+                          d:
+                            "M64.3 58.27a110.97 110.97 0 0 1 5.04 20.54c1.16 8.7-.68 14.17-.68 14.17H30.63s4.3.86 14.47-10.1c3.06-3.3 19.2-24.58 19.2-24.58z",
+                          fill: "#00bbf2"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("path", {
+                        attrs: {
+                          d:
+                            "M69.73 64.34a111.02 111.02 0 0 1-20.55 5.05c-8.7 1.14-14.15-.7-14.15-.7V30.65s-.86 4.3 10.1 14.5c3.3 3.05 24.6 19.2 24.6 19.2z",
+                          fill: "#f8f400"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("circle", { attrs: { cx: "64", cy: "64", r: "2.03" } })
+                    ]
+                  )
+                ]
+              ),
+              _vm._v(" "),
+              _vm._m(2)
+            ]
+          ),
           _vm._v(" "),
           _vm.type == "my" && _vm.photos
             ? _c(
@@ -55058,18 +55047,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 
@@ -55183,9 +55160,8 @@ var render = function() {
               staticStyle: {
                 position: "relative",
                 width: "80%",
-                height: "16%",
                 "padding-left": "10%",
-                "padding-top": "2rem"
+                top: "2rem"
               }
             },
             [
@@ -55201,201 +55177,211 @@ var render = function() {
             ]
           ),
           _vm._v(" "),
-          _c("div", { staticClass: "poster-list" }, [
-            _c("div", {
-              staticClass: "poster-category-stick-height",
-              staticStyle: { height: "4rem", display: "none" }
-            }),
-            _vm._v(" "),
-            _c("div", { staticClass: "poster-category" }, [
-              _c(
-                "div",
-                {
-                  staticClass: "btn-action",
-                  class: _vm.type == "hot" ? "active" : "",
-                  on: {
-                    click: function($event) {
-                      return _vm.jump("hot")
+          _c(
+            "div",
+            {
+              staticClass: "poster-list",
+              staticStyle: { position: "relative", top: "2rem" }
+            },
+            [
+              _c("div", {
+                staticClass: "poster-category-stick-height",
+                staticStyle: { height: "4rem", display: "none" }
+              }),
+              _vm._v(" "),
+              _c("div", { staticClass: "poster-category" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass: "btn-action",
+                    class: _vm.type == "hot" ? "active" : "",
+                    on: {
+                      click: function($event) {
+                        return _vm.jump("hot")
+                      }
                     }
-                  }
-                },
-                [
-                  _c("i", { staticClass: "iconfont icon-zuire" }),
-                  _vm._v(" 最热\n                ")
-                ]
-              ),
+                  },
+                  [
+                    _c("i", { staticClass: "iconfont icon-zuire" }),
+                    _vm._v(" 最热\n                ")
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "btn-action",
+                    class: _vm.type == "new" ? "active" : "",
+                    on: {
+                      click: function($event) {
+                        return _vm.jump("new")
+                      }
+                    }
+                  },
+                  [
+                    _c("i", { staticClass: "iconfont icon-zuixin" }),
+                    _vm._v(" 最新\n                ")
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _vm.type != "my"
+                ? _c(
+                    "div",
+                    { staticClass: "poster-list" },
+                    _vm._l(_vm.photos, function(photo) {
+                      return _c(
+                        "div",
+                        {
+                          key: photo.id,
+                          staticClass: "poster card-width mode-rank",
+                          on: {
+                            click: function($event) {
+                              return _vm.toInfo(photo.id)
+                            }
+                          }
+                        },
+                        [
+                          _c("div", { staticClass: "picture" }, [
+                            _c("img", {
+                              staticClass: "image",
+                              staticStyle: {
+                                "max-height": "191px",
+                                "min-height": "191px"
+                              },
+                              attrs: { src: photo.photo }
+                            })
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "author" }, [
+                            _c("div", { staticClass: "nickname" }, [
+                              _vm._v(_vm._s(photo.name))
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "like" }, [
+                              _c(
+                                "div",
+                                {
+                                  staticClass: "icon",
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.vote($event, photo.id)
+                                    }
+                                  }
+                                },
+                                [
+                                  _c("i", {
+                                    staticClass: "iconfont icon-dianzan1",
+                                    class: photo.is_voted ? "active" : ""
+                                  })
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "num" }, [
+                                _vm._v(_vm._s(photo.vote_num))
+                              ])
+                            ])
+                          ])
+                        ]
+                      )
+                    }),
+                    0
+                  )
+                : _vm._e(),
               _vm._v(" "),
               _c(
                 "div",
                 {
-                  staticClass: "btn-action",
-                  class: _vm.type == "new" ? "active" : "",
-                  on: {
-                    click: function($event) {
-                      return _vm.jump("new")
-                    }
-                  }
+                  staticClass: "loading-view",
+                  staticStyle: { display: "none" }
                 },
                 [
-                  _c("i", { staticClass: "iconfont icon-zuixin" }),
-                  _vm._v(" 最新\n                ")
-                ]
-              )
-            ]),
-            _vm._v(" "),
-            _vm.type != "my"
-              ? _c(
-                  "div",
-                  { staticClass: "poster-list" },
-                  _vm._l(_vm.photos, function(photo) {
-                    return _c(
-                      "div",
-                      {
-                        key: photo.id,
-                        staticClass: "poster card-width mode-rank",
-                        on: {
-                          click: function($event) {
-                            return _vm.toInfo(photo.id)
-                          }
+                  _c(
+                    "svg",
+                    {
+                      attrs: {
+                        xmlns: "http://www.w3.org/2000/svg",
+                        width: "48px",
+                        height: "48px",
+                        viewBox: "0 0 128 128",
+                        x: "64",
+                        y: "0"
+                      }
+                    },
+                    [
+                      _c("path", {
+                        attrs: {
+                          d:
+                            "M64 0L40.08 21.9a10.98 10.98 0 0 0-5.05 8.75C34.37 44.85 64 60.63 64 60.63V0z",
+                          fill: "#ffb118"
                         }
-                      },
-                      [
-                        _c("div", { staticClass: "picture" }, [
-                          _c("img", {
-                            staticClass: "image",
-                            staticStyle: {
-                              "max-height": "191px",
-                              "min-height": "191px"
-                            },
-                            attrs: { src: photo.photo }
-                          })
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "author" }, [
-                          _c("div", { staticClass: "nickname" }, [
-                            _vm._v(_vm._s(photo.name))
-                          ]),
-                          _vm._v(" "),
-                          _c("div", { staticClass: "like" }, [
-                            _c(
-                              "div",
-                              {
-                                staticClass: "icon",
-                                on: {
-                                  click: function($event) {
-                                    return _vm.vote($event, photo.id)
-                                  }
-                                }
-                              },
-                              [
-                                _c("i", {
-                                  staticClass: "iconfont icon-dianzan1",
-                                  class: photo.is_voted ? "active" : ""
-                                })
-                              ]
-                            ),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "num" }, [
-                              _vm._v(_vm._s(photo.vote_num))
-                            ])
-                          ])
-                        ])
-                      ]
-                    )
-                  }),
-                  0
-                )
-              : _vm._e(),
-            _vm._v(" "),
-            _c(
-              "div",
-              { staticClass: "loading-view", staticStyle: { display: "none" } },
-              [
-                _c(
-                  "svg",
-                  {
-                    attrs: {
-                      xmlns: "http://www.w3.org/2000/svg",
-                      width: "48px",
-                      height: "48px",
-                      viewBox: "0 0 128 128",
-                      x: "64",
-                      y: "0"
-                    }
-                  },
-                  [
-                    _c("path", {
-                      attrs: {
-                        d:
-                          "M64 0L40.08 21.9a10.98 10.98 0 0 0-5.05 8.75C34.37 44.85 64 60.63 64 60.63V0z",
-                        fill: "#ffb118"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c("path", {
-                      attrs: {
-                        d:
-                          "M128 64l-21.88-23.9a10.97 10.97 0 0 0-8.75-5.05C83.17 34.4 67.4 64 67.4 64H128z",
-                        fill: "#80c141"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c("path", {
-                      attrs: {
-                        d:
-                          "M63.7 69.73a110.97 110.97 0 0 1-5.04-20.54c-1.16-8.7.68-14.17.68-14.17h38.03s-4.3-.86-14.47 10.1c-3.06 3.3-19.2 24.58-19.2 24.58z",
-                        fill: "#cadc28"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c("path", {
-                      attrs: {
-                        d:
-                          "M64 128l23.9-21.88a10.97 10.97 0 0 0 5.05-8.75C93.6 83.17 64 67.4 64 67.4V128z",
-                        fill: "#cf171f"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c("path", {
-                      attrs: {
-                        d:
-                          "M58.27 63.7a110.97 110.97 0 0 1 20.54-5.04c8.7-1.16 14.17.68 14.17.68v38.03s.86-4.3-10.1-14.47c-3.3-3.06-24.58-19.2-24.58-19.2z",
-                        fill: "#ec1b21"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c("path", {
-                      attrs: {
-                        d:
-                          "M0 64l21.88 23.9a10.97 10.97 0 0 0 8.75 5.05C44.83 93.6 60.6 64 60.6 64H0z",
-                        fill: "#018ed5"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c("path", {
-                      attrs: {
-                        d:
-                          "M64.3 58.27a110.97 110.97 0 0 1 5.04 20.54c1.16 8.7-.68 14.17-.68 14.17H30.63s4.3.86 14.47-10.1c3.06-3.3 19.2-24.58 19.2-24.58z",
-                        fill: "#00bbf2"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c("path", {
-                      attrs: {
-                        d:
-                          "M69.73 64.34a111.02 111.02 0 0 1-20.55 5.05c-8.7 1.14-14.15-.7-14.15-.7V30.65s-.86 4.3 10.1 14.5c3.3 3.05 24.6 19.2 24.6 19.2z",
-                        fill: "#f8f400"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c("circle", { attrs: { cx: "64", cy: "64", r: "2.03" } })
-                  ]
-                )
-              ]
-            ),
-            _vm._v(" "),
-            _vm._m(0)
-          ]),
+                      }),
+                      _vm._v(" "),
+                      _c("path", {
+                        attrs: {
+                          d:
+                            "M128 64l-21.88-23.9a10.97 10.97 0 0 0-8.75-5.05C83.17 34.4 67.4 64 67.4 64H128z",
+                          fill: "#80c141"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("path", {
+                        attrs: {
+                          d:
+                            "M63.7 69.73a110.97 110.97 0 0 1-5.04-20.54c-1.16-8.7.68-14.17.68-14.17h38.03s-4.3-.86-14.47 10.1c-3.06 3.3-19.2 24.58-19.2 24.58z",
+                          fill: "#cadc28"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("path", {
+                        attrs: {
+                          d:
+                            "M64 128l23.9-21.88a10.97 10.97 0 0 0 5.05-8.75C93.6 83.17 64 67.4 64 67.4V128z",
+                          fill: "#cf171f"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("path", {
+                        attrs: {
+                          d:
+                            "M58.27 63.7a110.97 110.97 0 0 1 20.54-5.04c8.7-1.16 14.17.68 14.17.68v38.03s.86-4.3-10.1-14.47c-3.3-3.06-24.58-19.2-24.58-19.2z",
+                          fill: "#ec1b21"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("path", {
+                        attrs: {
+                          d:
+                            "M0 64l21.88 23.9a10.97 10.97 0 0 0 8.75 5.05C44.83 93.6 60.6 64 60.6 64H0z",
+                          fill: "#018ed5"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("path", {
+                        attrs: {
+                          d:
+                            "M64.3 58.27a110.97 110.97 0 0 1 5.04 20.54c1.16 8.7-.68 14.17-.68 14.17H30.63s4.3.86 14.47-10.1c3.06-3.3 19.2-24.58 19.2-24.58z",
+                          fill: "#00bbf2"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("path", {
+                        attrs: {
+                          d:
+                            "M69.73 64.34a111.02 111.02 0 0 1-20.55 5.05c-8.7 1.14-14.15-.7-14.15-.7V30.65s-.86 4.3 10.1 14.5c3.3 3.05 24.6 19.2 24.6 19.2z",
+                          fill: "#f8f400"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("circle", { attrs: { cx: "64", cy: "64", r: "2.03" } })
+                    ]
+                  )
+                ]
+              ),
+              _vm._v(" "),
+              _vm._m(0)
+            ]
+          ),
           _vm._v(" "),
           _vm.type == "my" && _vm.photos
             ? _c(
@@ -55457,55 +55443,7 @@ var render = function() {
                   ])
                 ]
               )
-            : _vm._e(),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass: "_vp_box vp-group-adder",
-              staticStyle: {
-                position: "fixed",
-                width: "2.6875rem",
-                height: "2.6875rem",
-                left: "8.65625rem",
-                bottom: "1.2rem",
-                "z-index": "99999"
-              }
-            },
-            [
-              _c(
-                "div",
-                { staticClass: "_vp_group-content" },
-                [
-                  _vm._m(2),
-                  _vm._v(" "),
-                  _c("router-link", { attrs: { to: "/photo" } }, [
-                    _c(
-                      "div",
-                      {
-                        staticClass: "_vp_layer vp-image-circle",
-                        staticStyle: {
-                          width: "1.625rem",
-                          height: "1.625rem",
-                          left: "0.53125rem",
-                          top: "0.53125rem"
-                        }
-                      },
-                      [
-                        _c("img", {
-                          attrs: {
-                            src:
-                              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAACXBIWXMAAAsTAAALEwEAmpwYAAA4FGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS41LWMwMTQgNzkuMTUxNDgxLCAyMDEzLzAzLzEzLTEyOjA5OjE1ICAgICAgICAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iCiAgICAgICAgICAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIKICAgICAgICAgICAgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIgogICAgICAgICAgICB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIKICAgICAgICAgICAgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iCiAgICAgICAgICAgIHhtbG5zOmV4aWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vZXhpZi8xLjAvIj4KICAgICAgICAgPHhtcDpDcmVhdG9yVG9vbD5BZG9iZSBQaG90b3Nob3AgQ0MgKFdpbmRvd3MpPC94bXA6Q3JlYXRvclRvb2w+CiAgICAgICAgIDx4bXA6Q3JlYXRlRGF0ZT4yMDE5LTA1LTI0VDE4OjQzKzA4OjAwPC94bXA6Q3JlYXRlRGF0ZT4KICAgICAgICAgPHhtcDpNb2RpZnlEYXRlPjIwMTktMDUtMjRUMTg6NDM6NDMrMDg6MDA8L3htcDpNb2RpZnlEYXRlPgogICAgICAgICA8eG1wOk1ldGFkYXRhRGF0ZT4yMDE5LTA1LTI0VDE4OjQzOjQzKzA4OjAwPC94bXA6TWV0YWRhdGFEYXRlPgogICAgICAgICA8ZGM6Zm9ybWF0PmltYWdlL3BuZzwvZGM6Zm9ybWF0PgogICAgICAgICA8cGhvdG9zaG9wOkNvbG9yTW9kZT4zPC9waG90b3Nob3A6Q29sb3JNb2RlPgogICAgICAgICA8eG1wTU06SW5zdGFuY2VJRD54bXAuaWlkOjZmZWU2NjA5LTllZDYtMzU0ZS1hMDMxLWExOGJmMWQyMjU0NzwveG1wTU06SW5zdGFuY2VJRD4KICAgICAgICAgPHhtcE1NOkRvY3VtZW50SUQ+eG1wLmRpZDo2ZmVlNjYwOS05ZWQ2LTM1NGUtYTAzMS1hMThiZjFkMjI1NDc8L3htcE1NOkRvY3VtZW50SUQ+CiAgICAgICAgIDx4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ+eG1wLmRpZDo2ZmVlNjYwOS05ZWQ2LTM1NGUtYTAzMS1hMThiZjFkMjI1NDc8L3htcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD4KICAgICAgICAgPHhtcE1NOkhpc3Rvcnk+CiAgICAgICAgICAgIDxyZGY6U2VxPgogICAgICAgICAgICAgICA8cmRmOmxpIHJkZjpwYXJzZVR5cGU9IlJlc291cmNlIj4KICAgICAgICAgICAgICAgICAgPHN0RXZ0OmFjdGlvbj5jcmVhdGVkPC9zdEV2dDphY3Rpb24+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDppbnN0YW5jZUlEPnhtcC5paWQ6NmZlZTY2MDktOWVkNi0zNTRlLWEwMzEtYTE4YmYxZDIyNTQ3PC9zdEV2dDppbnN0YW5jZUlEPgogICAgICAgICAgICAgICAgICA8c3RFdnQ6d2hlbj4yMDE5LTA1LTI0VDE4OjQzKzA4OjAwPC9zdEV2dDp3aGVuPgogICAgICAgICAgICAgICAgICA8c3RFdnQ6c29mdHdhcmVBZ2VudD5BZG9iZSBQaG90b3Nob3AgQ0MgKFdpbmRvd3MpPC9zdEV2dDpzb2Z0d2FyZUFnZW50PgogICAgICAgICAgICAgICA8L3JkZjpsaT4KICAgICAgICAgICAgPC9yZGY6U2VxPgogICAgICAgICA8L3htcE1NOkhpc3Rvcnk+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgICAgIDx0aWZmOlhSZXNvbHV0aW9uPjcyMDAwMC8xMDAwMDwvdGlmZjpYUmVzb2x1dGlvbj4KICAgICAgICAgPHRpZmY6WVJlc29sdXRpb24+NzIwMDAwLzEwMDAwPC90aWZmOllSZXNvbHV0aW9uPgogICAgICAgICA8dGlmZjpSZXNvbHV0aW9uVW5pdD4yPC90aWZmOlJlc29sdXRpb25Vbml0PgogICAgICAgICA8ZXhpZjpDb2xvclNwYWNlPjY1NTM1PC9leGlmOkNvbG9yU3BhY2U+CiAgICAgICAgIDxleGlmOlBpeGVsWERpbWVuc2lvbj41MjwvZXhpZjpQaXhlbFhEaW1lbnNpb24+CiAgICAgICAgIDxleGlmOlBpeGVsWURpbWVuc2lvbj41MjwvZXhpZjpQaXhlbFlEaW1lbnNpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo8P3hwYWNrZXQgZW5kPSJ3Ij8+DX/dHwAAACBjSFJNAAB6JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAACxUlEQVR42uyaQZXEIAxAkVAJSBgJSEACEioBCZVQCZWABCQgoQ6yh6X7OrsUkhDaOewhN2bKD0lIQhSAUoIyASgDoDyA2gBUAFARQMFJQpYFQM0A6tX3zfc/l4JweZPAlB1ArVkZjwHpvAkQlpQVdBvQlM0FBksCUHY0kM3mATdKyEoUB1puBvntY0YKaCpEqqfE9QL1wByh2WdTNTlM+xxMogwUHogDs+Ic+S1SzjkAMKHwQBsRRHdeA4aoQEsB8sg/jf03/R+ZCYFCY4BehFOZhGHOe9hxftoGikgYNViwPjzXgJwQzOHsoaDpSAgeEyJg7N/rykCtH2/C+d2e/bXX/HwJyOE00e3MnOAyt/f2FyjSb+kfWYXSmxpUaO/v3VRat/4dOV4NyrTdAX+ktpJ9jygbJuYpTZiFqRKBRpUSnqlAeyysLVo6swmu6V2dUk2JCyYzuDK3NLhUmBk5ZsA429SRHvVWqlTLSK0F+8WfupsKOrIftYDCA/5zFk0N358OZP6BPhxo4gDNDMe8IyiwAhImbOuLMmE00MYN25qZZY/u1TlGPhcw6cT6gNntlfyxmgNi0olaXhVvPp2WEg12oevsEEmkPK38cQfCUabKRyRNL1asofWdFYidUj8YqgaD6f5YIJa40Kj5Xx0lxdJowCxtCypfmqFDi+d7IhH8pfWuanFBpAxkkKaBbeeeX8MPWbOJapBpCadWWrMhNTuqr03tb5sWELb5EQWeUHqDzIJ9TrGEG30WBNGEd6l47mljHrwoJQJxtqBoFZ7QFjs1JGlvrNQWb8oh9oWEsIxv/Oqu0l/B1840JmTt+wwbOu6rQquYN6fw5IxCo+/NH7xwD0yRICJq32iM7py6kuxzi05juRtawchRAdl5OTegyCPOPMgPAB5pysKE2/Nl6njp1Big0pjmfJGcHvM/TmZo4x3oawClUIdTvzLusQAAAABJRU5ErkJggg=="
-                          }
-                        })
-                      ]
-                    )
-                  ])
-                ],
-                1
-              )
-            ]
-          )
+            : _vm._e()
         ]
       ),
       _vm._v(" "),
@@ -55518,7 +55456,7 @@ var render = function() {
         [
           _c("div", { staticClass: "modal-wrapper" }, [
             _c("div", { staticClass: "modal-container" }, [
-              _vm._m(3),
+              _vm._m(2),
               _vm._v(" "),
               _c("i", {
                 staticClass: "close-btn iconfont icon-guanbi",
@@ -55526,9 +55464,9 @@ var render = function() {
                 on: { click: _vm.close }
               }),
               _vm._v(" "),
-              _vm._m(4),
+              _vm._m(3),
               _vm._v(" "),
-              _vm._m(5),
+              _vm._m(4),
               _vm._v(" "),
               _c("div", { staticClass: "modal-footer" })
             ])
@@ -55597,7 +55535,7 @@ var render = function() {
           }
         }),
         _vm._v(" "),
-        _vm._m(6)
+        _vm._m(5)
       ])
     ],
     1
@@ -55624,33 +55562,6 @@ var staticRenderFns = [
     return _c("div", { staticClass: "icon" }, [
       _c("i", { staticClass: "iconfont icon-dianzan1 active" })
     ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass: "_vp_layer vp-image-plist_1",
-        staticStyle: {
-          width: "2.6875rem",
-          height: "2.6875rem",
-          left: "0rem",
-          top: "0rem",
-          opacity: "0.502",
-          "pointer-events": "none"
-        }
-      },
-      [
-        _c("img", {
-          attrs: {
-            src:
-              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFYAAABWCAMAAABiiJHFAAAABGdBTUEAALGPC/xhBQAAADNQTFRF////////////////////////////////////////////////////////////AAAA////FbWC9gAAABB0Uk5TsJBw0DBQIGCgQOAQ8IDAALFE9NMAAAIBSURBVFjD7dnLjoMwDAVQQ97P+v+/diihmhYKJHCzGGm86KbiKArGBJse5yFNsjln4aefnJLT55fQyf9uyLyJSKO+wSobeS/EobzPhuT5OLJqZrXlivCmiQ2JK8OrelZFro+s69iQuSniWMM2LXVZcDhlE18IL4/ZYPlSRHPEBsFXw+yzN9SVSyj1031nMzPKfWMt3w35hR1vqxzDhpUMiLxmg0ewnFbswJiQH6wDqa9tIExurbOssAamLtlQWI9jy10j8GKX5RJ6sWV3CZkGS01fWItl2c1sAKtsZ9ag2TizhGZZPdkIZ4eJdXCVxcQmPMuBOmztlGIEfsRKjPTooPJAsgebyfVgBakeLFP6Z//ZmXV/iM2k+7BdSk2ih+jAToXRdmCnMj52YKd3WYeCm58vdPxbJz1Z/ObKJwsv5L6cGNHHmqGwA5jVhdXoPFgO+RnKqhfrwDfs9QGFXK75ZYHLFe8fp7hjo3tnNSp36fPDH1THXv0PQvV/fpPrgw2IbbDbFhAgG0T40rAyqI1dtdduFt4od3qMFqWuOqIWpK77txajbrrNFx+LdbuZAK3xL83xbctdt5+eUtXcofEkLWTlOEM3FIiYGmY6qvaoY3XbBMr46+jhvMydvDJ80tfGcMHsytGqO0PDoLZTQ0+jvDmLLJnhxpSGeb6ZlAsVV/wA2+PA8qeEVHoAAAAASUVORK5CYII="
-          }
-        })
-      ]
-    )
   },
   function() {
     var _vm = this
