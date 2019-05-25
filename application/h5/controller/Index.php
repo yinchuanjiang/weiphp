@@ -219,6 +219,7 @@ class Index extends Controller
         // $url = "https://qyapi.weixin.qq.com/cgi-bin/get_jsapi_ticket?access_token=$accessToken";
         $url = "https://api.weixin.qq.com/cgi-bin/ticket/getticket?type=jsapi&access_token=$accessToken";
         $res = json_decode($this->httpGet($url));
+        dump($res);
         $ticket = $res->ticket;
         return $ticket;
     }
