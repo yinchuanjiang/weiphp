@@ -191,8 +191,7 @@ class Index extends Controller
 
         // 注意 URL 一定要动态获取，不能 hardcode.
         $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
-        $url = "$protocol$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-        dump($_SERVER['HTTP_HOST']);
+        $url = "$protocol$_SERVER[HTTP_HOST]"."/h5/auth/auth";
 
         $timestamp = time();
         $nonceStr = $this->createNonceStr();
@@ -207,6 +206,7 @@ class Index extends Controller
             "nonceStr" => $nonceStr,
             "timestamp" => $timestamp,
             "url" => $url,
+            'img_url' => "$protocol$_SERVER[HTTP_HOST]"."/static/share.png",
             "signature" => $signature,
             "rawString" => $string
         );

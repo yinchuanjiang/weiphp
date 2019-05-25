@@ -437,8 +437,8 @@
     wx.updateAppMessageShareData({
         title: '六安市“银发微笑”首届公益摄影大赛来袭！奖品多多，邀您参与！', // 分享标题
         desc: '您的积极参与，提升了六安的整体“温度”', // 分享描述
-        link: '', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
-        imgUrl: '', // 分享图标
+        link: '{$signPackage["url"]}', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+        imgUrl: '{$signPackage["img_url"]}', // 分享图标
         success: function () {
             // 设置成功
         }
