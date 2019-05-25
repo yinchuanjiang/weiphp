@@ -201,7 +201,7 @@ class Index extends Controller
         $signature = sha1($string);
 
         $signPackage = array(
-            "appId" => $this->appid,
+            "appid" => $this->appid,
             "nonceStr" => $nonceStr,
             "timestamp" => $timestamp,
             "url" => $url,
