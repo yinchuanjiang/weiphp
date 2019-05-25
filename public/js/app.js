@@ -53485,7 +53485,7 @@ exports = module.exports = __webpack_require__(2)(false);
 
 
 // module
-exports.push([module.i, "\na{\n    text-decoration: none;\n}\n", ""]);
+exports.push([module.i, "\na {\n    text-decoration: none;\n}\n", ""]);
 
 // exports
 
@@ -53502,6 +53502,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__helpers_openid__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_common_Music__ = __webpack_require__(89);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_common_Music___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__components_common_Music__);
+//
 //
 //
 //
@@ -53896,29 +53897,7 @@ var render = function() {
           class: _vm.type == "my" ? "page-detail" : "page-list"
         },
         [
-          _c(
-            "div",
-            {
-              staticClass: "_vp_box vp-group-topper",
-              staticStyle: {
-                position: "relative",
-                width: "80%",
-                "padding-left": "10%",
-                top: "2rem"
-              }
-            },
-            [
-              _c("div", { staticClass: "_vp_group-content" }, [
-                _c("br"),
-                _vm._v(" "),
-                _c("img", {
-                  staticStyle: { width: "120%" },
-                  attrs: { src: "/static/top.png", alt: "" },
-                  on: { click: _vm.rule }
-                })
-              ])
-            ]
-          ),
+          _vm._m(0),
           _vm._v(" "),
           _c(
             "div",
@@ -54001,7 +53980,7 @@ var render = function() {
                             on: { click: _vm.rule }
                           },
                           [
-                            _vm._m(0),
+                            _vm._m(1),
                             _vm._v(" "),
                             _c(
                               "div",
@@ -54014,7 +53993,7 @@ var render = function() {
                           ]
                         ),
                         _vm._v(" "),
-                        _vm._m(1)
+                        _vm._m(2)
                       ])
                     ])
                   ])
@@ -54255,7 +54234,7 @@ var render = function() {
                       ]),
                       _vm._v(" "),
                       _c("div", { staticClass: "like" }, [
-                        _vm._m(2),
+                        _vm._m(3),
                         _vm._v(" "),
                         _c("div", { staticClass: "num" }, [
                           _vm._v(_vm._s(_vm.photos.vote_num))
@@ -54285,7 +54264,7 @@ var render = function() {
                 "div",
                 { staticClass: "_vp_group-content" },
                 [
-                  _vm._m(3),
+                  _vm._m(4),
                   _vm._v(" "),
                   _c("router-link", { attrs: { to: "/photo" } }, [
                     _c(
@@ -54326,7 +54305,7 @@ var render = function() {
         [
           _c("div", { staticClass: "modal-wrapper" }, [
             _c("div", { staticClass: "modal-container" }, [
-              _vm._m(4),
+              _vm._m(5),
               _vm._v(" "),
               _c("i", {
                 staticClass: "close-btn iconfont icon-guanbi",
@@ -54334,9 +54313,9 @@ var render = function() {
                 on: { click: _vm.close }
               }),
               _vm._v(" "),
-              _vm._m(5),
-              _vm._v(" "),
               _vm._m(6),
+              _vm._v(" "),
+              _vm._m(7),
               _vm._v(" "),
               _c("div", { staticClass: "modal-footer" })
             ])
@@ -54350,6 +54329,40 @@ var render = function() {
   )
 }
 var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "_vp_box vp-group-topper",
+        staticStyle: {
+          position: "relative",
+          width: "18rem",
+          top: "2rem",
+          margin: "0 auto"
+        }
+      },
+      [
+        _c(
+          "div",
+          {
+            staticClass: "_vp_group-content",
+            staticStyle: { margin: "0 auto" }
+          },
+          [
+            _c("br"),
+            _vm._v(" "),
+            _c("img", {
+              staticStyle: { width: "18rem", margin: "0 auto" },
+              attrs: { src: "/static/top.png", alt: "" }
+            })
+          ]
+        )
+      ]
+    )
+  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -54561,7 +54574,7 @@ exports = module.exports = __webpack_require__(2)(false);
 
 
 // module
-exports.push([module.i, "\na{\n    text-decoration: none;\n}\n", ""]);
+exports.push([module.i, "\na {\n    text-decoration: none;\n}\n", ""]);
 
 // exports
 
@@ -54578,6 +54591,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__helpers_openid__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_common_Music__ = __webpack_require__(89);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_common_Music___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__components_common_Music__);
+//
 //
 //
 //
@@ -54807,29 +54821,7 @@ var render = function() {
           class: _vm.type == "my" ? "page-detail" : "page-list"
         },
         [
-          _c(
-            "div",
-            {
-              staticClass: "_vp_box vp-group-topper",
-              staticStyle: {
-                position: "relative",
-                width: "80%",
-                "padding-left": "10%",
-                top: "2rem"
-              }
-            },
-            [
-              _c("div", { staticClass: "_vp_group-content" }, [
-                _c("br"),
-                _vm._v(" "),
-                _c("img", {
-                  staticStyle: { width: "120%" },
-                  attrs: { src: "/static/top.png", alt: "" },
-                  on: { click: _vm.rule }
-                })
-              ])
-            ]
-          ),
+          _vm._m(0),
           _vm._v(" "),
           _c(
             "div",
@@ -55129,7 +55121,7 @@ var render = function() {
                       ]),
                       _vm._v(" "),
                       _c("div", { staticClass: "like" }, [
-                        _vm._m(0),
+                        _vm._m(1),
                         _vm._v(" "),
                         _c("div", { staticClass: "num" }, [
                           _vm._v(_vm._s(_vm.photos.vote_num))
@@ -55152,7 +55144,7 @@ var render = function() {
         [
           _c("div", { staticClass: "modal-wrapper" }, [
             _c("div", { staticClass: "modal-container" }, [
-              _vm._m(1),
+              _vm._m(2),
               _vm._v(" "),
               _c("i", {
                 staticClass: "close-btn iconfont icon-guanbi",
@@ -55160,9 +55152,9 @@ var render = function() {
                 on: { click: _vm.close }
               }),
               _vm._v(" "),
-              _vm._m(2),
-              _vm._v(" "),
               _vm._m(3),
+              _vm._v(" "),
+              _vm._m(4),
               _vm._v(" "),
               _c("div", { staticClass: "modal-footer" })
             ])
@@ -55176,6 +55168,40 @@ var render = function() {
   )
 }
 var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "_vp_box vp-group-topper",
+        staticStyle: {
+          position: "relative",
+          width: "18rem",
+          top: "2rem",
+          margin: "0 auto"
+        }
+      },
+      [
+        _c(
+          "div",
+          {
+            staticClass: "_vp_group-content",
+            staticStyle: { margin: "0 auto" }
+          },
+          [
+            _c("br"),
+            _vm._v(" "),
+            _c("img", {
+              staticStyle: { width: "18rem", margin: "0 auto" },
+              attrs: { src: "/static/top.png", alt: "" }
+            })
+          ]
+        )
+      ]
+    )
+  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
