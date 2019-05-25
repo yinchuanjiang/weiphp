@@ -18,8 +18,8 @@
       <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/h5/controller/Index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="208" column="20" lean-forward="false" selection-start-line="208" selection-start-column="13" selection-end-line="208" selection-end-column="20" />
+            <state relative-caret-position="960">
+              <caret line="226" column="5" lean-forward="true" selection-start-line="226" selection-start-column="5" selection-end-line="226" selection-end-column="5" />
               <folding>
                 <element signature="e#37#71#0#PHP" expanded="true" />
               </folding>
@@ -40,8 +40,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/h5/view/index/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9292">
-              <caret line="443" column="9" lean-forward="true" selection-start-line="443" selection-start-column="9" selection-end-line="443" selection-end-column="9" />
+            <state relative-caret-position="408">
+              <caret line="434" column="17" lean-forward="false" selection-start-line="434" selection-start-column="8" selection-end-line="434" selection-end-column="17" />
               <folding>
                 <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -216,8 +216,8 @@
         <option value="$PROJECT_DIR$/application/h5/controller/Upload.php" />
         <option value="$PROJECT_DIR$/application/smile/controller/Smile.php" />
         <option value="$PROJECT_DIR$/application/smile/view/smile/endorse.html" />
-        <option value="$PROJECT_DIR$/application/h5/controller/Index.php" />
         <option value="$PROJECT_DIR$/application/h5/view/index/index.html" />
+        <option value="$PROJECT_DIR$/application/h5/controller/Index.php" />
       </list>
     </option>
   </component>
@@ -298,7 +298,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -396,8 +396,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/static" />
       <recent name="$PROJECT_DIR$/public/js" />
+      <recent name="$PROJECT_DIR$/public/static" />
       <recent name="$PROJECT_DIR$/application/smile/view/smile" />
       <recent name="$PROJECT_DIR$/application/h5/model/enum" />
       <recent name="$PROJECT_DIR$/application/h5/model" />
@@ -476,12 +476,12 @@
       <updated>1558316518481</updated>
       <workItem from="1558316520160" duration="17858000" />
       <workItem from="1558405364249" duration="195000" />
-      <workItem from="1558405570897" duration="75609000" />
+      <workItem from="1558405570897" duration="75946000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93662000" />
+    <option name="totallyTimeSpent" value="93999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1177" extended-state="6" />
@@ -854,14 +854,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/smile/view/smile/endorse.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -938,10 +930,18 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/h5/controller/Index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="208" column="20" lean-forward="false" selection-start-line="208" selection-start-column="13" selection-end-line="208" selection-end-column="20" />
+        <state relative-caret-position="960">
+          <caret line="226" column="5" lean-forward="true" selection-start-line="226" selection-start-column="5" selection-end-line="226" selection-end-column="5" />
           <folding>
             <element signature="e#37#71#0#PHP" expanded="true" />
           </folding>
@@ -950,8 +950,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/h5/view/index/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9292">
-          <caret line="443" column="9" lean-forward="true" selection-start-line="443" selection-start-column="9" selection-end-line="443" selection-end-column="9" />
+        <state relative-caret-position="408">
+          <caret line="434" column="17" lean-forward="false" selection-start-line="434" selection-start-column="8" selection-end-line="434" selection-end-column="17" />
           <folding>
             <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />

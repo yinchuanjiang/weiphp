@@ -426,22 +426,25 @@
 <script src="https://cdn.bootcss.com/layer/2.3/layer.js"></script>
 <link href="https://cdn.bootcss.com/layer/2.3/skin/layer.css" rel="stylesheet">
 <script>
-    wx.config({
-        debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
-        appId: '{$signPackage["appid"]}', // 必填，公众号的唯一标识
-        timestamp: '{$signPackage["signature"]}', // 必填，生成签名的时间戳
-        nonceStr: '{$signPackage["nonceStr"]}', // 必填，生成签名的随机串
-        signature: '{$signPackage["signature"]}',// 必填，签名
-        jsApiList: [] // 必填，需要使用的JS接口列表
-    });
-    wx.updateAppMessageShareData({
-        title: '六安市“银发微笑”首届公益摄影大赛来袭！奖品多多，邀您参与！', // 分享标题
-        desc: '您的积极参与，提升了六安的整体“温度”', // 分享描述
-        link: '{$signPackage["url"]}', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
-        imgUrl: '{$signPackage["img_url"]}', // 分享图标
-        success: function () {
-            // 设置成功
-        }
+
+    $(function() {
+        wx.config({
+            debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+            appId: '{$signPackage["appid"]}', // 必填，公众号的唯一标识
+            timestamp: '{$signPackage["signature"]}', // 必填，生成签名的时间戳
+            nonceStr: '{$signPackage["nonceStr"]}', // 必填，生成签名的随机串
+            signature: '{$signPackage["signature"]}',// 必填，签名
+            jsApiList: [] // 必填，需要使用的JS接口列表
+        });
+        wx.updateAppMessageShareData({
+            title: '六安市“银发微笑”首届公益摄影大赛来袭！奖品多多，邀您参与！', // 分享标题
+            desc: '您的积极参与，提升了六安的整体“温度”', // 分享描述
+            link: '{$signPackage["url"]}', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+            imgUrl: '{$signPackage["img_url"]}', // 分享图标
+            success: function () {
+                // 设置成功
+            }
+        })
     })
 </script>
 </body>
