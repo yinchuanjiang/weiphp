@@ -66,7 +66,7 @@ class Index extends Controller
         $this->assign('openid', $user->openid);
         $this->assign('avatar', $user->avatar);
         $this->assign('nickname', $user->nickname);
-        $this->assign('signPackage',$this->getSignPackage());
+        $this->assign('signPackage',$this->getSignPackage($openid));
         return $this->fetch('index');
     }
 
@@ -184,13 +184,13 @@ class Index extends Controller
      * 初始化方法 判断是否登录 未登录跳转到登录页
      */
 
-    private function getSignPackage()
+    private function getSignPackage($openid)
     {
         $jsapiTicket = $this->getJsApiTicket();
 
         // 注意 URL 一定要动态获取，不能 hardcode.
         $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
-        $url = "$protocol$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+        $url = "$protocol$_SERVER[HTTP_HOST]"."/h5/index/home?openid=".$openid;
 
         $timestamp = time();
         $nonceStr = $this->createNonceStr();
