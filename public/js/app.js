@@ -53793,15 +53793,27 @@ var render = function() {
         {
           ref: "scroll",
           staticClass: "app-view",
-          class: _vm.type == "my" ? "page-detail" : "page-list",
-          on: {
-            click: function($event) {
-              return _vm.rule()
-            }
-          }
+          class: _vm.type == "my" ? "page-detail" : "page-list"
         },
         [
-          _vm._m(0),
+          _c(
+            "div",
+            {
+              staticClass: "_vp_box vp-group-topper",
+              staticStyle: {
+                position: "relative",
+                width: "18rem",
+                top: "2rem",
+                margin: "0 auto"
+              },
+              on: {
+                click: function($event) {
+                  return _vm.rule()
+                }
+              }
+            },
+            [_vm._m(0)]
+          ),
           _vm._v(" "),
           _c(
             "div",
@@ -54239,31 +54251,14 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c(
       "div",
-      {
-        staticClass: "_vp_box vp-group-topper",
-        staticStyle: {
-          position: "relative",
-          width: "18rem",
-          top: "2rem",
-          margin: "0 auto"
-        }
-      },
+      { staticClass: "_vp_group-content", staticStyle: { margin: "0 auto" } },
       [
-        _c(
-          "div",
-          {
-            staticClass: "_vp_group-content",
-            staticStyle: { margin: "0 auto" }
-          },
-          [
-            _c("br"),
-            _vm._v(" "),
-            _c("img", {
-              staticStyle: { width: "18rem", margin: "0 auto" },
-              attrs: { src: "/static/top.png", alt: "" }
-            })
-          ]
-        )
+        _c("br"),
+        _vm._v(" "),
+        _c("img", {
+          staticStyle: { width: "18rem", margin: "0 auto" },
+          attrs: { src: "/static/top.png", alt: "" }
+        })
       ]
     )
   },
@@ -55662,6 +55657,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                 imgP.src = this.faceBase64;
                 //浏览器加载图片完毕后再绘制图片
                 imgP.onload = function () {
+                    //获取图片旋转
+                    __WEBPACK_IMPORTED_MODULE_3__helpers_exif__["Exif"].getData(imgP, function () {
+                        EXIF.getAllTags(this);
+                        Orientation = EXIF.getTag(this, 'Orientation');
+                    });
                     var w = 308;
                     var h = 523;
                     //以Canvas画布上的坐标(0,0)为起始点，绘制图
@@ -55701,6 +55701,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                         }
                     }
                     console.log('left:' + that.left + 'top:' + that.top + 'iw:' + iwidth + 'ih:' + iheight + 'w:' + this.width + 'h:' + this.height);
+
+                    console.log('Orientation:' + Orientation);
                     ctx.drawImage(imgP, that.left, that.top, iwidth, iheight);
                     var imgT = new Image();
                     imgT.src = '/static/poster.png';
