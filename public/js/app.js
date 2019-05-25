@@ -52457,7 +52457,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         next: function next() {
             var audio = document.getElementById('kacha');
             audio.play();
-            this.$router.push('/animation');
+            var that = this;
+            setTimeout(function () {
+                that.$router.push('/animation');
+            }, 800);
         }
     }
 });
@@ -52622,7 +52625,8 @@ if (false) {
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(55)
+  __webpack_require__(92)
+  __webpack_require__(94)
 }
 var normalizeComponent = __webpack_require__(1)
 /* script */
@@ -52667,46 +52671,8 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 55 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(56);
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var update = __webpack_require__(3)("c31c80e6", content, false, {});
-// Hot Module Replacement
-if(false) {
- // When the styles change, update the <style> tags
- if(!content.locals) {
-   module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-43758cdc\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Animation.vue", function() {
-     var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-43758cdc\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Animation.vue");
-     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-     update(newContent);
-   });
- }
- // When the module is disposed, remove the <style> tags
- module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
-/* 56 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(2)(false);
-// imports
-
-
-// module
-exports.push([module.i, "\n.container[data-v-43758cdc]{\n    width: 100vw;\n    height:100vh;\n    /* display: flex;\n    flex-direction: column;\n    justify-content: space-around;\n    color: #FFF;\n    padding: 80px 0; */\n    box-sizing: border-box;\n}\n*[data-v-43758cdc] {\n    margin: 0;\n    padding: 0;\n}\nbody[data-v-43758cdc] {\n    background: #000;\n    overflow: hidden;\n}\n#perspective[data-v-43758cdc] {\n    perspective: 800px;\n}\n#wrap[data-v-43758cdc] {\n    width: 120px; /*133:200  4:6  */\n    height: 180px;\n    margin: 0 auto;\n    position: relative;\n    /*搭建3D效果必须的两个属性：一个变换风格变3d，一个场景景深800px*/\n    transform-style: preserve-3d;\n    transform: rotateX(-15deg) rotateY(0deg);\n}\n#wrap img[data-v-43758cdc] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    border-radius: 1px;\n\n    transform: rotateY(0deg) translateZ(0px);\n    /*倒影：朝向 偏移 遮盖*//*线性渐变(从哪里开始,开始时候的颜色,结束时候的颜色)*/\n    -webkit-box-reflect: below 5px -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.5) 100%);\n}\n#wrap p[data-v-43758cdc] {\n    width: 1200px;\n    height: 1200px;\n    background: -webkit-radial-gradient(center center, 600px 600px, rgba(244, 23, 234, 0.2), rgba(0, 0, 0, 0));\n    border-radius: 100%;\n    position: absolute;\n    left: 50%;\n    top: 102%;\n    margin-left: -600px;\n    margin-top: -600px;\n    transform: rotateX(90deg);\n}\n", ""]);
-
-// exports
-
-
-/***/ }),
+/* 55 */,
+/* 56 */,
 /* 57 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -52714,6 +52680,7 @@ exports.push([module.i, "\n.container[data-v-43758cdc]{\n    width: 100vw;\n    
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_common_Music__ = __webpack_require__(89);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_common_Music___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__components_common_Music__);
+//
 //
 //
 //
@@ -52759,15 +52726,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         var oImg = oWrap.getElementsByTagName('img');
         var oImgLength = oImg.length;
         var Deg = 360 / oImgLength;
-        var nowX,
-            nowY,
-            lastX,
-            lastY,
-            minusX = 0,
-            minusY = 0;
-        var roY = 0,
-            roX = -10;
-        var timer;
         for (var i = 0; i < oImgLength; i++) {
             oImg[i].style.transform = 'rotateY(' + i * Deg + 'deg) translateZ(350px)';
             oImg[i].style.transition = 'transform 1s ' + (oImgLength - 1 - i) * 0.1 + 's';
@@ -52783,71 +52741,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         var t = setInterval(function () {
             oWrap.style.transform = 'rotateY(' + i * 1 + 'deg)';
             i++;
-        }, 40);
-
-        //        setTimeout(function () {
-        //            clearInterval(t)
-        //            for (var i =0; i < oImgLength; i++) {
-        //                oImg[i].style.transform = 'rotateY(240deg) translateZ(0px)';
-        //                oImg[i].style.transition = 'transform 1s ' + (oImgLength - 1 - i) * 0.1 + 's';
-        //            }
-        //        },3000)
-        // 拖拽：三个事件-按下 移动 抬起
-        //按下
-        document.onmousedown = function (ev) {
-            ev = ev || window.event;
-
-            //鼠标按下的时候，给前一点坐标赋值，为了避免第一次相减的时候出错
-            lastX = ev.clientX;
-            lastY = ev.clientY;
-
-            //移动
-            this.onmousemove = function (ev) {
-                ev = ev || window.event;
-
-                clearInterval(timer);
-
-                nowX = ev.clientX; // clientX 鼠标距离页面左边的距离
-                nowY = ev.clientY; // clientY ………………………………顶部………………
-
-                //当前坐标和前一点坐标差值
-                minusX = nowX - lastX;
-                minusY = nowY - lastY;
-
-                //更新wrap的旋转角度，拖拽越快-> minus变化大 -> roY变化大 -> 旋转快
-                roY += minusX * 0.2; // roY = roY + minusX*0.2;
-                roX -= minusY * 0.1;
-
-                oWrap.style.transform = 'rotateX(' + roX + 'deg) rotateY(' + roY + 'deg)';
-                /*
-                //生成div，让div跟着鼠标动
-                var oDiv = document.createElement('div');
-                oDiv.style.cssText = 'width:5px;height:5px;background:red;position:fixed;left:'+nowX+'px;top:'+nowY+'px';
-                this.body.appendChild(oDiv);
-                */
-
-                //前一点的坐标
-                lastX = nowX;
-                lastY = nowY;
-            };
-            //抬起
-            this.onmouseup = function () {
-                this.onmousemove = null;
-                timer = setInterval(function () {
-                    minusX *= 0.95;
-                    minusY *= 0.95;
-                    roY += minusX * 0.2; // roY = roY + minusX*0.2;
-                    roX -= minusY * 0.1;
-                    oWrap.style.transform = 'rotateX(' + roX + 'deg) rotateY(' + roY + 'deg)';
-
-                    if (Math.abs(minusX) < 0.1 && Math.abs(minusY) < 0.1) {
-                        clearInterval(timer);
-                    }
-                    console.log(minusX);
-                }, 13);
-            };
-            return false;
-        };
+        }, 45);
     }
 });
 
@@ -52862,7 +52756,13 @@ var render = function() {
   return _c(
     "div",
     { staticClass: "container" },
-    [_vm._m(0), _vm._v(" "), _c("music")],
+    [
+      _vm._m(0),
+      _vm._v(" "),
+      _c("div", { staticClass: "preview" }),
+      _vm._v(" "),
+      _c("music")
+    ],
     1
   )
 }
@@ -52874,33 +52774,44 @@ var staticRenderFns = [
     return _c("div", { attrs: { id: "perspective" } }, [
       _c("div", { attrs: { id: "wrap" } }, [
         _c("img", {
-          staticStyle: { "z-index": "99" },
-          attrs: { src: "/static/img/1.png" }
+          attrs: { src: "https://h5photos.oss-cn-shanghai.aliyuncs.com/1.png" }
         }),
         _vm._v(" "),
-        _c("img", { attrs: { src: "/static/img/2.png" } }),
+        _c("img", {
+          attrs: { src: "https://h5photos.oss-cn-shanghai.aliyuncs.com/2.png" }
+        }),
         _vm._v(" "),
-        _c("img", { attrs: { src: "/static/img/3.png" } }),
+        _c("img", {
+          attrs: { src: "https://h5photos.oss-cn-shanghai.aliyuncs.com/3.png" }
+        }),
         _vm._v(" "),
-        _c("img", { attrs: { src: "/static/img/4.png" } }),
+        _c("img", {
+          attrs: { src: "https://h5photos.oss-cn-shanghai.aliyuncs.com/4.png" }
+        }),
         _vm._v(" "),
-        _c("img", { attrs: { src: "/static/img/5.png" } }),
+        _c("img", {
+          attrs: { src: "https://h5photos.oss-cn-shanghai.aliyuncs.com/5.png" }
+        }),
         _vm._v(" "),
-        _c("img", { attrs: { src: "/static/img/6.png" } }),
+        _c("img", {
+          attrs: { src: "https://h5photos.oss-cn-shanghai.aliyuncs.com/1.png" }
+        }),
         _vm._v(" "),
-        _c("img", { attrs: { src: "/static/img/1.png" } }),
+        _c("img", {
+          attrs: { src: "https://h5photos.oss-cn-shanghai.aliyuncs.com/2.png" }
+        }),
         _vm._v(" "),
-        _c("img", { attrs: { src: "/static/img/2.png" } }),
+        _c("img", {
+          attrs: { src: "https://h5photos.oss-cn-shanghai.aliyuncs.com/3.png" }
+        }),
         _vm._v(" "),
-        _c("img", { attrs: { src: "/static/img/3.png" } }),
+        _c("img", {
+          attrs: { src: "https://h5photos.oss-cn-shanghai.aliyuncs.com/4.png" }
+        }),
         _vm._v(" "),
-        _c("img", { attrs: { src: "/static/img/4.png" } }),
-        _vm._v(" "),
-        _c("img", { attrs: { src: "/static/img/5.png" } }),
-        _vm._v(" "),
-        _c("img", { attrs: { src: "/static/img/3.png" } }),
-        _vm._v(" "),
-        _c("img", { attrs: { src: "/static/img/4.png" } }),
+        _c("img", {
+          attrs: { src: "https://h5photos.oss-cn-shanghai.aliyuncs.com/5.png" }
+        }),
         _vm._v(" "),
         _c("p")
       ])
@@ -57386,6 +57297,86 @@ if (false) {
     require("vue-hot-reload-api")      .rerender("data-v-4925f410", module.exports)
   }
 }
+
+/***/ }),
+/* 92 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(93);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(3)("6852abbe", content, false, {});
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-43758cdc\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Animation.vue", function() {
+     var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-43758cdc\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Animation.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 93 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(2)(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 94 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(95);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(3)("8e3a8ea8", content, false, {});
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-43758cdc\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=1!./Animation.vue", function() {
+     var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-43758cdc\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=1!./Animation.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 95 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(2)(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.container[data-v-43758cdc] {\n    width: 100vw;\n    height: 100vh;\n    /* display: flex;\n    flex-direction: column;\n    justify-content: space-around;\n    color: #FFF;\n    padding: 80px 0; */\n    box-sizing: border-box;\n}\n*[data-v-43758cdc] {\n    margin: 0;\n    padding: 0;\n}\nbody[data-v-43758cdc] {\n    background: #000;\n    overflow: hidden;\n}\n#perspective[data-v-43758cdc] {\n    perspective: 800px;\n}\n#wrap[data-v-43758cdc] {\n    width: 120px; /*133:200  4:6  */\n    height: 180px;\n    margin: 0 auto;\n    position: relative;\n    top: 2rem;\n    /*搭建3D效果必须的两个属性：一个变换风格变3d，一个场景景深800px*/\n    transform-style: preserve-3d;\n    transform: rotateX(-15deg) rotateY(0deg);\n}\n#wrap img[data-v-43758cdc] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    border-radius: 1px;\n\n    transform: rotateY(0deg) translateZ(0px);\n    /*倒影：朝向 偏移 遮盖*//*线性渐变(从哪里开始,开始时候的颜色,结束时候的颜色)*/\n    -webkit-box-reflect: below 5px -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.5) 100%);\n}\n#wrap p[data-v-43758cdc] {\n    width: 1200px;\n    height: 1200px;\n    background: -webkit-radial-gradient(center center, 600px 600px, rgba(244, 23, 234, 0.2), rgba(0, 0, 0, 0));\n    border-radius: 100%;\n    position: absolute;\n    left: 50%;\n    top: 102%;\n    margin-left: -600px;\n    margin-top: -600px;\n    transform: rotateX(90deg);\n}\n", ""]);
+
+// exports
+
 
 /***/ })
 /******/ ]);
