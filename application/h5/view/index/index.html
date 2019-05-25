@@ -27,20 +27,20 @@
         (function () {
 //            var openid = 'oKwWb1JwyBYICmRxZsFFzzpDprnM';
             var openid = '{$openid}';
-            window.localStorage.setItem('openid',openid);
+            window.localStorage.setItem('openid', openid);
 //            var avatar = 'http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIKWlTsamHwrSicXsSwdfOCBQwQTSYWtNPNXOqn5ffUsiak7dq00xShpZLpqPKN9ZqEqibmowiaQQJCvg/132';
 //            var nickname = '江敏';
-        var avatar = '{$avatar}';
-        var nickname = '{$nickname}';
-            if(!avatar){
+            var avatar = '{$avatar}';
+            var nickname = '{$nickname}';
+            if (!avatar) {
                 window.localStorage.removeItem('avatar');
-            }else {
-                window.localStorage.setItem('avatar',avatar);
+            } else {
+                window.localStorage.setItem('avatar', avatar);
             }
-            if(!nickname){
+            if (!nickname) {
                 window.localStorage.removeItem('nickname');
-            }else {
-                window.localStorage.setItem('nickname',avatar);
+            } else {
+                window.localStorage.setItem('nickname', avatar);
             }
 
 //        if(avatar && nickname){
@@ -65,9 +65,9 @@
     <link rel="stylesheet" href="/css/vuep.css">
     <link href="/css/index.css" rel="stylesheet">
     <style>
-        #layermbox2{
+        #layermbox2 {
             position: absolute;
-            top:30%;
+            top: 30%;
             left: 10%;
             width: 80%;
             background-color: white;
@@ -254,7 +254,7 @@
         animation-delay: -.16s;
     }
 
-    .layermbox2 .layermcont>div {
+    .layermbox2 .layermcont > div {
         line-height: 22px;
         padding-top: 7px;
         margin-bottom: 20px;
@@ -349,60 +349,69 @@
         margin-top: 10px;
     }
 
-    .wechat--muisc{
-        width:32px;
+    .wechat--muisc {
+        width: 32px;
         height: 32px;
         position: fixed;
-        top:16px;
+        top: 16px;
         right: 16px;
-        z-index:999999;
+        z-index: 999999;
     }
-    .wechat--muisc svg{
-        transform:translateX(-14px);
-        -webkit-transform:translateX(-14px);
+
+    .wechat--muisc svg {
+        transform: translateX(-14px);
+        -webkit-transform: translateX(-14px);
     }
-    .wechat--muisc .wm--playing path{
+
+    .wechat--muisc .wm--playing path {
         transform-box: fill-box;
-        transform-origin:center center;
-        animation:wechatmusic 5s linear 0s infinite normal;
-        -webkit-transform-origin:center center;
-        -webkit-animation:wechatmusic 5s linear 0s infinite normal;
+        transform-origin: center center;
+        animation: wechatmusic 5s linear 0s infinite normal;
+        -webkit-transform-origin: center center;
+        -webkit-animation: wechatmusic 5s linear 0s infinite normal;
     }
-    .wechat--muisc .wm--pause{
-        display:none;
+
+    .wechat--muisc .wm--pause {
+        display: none;
     }
-    .wm--pause .wm--playing{
-        display:none;
+
+    .wm--pause .wm--playing {
+        display: none;
     }
-    .wm--pause .wm--pause{
-        display:block;
+
+    .wm--pause .wm--pause {
+        display: block;
     }
-    .wechat--muisc.wm--pause{
-        -webkit-animation:none;
-        animation:none;
+
+    .wechat--muisc.wm--pause {
+        -webkit-animation: none;
+        animation: none;
     }
-    .wechat--muisc.wm--playing{
-        -webkit-animation:wechatmusic 5s linear 0s infinite normal;
-        animation:wechatmusic 5s linear 0s infinite normal
+
+    .wechat--muisc.wm--playing {
+        -webkit-animation: wechatmusic 5s linear 0s infinite normal;
+        animation: wechatmusic 5s linear 0s infinite normal
     }
-    @-webkit-keyframes wechatmusic{
-        from{
-            -webkit-transform:rotate(0);
-            transform:rotate(0);
+
+    @-webkit-keyframes wechatmusic {
+        from {
+            -webkit-transform: rotate(0);
+            transform: rotate(0);
         }
-        to{
-            -webkit-transform:rotate(-360deg);
-            transform:rotate(-360deg);
+        to {
+            -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
         }
     }
-    @keyframes wechatmusic{
-        from{
-            -webkit-transform:rotate(0);
-            transform:rotate(0);
+
+    @keyframes wechatmusic {
+        from {
+            -webkit-transform: rotate(0);
+            transform: rotate(0);
         }
-        to{
-            -webkit-transform:rotate(-360deg);
-            transform:rotate(-360deg);
+        to {
+            -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
         }
     }
     </style>
@@ -411,19 +420,29 @@
 <div id="mix">
     <router-view></router-view>
 </div>
-<audio src="/static/background.mp3" id="audio" style="display: none" loop ></audio>
+<audio src="/static/background.mp3" id="audio" style="display: none" loop></audio>
 <audio src="/static/kacha.mp3" id="kacha" preload="metadata" style="display: none"></audio>
 <script src="/js/app.js"></script>
 <script src="https://cdn.bootcss.com/layer/2.3/layer.js"></script>
 <link href="https://cdn.bootcss.com/layer/2.3/skin/layer.css" rel="stylesheet">
 <script>
-    //    document.addEventListener('touchstart', function () {
-    //        function audioAutoPlay() {
-    //            var audio = document.getElementById('audio');
-    //            audio.play();
-    //        }
-    //        audioAutoPlay();
-    //    });
+    wx.config({
+        debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+        appId: '{$signPackage["appid"]}', // 必填，公众号的唯一标识
+        timestamp: '{$signPackage["signature"]}', // 必填，生成签名的时间戳
+        nonceStr: '{$signPackage["nonceStr"]}', // 必填，生成签名的随机串
+        signature: '{$signPackage["signature"]}',// 必填，签名
+        jsApiList: [] // 必填，需要使用的JS接口列表
+    });
+    wx.updateAppMessageShareData({
+        title: '六安市“银发微笑”首届公益摄影大赛来袭！奖品多多，邀您参与！', // 分享标题
+        desc: '您的积极参与，提升了六安的整体“温度”', // 分享描述
+        link: '', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+        imgUrl: '', // 分享图标
+        success: function () {
+            // 设置成功
+        }
+    })
 </script>
 </body>
 </html>
