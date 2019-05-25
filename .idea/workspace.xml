@@ -18,8 +18,8 @@
       <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/h5/controller/Index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="193" column="60" lean-forward="false" selection-start-line="193" selection-start-column="60" selection-end-line="193" selection-end-column="60" />
+            <state relative-caret-position="473">
+              <caret line="208" column="20" lean-forward="false" selection-start-line="208" selection-start-column="13" selection-end-line="208" selection-end-column="20" />
               <folding>
                 <element signature="e#37#71#0#PHP" expanded="true" />
               </folding>
@@ -37,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/h5/view/index/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="442" column="19" lean-forward="true" selection-start-line="442" selection-start-column="19" selection-end-line="442" selection-end-column="19" />
+            <state relative-caret-position="9292">
+              <caret line="443" column="9" lean-forward="true" selection-start-line="443" selection-start-column="9" selection-end-line="443" selection-end-column="9" />
               <folding>
                 <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -49,13 +49,6 @@
                 <element signature="n#style#0;n#audio#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="qr_code.jpg" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/static/qr_code.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -403,8 +396,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/js" />
       <recent name="$PROJECT_DIR$/public/static" />
+      <recent name="$PROJECT_DIR$/public/js" />
       <recent name="$PROJECT_DIR$/application/smile/view/smile" />
       <recent name="$PROJECT_DIR$/application/h5/model/enum" />
       <recent name="$PROJECT_DIR$/application/h5/model" />
@@ -483,12 +476,12 @@
       <updated>1558316518481</updated>
       <workItem from="1558316520160" duration="17858000" />
       <workItem from="1558405364249" duration="195000" />
-      <workItem from="1558405570897" duration="75422000" />
+      <workItem from="1558405570897" duration="75609000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93475000" />
+    <option name="totallyTimeSpent" value="93662000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1177" extended-state="6" />
@@ -920,16 +913,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/h5/controller/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="193" column="60" lean-forward="false" selection-start-line="193" selection-start-column="60" selection-end-line="193" selection-end-column="60" />
-          <folding>
-            <element signature="e#37#71#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/static/vp-image-m1_6.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -950,10 +933,25 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/qr_code.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/h5/controller/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="208" column="20" lean-forward="false" selection-start-line="208" selection-start-column="13" selection-end-line="208" selection-end-column="20" />
+          <folding>
+            <element signature="e#37#71#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/h5/view/index/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="442" column="19" lean-forward="true" selection-start-line="442" selection-start-column="19" selection-end-line="442" selection-end-column="19" />
+        <state relative-caret-position="9292">
+          <caret line="443" column="9" lean-forward="true" selection-start-line="443" selection-start-column="9" selection-end-line="443" selection-end-column="9" />
           <folding>
             <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -961,11 +959,6 @@
             <element signature="n#style#0;n#audio#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/qr_code.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
   </component>

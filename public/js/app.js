@@ -52755,8 +52755,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     created: function created() {
-        //            let audio = document.getElementById('audio');
-        //            audio.play();
+        var audio = document.getElementById('audio');
+        audio.play();
     },
     mounted: function mounted() {
         console.log('to=/activity');
@@ -53933,10 +53933,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         getData: function getData() {
             var _this = this;
 
-            axios.get(__WEBPACK_IMPORTED_MODULE_1__config__["a" /* APP_URL */] + 'h5/index/lists.html?cate=photo&openid=' + __WEBPACK_IMPORTED_MODULE_2__helpers_openid__["a" /* default */].getOpenid() + '&type=' + this.$route.params.type).then(function (res) {
+            axios.get(__WEBPACK_IMPORTED_MODULE_1__config__["a" /* APP_URL */] + 'h5/index/lists.html?cate=photo&openid=' + __WEBPACK_IMPORTED_MODULE_2__helpers_openid__["a" /* default */].getOpenid() + '&type=' + this.$route.params.type + '&page=' + this.page).then(function (res) {
                 //添加分页数据
                 if (_this.$route.params.type != 'my' && _this.photos.length) {
-                    _this.photos.concat(res.data.data);
+                    if (res.data.data) {
+                        _this.photos = _this.photos.concat(res.data.data);
+                    }
                 } else {
                     _this.photos = res.data.data;
                 }
@@ -53986,6 +53988,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         },
         toInfo: function toInfo(id) {
             this.$router.push('/info/' + id + '/photo');
+        },
+        more: function more() {
+            this.page++;
+            this.getData();
         }
     },
     mounted: function mounted() {
@@ -54437,7 +54443,24 @@ var render = function() {
                 ]
               ),
               _vm._v(" "),
-              _vm._m(2)
+              _c(
+                "div",
+                {
+                  staticClass: "not-more",
+                  on: {
+                    click: function($event) {
+                      return _vm.more()
+                    }
+                  }
+                },
+                [
+                  _c("i", { staticClass: "iconfont icon-kong" }),
+                  _vm._v(" "),
+                  _vm.photos.length && _vm.type != "my"
+                    ? _c("span", [_vm._v("点击加载更多...")])
+                    : _vm._e()
+                ]
+              )
             ]
           ),
           _vm._v(" "),
@@ -54491,7 +54514,7 @@ var render = function() {
                       ]),
                       _vm._v(" "),
                       _c("div", { staticClass: "like" }, [
-                        _vm._m(3),
+                        _vm._m(2),
                         _vm._v(" "),
                         _c("div", { staticClass: "num" }, [
                           _vm._v(_vm._s(_vm.photos.vote_num))
@@ -54521,7 +54544,7 @@ var render = function() {
                 "div",
                 { staticClass: "_vp_group-content" },
                 [
-                  _vm._m(4),
+                  _vm._m(3),
                   _vm._v(" "),
                   _c("router-link", { attrs: { to: "/photo" } }, [
                     _c(
@@ -54562,7 +54585,7 @@ var render = function() {
         [
           _c("div", { staticClass: "modal-wrapper" }, [
             _c("div", { staticClass: "modal-container" }, [
-              _vm._m(5),
+              _vm._m(4),
               _vm._v(" "),
               _c("i", {
                 staticClass: "close-btn iconfont icon-guanbi",
@@ -54570,9 +54593,9 @@ var render = function() {
                 on: { click: _vm.close }
               }),
               _vm._v(" "),
-              _vm._m(6),
+              _vm._m(5),
               _vm._v(" "),
-              _vm._m(7),
+              _vm._m(6),
               _vm._v(" "),
               _c("div", { staticClass: "modal-footer" })
             ])
@@ -54641,7 +54664,7 @@ var render = function() {
           }
         }),
         _vm._v(" "),
-        _vm._m(8)
+        _vm._m(7)
       ])
     ],
     1
@@ -54684,19 +54707,6 @@ var staticRenderFns = [
         _c("div", { staticClass: "text", attrs: { "data-v-0dcfc57a": "" } }, [
           _vm._v("参与活动")
         ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "not-more", staticStyle: { display: "none" } },
-      [
-        _c("i", { staticClass: "iconfont icon-kong" }),
-        _vm._v(" 到底了，没有更多了\n            ")
       ]
     )
   },
@@ -55050,7 +55060,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             axios.get(__WEBPACK_IMPORTED_MODULE_1__config__["a" /* APP_URL */] + 'h5/index/lists.html?cate=spokesman&openid=' + __WEBPACK_IMPORTED_MODULE_2__helpers_openid__["a" /* default */].getOpenid() + '&type=' + this.$route.params.type).then(function (res) {
                 //添加分页数据
                 if (_this.$route.params.type != 'my' && _this.photos.length) {
-                    _this.photos.concat(res.data.data);
+                    if (res.data.data) {
+                        _this.photos = _this.photos.concat(res.data.data);
+                    }
                 } else {
                     _this.photos = res.data.data;
                 }
@@ -55100,6 +55112,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         },
         toInfo: function toInfo(id) {
             this.$router.push('/info/' + id + '/spokesman');
+        },
+        more: function more() {
+            this.page++;
+            this.getData();
         }
     },
     mounted: function mounted() {
@@ -55363,7 +55379,24 @@ var render = function() {
                 ]
               ),
               _vm._v(" "),
-              _vm._m(0)
+              _c(
+                "div",
+                {
+                  staticClass: "not-more",
+                  on: {
+                    click: function($event) {
+                      return _vm.more()
+                    }
+                  }
+                },
+                [
+                  _c("i", { staticClass: "iconfont icon-kong" }),
+                  _vm._v(" "),
+                  _vm.photos.length && _vm.type != "my"
+                    ? _c("span", [_vm._v("点击加载更多...")])
+                    : _vm._e()
+                ]
+              )
             ]
           ),
           _vm._v(" "),
@@ -55417,7 +55450,7 @@ var render = function() {
                       ]),
                       _vm._v(" "),
                       _c("div", { staticClass: "like" }, [
-                        _vm._m(1),
+                        _vm._m(0),
                         _vm._v(" "),
                         _c("div", { staticClass: "num" }, [
                           _vm._v(_vm._s(_vm.photos.vote_num))
@@ -55440,7 +55473,7 @@ var render = function() {
         [
           _c("div", { staticClass: "modal-wrapper" }, [
             _c("div", { staticClass: "modal-container" }, [
-              _vm._m(2),
+              _vm._m(1),
               _vm._v(" "),
               _c("i", {
                 staticClass: "close-btn iconfont icon-guanbi",
@@ -55448,9 +55481,9 @@ var render = function() {
                 on: { click: _vm.close }
               }),
               _vm._v(" "),
-              _vm._m(3),
+              _vm._m(2),
               _vm._v(" "),
-              _vm._m(4),
+              _vm._m(3),
               _vm._v(" "),
               _c("div", { staticClass: "modal-footer" })
             ])
@@ -55519,26 +55552,13 @@ var render = function() {
           }
         }),
         _vm._v(" "),
-        _vm._m(5)
+        _vm._m(4)
       ])
     ],
     1
   )
 }
 var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "not-more", staticStyle: { display: "none" } },
-      [
-        _c("i", { staticClass: "iconfont icon-kong" }),
-        _vm._v(" 到底了，没有更多了\n            ")
-      ]
-    )
-  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
