@@ -57987,7 +57987,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             this.$router.push('/photo');
         },
         more: function more() {
-            this.$router.push('/list-spokesman/hot');
+            this.$router.go(-1);
         }
     },
     data: function data() {
