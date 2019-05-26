@@ -55289,7 +55289,6 @@ var render = function() {
                             [
                               _c("img", {
                                 staticClass: "image",
-                                staticStyle: { height: "200px" },
                                 attrs: { src: photo.photo }
                               })
                             ]
