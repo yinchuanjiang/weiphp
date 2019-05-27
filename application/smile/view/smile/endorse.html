@@ -337,6 +337,7 @@
                     that.height = img.height;
                     if(img.width != 534 || img.height != 899){
                         layer.msg("图片尺寸错误！");
+                        that.val('')
                         return false
                     }else {
                         drawImg(imgFile);
