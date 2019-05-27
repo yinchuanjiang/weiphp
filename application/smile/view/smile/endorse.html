@@ -171,24 +171,24 @@
                     canvas.height = imgP.height;
                     let iwidth = imgP.width;
                     let iheight = imgP.height;
-                    Exif.getData(imgP, function (imageEvent) {
-                        Exif.getAllTags(this);
+                    EXIF.getData(imgP, function (imageEvent) {
+                        EXIF.getAllTags(this);
                         Orientation = Exif.getTag(this, 'Orientation');
                     });
                     console.log('iwidth:'+iwidth+'iheight:'+iheight)
                     if (Orientation == 3) {
                         ctx.rotate(Math.PI);
-                        cxt.drawImage(imgP, 0, 0, -iwidth, -iheight);
+                        ctx.drawImage(imgP, 0, 0, -iwidth, -iheight);
 
                     } else if (Orientation == 8) {
-                        cxt.rotate(Math.PI * 3 / 2);
-                        cxt.drawImage(imgP, 0, 0, -iwidth, iheight);
+                        ctx.rotate(Math.PI * 3 / 2);
+                        ctx.drawImage(imgP, 0, 0, -iwidth, iheight);
 
                     } else if (Orientation == 6) {
-                        cxt.rotate(Math.PI / 2);
-                        cxt.drawImage(imgP, 0, 0, iwidth, -iheight);
+                        ctx.rotate(Math.PI / 2);
+                        ctx.drawImage(imgP, 0, 0, iwidth, -iheight);
                     } else {
-                        cxt.drawImage(imgP, 0, 0, iwidth, iheight);
+                        ctx.drawImage(imgP, 0, 0, iwidth, iheight);
 
                     }
                     let imgT = new Image();
