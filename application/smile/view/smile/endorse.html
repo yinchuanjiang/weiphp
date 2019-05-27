@@ -131,6 +131,8 @@
 <link href="__STATIC__/datetimepicker/css/dropdown.css?v={:SITE_VERSION}" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="__STATIC__/datetimepicker/js/bootstrap-datetimepicker.js"></script>
 <script type="text/javascript" src="__STATIC__/datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js?v={:SITE_VERSION}" charset="UTF-8"></script>
+<script type="text/javascript" src="__STATIC__/datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js?v={:SITE_VERSION}" charset="UTF-8"></script>
+<script type="text/javascript" src="/js/exif.js"></script>
 <script type="text/javascript">
     $(function () {
 
@@ -160,6 +162,7 @@
                 //指定图片的URL
                 imgP.src = faceBase64;
                 //浏览器加载图片完毕后再绘制图片
+                let Orientation;
                 imgP.onload = function () {
                     let w = 308;
                     let h = 523;
@@ -168,9 +171,26 @@
                     canvas.height = imgP.height;
                     let iwidth = imgP.width;
                     let iheight = imgP.height;
-
+                    Exif.getData(imgP, function (imageEvent) {
+                        Exif.getAllTags(this);
+                        Orientation = Exif.getTag(this, 'Orientation');
+                    });
                     console.log('iwidth:'+iwidth+'iheight:'+iheight)
-                    ctx.drawImage(imgP, 0, 0, iwidth, iheight);
+                    if (Orientation == 3) {
+                        ctx.rotate(Math.PI);
+                        cxt.drawImage(imgP, 0, 0, -iwidth, -iheight);
+
+                    } else if (Orientation == 8) {
+                        cxt.rotate(Math.PI * 3 / 2);
+                        cxt.drawImage(imgP, 0, 0, -iwidth, iheight);
+
+                    } else if (Orientation == 6) {
+                        cxt.rotate(Math.PI / 2);
+                        cxt.drawImage(imgP, 0, 0, iwidth, -iheight);
+                    } else {
+                        cxt.drawImage(imgP, 0, 0, iwidth, iheight);
+
+                    }
                     let imgT = new Image();
                     imgT.src = '/static/poster2.png';
                     imgT.onload = function () {
