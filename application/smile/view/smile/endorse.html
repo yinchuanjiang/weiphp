@@ -135,7 +135,7 @@
 <script type="text/javascript" src="/js/exif.js"></script>
 <script type="text/javascript">
     $(function () {
-
+        var canUpload = false;
         $('.time').datetimepicker({
             format: 'yyyy-mm-dd hh:ii',
             language: "zh-CN",
@@ -197,6 +197,7 @@
                         ctx.drawImage(imgT, 0, 0, iwidth, iheight);
                         let prewBase64 = canvas.toDataURL();
                         $('.see img').attr('src', prewBase64).show();
+                        canUpload = true;
                     }
                 };
 //                    var canvas = document.getElementById("preview");
@@ -299,12 +300,13 @@
                         </div>`;
             $.Dialog.open('添加作品', {width: 500, height: 800}, html);
         })
-
         $('body').on('change', '#picture', function () {
             let that = this;
             let files = document.getElementById('picture').files[0]
-            if (!files)
+            if (!files) {
+                canUpload = false;
                 return;
+            }
             let name = document.getElementById('picture').files[0].name
             let arr = name.split('.')
             let fileSize = 0;
@@ -313,10 +315,12 @@
                 if (fileSize > 10 * 1024 * 1024) {
                     layer.msg("文件大小不能大于10M！");
                     file.value = "";
+                    canUpload = false;
                     return false;
                 } else if (fileSize <= 0) {
                     layer.msg("文件大小不能为0M！");
                     file.value = "";
+                    canUpload = false;
                     return false;
                 }
             } else {
@@ -337,7 +341,7 @@
                     that.height = img.height;
                     if(img.width != 534 || img.height != 899){
                         layer.msg("图片尺寸错误！");
-                        that.val('')
+                        canUpload = false;
                         return false
                     }else {
                         drawImg(imgFile);
@@ -347,6 +351,10 @@
         })
         //提交作品
         $('body').on('click', '.setting_group', function () {
+            if(!canUpload){
+                layer.msg('图片尺寸错误')
+                return;
+            }
             let mobile = $('#mobile').val();
             let name = $('#name').val();
             if (!mobile || mobile.length != 11) {
