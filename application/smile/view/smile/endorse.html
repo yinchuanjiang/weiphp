@@ -173,7 +173,7 @@
                     let iheight = imgP.height;
                     EXIF.getData(imgP, function (imageEvent) {
                         EXIF.getAllTags(this);
-                        Orientation = Exif.getTag(this, 'Orientation');
+                        Orientation = EXIF.getTag(this, 'Orientation');
                     });
                     console.log('iwidth:'+iwidth+'iheight:'+iheight)
                     if (Orientation == 3) {
