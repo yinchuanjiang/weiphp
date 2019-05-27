@@ -126,7 +126,7 @@ class Index extends Controller
         } else {
             $data = H5Photo::where('cate', $cate)->where('status', H5PhotoEnum::CHECK_SUCCESS)->where('h5_user_id', $user->id)->order($order)->with('user')->find();
             if(!$data)
-                $data = [];
+                $data = false;
         }
         return show(200, '获取成功', $data);
     }
