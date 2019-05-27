@@ -116,7 +116,7 @@
 <style>
     .see {
         width: 308px;
-        height: 523px;
+        height: 519px;
         margin: 0 auto;
         position: relative;
         overflow: hidden;
@@ -165,7 +165,7 @@
                 let Orientation;
                 imgP.onload = function () {
                     let w = 308;
-                    let h = 523;
+                    let h = 519;
                     //以Canvas画布上的坐标(0,0)为起始点，绘制图
                     canvas.width = imgP.width;
                     canvas.height = imgP.height;
@@ -288,7 +288,7 @@
                                         <div class="col-sm-8">
                                             <input type="file" class="form-control" id="picture" name="file" accept="image/*">
                                         </div>
-                                        <p style="color: red;margin: 0 auto;">*建议图片比例 1：1.7</p>
+                                        <p style="color: red;margin: 0 auto;">*建议图片尺寸 534*899</p>
                                     </div>
                                     <div class="see">
                                         <img src="" alt="" style="display: none" class="upload">
@@ -315,7 +315,7 @@
                     file.value = "";
                     return false;
                 } else if (fileSize <= 0) {
-                    ayer.msg("文件大小不能为0M！");
+                    layer.msg("文件大小不能为0M！");
                     file.value = "";
                     return false;
                 }
@@ -331,12 +331,17 @@
             reader.onload = e => {
                 imgFile = e.target.result;
                 let img = new Image();
-                img.src = imgFile
+                img.src = imgFile;
                 img.onload = function () {
                     that.width = img.width;
                     that.height = img.height;
+                    if(img.width != 534 || img.height != 899){
+                        layer.msg("图片尺寸错误！");
+                        return false
+                    }else {
+                        drawImg(imgFile);
+                    }
                 }
-                drawImg(imgFile);
             }
         })
         //提交作品
